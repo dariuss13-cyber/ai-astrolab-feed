@@ -28,5 +28,1145 @@
     },
     "sourceName": "Anthropic News",
     "sourceUrl": "https://www.anthropic.com/news"
+  },
+  {
+    "id": "f-lib-flux-1",
+    "date": "2026-07-23",
+    "toolId": "flux",
+    "title": {
+      "es": "Black Forest Labs presenta FLUX 3, un modelo multimodal",
+      "en": "Black Forest Labs unveils FLUX 3, a multimodal model"
+    },
+    "summary": {
+      "es": "Aprende conjuntamente de imagen, vídeo y audio en una arquitectura unificada, y puede extenderse para predecir acciones.",
+      "en": "It jointly learns from images, video, and audio within a unified architecture, and can also be extended to predict actions."
+    },
+    "sourceName": "The Manila Times — Black Forest Labs unveils FLUX 3",
+    "sourceUrl": "https://www.manilatimes.net/2026/07/23/tmt-newswire/globenewswire/black-forest-labs-unveils-flux-3-a-new-multimodal-frontier-model-for-visual-intelligence/2390494"
+  },
+  {
+    "id": "f-lib-qwen-2",
+    "date": "2026-07-20",
+    "toolId": "qwen",
+    "title": {
+      "es": "Tongyi Lab lanza Qwen-Audio-3.0-TTS en 16 idiomas",
+      "en": "Tongyi Lab releases Qwen-Audio-3.0-TTS in 16 languages"
+    },
+    "summary": {
+      "es": "Nuevo modelo de texto a voz alojado en niveles Flash y Plus, ampliando la familia Qwen hacia el audio de producción.",
+      "en": "New hosted text-to-speech model in Flash and Plus tiers, extending the Qwen family into production-grade audio."
+    },
+    "sourceName": "MarkTechPost — Qwen-Audio-3.0-TTS coverage",
+    "sourceUrl": "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages/"
+  },
+  {
+    "id": "f-lib-qwen-1",
+    "date": "2026-07-19",
+    "toolId": "qwen",
+    "title": {
+      "es": "Alibaba presenta Qwen3.8-Max, su modelo insignia de 2.4 billones de parámetros",
+      "en": "Alibaba unveils Qwen3.8-Max, its 2.4-trillion-parameter flagship"
+    },
+    "summary": {
+      "es": "Presentado en la World AI Conference 2026, ya disponible en el plan de tokens de Alibaba Cloud, con planes de abrir sus pesos próximamente.",
+      "en": "Unveiled at the World AI Conference 2026, already available via Alibaba Cloud's Token Plan, with plans to open-weight it soon."
+    },
+    "sourceName": "Bloomberg — Alibaba's Qwen unveils flagship AI model",
+    "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-19/alibaba-s-qwen-unveils-preview-of-flagship-ai-model"
+  },
+  {
+    "id": "f-lib-chatgpt-2",
+    "date": "2026-07-16",
+    "toolId": "chatgpt",
+    "title": {
+      "es": "La app de escritorio de ChatGPT separa mejor \"Chat\" y \"Work\"",
+      "en": "ChatGPT desktop app better separates \"Chat\" and \"Work\""
+    },
+    "summary": {
+      "es": "Nueva navegación para encontrar conversaciones y proyectos, y continuar el trabajo entre dispositivos, disponible en macOS y Windows.",
+      "en": "New navigation to find conversations and projects, and continue work across devices, now live on macOS and Windows."
+    },
+    "sourceName": "OpenAI — Release notes",
+    "sourceUrl": "https://openai.com/products/release-notes/"
+  },
+  {
+    "id": "f-lib-claude-1",
+    "date": "2026-07-15",
+    "toolId": "claude",
+    "title": {
+      "es": "Claude añade \"Reflect\", un resumen mensual de en qué has trabajado",
+      "en": "Claude adds \"Reflect\", a monthly recap of what you've worked on"
+    },
+    "summary": {
+      "es": "Nueva función de foco y bienestar en web y escritorio: recordatorios de descanso, horas silenciosas e insights sobre cómo usas Claude.",
+      "en": "New focus and wellbeing settings on web and desktop: break reminders, quiet hours, and insights on how you use Claude."
+    },
+    "sourceName": "Anthropic — Release notes (via Releasebot)",
+    "sourceUrl": "https://releasebot.io/updates/anthropic/claude"
+  },
+  {
+    "id": "f-lib-claude-code-1",
+    "date": "2026-07-13",
+    "toolId": "claude-code",
+    "title": {
+      "es": "Claude Code lanza Artifacts: páginas en vivo desde una sesión",
+      "en": "Claude Code launches Artifacts: live pages from a session"
+    },
+    "summary": {
+      "es": "Convierte el resultado de una sesión en una página compartible en claude.ai que se actualiza en directo mientras trabaja, ya en beta para planes Team y Enterprise.",
+      "en": "Turns a session's output into a shareable page on claude.ai that updates live as it works, now in beta for Team and Enterprise plans."
+    },
+    "sourceName": "gradually.ai — Claude Code changelog, July 2026",
+    "sourceUrl": "https://www.gradually.ai/en/changelogs/claude-code/"
+  },
+  {
+    "id": "f-lib-claude-2",
+    "date": "2026-07-10",
+    "toolId": "claude",
+    "title": {
+      "es": "Claude Code mejora sesiones largas y revisión de código en segundo plano",
+      "en": "Claude Code improves long sessions and background code review"
+    },
+    "summary": {
+      "es": "Actualización de estabilidad con aislamiento de sistema de archivos, reanudación de sesión más fiable y revisiones de código en segundo plano.",
+      "en": "Stability update with filesystem isolation controls, more reliable session resume, and background code review features."
+    },
+    "sourceName": "Anthropic — Claude Code release notes (via Releasebot)",
+    "sourceUrl": "https://releasebot.io/updates/anthropic/claude-code"
+  },
+  {
+    "id": "f-lib-chatgpt-1",
+    "date": "2026-07-08",
+    "toolId": "chatgpt",
+    "title": {
+      "es": "ChatGPT Voice se reconstruye sobre el nuevo modelo GPT-Live-1",
+      "en": "ChatGPT Voice is rebuilt on the new GPT-Live-1 model"
+    },
+    "summary": {
+      "es": "El nuevo modelo de voz escucha y habla a la vez, y puede usar búsqueda web y memoria en mitad de la conversación.",
+      "en": "The new voice model listens and speaks simultaneously, and can use web search and memory mid-conversation."
+    },
+    "sourceName": "OpenAI — Release notes",
+    "sourceUrl": "https://openai.com/products/release-notes/"
+  },
+  {
+    "id": "f-lib-copilot-2",
+    "date": "2026-07-08",
+    "toolId": "copilot",
+    "title": {
+      "es": "Copilot en VS Code generaliza sus herramientas de navegador para agentes",
+      "en": "Copilot in VS Code generalizes agentic browser tools"
+    },
+    "summary": {
+      "es": "Activado por defecto: los agentes navegan páginas, inspeccionan contenido, capturan pantallas y validan apps web directamente en el editor.",
+      "en": "Enabled by default: agents can navigate pages, inspect content, capture screenshots, and validate web apps directly in the editor."
+    },
+    "sourceName": "GitHub Changelog — Copilot in VS Code, June 2026 releases",
+    "sourceUrl": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases/"
+  },
+  {
+    "id": "f-lib-claude-3",
+    "date": "2026-07-05",
+    "toolId": "claude",
+    "title": {
+      "es": "Claude gana herramientas de escritura para Microsoft 365",
+      "en": "Claude gains write tools for Microsoft 365"
+    },
+    "summary": {
+      "es": "El conector de Microsoft 365 ahora permite redactar correos, gestionar eventos de calendario y actualizar archivos en OneDrive y SharePoint.",
+      "en": "The Microsoft 365 connector now lets Claude draft emails, manage calendar events, and update OneDrive and SharePoint files."
+    },
+    "sourceName": "Anthropic — Release notes (via Releasebot)",
+    "sourceUrl": "https://releasebot.io/updates/anthropic"
+  },
+  {
+    "id": "f-lib-gemini-1",
+    "date": "2026-07-01",
+    "toolId": "gemini",
+    "title": {
+      "es": "Gemini 3.5 Flash se posiciona como motor de agentes y código",
+      "en": "Gemini 3.5 Flash positioned as an engine for agents and coding"
+    },
+    "summary": {
+      "es": "Con contexto de hasta 1 millón de tokens, Google lo presenta como la opción fuerte para tareas largas de negocio, código y multimodalidad.",
+      "en": "With up to 1 million tokens of context, Google positions it as the strong option for long business tasks, coding, and multimodal work."
+    },
+    "sourceName": "Google — AI updates blog",
+    "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
+  },
+  {
+    "id": "f-lib-runway-2",
+    "date": "2026-07-01",
+    "toolId": "runway",
+    "title": {
+      "es": "Runway añade seis nuevos ratios en 4K",
+      "en": "Runway adds six new 4K aspect ratios"
+    },
+    "summary": {
+      "es": "Disponibles en texto a vídeo, imagen a vídeo y vídeo a vídeo, facturados a 150 créditos por segundo generado.",
+      "en": "Available across text-to-video, image-to-video, and video-to-video, billed at 150 credits per second generated."
+    },
+    "sourceName": "Runway AI — Product updates & changelog",
+    "sourceUrl": "https://runwayml.com/changelog"
+  },
+  {
+    "id": "f-lib-higgsfield-1",
+    "date": "2026-07-01",
+    "toolId": "higgsfield",
+    "title": {
+      "es": "Higgsfield regala generaciones ilimitadas de MiniMax Hailuo",
+      "en": "Higgsfield gives away unlimited MiniMax Hailuo generations"
+    },
+    "summary": {
+      "es": "Con más de 7000 presets nuevos y sin necesidad de escribir un solo prompt, apostando por un modelo de creación de vídeo \"un clic\".",
+      "en": "With over 7,000 new presets and no prompt writing required, betting on a \"click-to-video\" creation model."
+    },
+    "sourceName": "Higgsfield AI — official announcement on X",
+    "sourceUrl": "https://x.com/higgsfield_ai/status/1950604733519110517"
+  },
+  {
+    "id": "f-lib-chatgpt-3",
+    "date": "2026-06-26",
+    "toolId": "chatgpt",
+    "title": {
+      "es": "GPT-4.5 se retira de ChatGPT en favor de GPT-5.5",
+      "en": "GPT-4.5 is retired from ChatGPT in favor of GPT-5.5"
+    },
+    "summary": {
+      "es": "Las conversaciones que usaban GPT-4.5 continúan automáticamente con GPT-5.5 tras su retirada.",
+      "en": "Conversations that used GPT-4.5 automatically continue with GPT-5.5 after its retirement."
+    },
+    "sourceName": "OpenAI — Release notes",
+    "sourceUrl": "https://openai.com/products/release-notes/"
+  },
+  {
+    "id": "f-lib-figma-ai-1",
+    "date": "2026-06-24",
+    "toolId": "figma-ai",
+    "title": {
+      "es": "Figma trae código ejecutable al lienzo con \"code layers\"",
+      "en": "Figma brings executable code onto the canvas with \"code layers\""
+    },
+    "summary": {
+      "es": "Presentado en Config 2026: permite clonar repos, extraer flujos de código como capas de diseño editables y sincronizar cambios de vuelta al código.",
+      "en": "Unveiled at Config 2026: lets teams clone repos, extract code flows into editable design layers, and sync changes back to code."
+    },
+    "sourceName": "TechCrunch — Figma adds code layers, animation support, more AI features",
+    "sourceUrl": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/"
+  },
+  {
+    "id": "f-lib-figma-ai-2",
+    "date": "2026-06-24",
+    "toolId": "figma-ai",
+    "title": {
+      "es": "Figma genera animaciones y efectos shader describiéndolos por chat",
+      "en": "Figma generates animations and shader effects from chat descriptions"
+    },
+    "summary": {
+      "es": "Nuevas herramientas de shader con WebGPU permiten pedir efectos como dither o blur directamente sobre el lienzo, sin software externo.",
+      "en": "New WebGPU-powered shader tools let you request effects like dither or blur directly on the canvas, no external software needed."
+    },
+    "sourceName": "daily.dev — Figma adds code layers and custom AI plugins at Config 2026",
+    "sourceUrl": "https://daily.dev/posts/figma-adds-code-layers-to-the-canvas-and-lets-users-build-custom-ai-plugins-at-config-2026-b5lrum3hj"
+  },
+  {
+    "id": "f-lib-gemini-2",
+    "date": "2026-06-15",
+    "toolId": "gemini",
+    "title": {
+      "es": "Gemini añade edición de vídeo por texto en Google Vids",
+      "en": "Gemini adds text-based video editing in Google Vids"
+    },
+    "summary": {
+      "es": "Se puede mejorar el realismo, corregir el renderizado de texto y la física, o cambiar estilo y gradación de color con instrucciones de texto simples.",
+      "en": "Users can improve realism, fix text rendering and physics, or change style and color grading using simple text instructions."
+    },
+    "sourceName": "Google — AI updates blog",
+    "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
+  },
+  {
+    "id": "f-lib-elevenlabs-3",
+    "date": "2026-06-15",
+    "toolId": "elevenlabs",
+    "title": {
+      "es": "Nuevas transferencias entre agentes y análisis de sentimiento",
+      "en": "New agent-to-agent transfers and sentiment analysis"
+    },
+    "summary": {
+      "es": "Se suman transferencias anidadas entre agentes, transcripciones auto-traducidas y controles de enrutamiento por SMS.",
+      "en": "Adds nested agent-to-agent transfers, auto-translated transcripts, and SMS routing controls."
+    },
+    "sourceName": "ElevenLabs — Changelog",
+    "sourceUrl": "https://elevenlabs.io/docs/changelog"
+  },
+  {
+    "id": "f-lib-lovable-1",
+    "date": "2026-06-08",
+    "toolId": "lovable",
+    "title": {
+      "es": "Lovable busca una valoración de $12.000M en una nueva ronda",
+      "en": "Lovable targets a $12B valuation in a new funding round"
+    },
+    "summary": {
+      "es": "Duplicaría su valoración respecto a la ronda de diciembre de 2025, cuando alcanzó $6.600M tras levantar $330M.",
+      "en": "This would double its valuation from the December 2025 round, when it reached $6.6B after raising $330M."
+    },
+    "sourceName": "aibusiness.com — AI coding startup Lovable now valued at $6.6B",
+    "sourceUrl": "https://aibusiness.com/generative-ai/ai-coding-startup-lovable-series-b"
+  },
+  {
+    "id": "f-lib-notebooklm-1",
+    "date": "2026-06-08",
+    "toolId": "notebooklm",
+    "title": {
+      "es": "NotebookLM se convierte en un agente de investigación autónomo",
+      "en": "NotebookLM becomes an autonomous research agent"
+    },
+    "summary": {
+      "es": "Su mayor actualización del año: ejecuta código, busca fuentes en la web por su cuenta y exporta archivos terminados, sobre Gemini 3.5 + Antigravity.",
+      "en": "Its biggest update of the year: it runs code, sources the web on its own, and exports finished files, powered by Gemini 3.5 + Antigravity."
+    },
+    "sourceName": "NotebookLM Guide — NotebookLM updates 2026 live changelog",
+    "sourceUrl": "https://notebooklm-guide.com/notebooklm-updates"
+  },
+  {
+    "id": "f-lib-ideogram-1",
+    "date": "2026-06-03",
+    "toolId": "ideogram",
+    "title": {
+      "es": "Ideogram v4.0 llega con resolución 2K nativa",
+      "en": "Ideogram v4.0 arrives with native 2K resolution"
+    },
+    "summary": {
+      "es": "La nueva versión mejora aún más el renderizado de texto y añade soporte de prompts en JSON para integraciones automatizadas.",
+      "en": "The new version further improves text rendering and adds JSON prompt support for automated pipeline integrations."
+    },
+    "sourceName": "blockchain.news — Ideogram v4.0 debuts 2K text mastery",
+    "sourceUrl": "https://blockchain.news/ainews/ideogram-v4-0-debuts-2k-text-mastery"
+  },
+  {
+    "id": "f-lib-ideogram-2",
+    "date": "2026-06-03",
+    "toolId": "ideogram",
+    "title": {
+      "es": "Ideogram v4.0 se integra en Krea",
+      "en": "Ideogram v4.0 becomes available inside Krea"
+    },
+    "summary": {
+      "es": "Los usuarios de Krea pueden acceder al nuevo modelo de Ideogram sin salir de su flujo de trabajo habitual.",
+      "en": "Krea users can access Ideogram's new model without leaving their usual workflow."
+    },
+    "sourceName": "Krea — Ideogram v4.0 available in Krea",
+    "sourceUrl": "https://www.krea.ai/index/ideogram-v4-0-available-in-krea"
+  },
+  {
+    "id": "f-lib-krea-1",
+    "date": "2026-06-03",
+    "toolId": "krea",
+    "title": {
+      "es": "Krea supera los 64 modelos integrados en una sola suscripción",
+      "en": "Krea surpasses 64 integrated models in a single subscription"
+    },
+    "summary": {
+      "es": "Flux, Veo 3, Kling, Runway, Luma y Hailuo, entre otros, conviven en un único espacio de trabajo con lienzo en tiempo real.",
+      "en": "Flux, Veo 3, Kling, Runway, Luma and Hailuo, among others, live inside a single workspace with a real-time canvas."
+    },
+    "sourceName": "ThePlanetTools.ai — Krea AI review 2026",
+    "sourceUrl": "https://theplanettools.ai/tools/krea-ai"
+  },
+  {
+    "id": "f-lib-copilot-1",
+    "date": "2026-06-02",
+    "toolId": "copilot",
+    "title": {
+      "es": "GitHub lanza app de escritorio y revisión de código vía MCP",
+      "en": "GitHub ships a desktop app and MCP-powered code review"
+    },
+    "summary": {
+      "es": "Durante dos días en San Francisco, GitHub presentó un nuevo modelo de código, CLI rediseñada, automatizaciones programadas y sandboxes en la nube.",
+      "en": "Over two days in San Francisco, GitHub unveiled a new coding model, a redesigned CLI, scheduled agent automations, and cloud sandboxes."
+    },
+    "sourceName": "GitHub Changelog — June 2026",
+    "sourceUrl": "https://github.blog/changelog/month/06-2026/"
+  },
+  {
+    "id": "f-lib-grok-3",
+    "date": "2026-06-01",
+    "toolId": "grok",
+    "title": {
+      "es": "Grok 4.5 llega a Cursor y mejora en tareas de código",
+      "en": "Grok 4.5 arrives in Cursor with stronger coding performance"
+    },
+    "summary": {
+      "es": "El nuevo modelo insignia de xAI destaca en ingeniería real, velocidad de generación y precio competitivo, y ya está disponible en Cursor.",
+      "en": "xAI's new flagship model stands out in real-world engineering, generation speed and competitive pricing, and is now available in Cursor."
+    },
+    "sourceName": "NxCode — Grok 5 release update coverage",
+    "sourceUrl": "https://www.nxcode.io/resources/news/grok-5-release-date-latest-news-2026"
+  },
+  {
+    "id": "f-lib-midjourney-3",
+    "date": "2026-06-01",
+    "toolId": "midjourney",
+    "title": {
+      "es": "V8.2 se centra en estética; V9 promete mejor coherencia corporal",
+      "en": "V8.2 focuses on aesthetics; V9 promises better body coherence"
+    },
+    "summary": {
+      "es": "La actualización actual pule el acabado visual, mientras que las mejoras grandes de adherencia al prompt y anatomía llegarán con V9.",
+      "en": "The current update polishes visual finish, while big improvements to prompt adherence and anatomy are expected with V9."
+    },
+    "sourceName": "Woollyfern Creative — Midjourney June 2026 update",
+    "sourceUrl": "https://www.woollyferncreative.com/blog/midjourney-june-2026-update-scanner-bigger-batches-v82-preview-amp-more"
+  },
+  {
+    "id": "f-lib-luma-2",
+    "date": "2026-06-01",
+    "toolId": "luma",
+    "title": {
+      "es": "Ray3.2 añade control de movimiento fotograma a fotograma",
+      "en": "Ray3.2 adds frame-by-frame motion control"
+    },
+    "summary": {
+      "es": "Diseñado con profesionales de cine, publicidad y videojuegos, incluye generación HDR con salidas EXR listas para producción.",
+      "en": "Designed with professionals from film, advertising and gaming, it includes HDR generation with production-ready EXR output."
+    },
+    "sourceName": "Luma — Introducing Ray3.2",
+    "sourceUrl": "https://lumalabs.ai/news/introducing-ray-3-2"
+  },
+  {
+    "id": "f-lib-claude-code-2",
+    "date": "2026-06-01",
+    "toolId": "claude-code",
+    "title": {
+      "es": "Claude Code añade subagentes anidados y cadenas de modelo de respaldo",
+      "en": "Claude Code adds nested sub-agents and fallback model chains"
+    },
+    "summary": {
+      "es": "Subagentes anidados hasta 3 niveles de profundidad, atribución de coste por agente, permisos con alcance definido y un marketplace comunitario de herramientas.",
+      "en": "Nested sub-agents up to 3 levels deep, per-agent cost attribution, scoped permissions, and a community tool marketplace."
+    },
+    "sourceName": "SitePoint — Claude Code June 2026, 10 new features",
+    "sourceUrl": "https://www.sitepoint.com/claude-code-june-2026-10-new-features-devs-need-to-know/"
+  },
+  {
+    "id": "f-lib-midjourney-2",
+    "date": "2026-05-27",
+    "toolId": "midjourney",
+    "title": {
+      "es": "El modo conversacional de Midjourney llega a voz",
+      "en": "Midjourney's conversational mode extends to voice"
+    },
+    "summary": {
+      "es": "Las sesiones de voz ya tienen acceso a Image Prompts, referencias de estilo, ajustes de la barra lateral y trabajos recientes.",
+      "en": "Voice sessions now have access to Image Prompts, Style References, sidebar settings, and recent jobs."
+    },
+    "sourceName": "Woollyfern Creative — Midjourney June 2026 update",
+    "sourceUrl": "https://www.woollyferncreative.com/blog/midjourney-june-2026-update-scanner-bigger-batches-v82-preview-amp-more"
+  },
+  {
+    "id": "f-lib-veo-2",
+    "date": "2026-05-22",
+    "toolId": "veo",
+    "title": {
+      "es": "Veo 3.1 sigue siendo la línea vigente; aún no hay Veo 4 oficial",
+      "en": "Veo 3.1 remains the current line; no official Veo 4 yet"
+    },
+    "summary": {
+      "es": "Google no ha lanzado públicamente un Veo 4; Omni Flash es un modelo aparte, nativo de Gemini, para creación y edición de vídeo.",
+      "en": "Google has not publicly released a Veo 4; Omni Flash is a separate, Gemini-native model for video creation and editing."
+    },
+    "sourceName": "PixVerse — Veo 4 release date coverage",
+    "sourceUrl": "https://pixverse.ai/en/blog/veo-4-release"
+  },
+  {
+    "id": "f-lib-leonardo-1",
+    "date": "2026-05-15",
+    "toolId": "leonardo",
+    "title": {
+      "es": "Style References de Leonardo resuelve la consistencia de marca",
+      "en": "Leonardo's Style References solves brand consistency"
+    },
+    "summary": {
+      "es": "Permite fijar una imagen hero y reutilizar la misma luz y tratamiento de color en varios banners sin volver a describirlo desde cero.",
+      "en": "Lets users lock a hero shot and reuse the same lighting and color treatment across multiple banners without re-prompting from scratch."
+    },
+    "sourceName": "MytheAi — Leonardo AI review 2026",
+    "sourceUrl": "https://mytheai.com/tools/leonardo-ai"
+  },
+  {
+    "id": "f-lib-elevenlabs-2",
+    "date": "2026-05-13",
+    "toolId": "elevenlabs",
+    "title": {
+      "es": "Scribe en tiempo real añade términos clave y elimina muletillas",
+      "en": "Realtime Scribe adds keyterms and removes filler words"
+    },
+    "summary": {
+      "es": "Hasta 50 términos clave configurables y una opción \"noVerbatim\" que limpia las transcripciones de muletillas, falsos inicios y titubeos.",
+      "en": "Up to 50 configurable keyterms and a \"noVerbatim\" option that cleans transcripts of filler words, false starts, and disfluencies."
+    },
+    "sourceName": "ElevenLabs — Changelog (May 13, 2026)",
+    "sourceUrl": "https://elevenlabs.io/docs/changelog/2026/5/13"
+  },
+  {
+    "id": "f-lib-gpt-image-2",
+    "date": "2026-05-12",
+    "toolId": "gpt-image",
+    "title": {
+      "es": "OpenAI retira DALL·E por completo",
+      "en": "OpenAI fully retires DALL-E"
+    },
+    "summary": {
+      "es": "DALL·E 2 y 3 dejaron de responder a llamadas de la API; la generación de imagen queda integrada de forma nativa en el propio modelo, no como herramienta aparte.",
+      "en": "DALL-E 2 and 3 stopped responding to API calls; image generation is now built natively into the model's output, not called as a separate tool."
+    },
+    "sourceName": "OpenAI Developer Community — DALL·E deprecation notice",
+    "sourceUrl": "https://community.openai.com/t/deprecation-reminder-dall-e-will-be-shut-down-on-may-12-2026/1378754"
+  },
+  {
+    "id": "f-lib-runway-1",
+    "date": "2026-05-03",
+    "toolId": "runway",
+    "title": {
+      "es": "Runway lanza Gen-4 con audio nativo y física más creíble",
+      "en": "Runway launches Gen-4 with native audio and more believable physics"
+    },
+    "summary": {
+      "es": "Nuevo motor de movimiento con interacciones de objetos más realistas y menos rigidez en la acción, además de pistas de audio generadas junto al vídeo.",
+      "en": "A new motion engine with more realistic object interactions and less rubbery action, plus native audio tracks generated alongside the video."
+    },
+    "sourceName": "AIBusiness — Runway releases Gen-4.5 video model",
+    "sourceUrl": "https://aibusiness.com/generative-ai/runway-releases-gen-4-5-video-model"
+  },
+  {
+    "id": "f-lib-grok-2",
+    "date": "2026-05-01",
+    "toolId": "grok",
+    "title": {
+      "es": "Grok Imagine estrena el Modo Agente para crear vídeos largos",
+      "en": "Grok Imagine launches Agent Mode for longer videos"
+    },
+    "summary": {
+      "es": "Un lienzo infinito que genera imágenes, las edita por lotes y encadena clips de 6 segundos hasta formar películas más largas, con plantillas predefinidas.",
+      "en": "An infinite-canvas agent that generates images, batch-edits them, and stitches 6-second clips into longer films, with preset templates."
+    },
+    "sourceName": "basenor.com — Grok Imagine update coverage",
+    "sourceUrl": "https://www.basenor.com/blogs/news/grok-imagine-gets-a-major-update-whats-new-in-march-2026"
+  },
+  {
+    "id": "f-lib-lechat-1",
+    "date": "2026-05-01",
+    "toolId": "lechat",
+    "title": {
+      "es": "Le Chat pasa a llamarse Mistral Vibe",
+      "en": "Le Chat is renamed Mistral Vibe"
+    },
+    "summary": {
+      "es": "Mistral renombra su asistente conversacional como parte de su nueva identidad de producto, sin cambiar su enfoque en Europa y privacidad de datos.",
+      "en": "Mistral renames its conversational assistant as part of a broader product identity refresh, keeping its focus on Europe and data privacy."
+    },
+    "sourceName": "Wikipedia — Mistral Vibe",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mistral_Vibe"
+  },
+  {
+    "id": "f-lib-pika-1",
+    "date": "2026-05-01",
+    "toolId": "pika",
+    "title": {
+      "es": "Pika 2.5 sigue siendo la versión vigente",
+      "en": "Pika 2.5 remains the current version"
+    },
+    "summary": {
+      "es": "Con Scene Ingredients para controlar personajes, objetos y escenario, Pikaframes para transiciones entre fotogramas y Pikaformance para lip-sync casi en tiempo real.",
+      "en": "With Scene Ingredients for character, object and setting control, Pikaframes for frame transitions, and Pikaformance for near-real-time lip-sync."
+    },
+    "sourceName": "whytryai.com — Free AI image-to-video tools tested 2026",
+    "sourceUrl": "https://www.whytryai.com/p/free-ai-image-to-video-tools-tested"
+  },
+  {
+    "id": "f-lib-udio-1",
+    "date": "2026-05-01",
+    "toolId": "udio",
+    "title": {
+      "es": "Udio v3.5 estrena \"Cohesion\" para consistencia entre secciones",
+      "en": "Udio v3.5 debuts \"Cohesion\" for cross-section consistency"
+    },
+    "summary": {
+      "es": "Resuelve el problema histórico de que distintas partes de una misma canción sonaran como si vinieran de canciones diferentes.",
+      "en": "Addresses the platform's long-standing issue where sections of the same song sometimes sounded like they came from different songs."
+    },
+    "sourceName": "jam.com — Suno v5 vs Udio v3.5 mid-2026 update",
+    "sourceUrl": "https://jam.com/resources/suno-udio-comparison-may-2026"
+  },
+  {
+    "id": "f-lib-udio-2",
+    "date": "2026-05-01",
+    "toolId": "udio",
+    "title": {
+      "es": "Udio estandariza sus créditos: $10/mes por 1.200 créditos",
+      "en": "Udio standardizes pricing at $10/mo for 1,200 credits"
+    },
+    "summary": {
+      "es": "El plan Pro sube a $30/mes con 4.800 créditos y derechos comerciales, con un nivel gratuito de 100 créditos diarios.",
+      "en": "The Pro tier moves to $30/mo with 4,800 credits and commercial rights, with a free tier offering 100 credits per day."
+    },
+    "sourceName": "aitoolranked.com — Udio vs Suno AI 2026 comparison",
+    "sourceUrl": "https://aitoolranked.com/blog/udio-vs-suno-ai-2026-comparison"
+  },
+  {
+    "id": "f-lib-lechat-2",
+    "date": "2026-04-30",
+    "toolId": "lechat",
+    "title": {
+      "es": "Mistral Medium 3.5 impulsa el nuevo \"Work Mode\"",
+      "en": "Mistral Medium 3.5 powers the new \"Work Mode\""
+    },
+    "summary": {
+      "es": "El modelo de 128B parámetros y 256k de contexto habilita un agente que ejecuta flujos de trabajo en email, calendario, Jira, GitHub y Slack con aprobación explícita antes de cualquier acción sensible.",
+      "en": "The 128B-parameter, 256k-context model powers an agent that executes workflows across email, calendar, Jira, GitHub and Slack, with explicit approval before any sensitive action."
+    },
+    "sourceName": "codersera.com — Mistral Medium 3.5 + Le Chat Work Mode",
+    "sourceUrl": "https://codersera.com/blog/mistral-medium-3-5-le-chat-work-mode-2026/"
+  },
+  {
+    "id": "f-lib-midjourney-1",
+    "date": "2026-04-30",
+    "toolId": "midjourney",
+    "title": {
+      "es": "Midjourney V8.1 mejora detalles finos y añade HD 2K",
+      "en": "Midjourney V8.1 improves fine detail and adds HD 2K"
+    },
+    "summary": {
+      "es": "Generación más rápida, mejor comprensión del prompt, mayor retención de detalles pequeños y soporte de imagen en HD 2K, más opciones de modo Raw.",
+      "en": "Faster generation, better prompt understanding, stronger small-detail retention, HD 2K image support, and Raw mode options."
+    },
+    "sourceName": "PixVerse — Midjourney May 2026 update coverage",
+    "sourceUrl": "https://pixverse.ai/en/blog/midjourney-ai-image-generator-review"
+  },
+  {
+    "id": "f-lib-copilot-3",
+    "date": "2026-04-30",
+    "toolId": "copilot",
+    "title": {
+      "es": "Copilot en Visual Studio suma un agente depurador",
+      "en": "Copilot in Visual Studio adds a Debugger agent"
+    },
+    "summary": {
+      "es": "Valida las correcciones contra el comportamiento real en tiempo de ejecución, y las sesiones de agente en la nube ya se lanzan directamente desde el IDE.",
+      "en": "It validates fixes against live runtime behavior, and cloud agent sessions now launch directly from the IDE."
+    },
+    "sourceName": "GitHub Changelog — Copilot in Visual Studio, April update",
+    "sourceUrl": "https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update/"
+  },
+  {
+    "id": "f-lib-sora-1",
+    "date": "2026-04-26",
+    "toolId": "sora",
+    "title": {
+      "es": "OpenAI descontinúa la web y app de Sora",
+      "en": "OpenAI discontinues the Sora web and app experiences"
+    },
+    "summary": {
+      "es": "La API de Sora seguirá activa hasta septiembre de 2026, pero OpenAI no ha anunciado ningún sucesor ni sustituto por ahora.",
+      "en": "The Sora API remains active until September 2026, but OpenAI has not announced any successor or replacement so far."
+    },
+    "sourceName": "OpenAI Help Center — Sora discontinuation notice",
+    "sourceUrl": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
+  },
+  {
+    "id": "f-lib-deepseek-1",
+    "date": "2026-04-24",
+    "toolId": "deepseek",
+    "title": {
+      "es": "DeepSeek V4 llega con contexto nativo de 1 millón de tokens",
+      "en": "DeepSeek V4 ships with 1M native context"
+    },
+    "summary": {
+      "es": "Dos variantes, V4-Pro y V4-Flash, con una arquitectura de atención híbrida, de código abierto en HuggingFace.",
+      "en": "Two variants, V4-Pro and V4-Flash, with a hybrid attention architecture, open-sourced on HuggingFace."
+    },
+    "sourceName": "llm-stats.com — AI model release updates",
+    "sourceUrl": "https://llm-stats.com/llm-updates"
+  },
+  {
+    "id": "f-lib-gpt-image-1",
+    "date": "2026-04-21",
+    "toolId": "gpt-image",
+    "title": {
+      "es": "ChatGPT Images 2.0 debuta con gpt-image-2 y lidera los rankings",
+      "en": "ChatGPT Images 2.0 debuts with gpt-image-2 and tops the rankings"
+    },
+    "summary": {
+      "es": "El nuevo modelo se convirtió de inmediato en el mejor valorado en los principales rankings de generación de imagen.",
+      "en": "The new model immediately became the top-ranked image model across major leaderboards."
+    },
+    "sourceName": "OpenAIToolsHub — gpt-image-1 vs DALL-E 3 comparison",
+    "sourceUrl": "https://www.openaitoolshub.org/en/blog/gpt-image-vs-dall-e"
+  },
+  {
+    "id": "f-lib-grok-1",
+    "date": "2026-04-17",
+    "toolId": "grok",
+    "title": {
+      "es": "SpaceX adquiere xAI, la empresa detrás de Grok",
+      "en": "SpaceX acquires xAI, the company behind Grok"
+    },
+    "summary": {
+      "es": "La operación une a xAI con SpaceX bajo el mismo paraguas corporativo, consolidando recursos entre ambas compañías de Elon Musk.",
+      "en": "The deal brings xAI under the same corporate umbrella as SpaceX, pooling resources between the two Elon Musk companies."
+    },
+    "sourceName": "x.ai — News",
+    "sourceUrl": "https://x.ai/news"
+  },
+  {
+    "id": "f-lib-qwen-3",
+    "date": "2026-04-01",
+    "toolId": "qwen",
+    "title": {
+      "es": "Qwen 3.6 se centra en flujos de agentes del mundo real",
+      "en": "Qwen 3.6 focuses on real-world agent workflows"
+    },
+    "summary": {
+      "es": "Nueva generación con arquitectura MoE (36B parámetros totales, solo 3B activos), pensada para tareas de agente eficientes.",
+      "en": "New generation with an MoE architecture (36B total parameters, only 3B active), built for efficient agentic tasks."
+    },
+    "sourceName": "mysummit.school — Qwen by Alibaba in 2026 review",
+    "sourceUrl": "https://mysummit.school/blog/en/qwen-alibaba-review-2026/"
+  },
+  {
+    "id": "f-lib-elevenlabs-1",
+    "date": "2026-04-01",
+    "toolId": "elevenlabs",
+    "title": {
+      "es": "ElevenLabs lanza su API 41.0 con más de 10.000 voces vía IBM",
+      "en": "ElevenLabs ships API 41.0 with 10,000+ voices via IBM"
+    },
+    "summary": {
+      "es": "Actualización amplia en flujos de agentes, generación musical, voz a texto y biblioteca de voces, incluyendo adjuntar imágenes o PDFs en el chat con agentes.",
+      "en": "A sweeping update across agent workflows, music generation, speech-to-text, and the voice library, including the ability to attach images or PDFs in agent chat."
+    },
+    "sourceName": "ElevenLabs — Changelog (April 1, 2026)",
+    "sourceUrl": "https://elevenlabs.io/docs/changelog/2026/4/1"
+  },
+  {
+    "id": "f-lib-notion-ai-1",
+    "date": "2026-04-01",
+    "toolId": "notion-ai",
+    "title": {
+      "es": "Notion AI multiplica por 2.5 su ventana de contexto",
+      "en": "Notion AI 2.5x's its context window"
+    },
+    "summary": {
+      "es": "Pasa de 20 a 50 páginas de contexto, con conciencia entre páginas y un 70% más de velocidad de autocompletado.",
+      "en": "Goes from 20 to 50 pages of context, with cross-page awareness and 70% faster autofill."
+    },
+    "sourceName": "Fazm Blog — Notion AI features 2026",
+    "sourceUrl": "https://fazm.ai/blog/notion-ai-features-2026"
+  },
+  {
+    "id": "f-lib-notion-ai-2",
+    "date": "2026-04-01",
+    "toolId": "notion-ai",
+    "title": {
+      "es": "Notion añade entorno de ejecución de código para agentes",
+      "en": "Notion adds a code execution environment for agents"
+    },
+    "summary": {
+      "es": "Los agentes pueden ejecutar código JS/Python vía \"Workers\", además de dictado por voz para prompts en macOS y Windows.",
+      "en": "Agents can run JS/Python code via \"Workers\", plus voice dictation for prompts on macOS and Windows."
+    },
+    "sourceName": "Fazm Blog — Notion updates 2026 April changelog",
+    "sourceUrl": "https://fazm.ai/blog/notion-updates-2026-april"
+  },
+  {
+    "id": "f-lib-suno-1",
+    "date": "2026-03-26",
+    "toolId": "suno",
+    "title": {
+      "es": "Suno v5.5 llega con la función \"Voices\"",
+      "en": "Suno v5.5 arrives with the \"Voices\" feature"
+    },
+    "summary": {
+      "es": "Disponible para suscriptores Pro y Premier: verifica tu voz cantada grabándote leyendo una frase al azar, para usarla luego en tus canciones.",
+      "en": "Available to Pro and Premier subscribers: verifies your singing voice by having you record yourself reading a random phrase, then reuses it in your songs."
+    },
+    "sourceName": "Suno — v5.5: More Expressive. More You.",
+    "sourceUrl": "https://suno.com/blog/v5-5"
+  },
+  {
+    "id": "f-lib-suno-2",
+    "date": "2026-03-26",
+    "toolId": "suno",
+    "title": {
+      "es": "Suno mejora separación de pistas y añade vídeos de letras",
+      "en": "Suno improves stem separation and adds lyric video generation"
+    },
+    "summary": {
+      "es": "Mejor captura de vibrato y glissando de tono, además de generación de vídeos de letras listos para compartir.",
+      "en": "Better vibrato and pitch-glide capture, plus shareable lyric video generation."
+    },
+    "sourceName": "Digital Music News — Suno launches version 5.5",
+    "sourceUrl": "https://www.digitalmusicnews.com/2026/03/26/suno-launches-version-5-5/"
+  },
+  {
+    "id": "f-lib-cursor-3",
+    "date": "2026-03-15",
+    "toolId": "cursor",
+    "title": {
+      "es": "Cursor añade soporte nativo para GPT-5.5 y Claude Opus 4.7",
+      "en": "Cursor adds native support for GPT-5.5 and Claude Opus 4.7"
+    },
+    "summary": {
+      "es": "Con caché de prompts integrada, que reduce el coste en flujos de ediciones repetidas en torno a un 78%.",
+      "en": "With integrated prompt caching, cutting costs on repeat-edit workflows by roughly 78%."
+    },
+    "sourceName": "chatgptaihub.com — Cursor 2026 full breakdown",
+    "sourceUrl": "https://chatgptaihub.com/what-s-new-in-cursor-2026-full-breakdown-for-developers/"
+  },
+  {
+    "id": "f-lib-cursor-2",
+    "date": "2026-03-01",
+    "toolId": "cursor",
+    "title": {
+      "es": "Cursor lanza Automations para disparar agentes automáticamente",
+      "en": "Cursor launches Automations to trigger agents automatically"
+    },
+    "summary": {
+      "es": "Los agentes pueden lanzarse solos ante un cambio en el código, un mensaje de Slack o simplemente un temporizador.",
+      "en": "Agents can now launch themselves in response to a code change, a Slack message, or simply a timer."
+    },
+    "sourceName": "learncursor.dev — What's new in Cursor in 2026",
+    "sourceUrl": "https://www.learncursor.dev/research/whats-new-in-cursor-2026"
+  },
+  {
+    "id": "f-lib-lovable-2",
+    "date": "2026-03-01",
+    "toolId": "lovable",
+    "title": {
+      "es": "Lovable lanza una función de pentesting integrada",
+      "en": "Lovable launches a built-in pentesting feature"
+    },
+    "summary": {
+      "es": "Añade una capa de revisión de seguridad automática pensada para detectar los fallos más comunes antes de publicar una app.",
+      "en": "Adds an automated security-review layer designed to catch the most common flaws before an app goes live."
+    },
+    "sourceName": "Sacra — Lovable revenue, funding & growth",
+    "sourceUrl": "https://sacra.com/c/lovable/"
+  },
+  {
+    "id": "f-lib-perplexity-3",
+    "date": "2026-03-01",
+    "toolId": "perplexity",
+    "title": {
+      "es": "Deep Research pasa a funcionar sobre Claude Opus 4.5",
+      "en": "Deep Research now runs on Claude Opus 4.5"
+    },
+    "summary": {
+      "es": "Disponible para usuarios Max y Pro, ya puede generar presentaciones, hojas de cálculo, paneles y sitios web directamente.",
+      "en": "Available to Max and Pro users, it can now generate presentations, spreadsheets, dashboards, and websites directly."
+    },
+    "sourceName": "Beginners in AI — What's new in Perplexity 2026",
+    "sourceUrl": "https://beginnersinai.org/whats-new-perplexity-2026/"
+  },
+  {
+    "id": "f-lib-notebooklm-2",
+    "date": "2026-03-01",
+    "toolId": "notebooklm",
+    "title": {
+      "es": "NotebookLM estrena vídeos resumen cinematográficos",
+      "en": "NotebookLM debuts Cinematic Video Overviews"
+    },
+    "summary": {
+      "es": "Se suma a la edición de diapositivas integrada con exportación a PPTX, entre ocho grandes actualizaciones desde octubre de 2025.",
+      "en": "It joins built-in slide editing with PPTX export, among eight major upgrades shipped since October 2025."
+    },
+    "sourceName": "felloai.com — NotebookLM update 2026, every new feature explained",
+    "sourceUrl": "https://felloai.com/notebooklm-update-1m-token-chat-goals-saved-history/"
+  },
+  {
+    "id": "f-lib-kling-1",
+    "date": "2026-02-04",
+    "toolId": "kling",
+    "title": {
+      "es": "Kling 3.0 llega con clips 4K de hasta 15 segundos",
+      "en": "Kling 3.0 arrives with up to 15-second 4K clips"
+    },
+    "summary": {
+      "es": "Sustituye a Kling 2.6: sube de 1080p a 4K nativo, de 48 a 60fps, y añade tres idiomas nuevos de sincronización labial.",
+      "en": "Replaces Kling 2.6: jumps from 1080p to native 4K, 48 to 60fps, and adds three new lip-sync languages."
+    },
+    "sourceName": "veo3ai.io — Veo 3 vs Kling 3.0 comparison 2026",
+    "sourceUrl": "https://www.veo3ai.io/blog/veo3-vs-kling-3-complete-comparison-2026"
+  },
+  {
+    "id": "f-lib-kling-2",
+    "date": "2026-02-04",
+    "toolId": "kling",
+    "title": {
+      "es": "Kling 3 estrena Motion Brush y control multi-sujeto",
+      "en": "Kling 3 debuts Motion Brush and multi-subject control"
+    },
+    "summary": {
+      "es": "Permite pintar directamente el movimiento deseado y controlar varios sujetos a la vez dentro del mismo clip.",
+      "en": "Lets you paint the desired motion directly and control multiple subjects at once within the same clip."
+    },
+    "sourceName": "veo3ai.io — Veo 3 vs Kling 3.0 comparison 2026",
+    "sourceUrl": "https://www.veo3ai.io/blog/veo3-vs-kling-3-complete-comparison-2026"
+  },
+  {
+    "id": "f-lib-cursor-1",
+    "date": "2026-02-01",
+    "toolId": "cursor",
+    "title": {
+      "es": "Cursor v3.0 estrena agentes en la nube y Composer 2.0",
+      "en": "Cursor v3.0 debuts cloud agents and Composer 2.0"
+    },
+    "summary": {
+      "es": "Los agentes ya prueban sus propios cambios y documentan su trabajo con vídeos, logs y capturas, corriendo en paralelo en sus propias máquinas virtuales.",
+      "en": "Agents now test their own changes and document their work with videos, logs, and screenshots, running in parallel on their own virtual machines."
+    },
+    "sourceName": "CNBC — Cursor announces major update to AI agents",
+    "sourceUrl": "https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html"
+  },
+  {
+    "id": "f-lib-perplexity-2",
+    "date": "2026-02-01",
+    "toolId": "perplexity",
+    "title": {
+      "es": "Perplexity lanza \"Model Council\": una pregunta, varios modelos",
+      "en": "Perplexity launches \"Model Council\": one question, several models"
+    },
+    "summary": {
+      "es": "Puedes ver de un vistazo las respuestas de GPT-5.2, Claude 4.6, Gemini 3.1 Pro y Grok 4 a la misma pregunta.",
+      "en": "You can see at a glance how GPT-5.2, Claude 4.6, Gemini 3.1 Pro and Grok 4 each answer the same question."
+    },
+    "sourceName": "leadershipinchange.com — Perplexity April 2026 full changelog",
+    "sourceUrl": "https://leadershipinchange.com/p/ai-research-201-10-perplexity-features"
+  },
+  {
+    "id": "f-lib-luma-1",
+    "date": "2026-01-27",
+    "toolId": "luma",
+    "title": {
+      "es": "Ray3.14 de Luma elimina el compromiso entre calidad, velocidad y coste",
+      "en": "Luma's Ray3.14 eliminates the quality-speed-cost tradeoff"
+    },
+    "summary": {
+      "es": "Salida nativa en 1080p, generación cuatro veces más rápida y un precio por segundo tres veces más barato.",
+      "en": "Native 1080p output, four-times faster generation, and per-second pricing three-times cheaper."
+    },
+    "sourceName": "BusinessWire — Luma AI launches Ray3.14",
+    "sourceUrl": "https://www.businesswire.com/news/home/20260126744711/en/Luma-AI-Launches-Ray3.14-Eliminating-Quality-Speed-Cost-Tradeoff-in-Generative-Video"
+  },
+  {
+    "id": "f-lib-flux-2",
+    "date": "2026-01-15",
+    "toolId": "flux",
+    "title": {
+      "es": "Black Forest Labs libera el modelo Klein 4B con licencia Apache 2.0",
+      "en": "Black Forest Labs releases the Klein 4B model under Apache 2.0"
+    },
+    "summary": {
+      "es": "Un modelo abierto y ligero que amplía el acceso a la familia FLUX para desarrolladores y proyectos autoalojados.",
+      "en": "A lightweight open model that widens access to the FLUX family for developers and self-hosted projects."
+    },
+    "sourceName": "WaveSpeed — Flux 2 complete guide 2026",
+    "sourceUrl": "https://wavespeed.ai/blog/posts/flux-2-complete-guide-2026/"
+  },
+  {
+    "id": "f-lib-sora-2",
+    "date": "2026-01-10",
+    "toolId": "sora",
+    "title": {
+      "es": "Sora deja de ser gratuita: solo Plus y Pro",
+      "en": "Sora goes paid-only: Plus and Pro plans required"
+    },
+    "summary": {
+      "es": "Desde esta fecha, los usuarios gratuitos ya no pueden generar imágenes ni vídeos en Sora.",
+      "en": "From this date, free users can no longer generate images or videos in Sora."
+    },
+    "sourceName": "Apiyi.com — Sora 2 pricing policy update",
+    "sourceUrl": "https://help.apiyi.com/en/openai-sora-2-policy-change-plus-pro-only-en.html"
+  },
+  {
+    "id": "f-lib-stable-diffusion-1",
+    "date": "2026-01-01",
+    "toolId": "stable-diffusion",
+    "title": {
+      "es": "Stable Diffusion 4 se lanza mientras Flux gana terreno",
+      "en": "Stable Diffusion 4 launches as Flux gains ground"
+    },
+    "summary": {
+      "es": "La compañía continúa activa con una nueva versión de su modelo abierto, aunque Flux se consolida como alternativa de referencia en calidad.",
+      "en": "The company remains active with a new version of its open model, even as Flux cements itself as the go-to quality alternative."
+    },
+    "sourceName": "thebriefscript.com — Stable Diffusion news 2026",
+    "sourceUrl": "https://thebriefscript.com/stable-diffusion-news-2026/"
+  },
+  {
+    "id": "f-lib-veo-1",
+    "date": "2026-01-01",
+    "toolId": "veo",
+    "title": {
+      "es": "Veo 3.1 añade vídeo vertical y upscaling a 4K",
+      "en": "Veo 3.1 adds vertical video and 4K upscaling"
+    },
+    "summary": {
+      "es": "La función \"Ingredients to Video\" ahora admite formato 9:16 pensado para redes sociales, con resultados más consistentes a partir de imágenes de referencia.",
+      "en": "The \"Ingredients to Video\" feature now supports 9:16 vertical format built for social apps, with more consistent results from reference images."
+    },
+    "sourceName": "Harvard TagTeam — Google Veo vertical video update",
+    "sourceUrl": "https://tagteam.harvard.edu/hub_feeds/3382/feed_items/17181724"
+  },
+  {
+    "id": "f-lib-lovable-3",
+    "date": "2026-01-01",
+    "toolId": "lovable",
+    "title": {
+      "es": "Lovable alcanza $500M de ingresos anuales",
+      "en": "Lovable reaches $500M in annual recurring revenue"
+    },
+    "summary": {
+      "es": "Más de un millón de proyectos nuevos por semana y unas 600 millones de visitas mensuales a las apps creadas en la plataforma.",
+      "en": "Over one million new projects per week, and roughly 600 million monthly visits to apps built on the platform."
+    },
+    "sourceName": "getlatka.com — Lovable revenue 2026",
+    "sourceUrl": "https://getlatka.com/companies/lovable.dev"
+  },
+  {
+    "id": "f-lib-perplexity-1",
+    "date": "2026-01-01",
+    "toolId": "perplexity",
+    "title": {
+      "es": "Perplexity hace de 2026 su \"año del navegador\" con Comet",
+      "en": "Perplexity makes 2026 its \"browser year\" with Comet"
+    },
+    "summary": {
+      "es": "El navegador Comet ya está disponible globalmente en iOS, Android, Mac y Windows, con navegación agéntica integrada también en Samsung Internet.",
+      "en": "The Comet browser is now globally available on iOS, Android, Mac and Windows, with agentic browsing also integrated into Samsung Internet."
+    },
+    "sourceName": "Beginners in AI — What's new in Perplexity 2026",
+    "sourceUrl": "https://beginnersinai.org/whats-new-perplexity-2026/"
+  },
+  {
+    "id": "f-lib-veras-1",
+    "date": "2026-01-01",
+    "toolId": "veras",
+    "title": {
+      "es": "Veras pasa a estar respaldado por Chaos, creadores de V-Ray",
+      "en": "Veras is now backed by Chaos, the creators of V-Ray"
+    },
+    "summary": {
+      "es": "El motor de render IA de EvolveLAB para Revit, SketchUp y Rhino suma el respaldo de uno de los grandes nombres del render arquitectónico.",
+      "en": "EvolveLAB's AI rendering engine for Revit, SketchUp and Rhino gains the backing of one of architectural rendering's biggest names."
+    },
+    "sourceName": "ArchiVinci — Best AI tools for architectural rendering",
+    "sourceUrl": "https://www.archivinci.com/blogs/best-ai-tools-for-architectural-rendering"
+  },
+  {
+    "id": "f-lib-rendair-1",
+    "date": "2026-01-01",
+    "toolId": "rendair",
+    "title": {
+      "es": "Rendair apuesta por renders en segundos sin salir de SketchUp o Rhino",
+      "en": "Rendair bets on second-scale renders without leaving SketchUp or Rhino"
+    },
+    "summary": {
+      "es": "Genera un render fotorrealista a partir de la vista 3D actual del modelo, pensado para el flujo de trabajo diario de estudios de arquitectura.",
+      "en": "Generates a photorealistic render straight from the model's current 3D view, built for the daily workflow of architecture studios."
+    },
+    "sourceName": "educasium.com — AI rendering software comparison 2026",
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+  },
+  {
+    "id": "f-lib-mnml-1",
+    "date": "2026-01-01",
+    "toolId": "mnml",
+    "title": {
+      "es": "mnml.ai se posiciona como alternativa accesible a Veras y Maket",
+      "en": "mnml.ai positions itself as an accessible alternative to Veras and Maket"
+    },
+    "summary": {
+      "es": "Convierte una imagen o boceto en múltiples estilos de visualización, controlando color, acabados e iluminación por texto.",
+      "en": "Turns a rough image or sketch into multiple visualization styles, controlling color, finishes, and lighting through text."
+    },
+    "sourceName": "mnml.ai — Veras AI alternative comparison page",
+    "sourceUrl": "https://mnml.ai/ai-tools/veras-ai-alternative"
+  },
+  {
+    "id": "f-lib-promeai-1",
+    "date": "2026-01-01",
+    "toolId": "promeai",
+    "title": {
+      "es": "PromeAI se consolida como suite de imagen a imagen para diseño",
+      "en": "PromeAI cements itself as an image-to-image suite for design"
+    },
+    "summary": {
+      "es": "No lee archivos de Revit directamente: primero hay que exportar una vista o captura, algo a tener en cuenta si buscas un plugin BIM directo.",
+      "en": "It doesn't read Revit files directly — you first need to export a view or screenshot, worth knowing if you want a direct BIM plugin."
+    },
+    "sourceName": "educasium.com — AI rendering software comparison 2026",
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+  },
+  {
+    "id": "f-lib-arkoai-1",
+    "date": "2026-01-01",
+    "toolId": "arkoai",
+    "title": {
+      "es": "ArkoAI se centra en render como plugin de CAD en vivo",
+      "en": "ArkoAI focuses on rendering as a live CAD plugin"
+    },
+    "summary": {
+      "es": "Renderiza directamente desde el modelo activo en Revit, SketchUp o Rhino, sin exportar vistas intermedias.",
+      "en": "Renders directly from the active model in Revit, SketchUp, or Rhino, without exporting intermediate views."
+    },
+    "sourceName": "educasium.com — AI rendering software comparison 2026",
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+  },
+  {
+    "id": "f-lib-maket-1",
+    "date": "2026-01-01",
+    "toolId": "maket",
+    "title": {
+      "es": "Maket se cuenta entre las principales herramientas de render y visualización IA",
+      "en": "Maket ranks among the top AI rendering and visualization tools"
+    },
+    "summary": {
+      "es": "Se distingue por el diseño generativo de plantas residenciales, más que por el renderizado fotorrealista final.",
+      "en": "It stands out for generative residential floor-plan design, rather than final photorealistic rendering."
+    },
+    "sourceName": "meltflexai.com — Best AI architectural rendering tools 2026",
+    "sourceUrl": "https://www.meltflexai.com/blog/best-ai-architectural-rendering-tools"
+  },
+  {
+    "id": "f-lib-kaedim-1",
+    "date": "2026-01-01",
+    "toolId": "kaedim",
+    "title": {
+      "es": "Kaedim sigue centrado en producción para estudios de videojuegos",
+      "en": "Kaedim remains focused on production for game studios"
+    },
+    "summary": {
+      "es": "Convierte concept art 2D en modelos 3D listos para producción, con topología limpia que requiere poca limpieza manual.",
+      "en": "Converts 2D concept art into production-ready 3D models, with clean topology that needs little manual cleanup."
+    },
+    "sourceName": "Meshy — Best AI tools for 3D game assets 2026",
+    "sourceUrl": "https://www.meshy.ai/blog/best-ai-tools-for-3d-game-assets"
+  },
+  {
+    "id": "f-lib-hailuo-1",
+    "date": "2025-10-01",
+    "toolId": "hailuo",
+    "title": {
+      "es": "MiniMax Hailuo 2.3 mejora la consistencia de color entre fotogramas",
+      "en": "MiniMax Hailuo 2.3 improves cross-frame color consistency"
+    },
+    "summary": {
+      "es": "Ahora los prompts controlan también la intensidad del movimiento, las transiciones de luz y las transformaciones de objetos, con escenas de anime coherentes entre fotogramas.",
+      "en": "Prompts now also control motion intensity, lighting transitions, and object transformations, enabling frame-consistent anime scenes."
+    },
+    "sourceName": "Higgsfield — MiniMax Hailuo 2.3 creative guide",
+    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide"
   }
 ]
