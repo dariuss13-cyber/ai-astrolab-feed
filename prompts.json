@@ -4,7 +4,10 @@
     "toolId": "chatgpt",
     "tier": "free",
     "level": "simple",
-    "title": { "es": "Figura de acción en blíster coleccionable", "en": "Collectible action figure in blister pack" },
+    "title": {
+      "es": "Figura de acción en blíster coleccionable",
+      "en": "Collectible action figure in blister pack"
+    },
     "prompt": "Create an image of [PERSON] as a collectible action figure inside retro blister packaging. Card header with a bold toy-brand logo, accessories relevant to their job displayed beside the figure, price sticker, slight plastic sheen on the bubble, 90s toy aisle aesthetic.",
     "sourceName": "DigitBin — viral image prompts",
     "sourceUrl": "https://www.digitbin.com/chatgpt-image-prompts-viral/"
@@ -14,7 +17,10 @@
     "toolId": "chatgpt",
     "tier": "free",
     "level": "simple",
-    "title": { "es": "Póster de película cinematográfico", "en": "Cinematic movie poster" },
+    "title": {
+      "es": "Póster de película cinematográfico",
+      "en": "Cinematic movie poster"
+    },
     "prompt": "Design a cinematic movie poster: a lone explorer on a mountain peak above a sea of clouds at golden sunrise, dramatic warm cinematic lighting, ultra-realistic detail, bold title typography at the top reading \"[TITLE]\", credits block at the bottom.",
     "sourceName": "Pxz.ai — viral ChatGPT image prompts",
     "sourceUrl": "https://pxz.ai/blog/viral-chatgpt-image-prompts"
@@ -24,7 +30,10 @@
     "toolId": "midjourney",
     "tier": "free",
     "level": "simple",
-    "title": { "es": "Retrato fotográfico natural en V7", "en": "Natural photographic portrait in V7" },
+    "title": {
+      "es": "Retrato fotográfico natural en V7",
+      "en": "Natural photographic portrait in V7"
+    },
     "prompt": "candid portrait of an elderly fisherman mending nets at dawn, weathered hands in focus, soft overcast light, muted teal and amber palette, documentary photography --ar 4:5 --v 7",
     "sourceName": "SurePrompts — Midjourney V7 guide",
     "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide"
@@ -34,7 +43,10 @@
     "toolId": "midjourney",
     "tier": "pro",
     "level": "advanced",
-    "title": { "es": "Producto premium con luz de estudio", "en": "Premium product with studio lighting" },
+    "title": {
+      "es": "Producto premium con luz de estudio",
+      "en": "Premium product with studio lighting"
+    },
     "prompt": "product photography of [PRODUCT] on a wet black slate surface, single dramatic rim light, fine mist in the air, deep navy-to-black gradient background, commercial advertising style, ultra detailed --ar 1:1 --v 7 --style raw",
     "sourceName": "AI Prompt Library — free templates",
     "sourceUrl": "https://www.aipromptlibrary.app/blog/midjourney-prompt-library"
@@ -44,7 +56,10 @@
     "toolId": "claude",
     "tier": "free",
     "level": "advanced",
-    "title": { "es": "Prompt estructurado con etiquetas XML", "en": "Structured prompt with XML tags" },
+    "title": {
+      "es": "Prompt estructurado con etiquetas XML",
+      "en": "Structured prompt with XML tags"
+    },
     "prompt": "<task>Rewrite the text below for [AUDIENCE]</task>\n<context>[PASTE BACKGROUND]</context>\n<format>3 short paragraphs, plain language, no jargon, end with one clear call to action</format>\n<text>[PASTE TEXT]</text>",
     "sourceName": "BuildFastWithAI — Claude prompts 2026",
     "sourceUrl": "https://www.buildfastwithai.com/blogs/best-claude-prompts-2026"
@@ -54,7 +69,10 @@
     "toolId": "claude-code",
     "tier": "pro",
     "level": "expert",
-    "title": { "es": "Planificación profunda antes de tocar código", "en": "Deep planning before touching code" },
+    "title": {
+      "es": "Planificación profunda antes de tocar código",
+      "en": "Deep planning before touching code"
+    },
     "prompt": "Ultrathink before writing any code: analyze the architecture of [FEATURE/PROBLEM], list 3 possible approaches with trade-offs, pick one and justify it, then write a step-by-step implementation plan with the files you will touch. Only start implementing after showing me the plan.",
     "sourceName": "God of Prompt — Claude Code prompts",
     "sourceUrl": "https://godofprompt.ai/blog/claude-code-prompts/"
@@ -64,7 +82,10 @@
     "toolId": "claude-code",
     "tier": "pro",
     "level": "expert",
-    "title": { "es": "Revisión en dos pasadas del propio código", "en": "Two-pass self review" },
+    "title": {
+      "es": "Revisión en dos pasadas del propio código",
+      "en": "Two-pass self review"
+    },
     "prompt": "After implementing [CHANGE], do a two-pass review of your own diff: pass 1 — correctness only (bugs, edge cases, error handling); pass 2 — quality only (naming, duplication, simplification). Report findings as a list before applying any fix, then apply only the confirmed ones.",
     "sourceName": "AY Automate — Claude Code templates",
     "sourceUrl": "https://www.ayautomate.com/blog/best-claude-code-prompts"
@@ -74,7 +95,10 @@
     "toolId": "sora",
     "tier": "free",
     "level": "simple",
-    "title": { "es": "Calle neón bajo la lluvia", "en": "Neon street in the rain" },
+    "title": {
+      "es": "Calle neón bajo la lluvia",
+      "en": "Neon street in the rain"
+    },
     "prompt": "A person walks through a neon-lit city street at night, reflections shimmering on wet pavement, slow tracking shot from behind, shallow depth of field, cinematic 4K, moody synthwave color palette.",
     "sourceName": "BrandGene — AI video prompts",
     "sourceUrl": "https://brandgene.io/tutorials/ai-video-prompts"
@@ -84,7 +108,10 @@
     "toolId": "veo",
     "tier": "pro",
     "level": "advanced",
-    "title": { "es": "Prompt en 5 capas para Veo", "en": "5-layer prompt for Veo" },
+    "title": {
+      "es": "Prompt en 5 capas para Veo",
+      "en": "5-layer prompt for Veo"
+    },
     "prompt": "Subject & action: barista pours latte art in a sunlit café. Camera: slow overhead push-in ending on the cup. Environment & lighting: warm morning light through large windows, dust motes visible. Style & mood: intimate, editorial, film grain. Audio: soft café ambience, milk steaming, no music.",
     "sourceName": "Powtoon — Veo 3 prompt examples",
     "sourceUrl": "https://www.powtoon.com/blog/veo-3-video-prompt-examples/"
@@ -94,7 +121,10 @@
     "toolId": "perplexity",
     "tier": "free",
     "level": "simple",
-    "title": { "es": "Investigación con fuentes contrastadas", "en": "Research with contrasted sources" },
+    "title": {
+      "es": "Investigación con fuentes contrastadas",
+      "en": "Research with contrasted sources"
+    },
     "prompt": "Research [TOPIC]. Give me: (1) a 5-bullet summary of the current state, (2) the 3 most cited sources with one-line credibility notes, (3) one point where reputable sources disagree and why. Prioritize sources from the last 12 months.",
     "sourceName": "Promptaholics — free prompt library",
     "sourceUrl": "https://promptaholics.com/free-chatgpt-prompts.html"
@@ -104,7 +134,10 @@
     "toolId": "cursor",
     "tier": "pro",
     "level": "expert",
-    "title": { "es": "Refactor con tests de caracterización", "en": "Refactor with characterization tests" },
+    "title": {
+      "es": "Refactor con tests de caracterización",
+      "en": "Refactor with characterization tests"
+    },
     "prompt": "Before refactoring [MODULE]: write characterization tests that pin current behavior, run them and confirm green, then refactor in small steps keeping tests green after each one. Never change behavior and structure in the same step. Finish with a diff summary and risk notes.",
     "sourceName": "DEV Community — Claude/agent coding tips",
     "sourceUrl": "https://dev.to/damogallagher/the-ultimate-claude-code-tips-collection-advent-of-claude-2025-5b73"
@@ -114,9 +147,1975 @@
     "toolId": "gemini",
     "tier": "free",
     "level": "simple",
-    "title": { "es": "Plan de contenidos de una semana", "en": "One-week content plan" },
+    "title": {
+      "es": "Plan de contenidos de una semana",
+      "en": "One-week content plan"
+    },
     "prompt": "Act as a content strategist for [BRAND/NICHE]. Build a 7-day content plan: for each day give platform, format (post/reel/carousel), hook line, and a one-sentence outline. Keep the brand voice [TONE] and end with 3 evergreen ideas I can reuse any week.",
     "sourceName": "NeuraPulse — prompt templates",
     "sourceUrl": "https://neuraplus-ai.github.io/blog/best-prompts-for-anthropic-claude-ai.html"
+  },
+  {
+    "id": "p-lib-chatgpt-1",
+    "toolId": "chatgpt",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Rol de experto para respuestas más precisas",
+      "en": "Expert role for sharper answers"
+    },
+    "prompt": "Act as a senior [FIELD] analyst with 10+ years of experience. I need you to answer as that expert would, using their vocabulary and priorities, not as a generic assistant. Question: [YOUR QUESTION]. Answer in under 150 words.",
+    "sourceName": "eWeek — ChatGPT prompt engineering tips",
+    "sourceUrl": "https://www.eweek.com/news/10-good-vs-bad-chatgpt-prompts-2026/"
+  },
+  {
+    "id": "p-lib-chatgpt-2",
+    "toolId": "chatgpt",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Razonamiento paso a paso visible",
+      "en": "Visible step-by-step reasoning"
+    },
+    "prompt": "Before giving your final answer to this problem, think through it step by step out loud: list the assumptions you're making, the options you considered, and why you rejected the alternatives. Then give a one-line final answer. Problem: [YOUR PROBLEM]",
+    "sourceName": "Artificial Corner (Medium) — Best ChatGPT prompts",
+    "sourceUrl": "https://medium.com/artificial-corner/the-best-chatgpt-prompts-for-2026-27a787f86c46"
+  },
+  {
+    "id": "p-lib-chatgpt-3",
+    "toolId": "chatgpt",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Análisis desde múltiples perspectivas",
+      "en": "Multi-perspective strategy analysis"
+    },
+    "prompt": "Analyze this decision from four different perspectives: the optimist, the skeptic, the end customer, and the person who has to implement it in 6 months. For each, give their main objection or concern and a one-sentence recommendation. Then synthesize into a single recommended path. Decision: [DESCRIBE YOUR DECISION]",
+    "sourceName": "eWeek — ChatGPT prompt engineering tips",
+    "sourceUrl": "https://www.eweek.com/news/10-good-vs-bad-chatgpt-prompts-2026/"
+  },
+  {
+    "id": "p-lib-chatgpt-4",
+    "toolId": "chatgpt",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Edición iterativa dirigida por feedback",
+      "en": "Feedback-driven iterative editing"
+    },
+    "prompt": "Draft [DOCUMENT TYPE] about [TOPIC], 400 words max. After you produce it, wait for my feedback in short directives like \"tighten the opening\" or \"cut 30%\" or \"more concrete examples\" — apply only that specific instruction to the existing draft each time, without regenerating from scratch, and show a short changelog of what changed.",
+    "sourceName": "Artificial Corner (Medium) — Best ChatGPT prompts",
+    "sourceUrl": "https://medium.com/artificial-corner/the-best-chatgpt-prompts-for-2026-27a787f86c46"
+  },
+  {
+    "id": "p-lib-claude-1",
+    "toolId": "claude",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Plantilla Rol + Contexto + Formato",
+      "en": "Role + Context + Format template"
+    },
+    "prompt": "ROLE: You are an expert [ROLE] with deep experience in [FIELD].\nCONTEXT: [BACKGROUND AND WHY THIS MATTERS]\nTASK: [WHAT YOU NEED PRODUCED]\nFORMAT: [BULLET LIST / TABLE / PLAIN PROSE], under [N] words.\nIf anything is ambiguous, ask one clarifying question before answering.",
+    "sourceName": "Anthropic — Prompt engineering best practices for 2026",
+    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering"
+  },
+  {
+    "id": "p-lib-claude-2",
+    "toolId": "claude",
+    "tier": "free",
+    "level": "advanced",
+    "title": {
+      "es": "Estructura con etiquetas XML",
+      "en": "XML-tag structured brief"
+    },
+    "prompt": "<context>[RELEVANT BACKGROUND, DATA, OR PASTED TEXT]</context>\n<task>Identify the three most important insights and one risk that's easy to miss.</task>\n<format>A numbered list, each item max 2 sentences, no preamble.</format>",
+    "sourceName": "Anthropic — Prompt engineering best practices for 2026",
+    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering"
+  },
+  {
+    "id": "p-lib-claude-3",
+    "toolId": "claude",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Analista de contratos cláusula por cláusula",
+      "en": "Clause-by-clause contract analyst"
+    },
+    "prompt": "Act as a contract analyst reviewing a long document. Go clause by clause. For each clause give: (1) a plain-language explanation, (2) a risk level (low/medium/high) with a one-line justification, (3) a suggested redline if risky. Finish with a summary table of the 5 riskiest clauses ranked by impact. Contract: [PASTE FULL CONTRACT]",
+    "sourceName": "AI Atlas — internal template, inspired by Anthropic prompting guides",
+    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering"
+  },
+  {
+    "id": "p-lib-claude-4",
+    "toolId": "claude",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Permiso explícito para decir \"no lo sé\"",
+      "en": "Explicit permission to say \"I don't know\""
+    },
+    "prompt": "Answer the following question. If you are not confident in part of the answer, say so explicitly and mark it as [UNCERTAIN] rather than guessing. Do not pad the answer with disclaimers beyond that. Question: [YOUR QUESTION]",
+    "sourceName": "Anthropic — Prompt engineering best practices for 2026",
+    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering"
+  },
+  {
+    "id": "p-lib-gemini-1",
+    "toolId": "gemini",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Estructura Persona + Tarea + Contexto + Formato",
+      "en": "Persona + Task + Context + Format prompt"
+    },
+    "prompt": "Persona: [ROLE, e.g. \"a blunt startup CFO\"]\nTask: [ACTION VERB + WHAT, e.g. \"evaluate this pricing plan\"]\nContext: [AUDIENCE, CONSTRAINTS, BACKGROUND]\nFormat: [LIST / JSON / SHORT PARAGRAPH]\nBe direct — no filler sentences, no repeating the question back.",
+    "sourceName": "Google AI for Developers — Prompt design strategies",
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
+  },
+  {
+    "id": "p-lib-gemini-2",
+    "toolId": "gemini",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Análisis de documento largo con línea temporal",
+      "en": "Long-document analysis with timeline"
+    },
+    "prompt": "I'm uploading a long report. Find every mention of [TOPIC]. For each occurrence: where it appears (section/page), why it matters in context, and how it connects to earlier mentions. End with a chronological timeline of key developments related to [TOPIC]. Output as a structured list, not prose.",
+    "sourceName": "SurePrompts — Gemini prompting guide (long context)",
+    "sourceUrl": "https://sureprompts.com/blog/gemini-prompting-guide"
+  },
+  {
+    "id": "p-lib-gemini-3",
+    "toolId": "gemini",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Describir una imagen para accesibilidad",
+      "en": "Describe an image for accessibility"
+    },
+    "prompt": "Look at this image and write a one-paragraph alt-text description suitable for a screen reader: objects, spatial layout, colors, and any visible text, in plain neutral language, under 60 words.",
+    "sourceName": "Google AI for Developers — Prompt design strategies",
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
+  },
+  {
+    "id": "p-lib-gemini-4",
+    "toolId": "gemini",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Revisión de base de código completa",
+      "en": "Full codebase review"
+    },
+    "prompt": "Treat the attached codebase as your full context. Map the main modules and how data flows between them. Then list the 5 riskiest pieces of technical debt, ranked by blast radius if they break, with a one-line fix suggestion for each. Output as a table: module | risk | why | suggested fix.",
+    "sourceName": "SurePrompts — Gemini prompting guide (long context)",
+    "sourceUrl": "https://sureprompts.com/blog/gemini-prompting-guide"
+  },
+  {
+    "id": "p-lib-grok-1",
+    "toolId": "grok",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Pulso de X en tiempo real sobre un tema",
+      "en": "Real-time X pulse on a topic"
+    },
+    "prompt": "Check X for what people are saying about [TOPIC/EVENT] in the last 24 hours. Summarize the 3 main viewpoints, note which one seems to be gaining traction, and flag if there's a notable contrarian take.",
+    "sourceName": "SurePrompts — Grok prompts for real-time intelligence",
+    "sourceUrl": "https://sureprompts.com/blog/grok-prompts-real-time-intelligence-guide"
+  },
+  {
+    "id": "p-lib-grok-2",
+    "toolId": "grok",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Monitor de tendencias emergentes",
+      "en": "Emerging trend monitor"
+    },
+    "prompt": "Search X and the web for emerging discussion around [INDUSTRY/NICHE] this week. List up to 5 rising topics, each with a one-line explanation of why it's picking up and an estimate of how new the trend is (days/weeks).",
+    "sourceName": "AI Academy (Techpresso) — Best Grok prompts",
+    "sourceUrl": "https://academy.techpresso.co/prompts/grok-prompts"
+  },
+  {
+    "id": "p-lib-grok-3",
+    "toolId": "grok",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Investigación competitiva desde fuentes primarias",
+      "en": "Competitive research from primary sources"
+    },
+    "prompt": "Research [COMPETITOR/COMPANY]'s recent public statements, product announcements, and job postings from the last month, cross-referencing X posts and the open web. Summarize what they seem to be building next and how confident you are in that read, citing the specific posts or pages you used.",
+    "sourceName": "SurePrompts — Grok prompts for real-time intelligence",
+    "sourceUrl": "https://sureprompts.com/blog/grok-prompts-real-time-intelligence-guide"
+  },
+  {
+    "id": "p-lib-grok-4",
+    "toolId": "grok",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Síntesis de sentimiento de mercado",
+      "en": "Market sentiment synthesis"
+    },
+    "prompt": "Pull recent X posts and news mentioning [ASSET/TICKER/MARKET]. Separate signal from noise: distinguish informed commentary (analysts, insiders, verified accounts) from generic hype. Give a sentiment score from -5 to +5 with your reasoning, and flag any single post that looks like it could be moving the narrative disproportionately.",
+    "sourceName": "SurePrompts — Grok prompts for real-time intelligence",
+    "sourceUrl": "https://sureprompts.com/blog/grok-prompts-real-time-intelligence-guide"
+  },
+  {
+    "id": "p-lib-qwen-1",
+    "toolId": "qwen",
+    "tier": "free",
+    "level": "advanced",
+    "title": {
+      "es": "Modo de razonamiento activado para problemas difíciles",
+      "en": "Thinking mode on for hard problems"
+    },
+    "prompt": "[Thinking: ON] Solve this step by step, verifying each intermediate result before moving to the next: [MATH OR LOGIC PROBLEM]. Show the verification step explicitly, then give the final answer on its own line.",
+    "sourceName": "Data Science Dojo — Qwen models guide",
+    "sourceUrl": "https://datasciencedojo.com/blog/the-evolution-of-qwen-models/"
+  },
+  {
+    "id": "p-lib-qwen-2",
+    "toolId": "qwen",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Respuesta bilingüe con glosario técnico",
+      "en": "Bilingual answer with technical glossary"
+    },
+    "prompt": "Answer in English first, then provide the same answer translated naturally into [LANGUAGE] (not a literal translation — adapt idiom and register), then a short glossary of the technical terms used in both languages. Topic: [YOUR QUESTION]",
+    "sourceName": "promptslove — Qwen prompt generator notes",
+    "sourceUrl": "https://promptslove.com/free-tools/qwen-prompt-generator/"
+  },
+  {
+    "id": "p-lib-qwen-3",
+    "toolId": "qwen",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Generación de código con verificación",
+      "en": "Code generation with self-check"
+    },
+    "prompt": "[Thinking: ON] Write a function that does [TASK] in [LANGUAGE]. Before showing the final code, mentally trace it through 2 edge cases and fix any bug you find. Show the final code plus a one-line note on what edge case you caught, if any.",
+    "sourceName": "Data Science Dojo — Qwen models guide",
+    "sourceUrl": "https://datasciencedojo.com/blog/the-evolution-of-qwen-models/"
+  },
+  {
+    "id": "p-lib-qwen-4",
+    "toolId": "qwen",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Plan de despliegue local del modelo",
+      "en": "Self-hosted deployment plan"
+    },
+    "prompt": "I want to self-host an open-weight model for [USE CASE] with these constraints: [HARDWARE, BUDGET, LATENCY NEEDS]. Recommend a model size/quantization, expected throughput, and a step-by-step deployment plan, flagging the single biggest bottleneck I'll likely hit first.",
+    "sourceName": "GitHub — Qwen-Alibaba-Cloud guide",
+    "sourceUrl": "https://github.com/anarojoecheburua/Qwen-Alibaba-Cloud"
+  },
+  {
+    "id": "p-lib-deepseek-1",
+    "toolId": "deepseek",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Redacción rápida cotidiana",
+      "en": "Fast everyday drafting"
+    },
+    "prompt": "Draft a [EMAIL/MESSAGE TYPE] to [RECIPIENT] about [TOPIC]. Tone: [FORMAL/CASUAL/FIRM]. Max 120 words, no filler greetings beyond one line.",
+    "sourceName": "Chat-Deep.ai — DeepSeek prompt guide",
+    "sourceUrl": "https://chat-deep.ai/guide/deepseek-prompt/"
+  },
+  {
+    "id": "p-lib-deepseek-2",
+    "toolId": "deepseek",
+    "tier": "free",
+    "level": "advanced",
+    "title": {
+      "es": "Depuración por causa raíz",
+      "en": "Root-cause debugging"
+    },
+    "prompt": "Here is a bug report and the relevant code: [PASTE BUG + CODE]. Don't just patch the symptom — trace back to the root cause, explain the causal chain in plain language, then propose the minimal fix that addresses the root cause, not just this instance.",
+    "sourceName": "SurePrompts — Best DeepSeek prompts 2026",
+    "sourceUrl": "https://sureprompts.com/blog/best-deepseek-prompts-2026"
+  },
+  {
+    "id": "p-lib-deepseek-3",
+    "toolId": "deepseek",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Prueba matemática paso a paso",
+      "en": "Step-by-step mathematical proof"
+    },
+    "prompt": "Prove or disprove: [MATHEMATICAL CLAIM]. State your approach in one line before starting. Give each proof step with the justification (which axiom/theorem/algebraic rule applies), and flag explicitly if any step relies on an assumption that isn't given.",
+    "sourceName": "DeepSeek AI — R1 reasoning guide",
+    "sourceUrl": "https://deepseek.ai/deepseek-vs-mistral"
+  },
+  {
+    "id": "p-lib-deepseek-4",
+    "toolId": "deepseek",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Verificación concisa sin razonamiento oculto extenso",
+      "en": "Concise verification, no giant hidden chain"
+    },
+    "prompt": "Problem: [PROBLEM]. Constraints: [CONSTRAINTS]. Give me only the final answer plus a concise verification (max 5 lines) confirming it satisfies every constraint — skip a long exploratory reasoning trace.",
+    "sourceName": "Chat-Deep.ai — DeepSeek prompt guide",
+    "sourceUrl": "https://chat-deep.ai/guide/deepseek-prompt/"
+  },
+  {
+    "id": "p-lib-lechat-1",
+    "toolId": "lechat",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Correo profesional multilingüe europeo",
+      "en": "Multilingual European business email"
+    },
+    "prompt": "Write a professional email to a [COUNTRY] client about [TOPIC], in [LANGUAGE: French/German/Spanish/Italian/Portuguese/Dutch], using natural idiom and the appropriate formality register for that culture, not a literal translation from English. Max 150 words.",
+    "sourceName": "SurePrompts — Best Mistral prompts 2026",
+    "sourceUrl": "https://sureprompts.com/blog/best-mistral-prompts-2026"
+  },
+  {
+    "id": "p-lib-lechat-2",
+    "toolId": "lechat",
+    "tier": "free",
+    "level": "advanced",
+    "title": {
+      "es": "Redacción con criterio de privacidad RGPD",
+      "en": "GDPR-aware document drafting"
+    },
+    "prompt": "Draft a [DOCUMENT TYPE, e.g. data processing notice] for a company handling [DATA TYPE] under GDPR. Flag any clause that would need legal review, and note explicitly where you made an assumption instead of citing a specific article.",
+    "sourceName": "SurePrompts — Best Mistral prompts 2026",
+    "sourceUrl": "https://sureprompts.com/blog/best-mistral-prompts-2026"
+  },
+  {
+    "id": "p-lib-lechat-3",
+    "toolId": "lechat",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Flujo de agente empresarial multi-paso",
+      "en": "Multi-step enterprise agent workflow"
+    },
+    "prompt": "Act as an operations agent handling this workflow end to end: (1) [STEP 1], (2) [STEP 2], (3) [STEP 3]. After each step, output a one-line status update before continuing, and stop immediately to ask if any step's output looks ambiguous or incomplete.",
+    "sourceName": "AI Atlas — original, based on Mistral enterprise agent tooling",
+    "sourceUrl": "https://chat-deep.ai/comparison/mistral-ai/"
+  },
+  {
+    "id": "p-lib-lechat-4",
+    "toolId": "lechat",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Guion de soporte al cliente multilingüe",
+      "en": "Multilingual customer support script"
+    },
+    "prompt": "Create a customer support response template for [ISSUE TYPE], available in English, French, and German, keeping the same structure and tone across all three but adapting phrasing so each reads as native, not translated.",
+    "sourceName": "SurePrompts — Best Mistral prompts 2026",
+    "sourceUrl": "https://sureprompts.com/blog/best-mistral-prompts-2026"
+  },
+  {
+    "id": "p-lib-midjourney-1",
+    "toolId": "midjourney",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Escena narrada en frase natural",
+      "en": "Scene written as a natural sentence"
+    },
+    "prompt": "FPV drone racing through a redwood forest at dawn, thin morning mist between the trunks, shafts of golden sunlight, photorealistic --ar 16:9 --v 7",
+    "sourceName": "SurePrompts — Midjourney V7 prompting guide",
+    "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide"
+  },
+  {
+    "id": "p-lib-midjourney-2",
+    "toolId": "midjourney",
+    "tier": "free",
+    "level": "advanced",
+    "title": {
+      "es": "Referencia de personaje consistente",
+      "en": "Consistent character reference"
+    },
+    "prompt": "[CHARACTER DESCRIPTION] standing in [NEW SCENE], same face and outfit as reference --cref [IMAGE URL] --cw 100 --ar 3:4 --v 7",
+    "sourceName": "aiarty — Midjourney prompts cheat sheet",
+    "sourceUrl": "https://www.aiarty.com/midjourney-prompts/midjourney-prompts-cheat-sheet.htm"
+  },
+  {
+    "id": "p-lib-midjourney-3",
+    "toolId": "midjourney",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Transferencia de estilo con Omni-Reference",
+      "en": "Style transfer with Omni-Reference"
+    },
+    "prompt": "[SUBJECT] in the visual style of the reference image --oref [STYLE IMAGE URL] --ow 300 --ar 1:1 --v 7",
+    "sourceName": "SurePrompts — Midjourney V7 prompting guide",
+    "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide"
+  },
+  {
+    "id": "p-lib-midjourney-4",
+    "toolId": "midjourney",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Borrador rápido y refinado a máxima resolución",
+      "en": "Fast draft then full-resolution refine"
+    },
+    "prompt": "Step 1 — generate fast previews: [SCENE DESCRIPTION] --draft --ar 16:9\nStep 2 — once you pick a winner, re-render it without --draft and add --s 300 --no blur, watermark, extra limbs for a clean final pass.",
+    "sourceName": "pamistanbul — Midjourney V7 guide 2026",
+    "sourceUrl": "https://www.pamistanbul.com/en/pamlab/midjourney-v7-pro-guide-2026"
+  },
+  {
+    "id": "p-lib-gpt-image-1",
+    "toolId": "gpt-image",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Logo con nombre exacto entre comillas",
+      "en": "Logo with exact quoted name"
+    },
+    "prompt": "Design a minimalist emblem-style logo for a brand called \"[BRAND NAME]\" (keep the name under 3 words), clean geometric icon above the wordmark, correctly spelled, flat vector style, white background.",
+    "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
+    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026"
+  },
+  {
+    "id": "p-lib-gpt-image-2",
+    "toolId": "gpt-image",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Edición conversacional paso a paso",
+      "en": "Step-by-step conversational edit"
+    },
+    "prompt": "Here is my image: [UPLOAD IMAGE]. First, remove [OBJECT] from the background. Then adjust the lighting to look like golden hour. Do only one change per message so I can approve each step before the next.",
+    "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
+    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026"
+  },
+  {
+    "id": "p-lib-gpt-image-3",
+    "toolId": "gpt-image",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Póster con jerarquía tipográfica compleja",
+      "en": "Poster with complex typographic hierarchy"
+    },
+    "prompt": "Create a concert poster: bold headline \"[EVENT NAME]\" at the top, subheading \"[DATE AND CITY]\" below it, small sponsor logos row at the bottom, cinematic warm-toned illustration filling the middle, all text correctly spelled and legible.",
+    "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
+    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026"
+  },
+  {
+    "id": "p-lib-gpt-image-4",
+    "toolId": "gpt-image",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Serie de producto con consistencia entre imágenes",
+      "en": "Product series with cross-image consistency"
+    },
+    "prompt": "Generate 4 product shots of the same [PRODUCT] from front, 3/4, side, and top-down angles, keeping identical materials, colors, and studio lighting setup across all four so they can be used together in one catalog page.",
+    "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
+    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026"
+  },
+  {
+    "id": "p-lib-ideogram-1",
+    "toolId": "ideogram",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Texto exacto entre comillas con Magic Prompt apagado",
+      "en": "Exact quoted text, Magic Prompt off"
+    },
+    "prompt": "A vintage travel poster with the words \"[SHORT PHRASE]\" in bold retro lettering at the top, illustrated mountain landscape below, muted sunset palette. Turn Magic Prompt off so the wording stays exact.",
+    "sourceName": "gptprompts.ai — Ideogram prompts guide",
+    "sourceUrl": "https://gptprompts.ai/ideogram-prompts"
+  },
+  {
+    "id": "p-lib-ideogram-2",
+    "toolId": "ideogram",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Cartel de evento con tipografía correcta",
+      "en": "Event poster with correct typography"
+    },
+    "prompt": "Create a bold graphic poster for \"[EVENT NAME]\", \"[DATE]\" and \"[CITY]\" as three separate correctly-spelled text elements, high-contrast color blocking, modern sans-serif typography, generate 4 variations and I'll pick the one with the cleanest text.",
+    "sourceName": "yrom.com — AI prompts for logo design",
+    "sourceUrl": "https://yrom.com/ai-prompts-for-logo-design/"
+  },
+  {
+    "id": "p-lib-ideogram-3",
+    "toolId": "ideogram",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Logo con lema en dos líneas",
+      "en": "Logo with two-line tagline"
+    },
+    "prompt": "Design a badge-style logo with \"[BRAND NAME]\" as the main wordmark and \"[TAGLINE]\" as a smaller curved line beneath it, vintage stamp aesthetic, single accent color, correctly spelled, no extra text.",
+    "sourceName": "promptspace.in — AI logo generator prompts",
+    "sourceUrl": "https://www.promptspace.in/blog/ai-logo-generator-prompts-professional-brand-logos-2026"
+  },
+  {
+    "id": "p-lib-ideogram-4",
+    "toolId": "ideogram",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Sistema de packaging con texto consistente",
+      "en": "Packaging system with consistent text"
+    },
+    "prompt": "Design 3 packaging box mockups for the same product line \"[BRAND NAME]\" in three flavor variants \"[FLAVOR 1]\", \"[FLAVOR 2]\", \"[FLAVOR 3]\", identical layout and typography across all three, only the accent color and flavor name changing, all text correctly spelled.",
+    "sourceName": "gptprompts.ai — Ideogram prompts guide",
+    "sourceUrl": "https://gptprompts.ai/ideogram-prompts"
+  },
+  {
+    "id": "p-lib-stable-diffusion-1",
+    "toolId": "stable-diffusion",
+    "tier": "free",
+    "level": "advanced",
+    "title": {
+      "es": "Prompt estructurado con pesos y negativo",
+      "en": "Structured prompt with weights and negative"
+    },
+    "prompt": "(cinematic:1.3) portrait of [SUBJECT], (dramatic rim lighting:1.2), 85mm lens, shallow depth of field, film grain\nNegative prompt: extra fingers, distorted hands, watermark, blurry, amateur lighting",
+    "sourceName": "PromptMake — Stable Diffusion prompt guide",
+    "sourceUrl": "https://promptmake.net/blog/stable-diffusion-prompt-guide"
+  },
+  {
+    "id": "p-lib-stable-diffusion-2",
+    "toolId": "stable-diffusion",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "LoRA + ControlNet para pose exacta",
+      "en": "LoRA + ControlNet for exact pose"
+    },
+    "prompt": "<lora:[STYLE_LORA_NAME]:0.8> [CHARACTER DESCRIPTION] in a dynamic action pose, matched to the ControlNet OpenPose skeleton reference, consistent identity and outfit across generations\nNegative prompt: warped anatomy, wrong pose, watermark, low detail",
+    "sourceName": "gptprompts.ai — Advanced Stable Diffusion guide (ControlNet, LoRA)",
+    "sourceUrl": "https://gptprompts.ai/stable-diffusion-advanced"
+  },
+  {
+    "id": "p-lib-stable-diffusion-3",
+    "toolId": "stable-diffusion",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Retrato realista de seis capas",
+      "en": "Six-layer realistic portrait"
+    },
+    "prompt": "subject: young woman with short curly hair; action: laughing candidly; environment: sunlit outdoor cafe; lighting: soft natural daylight; camera: 50mm, f/1.8, shallow depth of field; style: documentary photography, Kodak Portra film look",
+    "sourceName": "PromptMake — Stable Diffusion prompt guide",
+    "sourceUrl": "https://promptmake.net/blog/stable-diffusion-prompt-guide"
+  },
+  {
+    "id": "p-lib-stable-diffusion-4",
+    "toolId": "stable-diffusion",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Inpainting para reemplazo de objeto",
+      "en": "Inpainting for object replacement"
+    },
+    "prompt": "Mask the [OBJECT] region and inpaint with: [NEW OBJECT DESCRIPTION], matching the existing lighting direction and color temperature of the scene, denoise strength 0.55 to preserve surrounding detail.\nNegative prompt: seams, mismatched lighting, blurry edges",
+    "sourceName": "gptprompts.ai — Advanced Stable Diffusion guide",
+    "sourceUrl": "https://gptprompts.ai/stable-diffusion-advanced"
+  },
+  {
+    "id": "p-lib-flux-1",
+    "toolId": "flux",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Escena en lenguaje natural (no tags)",
+      "en": "Natural-language scene (no tag dumping)"
+    },
+    "prompt": "A weathered fisherman mending his nets on a wooden dock at sunset, warm orange light reflecting off the calm water, shot like a documentary photograph, soft focus on the background boats.",
+    "sourceName": "perplexityaimagazine — Stable Diffusion / Flux tutorial 2026",
+    "sourceUrl": "https://perplexityaimagazine.com/ai-tools/stable-diffusion-tutorial-2026/"
+  },
+  {
+    "id": "p-lib-flux-2",
+    "toolId": "flux",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Integración vía API con estilo de marca",
+      "en": "API integration with brand style"
+    },
+    "prompt": "Generate a product hero image for [PRODUCT] following this brand style guide: [COLOR PALETTE, MOOD, LIGHTING NOTES]. Output at high resolution suitable for direct API integration into our e-commerce pipeline, transparent background if the product is the sole subject.",
+    "sourceName": "gptprompts.ai — Stable Diffusion / Flux guide",
+    "sourceUrl": "https://gptprompts.ai/stable-diffusion-guide"
+  },
+  {
+    "id": "p-lib-flux-3",
+    "toolId": "flux",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Textura fotorrealista de material",
+      "en": "Photorealistic material texture"
+    },
+    "prompt": "Close-up macro texture of [MATERIAL, e.g. brushed steel / raw linen / cracked terracotta], even studio lighting, no visible seams, tileable-looking, ultra sharp detail.",
+    "sourceName": "perplexityaimagazine — Stable Diffusion / Flux tutorial 2026",
+    "sourceUrl": "https://perplexityaimagazine.com/ai-tools/stable-diffusion-tutorial-2026/"
+  },
+  {
+    "id": "p-lib-flux-4",
+    "toolId": "flux",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Autoalojamiento con pesos abiertos",
+      "en": "Self-hosting with open weights"
+    },
+    "prompt": "I'm self-hosting an open-weight Flux checkpoint on [GPU/HARDWARE]. Recommend a quantization level for [SPEED/QUALITY TRADEOFF], and give me a short checklist to validate output quality before pointing production traffic at it.",
+    "sourceName": "gptprompts.ai — Stable Diffusion / Flux guide",
+    "sourceUrl": "https://gptprompts.ai/stable-diffusion-guide"
+  },
+  {
+    "id": "p-lib-krea-1",
+    "toolId": "krea",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Boceto a render en tiempo real",
+      "en": "Sketch to render in real time"
+    },
+    "prompt": "Rough sketch: a simple armchair shape in a room corner. Refine live into: a mid-century modern armchair in a sunlit reading nook, warm wood tones, soft textile upholstery, photorealistic render, keep the enhance strength low so the composition doesn't drift from my sketch.",
+    "sourceName": "ClickUp — Best Krea AI prompts",
+    "sourceUrl": "https://clickup.com/blog/krea-ai-prompts/"
+  },
+  {
+    "id": "p-lib-krea-2",
+    "toolId": "krea",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Escalado a alta resolución sin artefactos",
+      "en": "High-resolution upscale without artifacts"
+    },
+    "prompt": "Upscale this render to the highest resolution available while preserving fine material detail (fabric weave, wood grain), do not invent new elements or sharpen halos around edges.",
+    "sourceName": "theplanettools.ai — Krea AI review 2026",
+    "sourceUrl": "https://theplanettools.ai/tools/krea-ai"
+  },
+  {
+    "id": "p-lib-krea-3",
+    "toolId": "krea",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "De render 3D plano a foto realista",
+      "en": "Flat 3D render to photoreal"
+    },
+    "prompt": "Take this flat 3D render of [OBJECT/SCENE] and transform it into a photorealistic visualization: add natural imperfections, realistic light falloff, and ambient occlusion, keeping the exact geometry and layout unchanged.",
+    "sourceName": "academy.techpresso.co — Best Krea AI prompts",
+    "sourceUrl": "https://academy.techpresso.co/prompts/krea-prompts"
+  },
+  {
+    "id": "p-lib-krea-4",
+    "toolId": "krea",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Set de assets modulares consistentes",
+      "en": "Consistent modular asset set"
+    },
+    "prompt": "Generate 5 modular game props (crate, barrel, lantern, sign, fence post) in the exact same stylized low-poly aesthetic and lighting setup, so they read as one visual set when placed together in-engine.",
+    "sourceName": "Krea — gaming asset generation",
+    "sourceUrl": "https://www.krea.ai/gaming"
+  },
+  {
+    "id": "p-lib-leonardo-1",
+    "toolId": "leonardo",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Personaje de videojuego listo para producción",
+      "en": "Game-ready character concept"
+    },
+    "prompt": "Full-body concept art of a [CLASS, e.g. rogue] character for a fantasy RPG: leather armor, hooded cloak, dual daggers, neutral T-pose, clean silhouette against plain background, game-art style suitable for a 3D modeling reference sheet.",
+    "sourceName": "selfielab — Leonardo AI game-ready character design tips",
+    "sourceUrl": "https://selfielabstudio.com/blog/leonardo-ai-game-ready-character-design-tips-20260217"
+  },
+  {
+    "id": "p-lib-leonardo-2",
+    "toolId": "leonardo",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Prop de entorno con estilo de marca consistente",
+      "en": "Environment prop with consistent brand style"
+    },
+    "prompt": "[PROP, e.g. treasure chest] in the same stylized cel-shaded aesthetic as [REFERENCE STYLE], designed as a reusable game asset icon, transparent background, consistent color saturation with the rest of the set.",
+    "sourceName": "freeaipromptmaker — Leonardo AI game art assets",
+    "sourceUrl": "https://freeaipromptmaker.com/blog/2026-05-10-leonardo-ai-game-art-assets"
+  },
+  {
+    "id": "p-lib-leonardo-3",
+    "toolId": "leonardo",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Set de marca con modelo propio entrenado",
+      "en": "Brand set with a fine-tuned custom model"
+    },
+    "prompt": "Using our fine-tuned brand model, generate a set of 6 marketing icons for [PRODUCT CATEGORY], identical line weight, corner radius, and two-tone color scheme across all six so they form a cohesive icon set.",
+    "sourceName": "aiproductionguy — Leonardo.AI overview",
+    "sourceUrl": "https://aiproductionguy.substack.com/p/leonardoai-from-game-asset-generator"
+  },
+  {
+    "id": "p-lib-leonardo-4",
+    "toolId": "leonardo",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Ficha de personaje con vistas múltiples",
+      "en": "Character turnaround sheet"
+    },
+    "prompt": "Generate a character turnaround sheet for [CHARACTER] with front, side, and back views on one canvas, consistent proportions, outfit, and color palette across all three views, suitable for handing directly to a 3D modeler.",
+    "sourceName": "selfielab — Leonardo AI game-ready character design tips",
+    "sourceUrl": "https://selfielabstudio.com/blog/leonardo-ai-game-ready-character-design-tips-20260217"
+  },
+  {
+    "id": "p-lib-sora-1",
+    "toolId": "sora",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Plano cinematográfico con un solo movimiento de cámara",
+      "en": "Cinematic shot, one camera move"
+    },
+    "prompt": "Medium close-up of [SUBJECT] walking through [LOCATION], slow dolly-in, 35mm lens, warm late-afternoon light, then the camera settles as they stop and turn to look off-frame.",
+    "sourceName": "Prompt Architects — Cinematic camera prompts for Veo 3 and Kling",
+    "sourceUrl": "https://prompt-architects.com/blog/25-30-cinematic-camera-prompts-for-veo3-and-kling"
+  },
+  {
+    "id": "p-lib-sora-2",
+    "toolId": "sora",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "B-roll con contexto limitado a 3-5 elementos",
+      "en": "B-roll with 3-5 context elements max"
+    },
+    "prompt": "Aerial tracking shot over a coastal town at golden hour: terracotta rooftops, a winding cobblestone street, fishing boats in the harbor. Smooth forward motion, slight haze, no fast camera moves.",
+    "sourceName": "Tona.AI — Best AI video prompts guide 2026",
+    "sourceUrl": "https://tonaai.io/blog/best-ai-video-prompts-guide-2026"
+  },
+  {
+    "id": "p-lib-sora-3",
+    "toolId": "sora",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Escena con diálogo y continuidad de personaje",
+      "en": "Scene with dialogue and character continuity"
+    },
+    "prompt": "[CHARACTER] sits at a kitchen table, delivers the line \"[DIALOGUE]\" with a tired but warm tone, static medium shot, soft window light from the left, keep the same face and outfit as in the reference image across the whole clip.",
+    "sourceName": "FrankX — AI video generation 2026 guide",
+    "sourceUrl": "https://www.frankx.ai/blog/ai-video-generation-2026-sora-runway-kling-veo"
+  },
+  {
+    "id": "p-lib-sora-4",
+    "toolId": "sora",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Secuencia de varios planos con endpoint de movimiento",
+      "en": "Multi-shot sequence with motion endpoints"
+    },
+    "prompt": "Shot 1: wide establishing shot of [LOCATION], static, 5 seconds.\nShot 2: slow push-in on [SUBJECT], ending on a close-up, then the motion settles and holds for 1 second before cutting.\nKeep lighting and color grade consistent across both shots so they cut together as one scene.",
+    "sourceName": "LzyPrompt — AI video camera movement cheatsheet 2026",
+    "sourceUrl": "https://lzyprompt.com/blog/ai-video-camera-movement-prompts/"
+  },
+  {
+    "id": "p-lib-veo-1",
+    "toolId": "veo",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Panorámica suave con audio nativo",
+      "en": "Smooth pan with native audio"
+    },
+    "prompt": "Slow pan across a rainy city street at night, neon reflections on wet asphalt, ambient traffic and distant rain sounds, 4K, natural camera shake kept minimal.",
+    "sourceName": "Atlas Cloud — Seedance vs Kling vs Sora vs Veo comparison",
+    "sourceUrl": "https://www.atlascloud.ai/blog/guides/seedance-vs-kling-vs-sora-vs-veo"
+  },
+  {
+    "id": "p-lib-veo-2",
+    "toolId": "veo",
+    "tier": "free",
+    "level": "advanced",
+    "title": {
+      "es": "Diálogo sincronizado con audio nativo",
+      "en": "Synced dialogue with native audio"
+    },
+    "prompt": "Two people at a cafe table, [CHARACTER A] says \"[LINE A]\", [CHARACTER B] responds \"[LINE B]\", natural lip sync, ambient cafe noise underneath the dialogue, static two-shot, soft daylight.",
+    "sourceName": "Atlas Cloud — Seedance vs Kling vs Sora vs Veo comparison",
+    "sourceUrl": "https://www.atlascloud.ai/blog/guides/seedance-vs-kling-vs-sora-vs-veo"
+  },
+  {
+    "id": "p-lib-veo-3",
+    "toolId": "veo",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Toma con física realista de objetos",
+      "en": "Shot with realistic object physics"
+    },
+    "prompt": "A glass of water tips over on a wooden table, liquid spreads realistically following the grain of the wood, camera static, overhead soft light, natural sound of glass and liquid on wood.",
+    "sourceName": "Atlas Cloud — Seedance vs Kling vs Sora vs Veo comparison",
+    "sourceUrl": "https://www.atlascloud.ai/blog/guides/seedance-vs-kling-vs-sora-vs-veo"
+  },
+  {
+    "id": "p-lib-veo-4",
+    "toolId": "veo",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Plano de producto con movimiento de grúa",
+      "en": "Product shot with crane movement"
+    },
+    "prompt": "Crane up from ground level revealing [PRODUCT] on a pedestal in a minimalist studio, soft rim lighting, subtle ambient hum, movement starts slow and settles fully once the product is centered in frame — no overshoot.",
+    "sourceName": "LzyPrompt — AI video camera movement cheatsheet 2026",
+    "sourceUrl": "https://lzyprompt.com/blog/ai-video-camera-movement-prompts/"
+  },
+  {
+    "id": "p-lib-kling-1",
+    "toolId": "kling",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Estructura sujeto + acción + contexto + estilo",
+      "en": "Subject + Action + Context + Style structure"
+    },
+    "prompt": "Subject: a golden retriever. Action: running through shallow ocean waves. Context: sunset, wet sand, distant sailboat. Style: medium tracking shot, 50mm lens, warm cinematic grade.",
+    "sourceName": "VEED — Kling AI prompting guide",
+    "sourceUrl": "https://www.veed.io/learn/kling-ai-prompting-guide"
+  },
+  {
+    "id": "p-lib-kling-2",
+    "toolId": "kling",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Movimiento humano natural y económico",
+      "en": "Natural, cost-effective human motion"
+    },
+    "prompt": "Subject: [PERSON]. Action: walking down a market street, browsing stalls casually. Context: crowded outdoor market, midday light. Style: handheld follow shot, slight natural shake, documentary feel.",
+    "sourceName": "Tona.AI — Best AI video prompts guide 2026",
+    "sourceUrl": "https://tonaai.io/blog/best-ai-video-prompts-guide-2026"
+  },
+  {
+    "id": "p-lib-kling-3",
+    "toolId": "kling",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Órbita de cámara alrededor del sujeto",
+      "en": "Camera orbit around subject"
+    },
+    "prompt": "Subject: [PRODUCT/CHARACTER] centered in frame. Action: stays still. Context: dark studio with a single spotlight. Style: slow 180-degree orbit around the subject, smooth constant speed, no acceleration at the start or end.",
+    "sourceName": "Prompt Architects — Cinematic camera prompts for Veo 3 and Kling",
+    "sourceUrl": "https://prompt-architects.com/blog/25-30-cinematic-camera-prompts-for-veo3-and-kling"
+  },
+  {
+    "id": "p-lib-kling-4",
+    "toolId": "kling",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Escena de acción con final de movimiento definido",
+      "en": "Action scene with a defined motion endpoint"
+    },
+    "prompt": "Subject: a stunt double. Action: sprints toward camera, leaps over a low wall, lands and rolls back to standing. Context: urban rooftop, overcast light. Style: tracking shot that follows the leap, then settles into a static hold once they're standing again — avoid warping during the fastest motion.",
+    "sourceName": "VEED — Kling AI prompting guide",
+    "sourceUrl": "https://www.veed.io/learn/kling-ai-prompting-guide"
+  },
+  {
+    "id": "p-lib-runway-1",
+    "toolId": "runway",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Imagen a vídeo con control de cámara",
+      "en": "Image-to-video with camera control"
+    },
+    "prompt": "Animate this reference image: [UPLOAD IMAGE]. Add a slow dolly-in with a very subtle handheld sway, keep the subject's face and outfit exactly as shown, 4 second clip.",
+    "sourceName": "AIUnpacking — AI video generation 2026 guide",
+    "sourceUrl": "https://aiunpacking.com/guides/ai-video-generation-sora-runway-kling-veo/"
+  },
+  {
+    "id": "p-lib-runway-2",
+    "toolId": "runway",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Transferencia de estilo sobre metraje existente",
+      "en": "Style transfer over existing footage"
+    },
+    "prompt": "Apply the visual style of [REFERENCE STYLE, e.g. 1980s VHS film] to this uploaded clip, preserving the original motion and composition exactly, only changing color grade, grain, and lens character.",
+    "sourceName": "Pinggy — Best video generation AI models 2026",
+    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/"
+  },
+  {
+    "id": "p-lib-runway-3",
+    "toolId": "runway",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Consistencia de personaje entre planos",
+      "en": "Character consistency across shots"
+    },
+    "prompt": "Using [CHARACTER REFERENCE IMAGE], generate 3 separate shots (wide, medium, close-up) of the same character in [LOCATION], keeping facial identity, outfit, and lighting direction identical across all three so they can be edited together as one scene.",
+    "sourceName": "createbyprompt — AI video prompts guide (Runway, Kling, Pika)",
+    "sourceUrl": "https://createbyprompt.com/articles/ai-video-prompts-guide/"
+  },
+  {
+    "id": "p-lib-runway-4",
+    "toolId": "runway",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Postproducción: seguimiento de movimiento",
+      "en": "Post-production: motion tracking overlay"
+    },
+    "prompt": "Track the motion of [OBJECT] in this clip and attach a [GRAPHIC/TEXT OVERLAY] to it so it moves naturally with the object, keeping perspective and scale correct as it moves through frame.",
+    "sourceName": "Pinggy — Best video generation AI models 2026",
+    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/"
+  },
+  {
+    "id": "p-lib-pika-1",
+    "toolId": "pika",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Efecto viral de inflar objeto",
+      "en": "Viral inflate effect"
+    },
+    "prompt": "Take this photo of [OBJECT] and apply an inflate effect: it grows rounder and puffier over 3 seconds like a balloon, then holds, keep the background and lighting unchanged.",
+    "sourceName": "createbyprompt — AI video prompts guide (Runway, Kling, Pika)",
+    "sourceUrl": "https://createbyprompt.com/articles/ai-video-prompts-guide/"
+  },
+  {
+    "id": "p-lib-pika-2",
+    "toolId": "pika",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Intercambio de rostro para contenido social",
+      "en": "Face swap for social content"
+    },
+    "prompt": "Swap the face in this clip with the face from [REFERENCE PHOTO], keep the original expression timing and head movement, blend skin tone naturally at the jawline.",
+    "sourceName": "createbyprompt — AI video prompts guide (Runway, Kling, Pika)",
+    "sourceUrl": "https://createbyprompt.com/articles/ai-video-prompts-guide/"
+  },
+  {
+    "id": "p-lib-pika-3",
+    "toolId": "pika",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Interpolación entre dos fotogramas clave",
+      "en": "Interpolation between two keyframes"
+    },
+    "prompt": "Using Pikaframes, create a smooth transition between [START IMAGE] and [END IMAGE], 3 second duration, natural easing so the motion doesn't feel linear or robotic.",
+    "sourceName": "Pinggy — Best video generation AI models 2026",
+    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/"
+  },
+  {
+    "id": "p-lib-pika-4",
+    "toolId": "pika",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Doblaje con sincronización labial",
+      "en": "Lip-synced dubbing"
+    },
+    "prompt": "Using Pikaformance, sync this clip's lips to the new audio track: \"[NEW DIALOGUE AUDIO]\", keep the original head movement and expression, only adjust the mouth region.",
+    "sourceName": "Pinggy — Best video generation AI models 2026",
+    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/"
+  },
+  {
+    "id": "p-lib-higgsfield-1",
+    "toolId": "higgsfield",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Control de cámara profesional preestablecido",
+      "en": "Preset professional camera control"
+    },
+    "prompt": "Apply a dolly-in Camera Control preset to [SUBJECT/SCENE], smooth constant speed, cinematic depth of field, no manual camera keyframing needed.",
+    "sourceName": "Higgsfield — MiniMax Hailuo 2.3 creative guide",
+    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide"
+  },
+  {
+    "id": "p-lib-higgsfield-2",
+    "toolId": "higgsfield",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Contenido estilo UGC para redes",
+      "en": "UGC-style content for social"
+    },
+    "prompt": "Generate a UGC-style clip: [PERSON] talking directly to camera about [PRODUCT], handheld phone-camera look, natural indoor lighting, casual authentic tone, from the UGC category preset.",
+    "sourceName": "Higgsfield — MiniMax Hailuo 2.3 creative guide",
+    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide"
+  },
+  {
+    "id": "p-lib-higgsfield-3",
+    "toolId": "higgsfield",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Comparar el mismo prompt en varios modelos",
+      "en": "Same prompt across multiple models"
+    },
+    "prompt": "Run this exact scene description through Sora, Kling, and Veo within the same workspace: [SCENE DESCRIPTION]. Compare which model handles the camera move most naturally before picking the final output.",
+    "sourceName": "Higgsfield — MiniMax Hailuo 2.3 creative guide",
+    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide"
+  },
+  {
+    "id": "p-lib-higgsfield-4",
+    "toolId": "higgsfield",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Secuencia comercial con movimiento emocional",
+      "en": "Commercial sequence with emotion preset"
+    },
+    "prompt": "Using the Commercial and Emotion presets, create a 3-shot ad sequence for [PRODUCT]: shot 1 problem (frustrated expression), shot 2 discovery (surprise), shot 3 satisfaction (relief/smile), consistent lighting and actor across all three shots.",
+    "sourceName": "Higgsfield — MiniMax Hailuo 2.3 creative guide",
+    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide"
+  },
+  {
+    "id": "p-lib-hailuo-1",
+    "toolId": "hailuo",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Descripción detallada de acción y atmósfera",
+      "en": "Detailed action + atmosphere description"
+    },
+    "prompt": "A skateboarder kickflips off a curb in a sunlit skate park, camera at low angle tracking the trick, warm afternoon light, slight motion blur on the wheels only.",
+    "sourceName": "docs.imagine.art — MiniMax Hailuo 02 model docs",
+    "sourceUrl": "https://docs.imagine.art/ai-models/video/minimax-hailuo-02"
+  },
+  {
+    "id": "p-lib-hailuo-2",
+    "toolId": "hailuo",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Movimiento humano natural a bajo coste",
+      "en": "Natural human motion, budget-friendly"
+    },
+    "prompt": "[PERSON] stretches and yawns while waking up in bed, soft morning light through curtains, static camera, natural unhurried pacing, realistic micro-movements in the face.",
+    "sourceName": "AI Magicx — AI video generation showdown 2026",
+    "sourceUrl": "https://www.aimagicx.com/blog/ai-video-generation-showdown-2026"
+  },
+  {
+    "id": "p-lib-hailuo-3",
+    "toolId": "hailuo",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Escena con adherencia estricta al prompt",
+      "en": "Scene with strict prompt adherence"
+    },
+    "prompt": "Exactly follow this shot list: (1) close-up of hands typing on a keyboard, (2) cut to a wide shot of the same person in an office at night, (3) cut to city lights through the window behind them. Keep the transitions clean cuts, no dissolves.",
+    "sourceName": "Pinggy — Best video generation AI models 2026",
+    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/"
+  },
+  {
+    "id": "p-lib-hailuo-4",
+    "toolId": "hailuo",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Iteración rápida y económica de variantes",
+      "en": "Fast, low-cost variant iteration"
+    },
+    "prompt": "Generate 4 quick variations of this scene: [SCENE DESCRIPTION], varying only the camera angle (low, eye-level, high, overhead) so I can pick the strongest composition before committing to a final high-quality render.",
+    "sourceName": "AI Magicx — AI video generation showdown 2026",
+    "sourceUrl": "https://www.aimagicx.com/blog/ai-video-generation-showdown-2026"
+  },
+  {
+    "id": "p-lib-elevenlabs-1",
+    "toolId": "elevenlabs",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Ajustes para tutorial técnico claro",
+      "en": "Settings for a clear technical tutorial"
+    },
+    "prompt": "Voice direction: clear, professional tutorial narrator. Stability 70%, similarity/clarity 80%, style 0%, speed 1.0. Read at a measured pace with a brief pause after each step number.",
+    "sourceName": "NeuraPulse — Best ElevenLabs settings 2026",
+    "sourceUrl": "https://neuraplus-ai.github.io/blog/best-settings-for-elevenlabs-ai-voice-quality-improvement-2026.html"
+  },
+  {
+    "id": "p-lib-elevenlabs-2",
+    "toolId": "elevenlabs",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Narración emocional para audiolibro",
+      "en": "Emotional narration for an audiobook"
+    },
+    "prompt": "Voice direction: warm storyteller reading a bittersweet scene. Stability 45%, similarity 78%, style 0%, speed 0.95. Let the pacing breathe with natural pauses at emotional beats — don't rush the sad lines.",
+    "sourceName": "ZyncAI — ElevenLabs voice control guide",
+    "sourceUrl": "https://zyncai.com/elevenlabs-voice-control-guide/"
+  },
+  {
+    "id": "p-lib-elevenlabs-3",
+    "toolId": "elevenlabs",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Voz de marketing con energía alta",
+      "en": "High-energy marketing voice"
+    },
+    "prompt": "Voice direction: upbeat marketing promo voice for [PRODUCT]. Speed 1.15, stability 55%, similarity 80%, style 50%, speaker boost on. Punch the key benefit words, keep pace brisk but every word intelligible.",
+    "sourceName": "NeuraPulse — Best ElevenLabs settings 2026",
+    "sourceUrl": "https://neuraplus-ai.github.io/blog/best-settings-for-elevenlabs-ai-voice-quality-improvement-2026.html"
+  },
+  {
+    "id": "p-lib-elevenlabs-4",
+    "toolId": "elevenlabs",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Agente de voz conversacional con turnos naturales",
+      "en": "Conversational voice agent with natural turn-taking"
+    },
+    "prompt": "Design a conversational agent voice for [USE CASE, e.g. customer support]. Stability 65%, similarity 75%, style 0%. Direction: calm and patient, short natural filler pauses before answering a hard question, never sound rushed even when the user interrupts.",
+    "sourceName": "ElevenLabs — Conversational voice design best practices",
+    "sourceUrl": "https://elevenlabs.io/docs/agents-platform/customization/voice/best-practices/conversational-voice-design"
+  },
+  {
+    "id": "p-lib-suno-1",
+    "toolId": "suno",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Pop indie nostálgico con 4-7 descriptores",
+      "en": "Nostalgic indie pop, 4-7 descriptors"
+    },
+    "prompt": "[Style] indie pop, 2010s, jangly electric guitar, catchy female vocals, nostalgic bittersweet mood, mid-tempo\n[Intro]\n[Verse] about [TOPIC]\n[Chorus] a hook about [FEELING]\n[Outro]",
+    "sourceName": "GitHub — best-suno-ai-prompts (170+ genres)",
+    "sourceUrl": "https://github.com/AlijeeWrites/best-suno-ai-prompts"
+  },
+  {
+    "id": "p-lib-suno-2",
+    "toolId": "suno",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Etiqueta de época para sonido de los 80",
+      "en": "Era tag for an 80s sound"
+    },
+    "prompt": "[Style] synth pop, 1980s, analog synths, drum machine, retro vibe, male vocals\n[Intro] atmospheric synth pad\n[Verse] about [TOPIC]\n[Chorus] anthemic, big reverb\n[Outro] fade on synth arpeggio",
+    "sourceName": "Musci.io — Suno prompts guide 2026",
+    "sourceUrl": "https://musci.io/blog/suno-prompts"
+  },
+  {
+    "id": "p-lib-suno-3",
+    "toolId": "suno",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Estructura completa con secciones etiquetadas",
+      "en": "Full structure with tagged sections"
+    },
+    "prompt": "[Style] mainstream pop, catchy hooks, polished production, radio-ready mix, upbeat tempo\n[Intro]\n[Verse 1] about [SCENE 1]\n[Pre-Chorus] building tension\n[Chorus] the main hook about [THEME]\n[Verse 2] about [SCENE 2]\n[Chorus]\n[Bridge] key change, more emotional\n[Chorus] final, bigger production\n[Outro] fade",
+    "sourceName": "Suno Meta Tag Creator — Suno meta tags guide 2026",
+    "sourceUrl": "https://sunometatagcreator.com/metatags-guide"
+  },
+  {
+    "id": "p-lib-suno-4",
+    "toolId": "suno",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Jingle de marca con instrumentación específica",
+      "en": "Brand jingle with specific instrumentation"
+    },
+    "prompt": "[Style] electropop jingle, 15 seconds, digital bass, glossy synths, upbeat energy, modern production, gender-neutral vocals\n[Intro] short synth stab\n[Hook] singing the brand name \"[BRAND NAME]\" over a catchy 4-note melody\n[Outro] quick synth tag ending on the tonic",
+    "sourceName": "hookgenius.app — Suno AI prompt guide 2026",
+    "sourceUrl": "https://hookgenius.app/learn/suno-prompt-guide-2026/"
+  },
+  {
+    "id": "p-lib-udio-1",
+    "toolId": "udio",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Canción con enfoque en calidad vocal",
+      "en": "Song with a focus on vocal quality"
+    },
+    "prompt": "Genre: soul-pop ballad. Mood: heartfelt, warm. Vocals: rich, emotive female lead with subtle vibrato. Instruments: Rhodes piano, soft strings, brushed drums. Topic: [THEME].",
+    "sourceName": "Musci.io — Suno prompts guide (applies to Udio-style prompting)",
+    "sourceUrl": "https://musci.io/blog/suno-prompts"
+  },
+  {
+    "id": "p-lib-udio-2",
+    "toolId": "udio",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Edición de una sección concreta de la canción",
+      "en": "Editing one specific song section"
+    },
+    "prompt": "Keep the verse and chorus of this track unchanged, but regenerate only the bridge section: modulate up a key, add a stripped-down arrangement (just piano and vocal), building back into the final chorus.",
+    "sourceName": "Musci.io — Suno tags guide (section-level editing applies to Udio)",
+    "sourceUrl": "https://musci.io/blog/suno-tags"
+  },
+  {
+    "id": "p-lib-udio-3",
+    "toolId": "udio",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Maqueta rápida de un género concreto",
+      "en": "Quick demo in a specific genre"
+    },
+    "prompt": "Genre: 90s boom-bap hip hop. Mood: confident, laid-back. Instruments: dusty sampled drums, upright bass, vinyl crackle. Vocals: none, instrumental beat only, 80 BPM.",
+    "sourceName": "GitHub — best-suno-ai-prompts (genre/style reference)",
+    "sourceUrl": "https://github.com/AlijeeWrites/best-suno-ai-prompts"
+  },
+  {
+    "id": "p-lib-udio-4",
+    "toolId": "udio",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Composición multi-sección con cambio de género",
+      "en": "Multi-section composition with a genre shift"
+    },
+    "prompt": "Build a track that starts as a slow acoustic folk intro (Genre: folk, Instruments: acoustic guitar, soft vocals) and transitions at the 1-minute mark into an uptempo electronic outro (Genre: synthwave, Instruments: analog synth arps, driving beat) — keep the same melodic motif recognizable across both halves.",
+    "sourceName": "Musci.io — Suno prompts guide (structure applies to Udio)",
+    "sourceUrl": "https://musci.io/blog/suno-prompts"
+  },
+  {
+    "id": "p-lib-cursor-1",
+    "toolId": "cursor",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Tarea acotada con criterio de verificación",
+      "en": "Tightly scoped task with a verification check"
+    },
+    "prompt": "In [FILE/FUNCTION], fix [SPECIFIC BUG]. Scope: only touch this file. When done, run the existing test suite and show me the diff plus the test output — don't tell me it's done until tests pass.",
+    "sourceName": "SSOJet — Best prompts for AI coding agents",
+    "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts"
+  },
+  {
+    "id": "p-lib-cursor-2",
+    "toolId": "cursor",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Explicar antes de tocar el código",
+      "en": "Explain before touching the code"
+    },
+    "prompt": "Before writing any code, explain in 3-5 bullets how you plan to implement [FEATURE], which files you'll touch, and any assumption you're making. Wait for my go-ahead before editing.",
+    "sourceName": "SSOJet — Best prompts for AI coding agents",
+    "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts"
+  },
+  {
+    "id": "p-lib-cursor-3",
+    "toolId": "cursor",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Refactor seguro guiado por tests de caracterización",
+      "en": "Safe refactor guided by characterization tests"
+    },
+    "prompt": "Before refactoring [MODULE], write characterization tests covering its current behavior, confirm they pass, then refactor in small steps keeping tests green after each step. End with a diff summary and a note on any behavior that changed unintentionally.",
+    "sourceName": "AI Atlas — original, based on characterization-testing practice",
+    "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts"
+  },
+  {
+    "id": "p-lib-cursor-4",
+    "toolId": "cursor",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Modo agente sobre todo el repositorio",
+      "en": "Agent mode across the whole repo"
+    },
+    "prompt": "Across the whole repo, find every place that calls [DEPRECATED FUNCTION/API] and migrate them to [NEW FUNCTION/API], preserving existing behavior. Work file by file, run the build after each file, and stop and report if any call site needs a judgment call instead of a mechanical replacement.",
+    "sourceName": "Faros AI — Best AI coding agents 2026",
+    "sourceUrl": "https://www.faros.ai/blog/best-ai-coding-agents-2026"
+  },
+  {
+    "id": "p-lib-claude-code-1",
+    "toolId": "claude-code",
+    "tier": "pro",
+    "level": "simple",
+    "title": {
+      "es": "Resolver un issue de GitHub de principio a fin",
+      "en": "Resolve a GitHub issue end to end"
+    },
+    "prompt": "Read GitHub issue #[NUMBER], reproduce the bug locally, fix it, add a regression test, and open a pull request with a description of the root cause and the fix. Stop and ask if the reproduction steps don't match what's described.",
+    "sourceName": "willowvoice — Claude Code best practices, May 2026",
+    "sourceUrl": "https://willowvoice.com/blog/10-essential-claude-code-best-practices"
+  },
+  {
+    "id": "p-lib-claude-code-2",
+    "toolId": "claude-code",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Trabajo aislado en una nueva rama",
+      "en": "Isolated work on a fresh branch"
+    },
+    "prompt": "Create a new branch for this change. Implement [FEATURE], keep commits small and scoped to one logical change each, and leave main untouched. When finished, show me a clean diff and summarize what changed and what you deliberately skipped.",
+    "sourceName": "willowvoice — Claude Code best practices, May 2026",
+    "sourceUrl": "https://willowvoice.com/blog/10-essential-claude-code-best-practices"
+  },
+  {
+    "id": "p-lib-claude-code-3",
+    "toolId": "claude-code",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Automatizar una tarea repetitiva como Skill",
+      "en": "Package a repeated task as a Skill"
+    },
+    "prompt": "I've asked you to do [REPEATED TASK] several times this week in slightly different ways. Package it as a reusable Skill: define the trigger conditions, the steps, and the expected output format, so future requests for this task are handled consistently without me re-explaining it.",
+    "sourceName": "willowvoice — Claude Code best practices, May 2026",
+    "sourceUrl": "https://willowvoice.com/blog/10-essential-claude-code-best-practices"
+  },
+  {
+    "id": "p-lib-claude-code-4",
+    "toolId": "claude-code",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Verificación final tras tarea agente",
+      "en": "Closing verification after an agentic task"
+    },
+    "prompt": "You just finished [TASK]. Before I review it, give me: (1) exactly what changed, (2) what you decided NOT to do and why, (3) any assumption you made that I should double-check, (4) how I can verify this works myself in under 2 minutes.",
+    "sourceName": "openhands.dev — Claude Code best practices for agentic coding, 2026",
+    "sourceUrl": "https://www.openhands.dev/blog/claude-code-best-practices-agentic-coding"
+  },
+  {
+    "id": "p-lib-copilot-1",
+    "toolId": "copilot",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Comentario descriptivo para guiar la sugerencia",
+      "en": "Descriptive comment to steer the suggestion"
+    },
+    "prompt": "// Write a function that takes [INPUT] and returns [OUTPUT], handling [EDGE CASE] explicitly, following the naming conventions already used in this file.\n(place this comment right above where you want Copilot to generate the function)",
+    "sourceName": "GitHub Docs — Best practices for using GitHub Copilot",
+    "sourceUrl": "https://docs.github.com/en/copilot/get-started/best-practices"
+  },
+  {
+    "id": "p-lib-copilot-2",
+    "toolId": "copilot",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Desglosar una tarea compleja en pasos",
+      "en": "Break a complex task into steps"
+    },
+    "prompt": "I need to build [FEATURE]. Break it down into small numbered steps first, then implement step 1 only and stop so I can review before continuing to step 2.",
+    "sourceName": "Initfusion — Best GitHub Copilot tips and tricks 2026",
+    "sourceUrl": "https://www.initfusion.com/best-github-copilot-tips-and-tricks/"
+  },
+  {
+    "id": "p-lib-copilot-3",
+    "toolId": "copilot",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Revisión de código como segundo par de ojos",
+      "en": "Code review as a second pair of eyes"
+    },
+    "prompt": "Review this pull request diff as if you were a careful senior reviewer, not the author: flag anything that looks unsafe, untested, or inconsistent with the rest of the codebase's style, but don't rewrite the code — just list the concerns.",
+    "sourceName": "GitHub Docs — Best practices for using GitHub Copilot",
+    "sourceUrl": "https://docs.github.com/en/copilot/get-started/best-practices"
+  },
+  {
+    "id": "p-lib-copilot-4",
+    "toolId": "copilot",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Ejemplo guiado con datos de entrada y salida",
+      "en": "Example-guided prompt with input/output data"
+    },
+    "prompt": "Implement a parser for [DATA FORMAT]. Here's a sample input: [SAMPLE INPUT] and the expected output: [SAMPLE OUTPUT]. Match this exact transformation, and handle malformed input by returning [ERROR BEHAVIOR] instead of throwing.",
+    "sourceName": "Initfusion — Best GitHub Copilot tips and tricks 2026",
+    "sourceUrl": "https://www.initfusion.com/best-github-copilot-tips-and-tricks/"
+  },
+  {
+    "id": "p-lib-lovable-1",
+    "toolId": "lovable",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Describir la app completa antes de generar",
+      "en": "Describe the full app before generating"
+    },
+    "prompt": "Build a [TYPE OF APP] where users can [CORE ACTION 1] and [CORE ACTION 2]. Target user: [WHO]. Keep the first version to just these two actions — no extra features yet.",
+    "sourceName": "GitHub — What is vibe coding?",
+    "sourceUrl": "https://github.com/resources/articles/what-is-vibe-coding"
+  },
+  {
+    "id": "p-lib-lovable-2",
+    "toolId": "lovable",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Iterar sobre un prototipo con feedback concreto",
+      "en": "Iterate on a prototype with concrete feedback"
+    },
+    "prompt": "On the [SCREEN NAME] screen, change [SPECIFIC ELEMENT] to [NEW BEHAVIOR/LOOK]. Don't touch any other screen or the data model.",
+    "sourceName": "Serenities AI — Complete guide to vibe coding 2026",
+    "sourceUrl": "https://serenitiesai.com/articles/complete-guide-vibe-coding-2026"
+  },
+  {
+    "id": "p-lib-lovable-3",
+    "toolId": "lovable",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Auditoría de seguridad antes de publicar",
+      "en": "Security audit before shipping"
+    },
+    "prompt": "Before I launch this app publicly, audit it for exposed data: check that database rows are scoped to the logged-in user, that no API keys are visible in client-side code, and that every endpoint that changes data requires authentication. List every issue you find, ranked by severity — don't fix silently, show me first.",
+    "sourceName": "cantechit — Vibe coding with GitHub Copilot / Lovable security note",
+    "sourceUrl": "https://serenitiesai.com/articles/complete-guide-vibe-coding-2026"
+  },
+  {
+    "id": "p-lib-lovable-4",
+    "toolId": "lovable",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Migrar de prototipo a estructura de datos real",
+      "en": "Migrate from prototype to a real data model"
+    },
+    "prompt": "This prototype currently stores [DATA] in local mock state. Migrate it to a real backend table with proper relationships, keeping every existing screen working exactly the same from the user's point of view.",
+    "sourceName": "Serenities AI — Complete guide to vibe coding 2026",
+    "sourceUrl": "https://serenitiesai.com/articles/complete-guide-vibe-coding-2026"
+  },
+  {
+    "id": "p-lib-perplexity-1",
+    "toolId": "perplexity",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Pregunta acotada en vez de tema amplio",
+      "en": "Narrow question instead of a broad topic"
+    },
+    "prompt": "What are the latest findings on [SPECIFIC SUBTOPIC], published after [DATE]? Cite each claim to its source and flag if two sources disagree.",
+    "sourceName": "Prompeteer — Perplexity prompt guide 2026",
+    "sourceUrl": "https://prompeteer.ai/landing/perplexity-prompt-guide-2026"
+  },
+  {
+    "id": "p-lib-perplexity-2",
+    "toolId": "perplexity",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Investigación acotada en el tiempo",
+      "en": "Time-boxed research"
+    },
+    "prompt": "Summarize what has changed about [TOPIC] in the last 6 months as of 2026, keeping strictly to sources dated in that window so it doesn't mix in outdated context.",
+    "sourceName": "Promptzy — Best Perplexity AI prompts for research 2026",
+    "sourceUrl": "https://promptzy.app/blog/best-perplexity-ai-prompts"
+  },
+  {
+    "id": "p-lib-perplexity-3",
+    "toolId": "perplexity",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Profundidad técnica especificada",
+      "en": "Specified technical depth"
+    },
+    "prompt": "Explain [TECHNICAL TOPIC] at a level suitable for someone with a graduate background in [FIELD] — don't simplify the jargon, but do define any term specific to a narrower subfield. Cite primary sources, not explainer blogs, where possible.",
+    "sourceName": "Perplexity Help Center — Practical tips for using Perplexity",
+    "sourceUrl": "https://www.perplexity.ai/help-center/en/articles/10352971-practical-tips-for-using-perplexity"
+  },
+  {
+    "id": "p-lib-perplexity-4",
+    "toolId": "perplexity",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Pipeline de descubrimiento antes de análisis profundo",
+      "en": "Discovery pipeline before deep analysis"
+    },
+    "prompt": "Find the 8 highest-quality, most recent sources on [TOPIC] — prioritize primary research and reporting over aggregator content. Give me each URL with a one-line note on why it's credible, so I can feed the strongest ones into a deeper analysis tool afterward.",
+    "sourceName": "NotebookLM Guide — Perplexity + NotebookLM discovery-to-analysis pipeline",
+    "sourceUrl": "https://notebooklm-guide.com/notebooklm-perplexity-research"
+  },
+  {
+    "id": "p-lib-notion-ai-1",
+    "toolId": "notion-ai",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Resumen de reunión con acciones claras",
+      "en": "Meeting summary with clear action items"
+    },
+    "prompt": "Summarize this meeting's notes into: 3 key decisions, 2 open questions, and a list of action items with who owns each one. Keep it under 150 words total.",
+    "sourceName": "AI Atlas — original, based on Notion AI meeting summary capability",
+    "sourceUrl": "https://www.notion.com/product/ai"
+  },
+  {
+    "id": "p-lib-notion-ai-2",
+    "toolId": "notion-ai",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Buscar en el conocimiento del equipo",
+      "en": "Search across team knowledge"
+    },
+    "prompt": "Search our workspace for anything related to [TOPIC/PROJECT] and give me a short synthesis of what's already been decided, so I don't propose something we already ruled out.",
+    "sourceName": "AI Atlas — original, based on Notion AI workspace search capability",
+    "sourceUrl": "https://www.notion.com/product/ai"
+  },
+  {
+    "id": "p-lib-notion-ai-3",
+    "toolId": "notion-ai",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Redacción con el contexto del espacio de trabajo",
+      "en": "Drafting with workspace context"
+    },
+    "prompt": "Using our existing style guide and past [DOCUMENT TYPE] docs in this workspace as reference, draft a new [DOCUMENT TYPE] about [TOPIC] that matches our usual tone and structure.",
+    "sourceName": "AI Atlas — original, based on Notion AI context-aware drafting",
+    "sourceUrl": "https://www.notion.com/product/ai"
+  },
+  {
+    "id": "p-lib-notion-ai-4",
+    "toolId": "notion-ai",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Base de datos convertida en informe narrativo",
+      "en": "Database turned into a narrative report"
+    },
+    "prompt": "Turn this database of [ITEMS, e.g. project statuses] into a narrative status report: group by [FIELD], flag anything overdue in bold, and end with a one-paragraph executive summary of overall health.",
+    "sourceName": "AI Atlas — original, based on Notion AI database/report capability",
+    "sourceUrl": "https://www.notion.com/product/ai"
+  },
+  {
+    "id": "p-lib-notebooklm-1",
+    "toolId": "notebooklm",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Pregunta de orientación antes de profundizar",
+      "en": "Orientation query before going deep"
+    },
+    "prompt": "Give me a high-level orientation to these uploaded sources: what are they about, what's the throughline, and what are 3 questions worth asking next?",
+    "sourceName": "Shareuhack — NotebookLM tips & tricks 2026",
+    "sourceUrl": "https://www.shareuhack.com/en/posts/notebooklm-advanced-guide-2026"
+  },
+  {
+    "id": "p-lib-notebooklm-2",
+    "toolId": "notebooklm",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Podcast de audio a partir de tus documentos",
+      "en": "Audio podcast from your documents"
+    },
+    "prompt": "Generate an audio overview of these sources as a two-host conversational podcast, focused specifically on [SUBTOPIC], skipping sections unrelated to it.",
+    "sourceName": "Medium — NotebookLM 2026 practical guide",
+    "sourceUrl": "https://medium.com/write-a-catalyst/notebooklm-2025-the-only-practical-guide-you-need-to-turn-chaos-into-clear-thinking-f4706008d08b"
+  },
+  {
+    "id": "p-lib-notebooklm-3",
+    "toolId": "notebooklm",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Cinco preguntas de seguimiento dirigidas",
+      "en": "Five targeted follow-up questions"
+    },
+    "prompt": "Based only on the uploaded sources, answer these in order, each in 2-3 sentences, citing which source each answer comes from: (1) [Q1] (2) [Q2] (3) [Q3] (4) [Q4] (5) [Q5]",
+    "sourceName": "Tom's Guide — NotebookLM vs Perplexity for deep research",
+    "sourceUrl": "https://www.tomsguide.com/ai/i-tested-notebooklm-vs-perplexity-for-deep-research-with-5-difficult-prompts-heres-the-clear-winner"
+  },
+  {
+    "id": "p-lib-notebooklm-4",
+    "toolId": "notebooklm",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Mapa mental y verificación cruzada de fuentes",
+      "en": "Mind map and cross-source verification"
+    },
+    "prompt": "Build a mind map connecting the main concepts across all uploaded sources, then separately flag any place where two sources contradict each other or where one source makes a claim the others don't support.",
+    "sourceName": "Shareuhack — NotebookLM tips & tricks 2026",
+    "sourceUrl": "https://www.shareuhack.com/en/posts/notebooklm-advanced-guide-2026"
+  },
+  {
+    "id": "p-lib-luma-1",
+    "toolId": "luma",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Escaneo 3D de un objeto con el móvil",
+      "en": "3D scan of an object from your phone"
+    },
+    "prompt": "Capture a 360-degree video of [OBJECT] slowly walking around it at a consistent distance and height, even lighting, no fast motion, so the reconstruction has clean coverage of every angle.",
+    "sourceName": "aitools.aiting.com — Luma AI overview",
+    "sourceUrl": "https://aitools.aiting.com/ai/luma-ai"
+  },
+  {
+    "id": "p-lib-luma-2",
+    "toolId": "luma",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Escena real convertida en modelo 3D",
+      "en": "Real scene converted into a 3D model"
+    },
+    "prompt": "Reconstruct this captured space as a 3D scene, keep real-world scale accurate, and export it as a walkable asset suitable for a game engine or AR viewer.",
+    "sourceName": "aitrove.ai — Best AI 3D modeling tools 2026",
+    "sourceUrl": "https://www.aitrove.ai/blog/best-ai-3d-modeling-tools.html"
+  },
+  {
+    "id": "p-lib-luma-3",
+    "toolId": "luma",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Vídeo Dream Machine desde una imagen",
+      "en": "Dream Machine video from a still image"
+    },
+    "prompt": "Animate this still image into a short video: camera slowly pushes in, subject reacts naturally, keep the geometry of the room consistent with the source photo — do not invent new architecture as the camera moves.",
+    "sourceName": "aitools.aiting.com — Luma AI overview",
+    "sourceUrl": "https://aitools.aiting.com/ai/luma-ai"
+  },
+  {
+    "id": "p-lib-kaedim-1",
+    "toolId": "kaedim",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Concept art a modelo 3D listo para producción",
+      "en": "Concept art to production-ready 3D model"
+    },
+    "prompt": "Convert this 2D concept art of [CHARACTER/PROP] into a game-ready 3D model: clean topology, optimized poly count for real-time rendering, and UVs laid out for straightforward texturing.",
+    "sourceName": "Meshy — Best AI tools for 3D game assets 2026",
+    "sourceUrl": "https://www.meshy.ai/blog/best-ai-tools-for-3d-game-assets"
+  },
+  {
+    "id": "p-lib-kaedim-2",
+    "toolId": "kaedim",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Set de assets consistente para todo un estudio",
+      "en": "Consistent asset set for a whole studio"
+    },
+    "prompt": "Process this batch of 6 concept sketches for [PROP CATEGORY] into 3D models with a consistent topology density and scale across the set, so the team can drop them into the same scene without manual resizing.",
+    "sourceName": "TECHSY — Best AI game asset generators 2026",
+    "sourceUrl": "https://techsy.io/en/blog/best-ai-game-asset-generators"
+  },
+  {
+    "id": "p-lib-kaedim-3",
+    "toolId": "kaedim",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Modelo de alto detalle con acabados metálicos",
+      "en": "High-detail model with metallic finishes"
+    },
+    "prompt": "Turn this reference into a high-poly 3D model of [OBJECT, e.g. a sci-fi helmet]: smooth curves, metal plating with visible panel seams, glowing accent details, then also output an optimized low-poly version for real-time use.",
+    "sourceName": "Meshy — Best AI tools for 3D game assets 2026",
+    "sourceUrl": "https://www.meshy.ai/blog/best-ai-tools-for-3d-game-assets"
+  },
+  {
+    "id": "p-lib-figma-ai-1",
+    "toolId": "figma-ai",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Primer boceto de una pantalla desde texto",
+      "en": "First screen draft from text"
+    },
+    "prompt": "Generate a first-draft UI for a [SCREEN TYPE, e.g. onboarding screen] for a [APP TYPE] app, following our existing design system's colors, spacing, and component styles already used elsewhere in this file.",
+    "sourceName": "AI Atlas — original, based on Figma AI product page",
+    "sourceUrl": "https://www.figma.com/ai/"
+  },
+  {
+    "id": "p-lib-figma-ai-2",
+    "toolId": "figma-ai",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Variantes de un componente existente",
+      "en": "Variants of an existing component"
+    },
+    "prompt": "Generate 4 visual variants of this selected component (e.g. different states: default, hover, disabled, error), keeping the same layout and spacing, only changing color and iconography per state.",
+    "sourceName": "AI Atlas — original, based on Figma AI product page",
+    "sourceUrl": "https://www.figma.com/ai/"
+  },
+  {
+    "id": "p-lib-figma-ai-3",
+    "toolId": "figma-ai",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Prototipo interactivo a partir de wireframes",
+      "en": "Interactive prototype from wireframes"
+    },
+    "prompt": "Turn these low-fidelity wireframes into a clickable prototype: connect the screens in the order [FLOW ORDER], add realistic placeholder content instead of lorem ipsum, and keep every screen consistent with our existing typography scale.",
+    "sourceName": "AI Atlas — original, based on Figma AI product page",
+    "sourceUrl": "https://www.figma.com/ai/"
+  },
+  {
+    "id": "p-lib-rendair-1",
+    "toolId": "rendair",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Render fotorrealista directo desde tu vista 3D",
+      "en": "Photoreal render straight from your 3D view"
+    },
+    "prompt": "Render this current SketchUp view as a photorealistic exterior: golden hour lighting, realistic landscaping, keep the building geometry exactly as modeled — only change materials and lighting, not the massing.",
+    "sourceName": "Rendair — 5 Prompts For One 3D Model (blog)",
+    "sourceUrl": "https://rendair.ai/blog/5-prompts-for-one-3d-model"
+  },
+  {
+    "id": "p-lib-rendair-2",
+    "toolId": "rendair",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Variaciones de materiales para revisión con cliente",
+      "en": "Material variations for client review"
+    },
+    "prompt": "From this same 3D view, generate 4 quick material variations for the facade: (1) light render, (2) dark brick, (3) wood cladding, (4) mixed stone and glass — same camera angle and lighting for all four so the client can compare side by side.",
+    "sourceName": "Rendair — 5 Prompts For One 3D Model (blog)",
+    "sourceUrl": "https://rendair.ai/blog/5-prompts-for-one-3d-model"
+  },
+  {
+    "id": "p-lib-rendair-3",
+    "toolId": "rendair",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Render nocturno con iluminación interior cálida",
+      "en": "Night render with warm interior lighting"
+    },
+    "prompt": "Render this residential facade at blue hour: warm interior lighting glowing through the windows, soft uplighting on the landscaping, wet pavement reflections, architectural photography style, keep window and door positions exactly as modeled.",
+    "sourceName": "Rendair — architectural visualization workspace",
+    "sourceUrl": "https://rendair.ai"
+  },
+  {
+    "id": "p-lib-veras-1",
+    "toolId": "veras",
+    "tier": "pro",
+    "level": "simple",
+    "title": {
+      "es": "Explorar materiales sobre tu modelo Revit",
+      "en": "Explore materials over your Revit model"
+    },
+    "prompt": "Using my current Revit view, render 3 material options for the exterior cladding: [OPTION 1], [OPTION 2], [OPTION 3], preserving the exact model geometry so I can present real options in the design review.",
+    "sourceName": "mnml.ai — Veras AI alternative comparison page",
+    "sourceUrl": "https://mnml.ai/ai-tools/veras-ai-alternative"
+  },
+  {
+    "id": "p-lib-veras-2",
+    "toolId": "veras",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Ambiente y mood sin perder la geometría BIM",
+      "en": "Mood and atmosphere without losing BIM geometry"
+    },
+    "prompt": "Render this BIM view in an overcast, moody atmosphere with muted tones for an editorial-style presentation image, keeping every structural element from the model exactly where it was placed.",
+    "sourceName": "mnml.ai — Veras AI alternative comparison page",
+    "sourceUrl": "https://mnml.ai/ai-tools/veras-ai-alternative"
+  },
+  {
+    "id": "p-lib-veras-3",
+    "toolId": "veras",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Serie de renders consistente para un set de planos",
+      "en": "Consistent render series for a plan set"
+    },
+    "prompt": "Render all 4 elevations of this Revit model with the same material palette, lighting condition (midday, clear sky), and rendering style, so they can sit together in a single presentation board without looking mismatched.",
+    "sourceName": "mnml.ai — Veras AI alternative comparison page",
+    "sourceUrl": "https://mnml.ai/ai-tools/veras-ai-alternative"
+  },
+  {
+    "id": "p-lib-mnml-1",
+    "toolId": "mnml",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "De foto o boceto a render de interiorismo",
+      "en": "Photo or sketch to interior design render"
+    },
+    "prompt": "Turn this photo of an empty room into a furnished [STYLE, e.g. Scandinavian minimalist] living room render, keep the window and door positions and room proportions exactly as in the photo.",
+    "sourceName": "mnml.ai — Maket AI alternative comparison page",
+    "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative"
+  },
+  {
+    "id": "p-lib-mnml-2",
+    "toolId": "mnml",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Moodboard de proyecto en minutos",
+      "en": "Project moodboard in minutes"
+    },
+    "prompt": "Generate a moodboard for a [PROJECT TYPE] in [STYLE], showing 4 variations of material and color palette side by side, so I can pick a direction before starting the detailed design.",
+    "sourceName": "Krea — Best AI for photorealistic architectural renders",
+    "sourceUrl": "https://www.krea.ai/blog/best-ai-photorealistic-architectural-renders"
+  },
+  {
+    "id": "p-lib-mnml-3",
+    "toolId": "mnml",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Cambiar el estilo de un exterior manteniendo la planta",
+      "en": "Restyle an exterior while keeping the layout"
+    },
+    "prompt": "Take this exterior render and restyle it from [CURRENT STYLE] to [TARGET STYLE, e.g. modern farmhouse], adjusting materials, roofline detailing, and window trim, but keep the building footprint and window openings unchanged.",
+    "sourceName": "mnml.ai — architecture and interior visualization tool",
+    "sourceUrl": "https://mnml.ai"
+  },
+  {
+    "id": "p-lib-promeai-1",
+    "toolId": "promeai",
+    "tier": "free",
+    "level": "simple",
+    "title": {
+      "es": "Boceto a render con relleno generativo",
+      "en": "Sketch to render with generative fill"
+    },
+    "prompt": "Render this hand sketch of a building facade as a photorealistic exterior, filling in realistic materials, glazing reflections, and landscaping while keeping the sketch's proportions and window layout unchanged.",
+    "sourceName": "Educasium — AI rendering software comparison 2026",
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+  },
+  {
+    "id": "p-lib-promeai-2",
+    "toolId": "promeai",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Reemplazo de un área específica de la imagen",
+      "en": "Erase and replace a specific image area"
+    },
+    "prompt": "In this render, erase the [OBJECT/AREA] and replace it with [NEW ELEMENT], matching the existing lighting direction and perspective so the edit is seamless.",
+    "sourceName": "Educasium — AI rendering software comparison 2026",
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+  },
+  {
+    "id": "p-lib-promeai-3",
+    "toolId": "promeai",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Variaciones de diseño de producto consistentes",
+      "en": "Consistent product design variations"
+    },
+    "prompt": "Generate 5 design variations of this product render, changing only the finish and color per variation, keeping camera angle, studio lighting, and background identical so they can be compared in one catalog grid.",
+    "sourceName": "Educasium — AI rendering software comparison 2026",
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+  },
+  {
+    "id": "p-lib-arkoai-1",
+    "toolId": "arkoai",
+    "tier": "pro",
+    "level": "simple",
+    "title": {
+      "es": "Render rápido desde tu vista actual de CAD",
+      "en": "Quick render straight from your CAD view"
+    },
+    "prompt": "Render my current view in [Revit/Rhino/SketchUp] as a quick concept image: describe the desired materials and mood in one sentence, e.g. \"warm modern lobby, oak paneling, soft daylight\" — keep the geometry exactly as modeled.",
+    "sourceName": "Educasium — AI rendering software comparison 2026",
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+  },
+  {
+    "id": "p-lib-arkoai-2",
+    "toolId": "arkoai",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Iteración rápida de materiales en un estudio pequeño",
+      "en": "Fast material iteration for a small studio"
+    },
+    "prompt": "From this same clay render, produce 3 material iterations for client review this afternoon: [OPTION 1], [OPTION 2], [OPTION 3], each rendered fast rather than at maximum fidelity — we'll pick a direction before polishing.",
+    "sourceName": "Educasium — AI rendering software comparison 2026",
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+  },
+  {
+    "id": "p-lib-arkoai-3",
+    "toolId": "arkoai",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Render clay para presentación temprana",
+      "en": "Clay render for early-stage presentation"
+    },
+    "prompt": "Render this massing model as a soft grey clay study with simple ambient lighting, no materials or context yet — I want to present pure form and proportion to the client before we commit to any material direction.",
+    "sourceName": "Educasium — AI rendering software comparison 2026",
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+  },
+  {
+    "id": "p-lib-maket-1",
+    "toolId": "maket",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Generar plantas residenciales por restricciones",
+      "en": "Generate residential floor plans from constraints"
+    },
+    "prompt": "Generate residential floor plan options for a [LOT SIZE] lot with these constraints: [BEDROOM/BATHROOM COUNT], [ZONING SETBACKS], [ORIENTATION]. Show me the 5 most efficient layouts ranked by usable square footage.",
+    "sourceName": "mnml.ai — Maket AI alternative comparison page",
+    "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative"
+  },
+  {
+    "id": "p-lib-maket-2",
+    "toolId": "maket",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Explorar distribuciones alternativas de una planta existente",
+      "en": "Explore alternative layouts of an existing plan"
+    },
+    "prompt": "Starting from this existing floor plan, generate 4 alternative layouts that keep the same total square footage and structural footprint but vary the room adjacencies, prioritizing [PRIORITY, e.g. natural light in the main living area].",
+    "sourceName": "mnml.ai — Maket AI alternative comparison page",
+    "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative"
+  },
+  {
+    "id": "p-lib-maket-3",
+    "toolId": "maket",
+    "tier": "pro",
+    "level": "advanced",
+    "title": {
+      "es": "Verificar cumplimiento normativo temprano",
+      "en": "Early zoning-compliance check"
+    },
+    "prompt": "Check this generated layout against [ZONING RULE, e.g. minimum setback and lot coverage requirements] and flag any element that would need a variance before this goes to a licensed architect for final review.",
+    "sourceName": "mnml.ai — Maket AI alternative comparison page",
+    "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative"
   }
 ]
