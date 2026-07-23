@@ -1,0 +1,32 @@
+[
+  {
+    "id": "n1",
+    "date": "2026-07-23",
+    "toolId": "sora",
+    "title": {
+      "es": "Sora amplía la duración máxima de sus clips",
+      "en": "Sora extends its maximum clip length"
+    },
+    "summary": {
+      "es": "OpenAI permite ahora generar escenas más largas manteniendo coherencia de personajes.",
+      "en": "OpenAI now allows longer scenes while keeping character consistency."
+    },
+    "sourceName": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/news/"
+  },
+  {
+    "id": "n2",
+    "date": "2026-07-23",
+    "toolId": "claude",
+    "title": {
+      "es": "Anthropic presenta mejoras de razonamiento en Claude",
+      "en": "Anthropic ships reasoning upgrades to Claude"
+    },
+    "summary": {
+      "es": "Mejor rendimiento en análisis de documentos largos y tareas de agente.",
+      "en": "Better performance on long-document analysis and agentic tasks."
+    },
+    "sourceName": "Anthropic News",
+    "sourceUrl": "https://www.anthropic.com/news"
+  }
+]
