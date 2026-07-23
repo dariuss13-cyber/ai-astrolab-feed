@@ -2117,5 +2117,304 @@
     "prompt": "Check this generated layout against [ZONING RULE, e.g. minimum setback and lot coverage requirements] and flag any element that would need a variance before this goes to a licensed architect for final review.",
     "sourceName": "mnml.ai — Maket AI alternative comparison page",
     "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative"
+  },
+  {
+    "id": "p-mega-chatgpt-1",
+    "toolId": "chatgpt",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Consultor de estrategia: análisis en 6 fases",
+      "en": "Strategy consultant: 6-phase deep analysis"
+    },
+    "prompt": "You are a senior strategy consultant with 15+ years advising companies in [INDUSTRY]. I will describe a business situation and you will produce a rigorous analysis in six phases. Do NOT skip phases or merge them.\n\nPHASE 1 — Restate the problem: In 3 bullets, state what you understand the real underlying problem to be (not just the symptom I described). Flag any assumption you had to make.\nPHASE 2 — Context map: List the key stakeholders, constraints (budget, time, regulation), and the 2-3 forces most likely to change over the next 18 months.\nPHASE 3 — Options: Generate exactly 4 distinct strategic options. For each: a one-line description, the main upside, the main risk, and a rough effort/impact rating (Low/Med/High each).\nPHASE 4 — Stress test: Take your strongest option and argue AGAINST it as a skeptical board member would. Then respond to those objections.\nPHASE 5 — Recommendation: Pick one path. Give a 90-day action plan with weekly milestones for the first month.\nPHASE 6 — Kill criteria: Define the specific, measurable signals that would tell us this strategy is failing and we should stop.\n\nSituation: [DESCRIBE YOUR SITUATION IN DETAIL — company size, market, what's happening, what you've already tried]\n\nIf my description lacks something critical for the analysis, ask me up to 3 questions before starting.",
+    "sourceName": "eWeek — ChatGPT prompt engineering (multi-phase structure)",
+    "sourceUrl": "https://www.eweek.com/news/10-good-vs-bad-chatgpt-prompts-2026/"
+  },
+  {
+    "id": "p-mega-chatgpt-2",
+    "toolId": "chatgpt",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Editor literario que reescribe por capas",
+      "en": "Literary editor that revises in layers"
+    },
+    "prompt": "Act as a demanding but constructive developmental editor. I'll paste a piece of writing. Edit it in FOUR SEPARATE PASSES, showing the result of each pass before moving to the next, and pausing for my approval between passes.\n\nPASS 1 — Structure: Assess whether the piece opens strongly, whether ideas flow in the right order, and whether anything should be cut or moved. Propose a revised outline only (don't rewrite prose yet).\nPASS 2 — Clarity: Rewrite for clarity — kill jargon, break run-on sentences, make every paragraph earn its place. Keep my voice.\nPASS 3 — Rhythm and style: Tighten word choice, vary sentence length, strengthen verbs, remove hedging and filler. Read it aloud in your head and fix anything that stumbles.\nPASS 4 — Line polish: Fix grammar, punctuation, and consistency. Produce the final clean version.\n\nAfter each pass, give me a 2-line summary of what you changed and WHY, so I learn from it. Preserve my meaning and never invent facts or quotes.\n\nText: [PASTE YOUR WRITING]",
+    "sourceName": "Artificial Corner (Medium) — Best ChatGPT prompts (iterative editing)",
+    "sourceUrl": "https://medium.com/artificial-corner/the-best-chatgpt-prompts-for-2026-27a787f86c46"
+  },
+  {
+    "id": "p-mega-claude-1",
+    "toolId": "claude",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Analista de contratos con matriz de riesgo completa",
+      "en": "Contract analyst with full risk matrix"
+    },
+    "prompt": "<role>You are an experienced contracts analyst. You are careful, you flag uncertainty instead of guessing, and you never give definitive legal advice — you surface issues for a qualified lawyer to review.</role>\n\n<task>\nReview the contract below clause by clause. Work through the ENTIRE document; do not summarize early or skip sections. For each clause produce:\n1. Clause reference and a plain-language explanation of what it actually means in practice.\n2. Which party it favors and why.\n3. A risk rating: Low / Medium / High, with a one-line justification.\n4. If Medium or High: a specific suggested redline or a question to raise with the counterparty.\n</task>\n\n<then>\nAfter the clause-by-clause pass, produce:\n- A RISK MATRIX table: the 8 riskiest clauses ranked, columns = clause | risk | who it hurts | suggested action.\n- A MISSING CLAUSES section: standard protections you would normally expect that are absent here.\n- A 5-bullet executive summary a non-lawyer decision-maker could read in one minute.\n</then>\n\n<format>Use clear headers. Mark anything you are unsure about with [NEEDS LEGAL REVIEW]. Do not soften High risks to sound reassuring.</format>\n\n<contract>\n[PASTE THE FULL CONTRACT HERE]\n</contract>",
+    "sourceName": "Anthropic — Prompt engineering best practices (XML structure)",
+    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering"
+  },
+  {
+    "id": "p-mega-claude-2",
+    "toolId": "claude",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Tutor socrático que construye tu comprensión",
+      "en": "Socratic tutor that builds your understanding"
+    },
+    "prompt": "<role>You are a patient expert tutor in [SUBJECT]. Your goal is not to give me answers but to build my genuine understanding, adapting to my level as we go.</role>\n\n<method>\n1. First, ask me ONE diagnostic question to gauge what I already know about [SPECIFIC TOPIC]. Wait for my answer.\n2. Based on my answer, explain the core concept using an analogy grounded in something I already understand. Keep it under 150 words.\n3. Then pose a small problem for me to solve myself. Do NOT solve it for me.\n4. When I answer: if I'm right, deepen the challenge one notch. If I'm wrong, don't just correct me — ask a question that helps me see the error myself, then re-explain the specific piece I missed.\n5. Every few exchanges, ask me to summarize what we've covered in my own words, and gently fix any misconception.\n</method>\n\n<rules>Never dump everything at once. Never make me feel stupid for a wrong answer. If I ask you to just give the answer, give it, but then still ask me a follow-up to check it stuck. Track what I've struggled with and revisit it later.</rules>\n\nTopic I want to learn: [TOPIC]. My rough level: [BEGINNER / INTERMEDIATE / ADVANCED].",
+    "sourceName": "Anthropic — Prompt engineering best practices (role + method framing)",
+    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering"
+  },
+  {
+    "id": "p-mega-gemini-1",
+    "toolId": "gemini",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Auditor de documento largo con verificación cruzada",
+      "en": "Long-document auditor with cross-checking"
+    },
+    "prompt": "Persona: You are a meticulous research analyst who cross-checks claims and never overstates confidence.\n\nTask: I'm giving you a long document (report / transcript / set of files). Do a structured audit in four parts.\n\nPart 1 — Map: Produce a one-page structured outline of the whole document: main sections, the core claim of each, and the type of evidence it rests on (data / expert opinion / anecdote / assertion with no support).\nPart 2 — Key findings: Extract the 10 most important, decision-relevant findings. For each, quote the exact supporting line and give its location.\nPart 3 — Weak points: Flag every place where a conclusion outruns its evidence, where two parts of the document contradict each other, or where a critical number is stated without a source. Be specific and cite locations.\nPart 4 — Questions to resolve: List the 5 questions someone should answer before acting on this document.\n\nFormat: Use headers and tables. When you're uncertain whether something is a contradiction vs. just nuance, say so explicitly rather than forcing a verdict. Do not pad — every line should be decision-useful.\n\n[UPLOAD OR PASTE THE DOCUMENT]",
+    "sourceName": "SurePrompts — Gemini prompting guide (long context)",
+    "sourceUrl": "https://sureprompts.com/blog/gemini-prompting-guide"
+  },
+  {
+    "id": "p-mega-perplexity-1",
+    "toolId": "perplexity",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Informe de investigación con fuentes y niveles de confianza",
+      "en": "Research briefing with sources and confidence levels"
+    },
+    "prompt": "Act as a research analyst producing a decision-grade briefing. Research [TOPIC / QUESTION] and deliver the following structure, citing a source for every factual claim and preferring primary sources and recent reporting (as of 2026).\n\n1. TL;DR (5 bullets): the answer a busy decision-maker needs.\n2. What's well established: claims supported by multiple independent, credible sources. Cite each.\n3. What's contested or uncertain: where good sources disagree. Present both sides fairly and say which has stronger evidence.\n4. What's changed recently: developments in the last 6 months that shift the picture.\n5. Confidence ratings: for each of your top 5 claims, rate your confidence (High / Medium / Low) and say what would change your mind.\n6. Gaps: what you could NOT find reliable information on — don't fill these with guesses.\n\nRules: If sources conflict, surface that instead of averaging them into a bland answer. Never present a single blog or aggregator as if it were authoritative. Flag anything that looks like marketing rather than independent reporting.",
+    "sourceName": "Prompeteer — Perplexity prompt guide 2026",
+    "sourceUrl": "https://prompeteer.ai/landing/perplexity-prompt-guide-2026"
+  },
+  {
+    "id": "p-mega-cursor-1",
+    "toolId": "cursor",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Refactor mayor con plan, tests y pasos reversibles",
+      "en": "Major refactor with plan, tests, and reversible steps"
+    },
+    "prompt": "You are working on a production codebase. We are going to refactor [MODULE / FEATURE]. Follow this protocol exactly and do NOT skip ahead.\n\nSTEP 0 — Understand: Read the relevant files and, before changing anything, write a short summary of how the current code works, what depends on it, and where the risk is. List any part you're unsure about.\nSTEP 1 — Plan: Propose the refactor as a numbered sequence of SMALL, independently-committable steps. Each step should leave the code working and tests green. Wait for my approval of the plan.\nSTEP 2 — Safety net: Before refactoring, ensure there are tests characterizing the CURRENT behavior. If coverage is thin, write those tests first and confirm they pass against the existing code.\nSTEP 3 — Execute one step at a time: Implement step 1 only. Run the tests. Show me the diff and the test output. Stop and wait.\nSTEP 4 — Repeat: Only after I confirm, move to the next step. After each step, restate what changed and what's left.\n\nRULES: Never change behavior and structure in the same commit. If you discover the plan was wrong mid-way, stop and tell me instead of improvising a big change. Preserve public interfaces unless we explicitly agreed to change them. If a test fails, diagnose the root cause — do not delete or weaken the test to make it pass.",
+    "sourceName": "SSOJet — Best prompts for AI coding agents (scoped protocol)",
+    "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts"
+  },
+  {
+    "id": "p-mega-claude-code-1",
+    "toolId": "claude-code",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Resolver un issue de principio a fin con protocolo estricto",
+      "en": "Resolve an issue end-to-end with a strict protocol"
+    },
+    "prompt": "Take ownership of GitHub issue #[NUMBER] and drive it to a reviewable PR. Follow this protocol and narrate what you're doing at each stage.\n\n1. REPRODUCE: Read the issue. Reproduce the bug locally and describe the exact steps and the observed vs. expected behavior. If you can't reproduce it, stop and report what you tried — don't guess at a fix.\n2. ROOT CAUSE: Trace the bug to its actual root cause, not the surface symptom. Explain the causal chain in plain language. If there are several plausible causes, list them and say how you'll distinguish them.\n3. BRANCH: Create a new branch. Never work on main.\n4. FIX: Implement the minimal change that fixes the root cause. Avoid opportunistic refactoring in the same change.\n5. TEST: Add a regression test that fails before your fix and passes after. Run the full suite and show the output.\n6. SELF-REVIEW: Before opening the PR, review your own diff as a skeptical reviewer: what could break, what edge cases you didn't cover, what you're assuming.\n7. PR: Open the pull request with a description covering the root cause, the fix, the test, and any risk or follow-up work.\n\nRULES: If the fix turns out to be large or risky, pause and check with me before committing. Do not skip the failing-test-first step. Do not weaken existing tests to get green.",
+    "sourceName": "willowvoice — Claude Code best practices (issue-to-PR)",
+    "sourceUrl": "https://willowvoice.com/blog/10-essential-claude-code-best-practices"
+  },
+  {
+    "id": "p-mega-lovable-1",
+    "toolId": "lovable",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Especificar una app completa antes de construir",
+      "en": "Spec a full app before building"
+    },
+    "prompt": "Before writing any code, act as a product engineer and help me spec this app, then build it in reviewable stages.\n\nSTAGE 1 — Spec (no code yet): Based on my description, write a short spec: (a) the ONE core job the app does, (b) the 3-5 key screens, (c) the data model — what objects exist and how they relate, (d) which actions change data and who is allowed to do them, (e) what's explicitly OUT of scope for v1. Show me this spec and wait for approval.\nSTAGE 2 — Skeleton: Build the navigation and screens with placeholder content and the real data model wired to a proper backend table (not mock local state). No business logic yet. Let me click through it.\nSTAGE 3 — Core flow: Implement the single most important user flow end to end. Stop and let me test it.\nSTAGE 4 — Fill in: Add the remaining features one screen at a time, checking in between each.\nSTAGE 5 — Security pass: Before we consider it live, audit that every data row is scoped to the right user, no secrets are exposed client-side, and every data-changing endpoint requires auth. List issues by severity.\n\nApp description: [DESCRIBE WHAT YOU WANT — who uses it, what problem it solves, the main thing they do in it]",
+    "sourceName": "Serenities AI — Complete guide to vibe coding 2026 (spec-first)",
+    "sourceUrl": "https://serenitiesai.com/articles/complete-guide-vibe-coding-2026"
+  },
+  {
+    "id": "p-mega-midjourney-1",
+    "toolId": "midjourney",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Escena cinematográfica con dirección de fotografía completa",
+      "en": "Cinematic scene with full cinematography direction"
+    },
+    "prompt": "cinematic film still, [SUBJECT] in [SETTING], [what they are doing], mood of [EMOTION]. Shot on [ARRI Alexa / 35mm film / anamorphic lens], [wide establishing shot / medium close-up], [golden hour backlight / overcast soft light / hard noir side light], color palette of [two or three specific colors], atmospheric depth with [haze / rain / dust particles] catching the light, shallow depth of field, detailed textures on [key material], composed with the subject on a third, negative space to the [left/right], the overall feeling of a frame from a [genre] film directed by a master of visual storytelling --ar 21:9 --v 7 --style raw --s 250 --no text, watermark, distorted anatomy, extra fingers",
+    "sourceName": "SurePrompts — Midjourney V7 prompting guide (cinematic structure)",
+    "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide"
+  },
+  {
+    "id": "p-mega-stable-diffusion-1",
+    "toolId": "stable-diffusion",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Retrato hiperrealista con pesos y negativo completo",
+      "en": "Hyperreal portrait with full weighting and negative"
+    },
+    "prompt": "POSITIVE:\n(photorealistic:1.4), (RAW photo:1.2), portrait of [SUBJECT DESCRIPTION], (detailed skin texture with visible pores:1.3), (catchlights in eyes:1.2), natural [age]-appropriate features, [wardrobe], [environment], (cinematic rim lighting:1.2), soft key light from camera left, shot on 85mm f/1.4, shallow depth of field, (sharp focus on eyes:1.3), professional color grading, subtle film grain\n\nNEGATIVE:\n(deformed iris, deformed pupils:1.3), (extra fingers, fused fingers, too many fingers:1.4), (plastic skin, airbrushed, waxy:1.3), (bad anatomy, wrong proportions:1.2), watermark, text, signature, jpeg artifacts, oversaturated, blurry, lowres, cropped head, extra limbs, disfigured\n\nSETTINGS TO TRY: sampler DPM++ 2M Karras, steps 28-35, CFG 4.5-6, then upscale 2x with low denoise (0.25-0.35) to keep detail. If using a realism LoRA, add <lora:[NAME]:0.6-0.8> to the positive and lower CFG slightly.",
+    "sourceName": "PromptMake — Stable Diffusion prompt guide (weighting + negatives)",
+    "sourceUrl": "https://promptmake.net/blog/stable-diffusion-prompt-guide"
+  },
+  {
+    "id": "p-mega-sora-1",
+    "toolId": "sora",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Secuencia narrativa de 3 planos con continuidad",
+      "en": "3-shot narrative sequence with continuity"
+    },
+    "prompt": "A short cinematic sequence with consistent character, lighting, and color grade across all three shots so they cut together as one scene. Keep the same [CHARACTER DESCRIPTION] and wardrobe throughout.\n\nSHOT 1 (wide, ~4s): Establishing shot of [LOCATION] at [time of day]. The character enters frame from the [left/right], small in the frame. Slow, almost static camera. [Weather/atmosphere detail]. Warm/cool [color grade].\nSHOT 2 (medium, ~4s): Cut closer. The character [does the key action]. Camera does a slow dolly-in that settles as they pause. Same light direction as Shot 1. We read their expression: [emotion].\nSHOT 3 (close-up, ~3s): Tight on [face / hands / object]. A small, telling detail: [describe]. The motion resolves and holds for a beat before the sequence ends.\n\nStyle across all shots: [film reference / lens / grain], shallow depth of field, no fast whips or warping during motion. Do not add on-screen text or captions.",
+    "sourceName": "LzyPrompt — AI video camera movement cheatsheet 2026",
+    "sourceUrl": "https://lzyprompt.com/blog/ai-video-camera-movement-prompts/"
+  },
+  {
+    "id": "p-mega-veo-1",
+    "toolId": "veo",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Anuncio de producto de 8s con audio nativo dirigido",
+      "en": "8s product ad with directed native audio"
+    },
+    "prompt": "An 8-second premium product commercial for [PRODUCT], designed to feel like a high-end brand film, with native synchronized audio.\n\nVISUAL: Open on a slow crane-up revealing [PRODUCT] on a minimalist pedestal in a [environment]. Soft rim lighting separates it from a [gradient background color] backdrop. At ~3s, a smooth push-in as [a subtle motion happens — e.g. light sweeps across the surface, liquid pours, a hand enters to pick it up]. End on a clean hero frame with the product centered, the camera settling fully with no overshoot.\n\nLIGHTING: Controlled studio lighting, one soft key + rim, gentle reflections, realistic material response on [the product's key material].\n\nAUDIO (native, synced): A soft ambient pad building slightly, one crisp sound-design accent synced to the push-in at 3s (e.g. a subtle chime or whoosh), no voiceover, no music with lyrics. Keep it understated and premium.\n\nCONSTRAINTS: 4K, smooth motion only, no text or logos rendered in-frame (added in post), no warping of the product during camera movement.",
+    "sourceName": "Atlas Cloud — Seedance vs Kling vs Sora vs Veo (native audio)",
+    "sourceUrl": "https://www.atlascloud.ai/blog/guides/seedance-vs-kling-vs-sora-vs-veo"
+  },
+  {
+    "id": "p-mega-runway-1",
+    "toolId": "runway",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Guion visual completo imagen-a-vídeo para una escena",
+      "en": "Full image-to-video shot brief for a scene"
+    },
+    "prompt": "Animate the attached reference image into a controlled cinematic clip. Treat the reference as the exact first frame — do not restyle it.\n\nMOTION: [Describe the primary motion: e.g. the subject slowly turns their head toward camera and the wind moves their hair]. Add a subtle secondary motion in the environment: [e.g. leaves drifting, steam rising, fabric shifting]. Keep all motion slow and believable — no rubbery or teleporting movement.\n\nCAMERA: A gentle [dolly-in / parallax push], very slight handheld sway for a lived-in feel. Plot the move so it starts slow, reaches the subject, and settles.\n\nCONTINUITY: Preserve the subject's face, proportions, wardrobe, and the lighting direction from the reference exactly. Do not introduce new objects or change the background architecture.\n\nDURATION & FEEL: [4] seconds, [film reference] color and grain, shallow depth of field maintained from the reference.\n\nIf any requested motion would distort the subject, prefer a smaller, cleaner move over an ambitious one that warps.",
+    "sourceName": "AIUnpacking — AI video generation 2026 (image-to-video control)",
+    "sourceUrl": "https://aiunpacking.com/guides/ai-video-generation-sora-runway-kling-veo/"
+  },
+  {
+    "id": "p-mega-elevenlabs-1",
+    "toolId": "elevenlabs",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Guion de narración documental con dirección por secciones",
+      "en": "Documentary narration script with per-section direction"
+    },
+    "prompt": "Voice project: narration for a [LENGTH] documentary segment about [TOPIC]. Below is the script broken into sections, each with delivery direction. Keep the same narrator identity throughout. Base settings: stability 55%, similarity 80%, style 0%, speed 1.0, speaker boost on — adjust only as noted per section.\n\n[SECTION 1 — COLD OPEN] Direction: quiet, intimate, almost a whisper drawing the listener in. Slightly slower. \"[SCRIPT LINE...]\"\n[SECTION 2 — CONTEXT] Direction: warm, measured, authoritative documentary voice. Natural pauses at commas. \"[SCRIPT LINES...]\"\n[SECTION 3 — TENSION / STAKES] Direction: pick up pace slightly, more weight and gravity on the key phrase \"[PHRASE]\". \"[SCRIPT LINES...]\"\n[SECTION 4 — RESOLUTION] Direction: settle back down, hopeful, a touch of warmth on the final sentence, let the last line breathe. \"[SCRIPT LINES...]\"\n\nGeneral rules: never sound rushed, let punctuation control the pacing, add a beat of silence between sections. Pronounce [ANY TRICKY NAMES] as [PHONETIC SPELLING].",
+    "sourceName": "ElevenLabs — Text-to-speech best practices",
+    "sourceUrl": "https://elevenlabs.io/docs/overview/capabilities/text-to-speech/best-practices"
+  },
+  {
+    "id": "p-mega-suno-1",
+    "toolId": "suno",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Canción completa con estructura y meta-tags detallados",
+      "en": "Full song with detailed structure and meta-tags"
+    },
+    "prompt": "[Style] indie-folk to anthemic build, 2020s production, acoustic guitar foundation, warm male-female harmony vocals, organic drums entering late, cinematic strings on the final chorus, nostalgic but hopeful, mid-tempo around 92 BPM\n\n[Intro] soft fingerpicked acoustic guitar, room ambience, no drums\n[Verse 1] intimate lead vocal, sparse — just guitar and voice, lyrics about [SCENE / FEELING 1]\n[Pre-Chorus] add soft harmony and a low sustained string pad, building quiet tension\n[Chorus] full harmony, the emotional hook about [CENTRAL THEME], drums enter gently\n[Verse 2] same intimacy as verse 1 but with subtle bass underneath, lyrics about [SCENE / FEELING 2]\n[Pre-Chorus] bigger than the first, more voices\n[Chorus] repeat, slightly fuller\n[Bridge] strip back to almost silence — single voice and one instrument — then a slow build, key lifts, lyrics about [TURNING POINT]\n[Final Chorus] biggest moment: full harmonies, cinematic strings, driving drums, the hook one last time\n[Outro] resolve back to the intro's fingerpicked guitar, fade on a held vocal note\n\nKeep the lyrical imagery concrete and specific, avoid clichés, and let the dynamics go from very quiet to very full across the song.",
+    "sourceName": "Suno Meta Tag Creator — Suno meta tags guide 2026",
+    "sourceUrl": "https://sunometatagcreator.com/metatags-guide"
+  },
+  {
+    "id": "p-mega-notion-ai-1",
+    "toolId": "notion-ai",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Convertir notas de reunión en documento accionable",
+      "en": "Turn meeting notes into an actionable doc"
+    },
+    "prompt": "Using the meeting notes on this page (and related context from our workspace), produce a structured, decision-ready document with these sections in this order:\n\n1. ONE-LINE OUTCOME: What was actually decided, in a single sentence. If nothing was decided, say that clearly.\n2. DECISIONS: Each decision as a bullet, with the rationale in a sub-bullet.\n3. ACTION ITEMS: A table — Task | Owner | Due date | Status. Only include items with a clear owner; list any action that was mentioned but has no owner in a separate 'Needs an owner' list.\n4. OPEN QUESTIONS: Unresolved points that block progress, each phrased as a specific question.\n5. RISKS / CONCERNS: Anything raised that could go wrong, even if we moved past it.\n6. CONTEXT LINKS: Reference any related docs in our workspace that someone would need to act on this.\n\nRules: Do not invent owners, dates, or decisions that aren't in the notes — if it's ambiguous, flag it rather than guessing. Keep it skimmable: short bullets, no filler. Preserve any specific numbers or names exactly as written.",
+    "sourceName": "AI Atlas — original, based on Notion AI meeting/summary capability",
+    "sourceUrl": "https://www.notion.com/product/ai"
+  },
+  {
+    "id": "p-mega-gpt-image-1",
+    "toolId": "gpt-image",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Infografía compleja con texto y jerarquía",
+      "en": "Complex infographic with text and hierarchy"
+    },
+    "prompt": "Create a clean, professional infographic (portrait orientation) explaining [TOPIC / PROCESS] for [AUDIENCE]. Structure it top to bottom:\n\n- HEADER: a bold title \"[TITLE]\" and a one-line subtitle \"[SUBTITLE]\", all text correctly spelled.\n- 3-4 NUMBERED STEPS/SECTIONS, each with: a simple line icon, a short heading, and one line of supporting text. Keep consistent spacing and alignment between them.\n- A small CALLOUT box highlighting the single most important takeaway.\n- FOOTER: a thin line with \"[SOURCE OR BRAND]\".\n\nDesign: a restrained palette of [2-3 brand colors] plus neutral grey, generous white space, one clean sans-serif typeface, flat modern illustration style (no photorealism), everything aligned to a clear grid. All text must be legible and correctly spelled. If any text comes out garbled, regenerate that region rather than leaving it. Avoid clutter — this should look like it came from a good design studio, not a busy template.",
+    "sourceName": "SurePrompts — Best ChatGPT image prompts 2026 (text + layout)",
+    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026"
+  },
+  {
+    "id": "p-mega-grok-1",
+    "toolId": "grok",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Informe de inteligencia en tiempo real sobre X",
+      "en": "Real-time intelligence report from X"
+    },
+    "prompt": "Act as a real-time intelligence analyst. Research what's happening around [TOPIC / EVENT / COMPANY] using live X posts and the open web, and produce a structured brief.\n\n1. SITUATION: What's happening right now, in 3 bullets, based on the most recent posts (note roughly how fresh — hours/days).\n2. WHO'S DRIVING IT: The key accounts, outlets, or figures shaping the conversation. Distinguish informed voices (verified experts, insiders, primary sources) from amplifiers and noise.\n3. VIEWPOINTS: The 2-3 main camps or narratives, presented fairly, with a representative example of each.\n4. WHAT'S GAINING TRACTION: Which angle is accelerating vs. fading, and any notable contrarian take worth watching.\n5. SIGNAL vs. HYPE: Your honest read on what's substantive vs. what looks like manufactured or low-quality buzz.\n6. WHAT TO WATCH: The specific thing that would tell us where this goes next.\n\nRules: Cite the specific posts or pages you're drawing from. Don't launder rumor as fact — label unverified claims as unverified. If the topic is thin or quiet on X, say so rather than inflating it.",
+    "sourceName": "SurePrompts — Grok prompts for real-time intelligence",
+    "sourceUrl": "https://sureprompts.com/blog/grok-prompts-real-time-intelligence-guide"
+  },
+  {
+    "id": "p-mega-copilot-1",
+    "toolId": "copilot",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Revisión de PR exhaustiva como revisor senior",
+      "en": "Thorough PR review as a senior reviewer"
+    },
+    "prompt": "Review this pull request the way a careful senior engineer would. Do NOT rewrite the code — produce a structured review I can act on.\n\n1. SUMMARY: In 2-3 lines, what does this PR actually do, and does the implementation match the stated intent?\n2. CORRECTNESS: Bugs, logic errors, off-by-one, null/undefined handling, race conditions, incorrect assumptions. For each, cite the file and line and describe the failure scenario concretely (specific inputs → wrong output).\n3. SECURITY: Injection, missing authz checks, secrets in code, unsafe input handling, unvalidated boundaries.\n4. TESTS: Is the new behavior actually covered? What critical case is untested? Would the tests catch a regression?\n5. MAINTAINABILITY: Naming, dead code, needless complexity, inconsistency with the surrounding codebase's style.\n6. VERDICT: Approve / Request changes, with the top 3 things that must be fixed before merge, ranked by severity.\n\nRules: Rank issues most-severe first. Separate 'must fix' from 'nice to have'. Don't flag style nits as if they were bugs. If something looks risky but you're not sure, say so and explain what you'd check.\n\nPR diff:\n[PASTE THE DIFF]",
+    "sourceName": "GitHub Docs — Best practices for using GitHub Copilot (review)",
+    "sourceUrl": "https://docs.github.com/en/copilot/get-started/best-practices"
+  },
+  {
+    "id": "p-mega-figma-ai-1",
+    "toolId": "figma-ai",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Generar un flujo de pantallas coherente con design system",
+      "en": "Generate a coherent screen flow tied to the design system"
+    },
+    "prompt": "Design a complete [FEATURE, e.g. onboarding] flow for a [APP TYPE] app, using our existing design system (colors, type scale, spacing, and components already in this file). Produce the screens in sequence and keep them consistent.\n\nSCREENS (generate each, in order): 1) [Screen 1 + its purpose], 2) [Screen 2], 3) [Screen 3], 4) success/empty state. For each screen include realistic placeholder content — real-sounding copy, not lorem ipsum — and use our existing components rather than inventing new ones.\n\nCONSISTENCY RULES: identical header/nav pattern across screens, consistent button styles and states (default/hover/disabled), the same spacing rhythm, and our type scale for every text level. Respect our color roles (primary action, secondary, destructive, neutral).\n\nALSO PROVIDE: for each screen, a one-line note on the primary user action and where it leads, so the flow is clear. Flag anywhere our current design system is missing a component this flow needs.",
+    "sourceName": "AI Atlas — original, based on Figma AI product capabilities",
+    "sourceUrl": "https://www.figma.com/ai/"
+  },
+  {
+    "id": "p-mega-deepseek-1",
+    "toolId": "deepseek",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Depuración por causa raíz con hipótesis ordenadas",
+      "en": "Root-cause debugging with ranked hypotheses"
+    },
+    "prompt": "You are a debugging specialist. I'll give you a bug report plus relevant code and logs. Work the problem methodically — don't jump to a fix.\n\n1. CLARIFY THE FAILURE: Restate exactly what's failing, under what conditions, and what the expected behavior is. Note anything ambiguous in my report.\n2. HYPOTHESES: List the plausible root causes, ranked from most to least likely, with your reasoning for the ranking.\n3. DISCRIMINATING TESTS: For the top 2-3 hypotheses, describe the specific check, log line, or minimal experiment that would confirm or rule each one out — so we're not guessing.\n4. ROOT CAUSE: Once the evidence points somewhere, state the actual root cause and explain the full causal chain from trigger to symptom.\n5. FIX: Propose the minimal correct fix that addresses the root cause (not just the symptom), plus a regression test that would fail today and pass after.\n6. BLAST RADIUS: Note anything else in the codebase that could be affected by the same root cause or by your fix.\n\nBug report: [DESCRIBE]\nCode: [PASTE]\nLogs/errors: [PASTE]",
+    "sourceName": "SurePrompts — Best DeepSeek prompts 2026 (reasoning/debugging)",
+    "sourceUrl": "https://sureprompts.com/blog/best-deepseek-prompts-2026"
+  },
+  {
+    "id": "p-mega-notebooklm-1",
+    "toolId": "notebooklm",
+    "tier": "pro",
+    "level": "expert",
+    "title": {
+      "es": "Síntesis de fuentes con contradicciones y vacíos",
+      "en": "Source synthesis with contradictions and gaps"
+    },
+    "prompt": "Using ONLY the sources I've uploaded, produce a rigorous synthesis — do not bring in outside knowledge.\n\n1. OVERVIEW: What collectively do these sources cover, and what's the throughline? (150 words max)\n2. KEY POINTS: The 8-10 most important claims across all sources. For each, cite which source(s) it comes from.\n3. AGREEMENT: Where do multiple sources independently support the same claim? These are your most reliable points.\n4. CONTRADICTIONS: Every place where two sources disagree or where one claims something the others don't support. Quote both sides and their locations. Do not resolve these by picking a winner unless one is clearly better evidenced — just surface them clearly.\n5. GAPS: Important questions these sources raise but do NOT answer.\n6. WHAT I'D READ FIRST: If I only had time for one source, which and why.\n\nRules: Every factual statement must trace to a specific source. If something appears in only one source and isn't corroborated, mark it [SINGLE SOURCE]. Never fill a gap with a guess.",
+    "sourceName": "Shareuhack — NotebookLM tips & tricks 2026",
+    "sourceUrl": "https://www.shareuhack.com/en/posts/notebooklm-advanced-guide-2026"
   }
 ]
