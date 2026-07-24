@@ -49,7 +49,10 @@
     },
     "prompt": "Answer as a specialist in [FIELD] would, but instead of just claiming seniority, apply their actual method. Name the 2-3 frameworks, criteria, or trade-offs a real [FIELD] expert uses to judge this, work through each one explicitly, then give your recommendation. Finish by flagging the single place a non-expert would most likely get this wrong. Question: [YOUR QUESTION]",
     "sourceName": "eWeek — ChatGPT prompt engineering tips",
-    "sourceUrl": "https://www.eweek.com/news/10-good-vs-bad-chatgpt-prompts-2026/"
+    "sourceUrl": "https://www.eweek.com/news/10-good-vs-bad-chatgpt-prompts-2026/",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado ejecutándolo: obliga a nombrar frameworks reales y señalar el error típico; mejora clara sobre \"actúa como experto\"."
   },
   {
     "id": "p-lib-chatgpt-2",
@@ -101,7 +104,10 @@
     },
     "prompt": "ROLE: You are an expert [ROLE] with deep experience in [FIELD].\nCONTEXT: [BACKGROUND AND WHY THIS MATTERS]\nTASK: [WHAT YOU NEED PRODUCED]\nFORMAT: [BULLET LIST / TABLE / PLAIN PROSE], under [N] words.\nIf anything is ambiguous, ask one clarifying question before answering.",
     "sourceName": "Anthropic — Prompt engineering best practices for 2026",
-    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering"
+    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado ejecutándolo: adopta el rol, respeta formato y límite de palabras, y pide aclaración ante ambigüedad."
   },
   {
     "id": "p-lib-claude-2",
@@ -382,10 +388,10 @@
     "tier": "free",
     "level": "simple",
     "title": {
-      "es": "Escena narrada en frase natural",
-      "en": "Scene written as a natural sentence"
+      "es": "Escena fotorrealista narrada con dirección de cámara",
+      "en": "Photoreal scene as a natural sentence with camera direction"
     },
-    "prompt": "FPV drone racing through a redwood forest at dawn, thin morning mist between the trunks, shafts of golden sunlight, photorealistic --ar 16:9 --v 7",
+    "prompt": "A lone red fox standing on a mossy rock in a misty pine forest at dawn, thin volumetric fog drifting between the trunks, soft golden rim light from behind, written as one flowing sentence rather than a tag list. Shot on an 85mm lens at f/2.0, shallow depth of field, razor-sharp fur detail, photorealistic, 8K UHD, natural filmic color grade --ar 16:9 --v 7 --style raw --q 2 --s 180",
     "sourceName": "SurePrompts — Midjourney V7 prompting guide",
     "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide"
   },
@@ -434,10 +440,10 @@
     "tier": "free",
     "level": "simple",
     "title": {
-      "es": "Logo con nombre exacto entre comillas",
-      "en": "Logo with exact quoted name"
+      "es": "Logo con nombre exacto y salida vectorial limpia",
+      "en": "Logo with exact name and clean vector output"
     },
-    "prompt": "Design a minimalist emblem-style logo for a brand called \"[BRAND NAME]\" (keep the name under 3 words), clean geometric icon above the wordmark, correctly spelled, flat vector style, white background.",
+    "prompt": "Design a minimalist emblem-style logo for a brand called \"[BRAND NAME]\" (keep the name to 1-3 words). A clean geometric icon sits centered above the wordmark, generous even spacing, single balanced stroke weight. Requirements: spell the name EXACTLY as written, flat vector look with crisp hard edges, pure white background, high resolution suitable for scaling to large print, no gradients, no photographic texture, no drop shadows, no extra text or taglines. If any letterform renders imperfectly, regenerate until every character is correct.",
     "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
     "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026"
   },
@@ -562,12 +568,12 @@
     "id": "p-lib-stable-diffusion-3",
     "toolId": "stable-diffusion",
     "tier": "free",
-    "level": "simple",
+    "level": "advanced",
     "title": {
-      "es": "Retrato realista de seis capas",
-      "en": "Six-layer realistic portrait"
+      "es": "Retrato realista de seis capas con negativo y ajustes",
+      "en": "Six-layer realistic portrait with negative and settings"
     },
-    "prompt": "subject: young woman with short curly hair; action: laughing candidly; environment: sunlit outdoor cafe; lighting: soft natural daylight; camera: 50mm, f/1.8, shallow depth of field; style: documentary photography, Kodak Portra film look",
+    "prompt": "subject: young woman with short curly hair; action: laughing candidly; environment: sunlit outdoor cafe; lighting: soft natural daylight with warm bounce fill; camera: 50mm, f/1.8, shallow depth of field, eye-level; style: documentary photography, Kodak Portra 400 film look, 4K, sharp focus on the eyes\nNegative prompt: extra fingers, deformed hands, plastic waxy skin, watermark, text, blurry, lowres, oversaturated\nSettings: DPM++ 2M Karras, 30 steps, CFG 5.5, then 2x hi-res upscale at denoise 0.3 to keep detail",
     "sourceName": "PromptMake — Stable Diffusion prompt guide",
     "sourceUrl": "https://promptmake.net/blog/stable-diffusion-prompt-guide"
   },
@@ -590,10 +596,10 @@
     "tier": "free",
     "level": "simple",
     "title": {
-      "es": "Escena en lenguaje natural (no tags)",
-      "en": "Natural-language scene (no tag dumping)"
+      "es": "Escena fotográfica fiel en lenguaje natural",
+      "en": "Faithful photographic scene in natural language"
     },
-    "prompt": "A weathered fisherman mending his nets on a wooden dock at sunset, warm orange light reflecting off the calm water, shot like a documentary photograph, soft focus on the background boats.",
+    "prompt": "A weathered fisherman in his 60s mending a fishing net on a wooden dock at sunset, warm low-angle orange sunlight raking across his lined face, calm harbor water reflecting the sky behind him, out-of-focus wooden boats in the background. Photorealistic editorial photograph, shot on a 35mm lens at f/2.8, natural skin texture with visible pores and grey stubble, 4K, high dynamic range, true-to-life colors. Render exactly the scene described — do not add extra people, boats, or objects.",
     "sourceName": "perplexityaimagazine — Stable Diffusion / Flux tutorial 2026",
     "sourceUrl": "https://perplexityaimagazine.com/ai-tools/stable-diffusion-tutorial-2026/"
   },
@@ -614,12 +620,12 @@
     "id": "p-lib-flux-3",
     "toolId": "flux",
     "tier": "free",
-    "level": "simple",
+    "level": "advanced",
     "title": {
-      "es": "Textura fotorrealista de material",
-      "en": "Photorealistic material texture"
+      "es": "Textura de material tileable para PBR",
+      "en": "Tileable material texture for PBR"
     },
-    "prompt": "Close-up macro texture of [MATERIAL, e.g. brushed steel / raw linen / cracked terracotta], even studio lighting, no visible seams, tileable-looking, ultra sharp detail.",
+    "prompt": "Extreme macro close-up of [MATERIAL, e.g. brushed stainless steel / raw linen weave / cracked terracotta], flat even studio lighting from a large overhead softbox, shot on a 100mm macro lens at f/8 for full depth of field, perfectly seamless and tileable framing with no visible edges or repeating seams, ultra-sharp micro-detail, physically accurate surface reflectance, 4K resolution, suitable as a PBR albedo/diffuse texture map. Keep the surface flat-on and uniform.",
     "sourceName": "perplexityaimagazine — Stable Diffusion / Flux tutorial 2026",
     "sourceUrl": "https://perplexityaimagazine.com/ai-tools/stable-diffusion-tutorial-2026/"
   },
@@ -640,12 +646,12 @@
     "id": "p-lib-krea-1",
     "toolId": "krea",
     "tier": "free",
-    "level": "simple",
+    "level": "advanced",
     "title": {
-      "es": "Boceto a render en tiempo real",
-      "en": "Sketch to render in real time"
+      "es": "Boceto a render fiel en tiempo real",
+      "en": "Sketch to faithful real-time render"
     },
-    "prompt": "Rough sketch: a simple armchair shape in a room corner. Refine live into: a mid-century modern armchair in a sunlit reading nook, warm wood tones, soft textile upholstery, photorealistic render, keep the enhance strength low so the composition doesn't drift from my sketch.",
+    "prompt": "Rough input sketch: a simple armchair shape in a room corner. Refine it live into a photorealistic mid-century modern armchair in a sunlit reading nook — warm walnut wood frame, soft bouclé textile upholstery, realistic contact shadows and directional window light. Keep the enhance/strength LOW (around 0.3-0.4) so composition and proportions stay faithful to my sketch. Photorealistic interior visualization, 4K, physically accurate material reflectance and soft ambient occlusion.",
     "sourceName": "ClickUp — Best Krea AI prompts",
     "sourceUrl": "https://clickup.com/blog/krea-ai-prompts/"
   },
@@ -666,12 +672,12 @@
     "id": "p-lib-krea-3",
     "toolId": "krea",
     "tier": "free",
-    "level": "simple",
+    "level": "advanced",
     "title": {
-      "es": "De render 3D plano a foto realista",
-      "en": "Flat 3D render to photoreal"
+      "es": "De render 3D plano a fotorrealista sin alterar geometría",
+      "en": "Flat 3D render to photoreal without altering geometry"
     },
-    "prompt": "Take this flat 3D render of [OBJECT/SCENE] and transform it into a photorealistic visualization: add natural imperfections, realistic light falloff, and ambient occlusion, keeping the exact geometry and layout unchanged.",
+    "prompt": "Take this flat 3D render of [OBJECT/SCENE] and convert it into a photorealistic visualization while keeping the exact geometry, camera angle, and layout unchanged. Add physically accurate light falloff, soft ambient occlusion in the crevices, subtle real-world imperfections (micro-scratches, dust, faint fingerprints), and realistic material reflectance. Photoreal product-viz quality, 4K, neutral studio HDRI lighting. Do not invent new objects or change any proportions.",
     "sourceName": "academy.techpresso.co — Best Krea AI prompts",
     "sourceUrl": "https://academy.techpresso.co/prompts/krea-prompts"
   },
@@ -694,10 +700,10 @@
     "tier": "free",
     "level": "simple",
     "title": {
-      "es": "Personaje de videojuego listo para producción",
-      "en": "Game-ready character concept"
+      "es": "Concept de personaje listo para modelado 3D",
+      "en": "Game character concept ready for 3D modeling"
     },
-    "prompt": "Full-body concept art of a [CLASS, e.g. rogue] character for a fantasy RPG: leather armor, hooded cloak, dual daggers, neutral T-pose, clean silhouette against plain background, game-art style suitable for a 3D modeling reference sheet.",
+    "prompt": "Full-body character concept of a [CLASS, e.g. rogue] for a fantasy RPG: worn leather armor, hooded cloak, dual daggers. Neutral A-pose, clean readable silhouette, front orthographic view, flat even lighting with no harsh shadows, plain neutral grey background. Consistent line weight and rendering, high material detail on gear and fabric, 4K, production-ready as a 3D-modeling reference sheet. Keep proportions anatomically consistent and the pose symmetrical.",
     "sourceName": "selfielab — Leonardo AI game-ready character design tips",
     "sourceUrl": "https://selfielabstudio.com/blog/leonardo-ai-game-ready-character-design-tips-20260217"
   },
@@ -1271,7 +1277,10 @@
     },
     "prompt": "In [FILE/FUNCTION], fix [SPECIFIC BUG]. Scope: only touch this file. When done, run the existing test suite and show me the diff plus the test output — don't tell me it's done until tests pass.",
     "sourceName": "SSOJet — Best prompts for AI coding agents",
-    "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts"
+    "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Patrón recomendado: alcance acotado + puerta de verificación (no da por hecho hasta tests en verde)."
   },
   {
     "id": "p-lib-cursor-2",
@@ -1323,7 +1332,10 @@
     },
     "prompt": "Read GitHub issue #[NUMBER], reproduce the bug locally, fix it, add a regression test, and open a pull request with a description of the root cause and the fix. Stop and ask if the reproduction steps don't match what's described.",
     "sourceName": "willowvoice — Claude Code best practices, May 2026",
-    "sourceUrl": "https://willowvoice.com/blog/10-essential-claude-code-best-practices"
+    "sourceUrl": "https://willowvoice.com/blog/10-essential-claude-code-best-practices",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Flujo agente estándar y documentado: reproducir → arreglar → test de regresión → PR, con parada si no reproduce."
   },
   {
     "id": "p-lib-claude-code-2",
@@ -1479,7 +1491,10 @@
     },
     "prompt": "What are the latest findings on [SPECIFIC SUBTOPIC], published after [DATE]? Cite each claim to its source and flag if two sources disagree.",
     "sourceName": "Prompeteer — Perplexity prompt guide 2026",
-    "sourceUrl": "https://prompeteer.ai/landing/perplexity-prompt-guide-2026"
+    "sourceUrl": "https://prompeteer.ai/landing/perplexity-prompt-guide-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Estructura alineada con la guía de Perplexity: subtema específico, filtro por fecha y cita por afirmación."
   },
   {
     "id": "p-lib-perplexity-2",
@@ -1531,7 +1546,10 @@
     },
     "prompt": "Summarize this meeting's notes into: 3 key decisions, 2 open questions, and a list of action items with who owns each one. Keep it under 150 words total.",
     "sourceName": "AI Atlas — original, based on Notion AI meeting summary capability",
-    "sourceUrl": "https://www.notion.com/product/ai"
+    "sourceUrl": "https://www.notion.com/product/ai",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado ejecutándolo: devuelve 3 decisiones, 2 preguntas y acciones con responsable en <150 palabras."
   },
   {
     "id": "p-lib-notion-ai-2",
@@ -2319,12 +2337,15 @@
     "tier": "pro",
     "level": "advanced",
     "title": {
-      "es": "Ajusta el nivel de esfuerzo y observa el razonamiento en vivo",
-      "en": "Match effort level and watch reasoning live"
+      "es": "Ajusta la profundidad de razonamiento a la tarea",
+      "en": "Match reasoning depth to the task"
     },
-    "prompt": "For a task like [TASK], run `/effort` first and pick the right level: low for a quick mechanical change, medium for typical features, high or xhigh for [COMPLEX_TASK] that needs deeper reasoning, or auto to let Claude decide per request. While it runs, press Ctrl+O to watch the live stream of files it opens, tools it calls, and the reasoning behind each step — catch it going down the wrong path early instead of waiting for the final diff.",
+    "prompt": "Before starting [TASK], state which reasoning depth it deserves and why: shallow for a small mechanical change, medium for a typical feature, deep for [COMPLEX_TASK] with tricky edge cases or architecture decisions. Then show me your plan (the files you will touch and the order) and wait for my go-ahead before writing code, so I can catch a wrong direction before the diff.",
     "sourceName": "Claude Help Center — Claude Code power user tips",
-    "sourceUrl": "https://support.claude.com/en/articles/14554000-claude-code-power-user-tips"
+    "sourceUrl": "https://support.claude.com/en/articles/14554000-claude-code-power-user-tips",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Reescrito para eliminar afirmaciones no confirmadas (comando/atajo). Probado: produce un plan revisable antes del código, verificable en cualquier agente."
   },
   {
     "id": "p-20260724-9",
