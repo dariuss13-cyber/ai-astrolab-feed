@@ -10,7 +10,10 @@
     },
     "prompt": "Create an image of [PERSON] as a collectible action figure inside retro blister packaging. Card header with a bold toy-brand logo, accessories relevant to their job displayed beside the figure, price sticker, slight plastic sheen on the bubble, 90s toy aisle aesthetic.",
     "sourceName": "DigitBin — viral image prompts",
-    "sourceUrl": "https://www.digitbin.com/chatgpt-image-prompts-viral/"
+    "sourceUrl": "https://www.digitbin.com/chatgpt-image-prompts-viral/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Prompt de imagen (figura de acción en blíster): estructura viral documentada y reproducida en múltiples fuentes 2026 (DigitBin/Medium)."
   },
   {
     "id": "p-20260723-7",
@@ -39,7 +42,10 @@
     },
     "prompt": "Act as a content strategist for [BRAND/NICHE]. Build a 7-day content plan: for each day give platform, format (post/reel/carousel), hook line, and a one-sentence outline. Keep the brand voice [TONE] and end with 3 evergreen ideas I can reuse any week.",
     "sourceName": "NeuraPulse — prompt templates",
-    "sourceUrl": "https://neuraplus-ai.github.io/blog/best-prompts-for-anthropic-claude-ai.html"
+    "sourceUrl": "https://neuraplus-ai.github.io/blog/best-prompts-for-anthropic-claude-ai.html",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: genera plan de 7 días con plataforma/formato/hook/outline por día, mantiene el tono y añade 3 ideas evergreen."
   },
   {
     "id": "p-lib-chatgpt-1",
@@ -68,7 +74,10 @@
     },
     "prompt": "Before giving your final answer to this problem, think through it step by step out loud: list the assumptions you're making, the options you considered, and why you rejected the alternatives. Then give a one-line final answer. Problem: [YOUR PROBLEM]",
     "sourceName": "Artificial Corner (Medium) — Best ChatGPT prompts",
-    "sourceUrl": "https://medium.com/artificial-corner/the-best-chatgpt-prompts-for-2026-27a787f86c46"
+    "sourceUrl": "https://medium.com/artificial-corner/the-best-chatgpt-prompts-for-2026-27a787f86c46",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado ejecutándolo: fuerza a listar supuestos, opciones y descartes antes de una respuesta de una línea; razonamiento explícito real."
   },
   {
     "id": "p-lib-chatgpt-3",
@@ -81,7 +90,10 @@
     },
     "prompt": "Analyze this decision from four different perspectives: the optimist, the skeptic, the end customer, and the person who has to implement it in 6 months. For each, give their main objection or concern and a one-sentence recommendation. Then synthesize into a single recommended path. Decision: [DESCRIBE YOUR DECISION]",
     "sourceName": "eWeek — ChatGPT prompt engineering tips",
-    "sourceUrl": "https://www.eweek.com/news/10-good-vs-bad-chatgpt-prompts-2026/"
+    "sourceUrl": "https://www.eweek.com/news/10-good-vs-bad-chatgpt-prompts-2026/",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: produce las 4 perspectivas (optimista/escéptico/cliente/implementador) con objeción y recomendación, y una síntesis final accionable."
   },
   {
     "id": "p-lib-chatgpt-4",
@@ -94,7 +106,10 @@
     },
     "prompt": "Draft [DOCUMENT TYPE] about [TOPIC], 400 words max. After you produce it, wait for my feedback in short directives like \"tighten the opening\" or \"cut 30%\" or \"more concrete examples\" — apply only that specific instruction to the existing draft each time, without regenerating from scratch, and show a short changelog of what changed.",
     "sourceName": "Artificial Corner (Medium) — Best ChatGPT prompts",
-    "sourceUrl": "https://medium.com/artificial-corner/the-best-chatgpt-prompts-for-2026-27a787f86c46"
+    "sourceUrl": "https://medium.com/artificial-corner/the-best-chatgpt-prompts-for-2026-27a787f86c46",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: aplica solo la directiva de edición pedida sobre el borrador existente sin regenerar, con changelog; iteración controlada real."
   },
   {
     "id": "p-lib-claude-1",
@@ -123,7 +138,10 @@
     },
     "prompt": "<context>[RELEVANT BACKGROUND, DATA, OR PASTED TEXT]</context>\n<task>Identify the three most important insights and one risk that's easy to miss.</task>\n<format>A numbered list, each item max 2 sentences, no preamble.</format>",
     "sourceName": "Anthropic — Prompt engineering best practices for 2026",
-    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering"
+    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado con contenido de ejemplo: devuelve 3 insights + 1 riesgo en lista numerada, máx 2 frases, sin preámbulo; respeta las etiquetas XML."
   },
   {
     "id": "p-lib-claude-3",
@@ -136,7 +154,10 @@
     },
     "prompt": "Act as a contract analyst reviewing a long document. Go clause by clause. For each clause give: (1) a plain-language explanation, (2) a risk level (low/medium/high) with a one-line justification, (3) a suggested redline if risky. Finish with a summary table of the 5 riskiest clauses ranked by impact. Contract: [PASTE FULL CONTRACT]",
     "sourceName": "AI Atlas — internal template, inspired by Anthropic prompting guides",
-    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering"
+    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado con cláusulas de ejemplo: explica en lenguaje llano, asigna riesgo con justificación y redline, y tabla de las más riesgosas; sin dar consejo legal definitivo."
   },
   {
     "id": "p-lib-claude-4",
@@ -149,7 +170,10 @@
     },
     "prompt": "Answer the following question. If you are not confident in part of the answer, say so explicitly and mark it as [UNCERTAIN] rather than guessing. Do not pad the answer with disclaimers beyond that. Question: [YOUR QUESTION]",
     "sourceName": "Anthropic — Prompt engineering best practices for 2026",
-    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering"
+    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: marca lo dudoso como [UNCERTAIN] en vez de inventar y no añade disclaimers de relleno; reduce alucinación."
   },
   {
     "id": "p-lib-gemini-1",
@@ -162,7 +186,10 @@
     },
     "prompt": "Persona: [ROLE, e.g. \"a blunt startup CFO\"]\nTask: [ACTION VERB + WHAT, e.g. \"evaluate this pricing plan\"]\nContext: [AUDIENCE, CONSTRAINTS, BACKGROUND]\nFormat: [LIST / JSON / SHORT PARAGRAPH]\nBe direct — no filler sentences, no repeating the question back.",
     "sourceName": "Google AI for Developers — Prompt design strategies",
-    "sourceUrl": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: adopta Persona+Task+Context+Format, va directo sin repetir la pregunta; estructura recomendada por la guía de Google."
   },
   {
     "id": "p-lib-gemini-2",
@@ -175,7 +202,10 @@
     },
     "prompt": "I'm uploading a long report. Find every mention of [TOPIC]. For each occurrence: where it appears (section/page), why it matters in context, and how it connects to earlier mentions. End with a chronological timeline of key developments related to [TOPIC]. Output as a structured list, not prose.",
     "sourceName": "SurePrompts — Gemini prompting guide (long context)",
-    "sourceUrl": "https://sureprompts.com/blog/gemini-prompting-guide"
+    "sourceUrl": "https://sureprompts.com/blog/gemini-prompting-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Requiere subir un documento largo; estructura (localización + porqué + conexiones + timeline) alineada con la guía de long-context de Gemini."
   },
   {
     "id": "p-lib-gemini-3",
@@ -188,7 +218,10 @@
     },
     "prompt": "Look at this image and write a one-paragraph alt-text description suitable for a screen reader: objects, spatial layout, colors, and any visible text, in plain neutral language, under 60 words.",
     "sourceName": "Google AI for Developers — Prompt design strategies",
-    "sourceUrl": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Requiere una imagen; formato alt-text (objetos/layout/colores/texto, <60 palabras, neutro) alineado con la guía de Google para accesibilidad."
   },
   {
     "id": "p-lib-gemini-4",
@@ -201,7 +234,10 @@
     },
     "prompt": "Treat the attached codebase as your full context. Map the main modules and how data flows between them. Then list the 5 riskiest pieces of technical debt, ranked by blast radius if they break, with a one-line fix suggestion for each. Output as a table: module | risk | why | suggested fix.",
     "sourceName": "SurePrompts — Gemini prompting guide (long context)",
-    "sourceUrl": "https://sureprompts.com/blog/gemini-prompting-guide"
+    "sourceUrl": "https://sureprompts.com/blog/gemini-prompting-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Requiere subir un codebase; salida como tabla módulo|riesgo|porqué|fix aprovecha el contexto largo de Gemini; estructura documentada."
   },
   {
     "id": "p-lib-grok-2",
@@ -214,7 +250,10 @@
     },
     "prompt": "Search X and the web for emerging discussion around [INDUSTRY/NICHE] this week. List up to 5 rising topics, each with a one-line explanation of why it's picking up and an estimate of how new the trend is (days/weeks).",
     "sourceName": "AI Academy (Techpresso) — Best Grok prompts",
-    "sourceUrl": "https://academy.techpresso.co/prompts/grok-prompts"
+    "sourceUrl": "https://academy.techpresso.co/prompts/grok-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Depende de búsqueda en vivo en X; monitor de tendencias emergentes con estimación de novedad: caso de uso documentado de Grok."
   },
   {
     "id": "p-lib-grok-3",
@@ -227,7 +266,10 @@
     },
     "prompt": "Research [COMPETITOR/COMPANY]'s recent public statements, product announcements, and job postings from the last month, cross-referencing X posts and the open web. Summarize what they seem to be building next and how confident you are in that read, citing the specific posts or pages you used.",
     "sourceName": "SurePrompts — Grok prompts for real-time intelligence",
-    "sourceUrl": "https://sureprompts.com/blog/grok-prompts-real-time-intelligence-guide"
+    "sourceUrl": "https://sureprompts.com/blog/grok-prompts-real-time-intelligence-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Depende de X + web en vivo; research competitivo desde fuentes primarias con nivel de confianza y citas: técnica documentada de Grok."
   },
   {
     "id": "p-lib-grok-4",
@@ -240,7 +282,10 @@
     },
     "prompt": "Pull recent X posts and news mentioning [ASSET/TICKER/MARKET]. Separate signal from noise: distinguish informed commentary (analysts, insiders, verified accounts) from generic hype. Give a sentiment score from -5 to +5 with your reasoning, and flag any single post that looks like it could be moving the narrative disproportionately.",
     "sourceName": "SurePrompts — Grok prompts for real-time intelligence",
-    "sourceUrl": "https://sureprompts.com/blog/grok-prompts-real-time-intelligence-guide"
+    "sourceUrl": "https://sureprompts.com/blog/grok-prompts-real-time-intelligence-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Depende de datos en vivo; separar señal de ruido con score de sentimiento y cuentas verificadas: patrón documentado de Grok."
   },
   {
     "id": "p-lib-qwen-1",
@@ -253,7 +298,10 @@
     },
     "prompt": "[Thinking: ON] Solve this step by step, verifying each intermediate result before moving to the next: [MATH OR LOGIC PROBLEM]. Show the verification step explicitly, then give the final answer on its own line.",
     "sourceName": "Data Science Dojo — Qwen models guide",
-    "sourceUrl": "https://datasciencedojo.com/blog/the-evolution-of-qwen-models/"
+    "sourceUrl": "https://datasciencedojo.com/blog/the-evolution-of-qwen-models/",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: [Thinking: ON] con verificación de cada paso intermedio antes del final; el modo pensamiento es capacidad real de Qwen."
   },
   {
     "id": "p-lib-qwen-2",
@@ -266,7 +314,10 @@
     },
     "prompt": "Answer in English first, then provide the same answer translated naturally into [LANGUAGE] (not a literal translation — adapt idiom and register), then a short glossary of the technical terms used in both languages. Topic: [YOUR QUESTION]",
     "sourceName": "promptslove — Qwen prompt generator notes",
-    "sourceUrl": "https://promptslove.com/free-tools/qwen-prompt-generator/"
+    "sourceUrl": "https://promptslove.com/free-tools/qwen-prompt-generator/",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: respuesta en inglés + traducción natural (no literal) + glosario técnico bilingüe; explota la fortaleza multilingüe de Qwen."
   },
   {
     "id": "p-lib-qwen-3",
@@ -279,7 +330,10 @@
     },
     "prompt": "[Thinking: ON] Write a function that does [TASK] in [LANGUAGE]. Before showing the final code, mentally trace it through 2 edge cases and fix any bug you find. Show the final code plus a one-line note on what edge case you caught, if any.",
     "sourceName": "Data Science Dojo — Qwen models guide",
-    "sourceUrl": "https://datasciencedojo.com/blog/the-evolution-of-qwen-models/"
+    "sourceUrl": "https://datasciencedojo.com/blog/the-evolution-of-qwen-models/",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: escribe la función y traza 2 edge cases corrigiendo bugs antes de mostrar el código final con nota del caso detectado."
   },
   {
     "id": "p-lib-qwen-4",
@@ -292,7 +346,10 @@
     },
     "prompt": "I want to self-host an open-weight model for [USE CASE] with these constraints: [HARDWARE, BUDGET, LATENCY NEEDS]. Recommend a model size/quantization, expected throughput, and a step-by-step deployment plan, flagging the single biggest bottleneck I'll likely hit first.",
     "sourceName": "GitHub — Qwen-Alibaba-Cloud guide",
-    "sourceUrl": "https://github.com/anarojoecheburua/Qwen-Alibaba-Cloud"
+    "sourceUrl": "https://github.com/anarojoecheburua/Qwen-Alibaba-Cloud",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: recomienda tamaño/cuantización, throughput esperado y plan de despliegue paso a paso con el cuello de botella principal marcado."
   },
   {
     "id": "p-lib-deepseek-2",
@@ -305,7 +362,10 @@
     },
     "prompt": "Here is a bug report and the relevant code: [PASTE BUG + CODE]. Don't just patch the symptom — trace back to the root cause, explain the causal chain in plain language, then propose the minimal fix that addresses the root cause, not just this instance.",
     "sourceName": "SurePrompts — Best DeepSeek prompts 2026",
-    "sourceUrl": "https://sureprompts.com/blog/best-deepseek-prompts-2026"
+    "sourceUrl": "https://sureprompts.com/blog/best-deepseek-prompts-2026",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado con bug de ejemplo: rastrea la causa raíz y la cadena causal y propone el fix mínimo, no el parche del síntoma."
   },
   {
     "id": "p-lib-deepseek-3",
@@ -318,7 +378,10 @@
     },
     "prompt": "Prove or disprove: [MATHEMATICAL CLAIM]. State your approach in one line before starting. Give each proof step with the justification (which axiom/theorem/algebraic rule applies), and flag explicitly if any step relies on an assumption that isn't given.",
     "sourceName": "DeepSeek AI — R1 reasoning guide",
-    "sourceUrl": "https://deepseek.ai/deepseek-vs-mistral"
+    "sourceUrl": "https://deepseek.ai/deepseek-vs-mistral",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: enuncia el enfoque, da cada paso con su justificación (axioma/teorema/regla) y marca supuestos no dados; aprovecha el razonamiento R1."
   },
   {
     "id": "p-lib-deepseek-4",
@@ -331,7 +394,10 @@
     },
     "prompt": "Problem: [PROBLEM]. Constraints: [CONSTRAINTS]. Give me only the final answer plus a concise verification (max 5 lines) confirming it satisfies every constraint — skip a long exploratory reasoning trace.",
     "sourceName": "Chat-Deep.ai — DeepSeek prompt guide",
-    "sourceUrl": "https://chat-deep.ai/guide/deepseek-prompt/"
+    "sourceUrl": "https://chat-deep.ai/guide/deepseek-prompt/",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: da respuesta final + verificación concisa (<5 líneas) contra las restricciones, sin traza exploratoria larga."
   },
   {
     "id": "p-lib-lechat-1",
@@ -344,7 +410,10 @@
     },
     "prompt": "Write a professional email to a [COUNTRY] client about [TOPIC], in [LANGUAGE: French/German/Spanish/Italian/Portuguese/Dutch], using natural idiom and the appropriate formality register for that culture, not a literal translation from English. Max 150 words.",
     "sourceName": "SurePrompts — Best Mistral prompts 2026",
-    "sourceUrl": "https://sureprompts.com/blog/best-mistral-prompts-2026"
+    "sourceUrl": "https://sureprompts.com/blog/best-mistral-prompts-2026",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: email en el idioma pedido con registro de formalidad cultural correcto (no traducción literal), <150 palabras."
   },
   {
     "id": "p-lib-lechat-2",
@@ -357,7 +426,10 @@
     },
     "prompt": "Draft a [DOCUMENT TYPE, e.g. data processing notice] for a company handling [DATA TYPE] under GDPR. Flag any clause that would need legal review, and note explicitly where you made an assumption instead of citing a specific article.",
     "sourceName": "SurePrompts — Best Mistral prompts 2026",
-    "sourceUrl": "https://sureprompts.com/blog/best-mistral-prompts-2026"
+    "sourceUrl": "https://sureprompts.com/blog/best-mistral-prompts-2026",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: redacta el documento marcando cláusulas que necesitan revisión legal y dónde hubo que asumir en vez de citar un artículo GDPR."
   },
   {
     "id": "p-lib-lechat-3",
@@ -370,7 +442,10 @@
     },
     "prompt": "Act as an operations agent handling this workflow end to end: (1) [STEP 1], (2) [STEP 2], (3) [STEP 3]. After each step, output a one-line status update before continuing, and stop immediately to ask if any step's output looks ambiguous or incomplete.",
     "sourceName": "AI Atlas — original, based on Mistral enterprise agent tooling",
-    "sourceUrl": "https://chat-deep.ai/comparison/mistral-ai/"
+    "sourceUrl": "https://chat-deep.ai/comparison/mistral-ai/",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: ejecuta el workflow paso a paso con status de una línea tras cada uno y se detiene ante ambigüedad; patrón agente de Mistral."
   },
   {
     "id": "p-lib-lechat-4",
@@ -383,7 +458,10 @@
     },
     "prompt": "Create a customer support response template for [ISSUE TYPE], available in English, French, and German, keeping the same structure and tone across all three but adapting phrasing so each reads as native, not translated.",
     "sourceName": "SurePrompts — Best Mistral prompts 2026",
-    "sourceUrl": "https://sureprompts.com/blog/best-mistral-prompts-2026"
+    "sourceUrl": "https://sureprompts.com/blog/best-mistral-prompts-2026",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: plantilla de soporte en EN/FR/DE con misma estructura y tono pero fraseo nativo en cada idioma."
   },
   {
     "id": "p-lib-midjourney-1",
@@ -396,7 +474,10 @@
     },
     "prompt": "A lone red fox standing on a mossy rock in a misty pine forest at dawn, thin volumetric fog drifting between the trunks, soft golden rim light from behind, written as one flowing sentence rather than a tag list. Shot on an 85mm lens at f/2.0, shallow depth of field, razor-sharp fur detail, photorealistic, 8K UHD, natural filmic color grade --ar 16:9 --v 7 --style raw --q 2 --s 180",
     "sourceName": "SurePrompts — Midjourney V7 prompting guide",
-    "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide"
+    "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Frase natural rica + parámetros (--style raw --q 2 --s) en vez de tag-dump: recomendación documentada de Midjourney V7 (SurePrompts/DigitBin 2026)."
   },
   {
     "id": "p-lib-midjourney-2",
@@ -409,7 +490,10 @@
     },
     "prompt": "[CHARACTER DESCRIPTION] standing in [NEW SCENE], same face and outfit as reference --cref [IMAGE URL] --cw 100 --ar 3:4 --v 7",
     "sourceName": "aiarty — Midjourney prompts cheat sheet",
-    "sourceUrl": "https://www.aiarty.com/midjourney-prompts/midjourney-prompts-cheat-sheet.htm"
+    "sourceUrl": "https://www.aiarty.com/midjourney-prompts/midjourney-prompts-cheat-sheet.htm",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "--cref + --cw para consistencia de personaje: parámetros reales de Midjourney documentados."
   },
   {
     "id": "p-lib-midjourney-3",
@@ -422,7 +506,10 @@
     },
     "prompt": "[SUBJECT] in the visual style of the reference image --oref [STYLE IMAGE URL] --ow 300 --ar 1:1 --v 7",
     "sourceName": "SurePrompts — Midjourney V7 prompting guide",
-    "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide"
+    "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Omni-Reference --oref/--ow para transferencia de estilo: parámetros reales de Midjourney V7 documentados."
   },
   {
     "id": "p-lib-midjourney-4",
@@ -435,7 +522,10 @@
     },
     "prompt": "Step 1 — generate fast previews: [SCENE DESCRIPTION] --draft --ar 16:9\nStep 2 — once you pick a winner, re-render it without --draft and add --s 300 --no blur, watermark, extra limbs for a clean final pass.",
     "sourceName": "pamistanbul — Midjourney V7 guide 2026",
-    "sourceUrl": "https://www.pamistanbul.com/en/pamlab/midjourney-v7-pro-guide-2026"
+    "sourceUrl": "https://www.pamistanbul.com/en/pamlab/midjourney-v7-pro-guide-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Draft Mode para preview rápido y luego re-render a máxima calidad con --s y --no: flujo documentado de Midjourney V7."
   },
   {
     "id": "p-lib-gpt-image-1",
@@ -448,7 +538,10 @@
     },
     "prompt": "Design a minimalist emblem-style logo for a brand called \"[BRAND NAME]\" (keep the name to 1-3 words). A clean geometric icon sits centered above the wordmark, generous even spacing, single balanced stroke weight. Requirements: spell the name EXACTLY as written, flat vector look with crisp hard edges, pure white background, high resolution suitable for scaling to large print, no gradients, no photographic texture, no drop shadows, no extra text or taglines. If any letterform renders imperfectly, regenerate until every character is correct.",
     "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
-    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026"
+    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Nombre exacto entre comillas + salida vector limpia y regenerar si el texto sale mal: técnica documentada de GPT Image para render de texto."
   },
   {
     "id": "p-lib-gpt-image-2",
@@ -461,7 +554,10 @@
     },
     "prompt": "Here is my image: [UPLOAD IMAGE]. First, remove [OBJECT] from the background. Then adjust the lighting to look like golden hour. Do only one change per message so I can approve each step before the next.",
     "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
-    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026"
+    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Edición conversacional de una imagen, un cambio por mensaje: capacidad documentada de GPT Image (edición iterativa)."
   },
   {
     "id": "p-lib-gpt-image-3",
@@ -472,9 +568,12 @@
       "es": "Póster con jerarquía tipográfica compleja",
       "en": "Poster with complex typographic hierarchy"
     },
-    "prompt": "Create a concert poster: bold headline \"[EVENT NAME]\" at the top, subheading \"[DATE AND CITY]\" below it, small sponsor logos row at the bottom, cinematic warm-toned illustration filling the middle, all text correctly spelled and legible.",
+    "prompt": "Create a concert poster: bold headline \"[EVENT NAME]\" at the top, a subheading \"[DATE AND CITY]\" below it, a small sponsor-logo row at the bottom, cinematic warm-toned illustration filling the middle. All text correctly spelled and legible, with a clear typographic hierarchy (headline > subhead > sponsors). High resolution, print-ready [ASPECT, e.g. 2:3], crisp sharp edges on the type. If any text renders garbled, regenerate that region rather than leaving it.",
     "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
-    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026"
+    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Póster con jerarquía tipográfica y texto correcto: fortaleza documentada de GPT Image en render de texto; specs de resolución/legibilidad añadidas."
   },
   {
     "id": "p-lib-gpt-image-4",
@@ -485,9 +584,12 @@
       "es": "Serie de producto con consistencia entre imágenes",
       "en": "Product series with cross-image consistency"
     },
-    "prompt": "Generate 4 product shots of the same [PRODUCT] from front, 3/4, side, and top-down angles, keeping identical materials, colors, and studio lighting setup across all four so they can be used together in one catalog page.",
+    "prompt": "Generate 4 product shots of the same [PRODUCT] from front, 3/4, side, and top-down angles. Keep identical materials, colors, studio lighting setup, lens, and background across all four so they sit together on one catalog page. High resolution, soft realistic shadows, accurate color, and consistent scale between the four shots.",
     "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
-    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026"
+    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Serie de producto con consistencia entre imágenes: capacidad documentada de GPT Image; specs de luz/lente/escala consistentes añadidas."
   },
   {
     "id": "p-lib-ideogram-1",
@@ -500,7 +602,10 @@
     },
     "prompt": "A vintage travel poster with the words \"[SHORT PHRASE]\" in bold retro lettering at the top, illustrated mountain landscape below, muted sunset palette. Turn Magic Prompt off so the wording stays exact.",
     "sourceName": "gptprompts.ai — Ideogram prompts guide",
-    "sourceUrl": "https://gptprompts.ai/ideogram-prompts"
+    "sourceUrl": "https://gptprompts.ai/ideogram-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Texto exacto entre comillas con Magic Prompt OFF para no alterar el wording: técnica documentada de Ideogram."
   },
   {
     "id": "p-lib-ideogram-2",
@@ -513,7 +618,10 @@
     },
     "prompt": "Create a bold graphic poster for \"[EVENT NAME]\", \"[DATE]\" and \"[CITY]\" as three separate correctly-spelled text elements, high-contrast color blocking, modern sans-serif typography, generate 4 variations and I'll pick the one with the cleanest text.",
     "sourceName": "yrom.com — AI prompts for logo design",
-    "sourceUrl": "https://yrom.com/ai-prompts-for-logo-design/"
+    "sourceUrl": "https://yrom.com/ai-prompts-for-logo-design/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Póster con 3 elementos de texto separados y correctamente escritos, generar variantes: flujo documentado de Ideogram para tipografía."
   },
   {
     "id": "p-lib-ideogram-3",
@@ -526,7 +634,10 @@
     },
     "prompt": "Design a badge-style logo with \"[BRAND NAME]\" as the main wordmark and \"[TAGLINE]\" as a smaller curved line beneath it, vintage stamp aesthetic, single accent color, correctly spelled, no extra text.",
     "sourceName": "promptspace.in — AI logo generator prompts",
-    "sourceUrl": "https://www.promptspace.in/blog/ai-logo-generator-prompts-professional-brand-logos-2026"
+    "sourceUrl": "https://www.promptspace.in/blog/ai-logo-generator-prompts-professional-brand-logos-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Logo con wordmark + tagline curvo, sin texto extra: caso documentado de la fortaleza de Ideogram en texto."
   },
   {
     "id": "p-lib-ideogram-4",
@@ -539,7 +650,10 @@
     },
     "prompt": "Design 3 packaging box mockups for the same product line \"[BRAND NAME]\" in three flavor variants \"[FLAVOR 1]\", \"[FLAVOR 2]\", \"[FLAVOR 3]\", identical layout and typography across all three, only the accent color and flavor name changing, all text correctly spelled.",
     "sourceName": "gptprompts.ai — Ideogram prompts guide",
-    "sourceUrl": "https://gptprompts.ai/ideogram-prompts"
+    "sourceUrl": "https://gptprompts.ai/ideogram-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Sistema de packaging con tipografía consistente y solo variando color/sabor: flujo documentado de Ideogram."
   },
   {
     "id": "p-lib-stable-diffusion-1",
@@ -552,7 +666,10 @@
     },
     "prompt": "(cinematic:1.3) portrait of [SUBJECT], (dramatic rim lighting:1.2), 85mm lens, shallow depth of field, film grain\nNegative prompt: extra fingers, distorted hands, watermark, blurry, amateur lighting",
     "sourceName": "PromptMake — Stable Diffusion prompt guide",
-    "sourceUrl": "https://promptmake.net/blog/stable-diffusion-prompt-guide"
+    "sourceUrl": "https://promptmake.net/blog/stable-diffusion-prompt-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Prompt con pesos (:1.3) + negative prompt: sintaxis real y documentada de Stable Diffusion."
   },
   {
     "id": "p-lib-stable-diffusion-2",
@@ -565,7 +682,10 @@
     },
     "prompt": "<lora:[STYLE_LORA_NAME]:0.8> [CHARACTER DESCRIPTION] in a dynamic action pose, matched to the ControlNet OpenPose skeleton reference, consistent identity and outfit across generations\nNegative prompt: warped anatomy, wrong pose, watermark, low detail",
     "sourceName": "gptprompts.ai — Advanced Stable Diffusion guide (ControlNet, LoRA)",
-    "sourceUrl": "https://gptprompts.ai/stable-diffusion-advanced"
+    "sourceUrl": "https://gptprompts.ai/stable-diffusion-advanced",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "<lora:...:0.8> + ControlNet OpenPose para pose exacta: sintaxis y flujo reales documentados de Stable Diffusion."
   },
   {
     "id": "p-lib-stable-diffusion-3",
@@ -578,7 +698,10 @@
     },
     "prompt": "subject: young woman with short curly hair; action: laughing candidly; environment: sunlit outdoor cafe; lighting: soft natural daylight with warm bounce fill; camera: 50mm, f/1.8, shallow depth of field, eye-level; style: documentary photography, Kodak Portra 400 film look, 4K, sharp focus on the eyes\nNegative prompt: extra fingers, deformed hands, plastic waxy skin, watermark, text, blurry, lowres, oversaturated\nSettings: DPM++ 2M Karras, 30 steps, CFG 5.5, then 2x hi-res upscale at denoise 0.3 to keep detail",
     "sourceName": "PromptMake — Stable Diffusion prompt guide",
-    "sourceUrl": "https://promptmake.net/blog/stable-diffusion-prompt-guide"
+    "sourceUrl": "https://promptmake.net/blog/stable-diffusion-prompt-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Prompt en 6 capas + negative + sampler/steps/CFG y upscale: estructura documentada y parámetros reales de SD."
   },
   {
     "id": "p-lib-stable-diffusion-4",
@@ -591,7 +714,10 @@
     },
     "prompt": "Mask the [OBJECT] region and inpaint with: [NEW OBJECT DESCRIPTION], matching the existing lighting direction and color temperature of the scene, denoise strength 0.55 to preserve surrounding detail.\nNegative prompt: seams, mismatched lighting, blurry edges",
     "sourceName": "gptprompts.ai — Advanced Stable Diffusion guide",
-    "sourceUrl": "https://gptprompts.ai/stable-diffusion-advanced"
+    "sourceUrl": "https://gptprompts.ai/stable-diffusion-advanced",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Inpainting con máscara y denoise 0.55 para preservar el entorno: técnica y parámetro reales documentados de SD."
   },
   {
     "id": "p-lib-flux-1",
@@ -604,7 +730,10 @@
     },
     "prompt": "A weathered fisherman in his 60s mending a fishing net on a wooden dock at sunset, warm low-angle orange sunlight raking across his lined face, calm harbor water reflecting the sky behind him, out-of-focus wooden boats in the background. Photorealistic editorial photograph, shot on a 35mm lens at f/2.8, natural skin texture with visible pores and grey stubble, 4K, high dynamic range, true-to-life colors. Render exactly the scene described — do not add extra people, boats, or objects.",
     "sourceName": "perplexityaimagazine — Stable Diffusion / Flux tutorial 2026",
-    "sourceUrl": "https://perplexityaimagazine.com/ai-tools/stable-diffusion-tutorial-2026/"
+    "sourceUrl": "https://perplexityaimagazine.com/ai-tools/stable-diffusion-tutorial-2026/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Lenguaje natural (no tags) + señal de fidelidad y specs de cámara: forma documentada de promptear Flux por su alta adherencia."
   },
   {
     "id": "p-lib-flux-2",
@@ -617,7 +746,10 @@
     },
     "prompt": "Generate a product hero image for [PRODUCT] following this brand style guide: [COLOR PALETTE, MOOD, LIGHTING NOTES]. Output at high resolution suitable for direct API integration into our e-commerce pipeline, transparent background if the product is the sole subject.",
     "sourceName": "gptprompts.ai — Stable Diffusion / Flux guide",
-    "sourceUrl": "https://gptprompts.ai/stable-diffusion-guide"
+    "sourceUrl": "https://gptprompts.ai/stable-diffusion-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Imagen hero de producto vía API con guía de marca y fondo transparente: caso documentado de integración de Flux."
   },
   {
     "id": "p-lib-flux-3",
@@ -630,7 +762,10 @@
     },
     "prompt": "Extreme macro close-up of [MATERIAL, e.g. brushed stainless steel / raw linen weave / cracked terracotta], flat even studio lighting from a large overhead softbox, shot on a 100mm macro lens at f/8 for full depth of field, perfectly seamless and tileable framing with no visible edges or repeating seams, ultra-sharp micro-detail, physically accurate surface reflectance, 4K resolution, suitable as a PBR albedo/diffuse texture map. Keep the surface flat-on and uniform.",
     "sourceName": "perplexityaimagazine — Stable Diffusion / Flux tutorial 2026",
-    "sourceUrl": "https://perplexityaimagazine.com/ai-tools/stable-diffusion-tutorial-2026/"
+    "sourceUrl": "https://perplexityaimagazine.com/ai-tools/stable-diffusion-tutorial-2026/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Textura macro tileable como mapa PBR con lente/apertura y reflectancia física: prompt técnico coherente con Flux."
   },
   {
     "id": "p-lib-flux-4",
@@ -643,7 +778,10 @@
     },
     "prompt": "I'm self-hosting an open-weight Flux checkpoint on [GPU/HARDWARE]. Recommend a quantization level for [SPEED/QUALITY TRADEOFF], and give me a short checklist to validate output quality before pointing production traffic at it.",
     "sourceName": "gptprompts.ai — Stable Diffusion / Flux guide",
-    "sourceUrl": "https://gptprompts.ai/stable-diffusion-guide"
+    "sourceUrl": "https://gptprompts.ai/stable-diffusion-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Autoalojar checkpoint Flux open-weight con nivel de cuantización y checklist de calidad: flujo real documentado (pesos abiertos de Flux)."
   },
   {
     "id": "p-lib-krea-1",
@@ -656,7 +794,10 @@
     },
     "prompt": "Rough input sketch: a simple armchair shape in a room corner. Refine it live into a photorealistic mid-century modern armchair in a sunlit reading nook — warm walnut wood frame, soft bouclé textile upholstery, realistic contact shadows and directional window light. Keep the enhance/strength LOW (around 0.3-0.4) so composition and proportions stay faithful to my sketch. Photorealistic interior visualization, 4K, physically accurate material reflectance and soft ambient occlusion.",
     "sourceName": "ClickUp — Best Krea AI prompts",
-    "sourceUrl": "https://clickup.com/blog/krea-ai-prompts/"
+    "sourceUrl": "https://clickup.com/blog/krea-ai-prompts/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Boceto→render en tiempo real con enhance bajo (0.3-0.4) para no desviarse: flujo real documentado de Krea."
   },
   {
     "id": "p-lib-krea-2",
@@ -669,7 +810,10 @@
     },
     "prompt": "Upscale this render to the highest resolution available while preserving fine material detail (fabric weave, wood grain), do not invent new elements or sharpen halos around edges.",
     "sourceName": "theplanettools.ai — Krea AI review 2026",
-    "sourceUrl": "https://theplanettools.ai/tools/krea-ai"
+    "sourceUrl": "https://theplanettools.ai/tools/krea-ai",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Upscale a alta resolución preservando detalle sin halos ni invención: capacidad documentada de Krea."
   },
   {
     "id": "p-lib-krea-3",
@@ -682,7 +826,10 @@
     },
     "prompt": "Take this flat 3D render of [OBJECT/SCENE] and convert it into a photorealistic visualization while keeping the exact geometry, camera angle, and layout unchanged. Add physically accurate light falloff, soft ambient occlusion in the crevices, subtle real-world imperfections (micro-scratches, dust, faint fingerprints), and realistic material reflectance. Photoreal product-viz quality, 4K, neutral studio HDRI lighting. Do not invent new objects or change any proportions.",
     "sourceName": "academy.techpresso.co — Best Krea AI prompts",
-    "sourceUrl": "https://academy.techpresso.co/prompts/krea-prompts"
+    "sourceUrl": "https://academy.techpresso.co/prompts/krea-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Render 3D plano→fotorreal manteniendo geometría exacta con AO y falloff realista: flujo documentado de Krea (Enhance/Realtime)."
   },
   {
     "id": "p-lib-krea-4",
@@ -695,7 +842,10 @@
     },
     "prompt": "Generate 5 modular game props (crate, barrel, lantern, sign, fence post) in the exact same stylized low-poly aesthetic and lighting setup, so they read as one visual set when placed together in-engine.",
     "sourceName": "Krea — gaming asset generation",
-    "sourceUrl": "https://www.krea.ai/gaming"
+    "sourceUrl": "https://www.krea.ai/gaming",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Set modular de assets con misma estética y luz para que lean como conjunto: caso de uso documentado de Krea."
   },
   {
     "id": "p-lib-leonardo-1",
@@ -708,7 +858,10 @@
     },
     "prompt": "Full-body character concept of a [CLASS, e.g. rogue] for a fantasy RPG: worn leather armor, hooded cloak, dual daggers. Neutral A-pose, clean readable silhouette, front orthographic view, flat even lighting with no harsh shadows, plain neutral grey background. Consistent line weight and rendering, high material detail on gear and fabric, 4K, production-ready as a 3D-modeling reference sheet. Keep proportions anatomically consistent and the pose symmetrical.",
     "sourceName": "selfielab — Leonardo AI game-ready character design tips",
-    "sourceUrl": "https://selfielabstudio.com/blog/leonardo-ai-game-ready-character-design-tips-20260217"
+    "sourceUrl": "https://selfielabstudio.com/blog/leonardo-ai-game-ready-character-design-tips-20260217",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Concept de personaje en A-pose, silueta limpia, fondo neutro para modelado 3D: flujo documentado de Leonardo (game art)."
   },
   {
     "id": "p-lib-leonardo-2",
@@ -721,7 +874,10 @@
     },
     "prompt": "[PROP, e.g. treasure chest] in the same stylized cel-shaded aesthetic as [REFERENCE STYLE], designed as a reusable game asset icon, transparent background, consistent color saturation with the rest of the set.",
     "sourceName": "freeaipromptmaker — Leonardo AI game art assets",
-    "sourceUrl": "https://freeaipromptmaker.com/blog/2026-05-10-leonardo-ai-game-art-assets"
+    "sourceUrl": "https://freeaipromptmaker.com/blog/2026-05-10-leonardo-ai-game-art-assets",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Prop de entorno con estilo de marca consistente y fondo transparente como icono reutilizable: flujo documentado de Leonardo."
   },
   {
     "id": "p-lib-leonardo-3",
@@ -734,7 +890,10 @@
     },
     "prompt": "Using our fine-tuned brand model, generate a set of 6 marketing icons for [PRODUCT CATEGORY], identical line weight, corner radius, and two-tone color scheme across all six so they form a cohesive icon set.",
     "sourceName": "aiproductionguy — Leonardo.AI overview",
-    "sourceUrl": "https://aiproductionguy.substack.com/p/leonardoai-from-game-asset-generator"
+    "sourceUrl": "https://aiproductionguy.substack.com/p/leonardoai-from-game-asset-generator",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Set de iconos con modelo fine-tuned propio (line weight/radius/2 tonos consistentes): capacidad documentada de Leonardo (custom models)."
   },
   {
     "id": "p-lib-leonardo-4",
@@ -747,7 +906,10 @@
     },
     "prompt": "Generate a character turnaround sheet for [CHARACTER] with front, side, and back views on one canvas, consistent proportions, outfit, and color palette across all three views, suitable for handing directly to a 3D modeler.",
     "sourceName": "selfielab — Leonardo AI game-ready character design tips",
-    "sourceUrl": "https://selfielabstudio.com/blog/leonardo-ai-game-ready-character-design-tips-20260217"
+    "sourceUrl": "https://selfielabstudio.com/blog/leonardo-ai-game-ready-character-design-tips-20260217",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Turnaround (front/side/back) con proporciones y paleta consistentes para el modelador: flujo documentado de Leonardo."
   },
   {
     "id": "p-lib-sora-1",
@@ -1000,7 +1162,10 @@
     },
     "prompt": "Track the motion of [OBJECT] in this clip and attach a [GRAPHIC/TEXT OVERLAY] to it so it moves naturally with the object, keeping perspective and scale correct as it moves through frame.",
     "sourceName": "Pinggy — Best video generation AI models 2026",
-    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/"
+    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Motion tracking para anclar un overlay a un objeto conservando perspectiva/escala: capacidad documentada de Runway (post/tracking)."
   },
   {
     "id": "p-lib-pika-1",
@@ -1013,7 +1178,10 @@
     },
     "prompt": "Take this photo of [OBJECT] and apply an inflate effect: over ~3s it grows rounder and puffier like a balloon, then holds. Keep the background, lighting, and framing unchanged. 1080p, 24 fps, ~4s total, smooth easing (no popping or flicker).",
     "sourceName": "createbyprompt — AI video prompts guide (Runway, Kling, Pika)",
-    "sourceUrl": "https://createbyprompt.com/articles/ai-video-prompts-guide/"
+    "sourceUrl": "https://createbyprompt.com/articles/ai-video-prompts-guide/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Efecto inflate viral manteniendo fondo/luz: Pika Effect documentado; specs de duración/easing añadidas."
   },
   {
     "id": "p-lib-pika-2",
@@ -1026,7 +1194,10 @@
     },
     "prompt": "Swap the face in this clip with the face from [REFERENCE PHOTO], keep the original expression timing and head movement, blend skin tone naturally at the jawline.",
     "sourceName": "createbyprompt — AI video prompts guide (Runway, Kling, Pika)",
-    "sourceUrl": "https://createbyprompt.com/articles/ai-video-prompts-guide/"
+    "sourceUrl": "https://createbyprompt.com/articles/ai-video-prompts-guide/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Face swap conservando timing de expresión y movimiento de cabeza: capacidad documentada de Pika."
   },
   {
     "id": "p-lib-pika-3",
@@ -1039,7 +1210,10 @@
     },
     "prompt": "Using Pikaframes, create a smooth transition between [START IMAGE] and [END IMAGE], 3 second duration, natural easing so the motion doesn't feel linear or robotic.",
     "sourceName": "Pinggy — Best video generation AI models 2026",
-    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/"
+    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Interpolación entre dos keyframes con easing natural: Pikaframes es función real documentada de Pika."
   },
   {
     "id": "p-lib-pika-4",
@@ -1052,7 +1226,10 @@
     },
     "prompt": "Using Pikaformance, sync this clip's lips to the new audio track: \"[NEW DIALOGUE AUDIO]\", keep the original head movement and expression, only adjust the mouth region.",
     "sourceName": "Pinggy — Best video generation AI models 2026",
-    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/"
+    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Lip-sync a nuevo audio conservando cabeza/expresión: Pikaformance/lip-sync es función real documentada de Pika."
   },
   {
     "id": "p-lib-higgsfield-1",
@@ -1065,7 +1242,10 @@
     },
     "prompt": "Apply a Dolly-In camera-control preset to [SUBJECT/SCENE]: smooth constant speed, cinematic shallow depth of field, no manual keyframing. 1080p, 24 fps, 16:9, ~5s, motion starts and ends without overshoot.",
     "sourceName": "Higgsfield — MiniMax Hailuo 2.3 creative guide",
-    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide"
+    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Preset de Camera Control (dolly-in) sin keyframing manual: función real documentada de Higgsfield."
   },
   {
     "id": "p-lib-higgsfield-2",
@@ -1078,7 +1258,10 @@
     },
     "prompt": "Generate a UGC-style clip from the UGC category preset: [PERSON] talking to camera about [PRODUCT]. Handheld phone-camera look (slight sway), natural indoor lighting, casual authentic tone. 1080p, 30 fps, 9:16 vertical, ~8s, natural lip movement and stable identity.",
     "sourceName": "Higgsfield — MiniMax Hailuo 2.3 creative guide",
-    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide"
+    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Preset de categoría UGC, look de móvil vertical: preset real documentado de Higgsfield; specs (9:16/30fps) añadidas."
   },
   {
     "id": "p-lib-higgsfield-3",
@@ -1091,7 +1274,10 @@
     },
     "prompt": "Run this exact scene description through Sora, Kling, and Veo within the same workspace: [SCENE DESCRIPTION]. Compare which model handles the camera move most naturally before picking the final output.",
     "sourceName": "Higgsfield — MiniMax Hailuo 2.3 creative guide",
-    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide"
+    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Mismo prompt a través de Sora/Kling/Veo en un workspace para comparar: capacidad documentada de Higgsfield (multi-modelo)."
   },
   {
     "id": "p-lib-higgsfield-4",
@@ -1104,7 +1290,10 @@
     },
     "prompt": "Using the Commercial and Emotion presets, create a 3-shot ad sequence for [PRODUCT]: shot 1 problem (frustrated expression), shot 2 discovery (surprise), shot 3 satisfaction (relief/smile), consistent lighting and actor across all three shots.",
     "sourceName": "Higgsfield — MiniMax Hailuo 2.3 creative guide",
-    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide"
+    "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Secuencia comercial con presets Commercial/Emotion y actor consistente: presets reales documentados de Higgsfield."
   },
   {
     "id": "p-lib-hailuo-1",
@@ -1645,7 +1834,10 @@
     },
     "prompt": "Summarize what has changed about [TOPIC] in the last 6 months as of 2026, keeping strictly to sources dated in that window so it doesn't mix in outdated context.",
     "sourceName": "Promptzy — Best Perplexity AI prompts for research 2026",
-    "sourceUrl": "https://promptzy.app/blog/best-perplexity-ai-prompts"
+    "sourceUrl": "https://promptzy.app/blog/best-perplexity-ai-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Investigación acotada en el tiempo ('en los últimos 6 meses'): recomendación documentada de Perplexity para no mezclar resultados desactualizados."
   },
   {
     "id": "p-lib-perplexity-3",
@@ -1658,7 +1850,10 @@
     },
     "prompt": "Explain [TECHNICAL TOPIC] at a level suitable for someone with a graduate background in [FIELD] — don't simplify the jargon, but do define any term specific to a narrower subfield. Cite primary sources, not explainer blogs, where possible.",
     "sourceName": "Perplexity Help Center — Practical tips for using Perplexity",
-    "sourceUrl": "https://www.perplexity.ai/help-center/en/articles/10352971-practical-tips-for-using-perplexity"
+    "sourceUrl": "https://www.perplexity.ai/help-center/en/articles/10352971-practical-tips-for-using-perplexity",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Especificar profundidad técnica y tipo de fuente: buena práctica documentada de Perplexity."
   },
   {
     "id": "p-lib-perplexity-4",
@@ -1671,7 +1866,10 @@
     },
     "prompt": "Find the 8 highest-quality, most recent sources on [TOPIC] — prioritize primary research and reporting over aggregator content. Give me each URL with a one-line note on why it's credible, so I can feed the strongest ones into a deeper analysis tool afterward.",
     "sourceName": "NotebookLM Guide — Perplexity + NotebookLM discovery-to-analysis pipeline",
-    "sourceUrl": "https://notebooklm-guide.com/notebooklm-perplexity-research"
+    "sourceUrl": "https://notebooklm-guide.com/notebooklm-perplexity-research",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Pipeline de descubrimiento antes del análisis profundo (empezar simple y escalar): enfoque incremental documentado de Perplexity."
   },
   {
     "id": "p-lib-notion-ai-1",
@@ -1700,7 +1898,10 @@
     },
     "prompt": "Search our workspace for anything related to [TOPIC/PROJECT] and give me a short synthesis of what's already been decided, so I don't propose something we already ruled out.",
     "sourceName": "AI Atlas — original, based on Notion AI workspace search capability",
-    "sourceUrl": "https://www.notion.com/product/ai"
+    "sourceUrl": "https://www.notion.com/product/ai",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Búsqueda en el conocimiento del equipo/workspace: capacidad documentada de Notion AI (Q&A sobre el workspace)."
   },
   {
     "id": "p-lib-notion-ai-3",
@@ -1713,7 +1914,10 @@
     },
     "prompt": "Using our existing style guide and past [DOCUMENT TYPE] docs in this workspace as reference, draft a new [DOCUMENT TYPE] about [TOPIC] that matches our usual tone and structure.",
     "sourceName": "AI Atlas — original, based on Notion AI context-aware drafting",
-    "sourceUrl": "https://www.notion.com/product/ai"
+    "sourceUrl": "https://www.notion.com/product/ai",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Redacción usando el contexto del workspace: capacidad documentada de Notion AI."
   },
   {
     "id": "p-lib-notion-ai-4",
@@ -1726,7 +1930,10 @@
     },
     "prompt": "Turn this database of [ITEMS, e.g. project statuses] into a narrative status report: group by [FIELD], flag anything overdue in bold, and end with a one-paragraph executive summary of overall health.",
     "sourceName": "AI Atlas — original, based on Notion AI database/report capability",
-    "sourceUrl": "https://www.notion.com/product/ai"
+    "sourceUrl": "https://www.notion.com/product/ai",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Convertir una base de datos en informe narrativo: capacidad documentada de Notion AI sobre databases."
   },
   {
     "id": "p-lib-notebooklm-1",
@@ -1739,7 +1946,10 @@
     },
     "prompt": "Give me a high-level orientation to these uploaded sources: what are they about, what's the throughline, and what are 3 questions worth asking next?",
     "sourceName": "Shareuhack — NotebookLM tips & tricks 2026",
-    "sourceUrl": "https://www.shareuhack.com/en/posts/notebooklm-advanced-guide-2026"
+    "sourceUrl": "https://www.shareuhack.com/en/posts/notebooklm-advanced-guide-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Pregunta de orientación antes de profundizar sobre fuentes subidas: flujo documentado de NotebookLM (grounded en tus documentos)."
   },
   {
     "id": "p-lib-notebooklm-2",
@@ -1752,7 +1962,10 @@
     },
     "prompt": "Generate an audio overview of these sources as a two-host conversational podcast, focused specifically on [SUBTOPIC], skipping sections unrelated to it.",
     "sourceName": "Medium — NotebookLM 2026 practical guide",
-    "sourceUrl": "https://medium.com/write-a-catalyst/notebooklm-2025-the-only-practical-guide-you-need-to-turn-chaos-into-clear-thinking-f4706008d08b"
+    "sourceUrl": "https://medium.com/write-a-catalyst/notebooklm-2025-the-only-practical-guide-you-need-to-turn-chaos-into-clear-thinking-f4706008d08b",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Audio Overview/podcast a partir de tus documentos: capacidad real documentada de NotebookLM."
   },
   {
     "id": "p-lib-notebooklm-3",
@@ -1765,7 +1978,10 @@
     },
     "prompt": "Based only on the uploaded sources, answer these in order, each in 2-3 sentences, citing which source each answer comes from: (1) [Q1] (2) [Q2] (3) [Q3] (4) [Q4] (5) [Q5]",
     "sourceName": "Tom's Guide — NotebookLM vs Perplexity for deep research",
-    "sourceUrl": "https://www.tomsguide.com/ai/i-tested-notebooklm-vs-perplexity-for-deep-research-with-5-difficult-prompts-heres-the-clear-winner"
+    "sourceUrl": "https://www.tomsguide.com/ai/i-tested-notebooklm-vs-perplexity-for-deep-research-with-5-difficult-prompts-heres-the-clear-winner",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Cinco preguntas de seguimiento dirigidas sobre las fuentes: patrón documentado de NotebookLM."
   },
   {
     "id": "p-lib-notebooklm-4",
@@ -1778,7 +1994,10 @@
     },
     "prompt": "Build a mind map connecting the main concepts across all uploaded sources, then separately flag any place where two sources contradict each other or where one source makes a claim the others don't support.",
     "sourceName": "Shareuhack — NotebookLM tips & tricks 2026",
-    "sourceUrl": "https://www.shareuhack.com/en/posts/notebooklm-advanced-guide-2026"
+    "sourceUrl": "https://www.shareuhack.com/en/posts/notebooklm-advanced-guide-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Mind map y verificación cruzada entre fuentes: funciones documentadas de NotebookLM."
   },
   {
     "id": "p-lib-luma-1",
@@ -1791,7 +2010,10 @@
     },
     "prompt": "Capture a 360° video of [OBJECT], walking slowly around it at a constant distance and eye-level height, even diffuse lighting, matte surfaces preferred, no fast motion or motion blur — so the Gaussian/NeRF reconstruction gets clean overlapping coverage of every angle. Hold each side ~2s before moving on.",
     "sourceName": "aitools.aiting.com — Luma AI overview",
-    "sourceUrl": "https://aitools.aiting.com/ai/luma-ai"
+    "sourceUrl": "https://aitools.aiting.com/ai/luma-ai",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Captura 360° a distancia/altura constante y luz uniforme para reconstrucción limpia: guía de captura documentada de Luma."
   },
   {
     "id": "p-lib-luma-2",
@@ -1804,7 +2026,10 @@
     },
     "prompt": "Reconstruct this captured space as a 3D scene, keep real-world scale accurate, and export it as a walkable asset suitable for a game engine or AR viewer.",
     "sourceName": "aitrove.ai — Best AI 3D modeling tools 2026",
-    "sourceUrl": "https://www.aitrove.ai/blog/best-ai-3d-modeling-tools.html"
+    "sourceUrl": "https://www.aitrove.ai/blog/best-ai-3d-modeling-tools.html",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Reconstruir un espacio a escala real exportable a motor/AR: capacidad documentada de Luma (captura de escenas)."
   },
   {
     "id": "p-lib-luma-3",
@@ -1817,7 +2042,10 @@
     },
     "prompt": "Animate this still into a short clip: camera slowly pushes in with subtle parallax, the subject reacts naturally, and the room geometry stays consistent with the source photo — do not invent new architecture or objects as the camera moves. 1080p, 24 fps, ~5s, slow believable motion only (prefer a smaller move over one that warps).",
     "sourceName": "aitools.aiting.com — Luma AI overview",
-    "sourceUrl": "https://aitools.aiting.com/ai/luma-ai"
+    "sourceUrl": "https://aitools.aiting.com/ai/luma-ai",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Dream Machine anima un still con push-in manteniendo la geometría de la sala: capacidad documentada de Luma; señal de fidelidad reforzada."
   },
   {
     "id": "p-lib-kaedim-1",
@@ -2214,7 +2442,10 @@
     },
     "prompt": "You are a senior strategy consultant with 15+ years advising companies in [INDUSTRY]. I will describe a business situation and you will produce a rigorous analysis in six phases. Do NOT skip phases or merge them.\n\nPHASE 1 — Restate the problem: In 3 bullets, state what you understand the real underlying problem to be (not just the symptom I described). Flag any assumption you had to make.\nPHASE 2 — Context map: List the key stakeholders, constraints (budget, time, regulation), and the 2-3 forces most likely to change over the next 18 months.\nPHASE 3 — Options: Generate exactly 4 distinct strategic options. For each: a one-line description, the main upside, the main risk, and a rough effort/impact rating (Low/Med/High each).\nPHASE 4 — Stress test: Take your strongest option and argue AGAINST it as a skeptical board member would. Then respond to those objections.\nPHASE 5 — Recommendation: Pick one path. Give a 90-day action plan with weekly milestones for the first month.\nPHASE 6 — Kill criteria: Define the specific, measurable signals that would tell us this strategy is failing and we should stop.\n\nSituation: [DESCRIBE YOUR SITUATION IN DETAIL — company size, market, what's happening, what you've already tried]\n\nIf my description lacks something critical for the analysis, ask me up to 3 questions before starting.",
     "sourceName": "eWeek — ChatGPT prompt engineering (multi-phase structure)",
-    "sourceUrl": "https://www.eweek.com/news/10-good-vs-bad-chatgpt-prompts-2026/"
+    "sourceUrl": "https://www.eweek.com/news/10-good-vs-bad-chatgpt-prompts-2026/",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado con situación de ejemplo: recorre las 6 fases sin saltarlas (problema real, mapa, 4 opciones, stress test, plan 90 días, kill criteria)."
   },
   {
     "id": "p-mega-chatgpt-2",
@@ -2227,7 +2458,10 @@
     },
     "prompt": "Act as a demanding but constructive developmental editor. I'll paste a piece of writing. Edit it in FOUR SEPARATE PASSES, showing the result of each pass before moving to the next, and pausing for my approval between passes.\n\nPASS 1 — Structure: Assess whether the piece opens strongly, whether ideas flow in the right order, and whether anything should be cut or moved. Propose a revised outline only (don't rewrite prose yet).\nPASS 2 — Clarity: Rewrite for clarity — kill jargon, break run-on sentences, make every paragraph earn its place. Keep my voice.\nPASS 3 — Rhythm and style: Tighten word choice, vary sentence length, strengthen verbs, remove hedging and filler. Read it aloud in your head and fix anything that stumbles.\nPASS 4 — Line polish: Fix grammar, punctuation, and consistency. Produce the final clean version.\n\nAfter each pass, give me a 2-line summary of what you changed and WHY, so I learn from it. Preserve my meaning and never invent facts or quotes.\n\nText: [PASTE YOUR WRITING]",
     "sourceName": "Artificial Corner (Medium) — Best ChatGPT prompts (iterative editing)",
-    "sourceUrl": "https://medium.com/artificial-corner/the-best-chatgpt-prompts-for-2026-27a787f86c46"
+    "sourceUrl": "https://medium.com/artificial-corner/the-best-chatgpt-prompts-for-2026-27a787f86c46",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: edita en 4 pasadas separadas (estructura/claridad/ritmo/pulido) mostrando cada una y explicando el porqué; conserva la voz."
   },
   {
     "id": "p-mega-claude-1",
@@ -2240,7 +2474,10 @@
     },
     "prompt": "<role>You are an experienced contracts analyst. You are careful, you flag uncertainty instead of guessing, and you never give definitive legal advice — you surface issues for a qualified lawyer to review.</role>\n\n<task>\nReview the contract below clause by clause. Work through the ENTIRE document; do not summarize early or skip sections. For each clause produce:\n1. Clause reference and a plain-language explanation of what it actually means in practice.\n2. Which party it favors and why.\n3. A risk rating: Low / Medium / High, with a one-line justification.\n4. If Medium or High: a specific suggested redline or a question to raise with the counterparty.\n</task>\n\n<then>\nAfter the clause-by-clause pass, produce:\n- A RISK MATRIX table: the 8 riskiest clauses ranked, columns = clause | risk | who it hurts | suggested action.\n- A MISSING CLAUSES section: standard protections you would normally expect that are absent here.\n- A 5-bullet executive summary a non-lawyer decision-maker could read in one minute.\n</then>\n\n<format>Use clear headers. Mark anything you are unsure about with [NEEDS LEGAL REVIEW]. Do not soften High risks to sound reassuring.</format>\n\n<contract>\n[PASTE THE FULL CONTRACT HERE]\n</contract>",
     "sourceName": "Anthropic — Prompt engineering best practices (XML structure)",
-    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering"
+    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado con cláusulas de ejemplo: pasada cláusula a cláusula + matriz de riesgo + cláusulas ausentes + resumen ejecutivo, marcando [NEEDS LEGAL REVIEW]."
   },
   {
     "id": "p-mega-claude-2",
@@ -2253,7 +2490,10 @@
     },
     "prompt": "<role>You are a patient expert tutor in [SUBJECT]. Your goal is not to give me answers but to build my genuine understanding, adapting to my level as we go.</role>\n\n<method>\n1. First, ask me ONE diagnostic question to gauge what I already know about [SPECIFIC TOPIC]. Wait for my answer.\n2. Based on my answer, explain the core concept using an analogy grounded in something I already understand. Keep it under 150 words.\n3. Then pose a small problem for me to solve myself. Do NOT solve it for me.\n4. When I answer: if I'm right, deepen the challenge one notch. If I'm wrong, don't just correct me — ask a question that helps me see the error myself, then re-explain the specific piece I missed.\n5. Every few exchanges, ask me to summarize what we've covered in my own words, and gently fix any misconception.\n</method>\n\n<rules>Never dump everything at once. Never make me feel stupid for a wrong answer. If I ask you to just give the answer, give it, but then still ask me a follow-up to check it stuck. Track what I've struggled with and revisit it later.</rules>\n\nTopic I want to learn: [TOPIC]. My rough level: [BEGINNER / INTERMEDIATE / ADVANCED].",
     "sourceName": "Anthropic — Prompt engineering best practices (role + method framing)",
-    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering"
+    "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado: hace pregunta diagnóstica, explica con analogía, plantea problema sin resolverlo y sube o corrige según la respuesta; método socrático real."
   },
   {
     "id": "p-mega-gemini-1",
@@ -2266,7 +2506,10 @@
     },
     "prompt": "Persona: You are a meticulous research analyst who cross-checks claims and never overstates confidence.\n\nTask: I'm giving you a long document (report / transcript / set of files). Do a structured audit in four parts.\n\nPart 1 — Map: Produce a one-page structured outline of the whole document: main sections, the core claim of each, and the type of evidence it rests on (data / expert opinion / anecdote / assertion with no support).\nPart 2 — Key findings: Extract the 10 most important, decision-relevant findings. For each, quote the exact supporting line and give its location.\nPart 3 — Weak points: Flag every place where a conclusion outruns its evidence, where two parts of the document contradict each other, or where a critical number is stated without a source. Be specific and cite locations.\nPart 4 — Questions to resolve: List the 5 questions someone should answer before acting on this document.\n\nFormat: Use headers and tables. When you're uncertain whether something is a contradiction vs. just nuance, say so explicitly rather than forcing a verdict. Do not pad — every line should be decision-useful.\n\n[UPLOAD OR PASTE THE DOCUMENT]",
     "sourceName": "SurePrompts — Gemini prompting guide (long context)",
-    "sourceUrl": "https://sureprompts.com/blog/gemini-prompting-guide"
+    "sourceUrl": "https://sureprompts.com/blog/gemini-prompting-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Requiere subir documento largo; auditoría en 4 partes (mapa/hallazgos/puntos débiles/preguntas) con citas de localización: estructura documentada de long-context."
   },
   {
     "id": "p-mega-perplexity-1",
@@ -2279,7 +2522,10 @@
     },
     "prompt": "Act as a research analyst producing a decision-grade briefing. Research [TOPIC / QUESTION] and deliver the following structure, citing a source for every factual claim and preferring primary sources and recent reporting (as of 2026).\n\n1. TL;DR (5 bullets): the answer a busy decision-maker needs.\n2. What's well established: claims supported by multiple independent, credible sources. Cite each.\n3. What's contested or uncertain: where good sources disagree. Present both sides fairly and say which has stronger evidence.\n4. What's changed recently: developments in the last 6 months that shift the picture.\n5. Confidence ratings: for each of your top 5 claims, rate your confidence (High / Medium / Low) and say what would change your mind.\n6. Gaps: what you could NOT find reliable information on — don't fill these with guesses.\n\nRules: If sources conflict, surface that instead of averaging them into a bland answer. Never present a single blog or aggregator as if it were authoritative. Flag anything that looks like marketing rather than independent reporting.",
     "sourceName": "Prompeteer — Perplexity prompt guide 2026",
-    "sourceUrl": "https://prompeteer.ai/landing/perplexity-prompt-guide-2026"
+    "sourceUrl": "https://prompeteer.ai/landing/perplexity-prompt-guide-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Briefing con fuentes y niveles de confianza: alineado con Perplexity (modo focus, especificidad de fuente, citar por afirmación)."
   },
   {
     "id": "p-mega-cursor-1",
@@ -2340,7 +2586,10 @@
     },
     "prompt": "cinematic film still, [SUBJECT] in [SETTING], [what they are doing], mood of [EMOTION]. Shot on [ARRI Alexa / 35mm film / anamorphic lens], [wide establishing shot / medium close-up], [golden hour backlight / overcast soft light / hard noir side light], color palette of [two or three specific colors], atmospheric depth with [haze / rain / dust particles] catching the light, shallow depth of field, detailed textures on [key material], composed with the subject on a third, negative space to the [left/right], the overall feeling of a frame from a [genre] film directed by a master of visual storytelling --ar 21:9 --v 7 --style raw --s 250 --no text, watermark, distorted anatomy, extra fingers",
     "sourceName": "SurePrompts — Midjourney V7 prompting guide (cinematic structure)",
-    "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide"
+    "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Dirección de fotografía completa (cámara/lente/luz/paleta) + --ar 21:9 --style raw --s --no: estructura y parámetros documentados de Midjourney V7."
   },
   {
     "id": "p-mega-stable-diffusion-1",
@@ -2353,7 +2602,10 @@
     },
     "prompt": "POSITIVE:\n(photorealistic:1.4), (RAW photo:1.2), portrait of [SUBJECT DESCRIPTION], (detailed skin texture with visible pores:1.3), (catchlights in eyes:1.2), natural [age]-appropriate features, [wardrobe], [environment], (cinematic rim lighting:1.2), soft key light from camera left, shot on 85mm f/1.4, shallow depth of field, (sharp focus on eyes:1.3), professional color grading, subtle film grain\n\nNEGATIVE:\n(deformed iris, deformed pupils:1.3), (extra fingers, fused fingers, too many fingers:1.4), (plastic skin, airbrushed, waxy:1.3), (bad anatomy, wrong proportions:1.2), watermark, text, signature, jpeg artifacts, oversaturated, blurry, lowres, cropped head, extra limbs, disfigured\n\nSETTINGS TO TRY: sampler DPM++ 2M Karras, steps 28-35, CFG 4.5-6, then upscale 2x with low denoise (0.25-0.35) to keep detail. If using a realism LoRA, add <lora:[NAME]:0.6-0.8> to the positive and lower CFG slightly.",
     "sourceName": "PromptMake — Stable Diffusion prompt guide (weighting + negatives)",
-    "sourceUrl": "https://promptmake.net/blog/stable-diffusion-prompt-guide"
+    "sourceUrl": "https://promptmake.net/blog/stable-diffusion-prompt-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Positivo/negativo con pesos + sampler DPM++ 2M Karras, steps/CFG y upscale bajo denoise: parámetros reales documentados de SD."
   },
   {
     "id": "p-mega-sora-1",
@@ -2446,7 +2698,10 @@
     },
     "prompt": "Using the meeting notes on this page (and related context from our workspace), produce a structured, decision-ready document with these sections in this order:\n\n1. ONE-LINE OUTCOME: What was actually decided, in a single sentence. If nothing was decided, say that clearly.\n2. DECISIONS: Each decision as a bullet, with the rationale in a sub-bullet.\n3. ACTION ITEMS: A table — Task | Owner | Due date | Status. Only include items with a clear owner; list any action that was mentioned but has no owner in a separate 'Needs an owner' list.\n4. OPEN QUESTIONS: Unresolved points that block progress, each phrased as a specific question.\n5. RISKS / CONCERNS: Anything raised that could go wrong, even if we moved past it.\n6. CONTEXT LINKS: Reference any related docs in our workspace that someone would need to act on this.\n\nRules: Do not invent owners, dates, or decisions that aren't in the notes — if it's ambiguous, flag it rather than guessing. Keep it skimmable: short bullets, no filler. Preserve any specific numbers or names exactly as written.",
     "sourceName": "AI Atlas — original, based on Notion AI meeting/summary capability",
-    "sourceUrl": "https://www.notion.com/product/ai"
+    "sourceUrl": "https://www.notion.com/product/ai",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado con notas de ejemplo: convierte la reunión en doc accionable con decisiones, dueños y próximos pasos; formato correcto."
   },
   {
     "id": "p-mega-gpt-image-1",
@@ -2459,7 +2714,10 @@
     },
     "prompt": "Create a clean, professional infographic (portrait orientation) explaining [TOPIC / PROCESS] for [AUDIENCE]. Structure it top to bottom:\n\n- HEADER: a bold title \"[TITLE]\" and a one-line subtitle \"[SUBTITLE]\", all text correctly spelled.\n- 3-4 NUMBERED STEPS/SECTIONS, each with: a simple line icon, a short heading, and one line of supporting text. Keep consistent spacing and alignment between them.\n- A small CALLOUT box highlighting the single most important takeaway.\n- FOOTER: a thin line with \"[SOURCE OR BRAND]\".\n\nDesign: a restrained palette of [2-3 brand colors] plus neutral grey, generous white space, one clean sans-serif typeface, flat modern illustration style (no photorealism), everything aligned to a clear grid. All text must be legible and correctly spelled. If any text comes out garbled, regenerate that region rather than leaving it. Avoid clutter — this should look like it came from a good design studio, not a busy template.",
     "sourceName": "SurePrompts — Best ChatGPT image prompts 2026 (text + layout)",
-    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026"
+    "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Infografía con jerarquía, texto correcto y grid, regenerar región si sale garbled: técnica documentada de GPT Image para composición con texto."
   },
   {
     "id": "p-mega-grok-1",
@@ -2472,7 +2730,10 @@
     },
     "prompt": "Act as a real-time intelligence analyst. Research what's happening around [TOPIC / EVENT / COMPANY] using live X posts and the open web, and produce a structured brief.\n\n1. SITUATION: What's happening right now, in 3 bullets, based on the most recent posts (note roughly how fresh — hours/days).\n2. WHO'S DRIVING IT: The key accounts, outlets, or figures shaping the conversation. Distinguish informed voices (verified experts, insiders, primary sources) from amplifiers and noise.\n3. VIEWPOINTS: The 2-3 main camps or narratives, presented fairly, with a representative example of each.\n4. WHAT'S GAINING TRACTION: Which angle is accelerating vs. fading, and any notable contrarian take worth watching.\n5. SIGNAL vs. HYPE: Your honest read on what's substantive vs. what looks like manufactured or low-quality buzz.\n6. WHAT TO WATCH: The specific thing that would tell us where this goes next.\n\nRules: Cite the specific posts or pages you're drawing from. Don't launder rumor as fact — label unverified claims as unverified. If the topic is thin or quiet on X, say so rather than inflating it.",
     "sourceName": "SurePrompts — Grok prompts for real-time intelligence",
-    "sourceUrl": "https://sureprompts.com/blog/grok-prompts-real-time-intelligence-guide"
+    "sourceUrl": "https://sureprompts.com/blog/grok-prompts-real-time-intelligence-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Depende de X en vivo; brief de inteligencia (situación/quién impulsa/viewpoints/tracción/señal-vs-hype) con citas: estructura documentada de Grok."
   },
   {
     "id": "p-mega-copilot-1",
@@ -2517,7 +2778,10 @@
     },
     "prompt": "You are a debugging specialist. I'll give you a bug report plus relevant code and logs. Work the problem methodically — don't jump to a fix.\n\n1. CLARIFY THE FAILURE: Restate exactly what's failing, under what conditions, and what the expected behavior is. Note anything ambiguous in my report.\n2. HYPOTHESES: List the plausible root causes, ranked from most to least likely, with your reasoning for the ranking.\n3. DISCRIMINATING TESTS: For the top 2-3 hypotheses, describe the specific check, log line, or minimal experiment that would confirm or rule each one out — so we're not guessing.\n4. ROOT CAUSE: Once the evidence points somewhere, state the actual root cause and explain the full causal chain from trigger to symptom.\n5. FIX: Propose the minimal correct fix that addresses the root cause (not just the symptom), plus a regression test that would fail today and pass after.\n6. BLAST RADIUS: Note anything else in the codebase that could be affected by the same root cause or by your fix.\n\nBug report: [DESCRIBE]\nCode: [PASTE]\nLogs/errors: [PASTE]",
     "sourceName": "SurePrompts — Best DeepSeek prompts 2026 (reasoning/debugging)",
-    "sourceUrl": "https://sureprompts.com/blog/best-deepseek-prompts-2026"
+    "sourceUrl": "https://sureprompts.com/blog/best-deepseek-prompts-2026",
+    "verified": true,
+    "verifyMethod": "functional-test",
+    "verifyNote": "Probado con bug de ejemplo: hipótesis rankeadas, tests discriminantes, causa raíz, fix mínimo con test de regresión y blast radius."
   },
   {
     "id": "p-mega-notebooklm-1",
@@ -2530,7 +2794,10 @@
     },
     "prompt": "Using ONLY the sources I've uploaded, produce a rigorous synthesis — do not bring in outside knowledge.\n\n1. OVERVIEW: What collectively do these sources cover, and what's the throughline? (150 words max)\n2. KEY POINTS: The 8-10 most important claims across all sources. For each, cite which source(s) it comes from.\n3. AGREEMENT: Where do multiple sources independently support the same claim? These are your most reliable points.\n4. CONTRADICTIONS: Every place where two sources disagree or where one claims something the others don't support. Quote both sides and their locations. Do not resolve these by picking a winner unless one is clearly better evidenced — just surface them clearly.\n5. GAPS: Important questions these sources raise but do NOT answer.\n6. WHAT I'D READ FIRST: If I only had time for one source, which and why.\n\nRules: Every factual statement must trace to a specific source. If something appears in only one source and isn't corroborated, mark it [SINGLE SOURCE]. Never fill a gap with a guess.",
     "sourceName": "Shareuhack — NotebookLM tips & tricks 2026",
-    "sourceUrl": "https://www.shareuhack.com/en/posts/notebooklm-advanced-guide-2026"
+    "sourceUrl": "https://www.shareuhack.com/en/posts/notebooklm-advanced-guide-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Síntesis de fuentes marcando contradicciones y vacíos, citando la fuente: uso documentado de NotebookLM (respuestas grounded con citas)."
   },
   {
     "id": "p-20260724-3",
@@ -2543,7 +2810,10 @@
     },
     "prompt": "Create an image of a scrapbook page collage summarizing [PERSON/TOPIC]'s [YEAR/THEME]: torn photo edges, washi tape, handwritten captions in the corners, ticket stubs and small doodles scattered around 3-4 overlapping photo-style images, warm paper texture background, slightly desaturated nostalgic color grade.",
     "sourceName": "Medium (CodeToDeploy) — 10 ChatGPT Image Prompts That Went Viral",
-    "sourceUrl": "https://medium.com/codetodeploy/10-chatgpt-image-prompts-that-went-viral-36977b5222ce"
+    "sourceUrl": "https://medium.com/codetodeploy/10-chatgpt-image-prompts-that-went-viral-36977b5222ce",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Collage tipo scrapbook (bordes rotos, washi tape, captions): estilo viral documentado y reproducido para GPT Image (Medium 2026)."
   },
   {
     "id": "p-20260724-4",
@@ -2556,7 +2826,10 @@
     },
     "prompt": "Create a neo-noir portrait of [PERSON] sitting in the driver's seat of a car at night, rain streaking down the window, neon signage reflected in wet glass in shades of magenta and cyan, dramatic single-source lighting across the face, cinematic color grade, shallow depth of field.",
     "sourceName": "DigitBin — 50 ChatGPT Image Prompts That Go Viral",
-    "sourceUrl": "https://www.digitbin.com/chatgpt-image-prompts-viral/"
+    "sourceUrl": "https://www.digitbin.com/chatgpt-image-prompts-viral/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Prompt de imagen neo-noir (lluvia+neón, luz de una fuente): estilo viral documentado para GPT Image (DigitBin 2026)."
   },
   {
     "id": "p-20260724-5",
