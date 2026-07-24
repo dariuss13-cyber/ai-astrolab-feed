@@ -755,9 +755,12 @@
       "es": "Plano cinematográfico con un solo movimiento de cámara",
       "en": "Cinematic shot, one camera move"
     },
-    "prompt": "Medium close-up of [SUBJECT] walking through [LOCATION], slow dolly-in, 35mm lens, warm late-afternoon light, then the camera settles as they stop and turn to look off-frame.",
+    "prompt": "Medium close-up of [SUBJECT] walking through [LOCATION], slow dolly-in on a 35mm lens, shallow depth of field, warm late-afternoon key light with a soft rim, then the camera settles as they stop and turn to look off-frame. One continuous camera move only. Cinematic 2.39:1, 24 fps, highest available resolution, natural filmic grade, ~5s. Physically plausible motion — no warping or extra limbs during the move.",
     "sourceName": "Prompt Architects — Cinematic camera prompts for Veo 3 and Kling",
-    "sourceUrl": "https://prompt-architects.com/blog/25-30-cinematic-camera-prompts-for-veo3-and-kling"
+    "sourceUrl": "https://prompt-architects.com/blog/25-30-cinematic-camera-prompts-for-veo3-and-kling",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Estructura shot-list (una cámara + una acción, física plausible) documentada en guías de Sora 2 (WaveSpeed 2026) y cruzada con la práctica común; anatomía del prompt correcta."
   },
   {
     "id": "p-lib-sora-2",
@@ -768,9 +771,12 @@
       "es": "B-roll con contexto limitado a 3-5 elementos",
       "en": "B-roll with 3-5 context elements max"
     },
-    "prompt": "Aerial tracking shot over a coastal town at golden hour: terracotta rooftops, a winding cobblestone street, fishing boats in the harbor. Smooth forward motion, slight haze, no fast camera moves.",
+    "prompt": "Aerial tracking shot over a coastal town at golden hour — terracotta rooftops, a winding cobblestone street, fishing boats in the harbor (3-4 anchor elements, no clutter). Smooth slow forward motion, slight atmospheric haze, no fast whips. 24 fps, 16:9, highest available resolution, warm cinematic grade, ~5s.",
     "sourceName": "Tona.AI — Best AI video prompts guide 2026",
-    "sourceUrl": "https://tonaai.io/blog/best-ai-video-prompts-guide-2026"
+    "sourceUrl": "https://tonaai.io/blog/best-ai-video-prompts-guide-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "B-roll con 3-5 elementos de contexto y un solo movimiento suave: convención documentada de Sora 2 para evitar deriva; verificada contra guías 2026."
   },
   {
     "id": "p-lib-sora-3",
@@ -783,7 +789,10 @@
     },
     "prompt": "[CHARACTER] sits at a kitchen table, delivers the line \"[DIALOGUE]\" with a tired but warm tone, static medium shot, soft window light from the left, keep the same face and outfit as in the reference image across the whole clip.",
     "sourceName": "FrankX — AI video generation 2026 guide",
-    "sourceUrl": "https://www.frankx.ai/blog/ai-video-generation-2026-sora-runway-kling-veo"
+    "sourceUrl": "https://www.frankx.ai/blog/ai-video-generation-2026-sora-runway-kling-veo",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Diálogo + continuidad de personaje con imagen de referencia y plano estático: técnica documentada de Sora 2 (physics/sonido sincronizado)."
   },
   {
     "id": "p-lib-sora-4",
@@ -796,7 +805,10 @@
     },
     "prompt": "Shot 1: wide establishing shot of [LOCATION], static, 5 seconds.\nShot 2: slow push-in on [SUBJECT], ending on a close-up, then the motion settles and holds for 1 second before cutting.\nKeep lighting and color grade consistent across both shots so they cut together as one scene.",
     "sourceName": "LzyPrompt — AI video camera movement cheatsheet 2026",
-    "sourceUrl": "https://lzyprompt.com/blog/ai-video-camera-movement-prompts/"
+    "sourceUrl": "https://lzyprompt.com/blog/ai-video-camera-movement-prompts/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Secuencia multiplano con endpoints de movimiento y grade consistente para montar como una escena: patrón documentado."
   },
   {
     "id": "p-lib-veo-1",
@@ -807,9 +819,12 @@
       "es": "Panorámica suave con audio nativo",
       "en": "Smooth pan with native audio"
     },
-    "prompt": "Slow pan across a rainy city street at night, neon reflections on wet asphalt, ambient traffic and distant rain sounds, 4K, natural camera shake kept minimal.",
+    "prompt": "Slow lateral pan across a rainy city street at night, neon reflections rippling on wet asphalt, shallow depth of field. Native synced audio: ambient traffic, distant rain, faint tyre hiss. 4K, 24 fps, 16:9, minimal natural camera shake, ~6s. Keep motion smooth — no stutter or warping.",
     "sourceName": "Atlas Cloud — Seedance vs Kling vs Sora vs Veo comparison",
-    "sourceUrl": "https://www.atlascloud.ai/blog/guides/seedance-vs-kling-vs-sora-vs-veo"
+    "sourceUrl": "https://www.atlascloud.ai/blog/guides/seedance-vs-kling-vs-sora-vs-veo",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Veo 3 soporta audio nativo sincronizado y 4K; pan único + audio ambiental es técnica documentada (VO3/Miraflow 2026)."
   },
   {
     "id": "p-lib-veo-2",
@@ -822,7 +837,10 @@
     },
     "prompt": "Two people at a cafe table, [CHARACTER A] says \"[LINE A]\", [CHARACTER B] responds \"[LINE B]\", natural lip sync, ambient cafe noise underneath the dialogue, static two-shot, soft daylight.",
     "sourceName": "Atlas Cloud — Seedance vs Kling vs Sora vs Veo comparison",
-    "sourceUrl": "https://www.atlascloud.ai/blog/guides/seedance-vs-kling-vs-sora-vs-veo"
+    "sourceUrl": "https://www.atlascloud.ai/blog/guides/seedance-vs-kling-vs-sora-vs-veo",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Diálogo con lip-sync y audio nativo bajo la conversación: capacidad documentada de Veo 3 (prompt adherence + audio)."
   },
   {
     "id": "p-lib-veo-3",
@@ -835,7 +853,10 @@
     },
     "prompt": "A glass of water tips over on a wooden table, liquid spreads realistically following the grain of the wood, camera static, overhead soft light, natural sound of glass and liquid on wood.",
     "sourceName": "Atlas Cloud — Seedance vs Kling vs Sora vs Veo comparison",
-    "sourceUrl": "https://www.atlascloud.ai/blog/guides/seedance-vs-kling-vs-sora-vs-veo"
+    "sourceUrl": "https://www.atlascloud.ai/blog/guides/seedance-vs-kling-vs-sora-vs-veo",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Física realista de objeto (líquido siguiendo la veta) con sonido nativo: caso documentado de la fortaleza de Veo 3 en physics."
   },
   {
     "id": "p-lib-veo-4",
@@ -848,7 +869,10 @@
     },
     "prompt": "Crane up from ground level revealing [PRODUCT] on a pedestal in a minimalist studio, soft rim lighting, subtle ambient hum, movement starts slow and settles fully once the product is centered in frame — no overshoot.",
     "sourceName": "LzyPrompt — AI video camera movement cheatsheet 2026",
-    "sourceUrl": "https://lzyprompt.com/blog/ai-video-camera-movement-prompts/"
+    "sourceUrl": "https://lzyprompt.com/blog/ai-video-camera-movement-prompts/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Crane con asentamiento sin overshoot y rim light: dirección de cámara documentada; Veo respeta bien instrucciones de movimiento."
   },
   {
     "id": "p-lib-kling-1",
@@ -859,9 +883,12 @@
       "es": "Estructura sujeto + acción + contexto + estilo",
       "en": "Subject + Action + Context + Style structure"
     },
-    "prompt": "Subject: a golden retriever. Action: running through shallow ocean waves. Context: sunset, wet sand, distant sailboat. Style: medium tracking shot, 50mm lens, warm cinematic grade.",
+    "prompt": "Subject: a golden retriever. Action: running through shallow ocean waves. Context: sunset, wet sand, a distant sailboat. Style/Camera: medium tracking shot on a 50mm lens, shallow depth of field, warm cinematic grade — camera instruction last. 1080p, 24 fps, 16:9, ~5s, smooth constant tracking speed, natural fur and water motion (no rubbery limbs).",
     "sourceName": "VEED — Kling AI prompting guide",
-    "sourceUrl": "https://www.veed.io/learn/kling-ai-prompting-guide"
+    "sourceUrl": "https://www.veed.io/learn/kling-ai-prompting-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Fórmula oficial de Kling Subject+Action+Context+Style con la cámara al final (construye escena antes de mover): confirmado en guías Kling 2026 (Veed/GLBGPT)."
   },
   {
     "id": "p-lib-kling-2",
@@ -872,9 +899,12 @@
       "es": "Movimiento humano natural y económico",
       "en": "Natural, cost-effective human motion"
     },
-    "prompt": "Subject: [PERSON]. Action: walking down a market street, browsing stalls casually. Context: crowded outdoor market, midday light. Style: handheld follow shot, slight natural shake, documentary feel.",
+    "prompt": "Subject: [PERSON]. Action: walking down a market street, casually browsing stalls. Context: crowded outdoor market, midday light (keep to 3-4 anchor elements). Style/Camera: handheld follow shot with slight natural shake, 35mm documentary look — camera last. 1080p, 24 fps, 16:9, ~5s. Natural gait and micro-movements; keep face and clothing stable across the clip.",
     "sourceName": "Tona.AI — Best AI video prompts guide 2026",
-    "sourceUrl": "https://tonaai.io/blog/best-ai-video-prompts-guide-2026"
+    "sourceUrl": "https://tonaai.io/blog/best-ai-video-prompts-guide-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Estructura S+A+C+S y límite de 3-4 elementos (Kling 2.5 Turbo) documentados; cámara colocada al final según guía oficial."
   },
   {
     "id": "p-lib-kling-3",
@@ -887,7 +917,10 @@
     },
     "prompt": "Subject: [PRODUCT/CHARACTER] centered in frame. Action: stays still. Context: dark studio with a single spotlight. Style: slow 180-degree orbit around the subject, smooth constant speed, no acceleration at the start or end.",
     "sourceName": "Prompt Architects — Cinematic camera prompts for Veo 3 and Kling",
-    "sourceUrl": "https://prompt-architects.com/blog/25-30-cinematic-camera-prompts-for-veo3-and-kling"
+    "sourceUrl": "https://prompt-architects.com/blog/25-30-cinematic-camera-prompts-for-veo3-and-kling",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Orbit de 180° a velocidad constante sin aceleración: movimiento de cámara documentado en la guía de Kling; vocabulario explícito en vez de 'cinematic'."
   },
   {
     "id": "p-lib-kling-4",
@@ -900,7 +933,10 @@
     },
     "prompt": "Subject: a stunt double. Action: sprints toward camera, leaps over a low wall, lands and rolls back to standing. Context: urban rooftop, overcast light. Style: tracking shot that follows the leap, then settles into a static hold once they're standing again — avoid warping during the fastest motion.",
     "sourceName": "VEED — Kling AI prompting guide",
-    "sourceUrl": "https://www.veed.io/learn/kling-ai-prompting-guide"
+    "sourceUrl": "https://www.veed.io/learn/kling-ai-prompting-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Acción con endpoint de movimiento definido y aviso anti-warp en el pico de velocidad: patrón documentado de Kling."
   },
   {
     "id": "p-lib-runway-1",
@@ -911,9 +947,12 @@
       "es": "Imagen a vídeo con control de cámara",
       "en": "Image-to-video with camera control"
     },
-    "prompt": "Animate this reference image: [UPLOAD IMAGE]. Add a slow dolly-in with a very subtle handheld sway, keep the subject's face and outfit exactly as shown, 4 second clip.",
+    "prompt": "Animate this reference image: [UPLOAD IMAGE]. Treat it as the exact first frame — do not restyle. Add a slow dolly-in with a very subtle handheld sway, keep the subject's face and outfit exactly as shown. 1080p, 24 fps, ~4s clip, smooth believable motion only.",
     "sourceName": "AIUnpacking — AI video generation 2026 guide",
-    "sourceUrl": "https://aiunpacking.com/guides/ai-video-generation-sora-runway-kling-veo/"
+    "sourceUrl": "https://aiunpacking.com/guides/ai-video-generation-sora-runway-kling-veo/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Image-to-video con control de cámara y primer frame fiel: flujo documentado de Runway Gen-3/4; continuidad de identidad estándar."
   },
   {
     "id": "p-lib-runway-2",
@@ -926,7 +965,10 @@
     },
     "prompt": "Apply the visual style of [REFERENCE STYLE, e.g. 1980s VHS film] to this uploaded clip, preserving the original motion and composition exactly, only changing color grade, grain, and lens character.",
     "sourceName": "Pinggy — Best video generation AI models 2026",
-    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/"
+    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Style transfer sobre metraje preservando movimiento y composición (solo grade/grain/lente): capacidad documentada de Runway."
   },
   {
     "id": "p-lib-runway-3",
@@ -939,7 +981,10 @@
     },
     "prompt": "Using [CHARACTER REFERENCE IMAGE], generate 3 separate shots (wide, medium, close-up) of the same character in [LOCATION], keeping facial identity, outfit, and lighting direction identical across all three so they can be edited together as one scene.",
     "sourceName": "createbyprompt — AI video prompts guide (Runway, Kling, Pika)",
-    "sourceUrl": "https://createbyprompt.com/articles/ai-video-prompts-guide/"
+    "sourceUrl": "https://createbyprompt.com/articles/ai-video-prompts-guide/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Consistencia de personaje entre planos con imagen de referencia: técnica documentada de Runway para montar escena."
   },
   {
     "id": "p-lib-runway-4",
@@ -963,7 +1008,7 @@
       "es": "Efecto viral de inflar objeto",
       "en": "Viral inflate effect"
     },
-    "prompt": "Take this photo of [OBJECT] and apply an inflate effect: it grows rounder and puffier over 3 seconds like a balloon, then holds, keep the background and lighting unchanged.",
+    "prompt": "Take this photo of [OBJECT] and apply an inflate effect: over ~3s it grows rounder and puffier like a balloon, then holds. Keep the background, lighting, and framing unchanged. 1080p, 24 fps, ~4s total, smooth easing (no popping or flicker).",
     "sourceName": "createbyprompt — AI video prompts guide (Runway, Kling, Pika)",
     "sourceUrl": "https://createbyprompt.com/articles/ai-video-prompts-guide/"
   },
@@ -1015,7 +1060,7 @@
       "es": "Control de cámara profesional preestablecido",
       "en": "Preset professional camera control"
     },
-    "prompt": "Apply a dolly-in Camera Control preset to [SUBJECT/SCENE], smooth constant speed, cinematic depth of field, no manual camera keyframing needed.",
+    "prompt": "Apply a Dolly-In camera-control preset to [SUBJECT/SCENE]: smooth constant speed, cinematic shallow depth of field, no manual keyframing. 1080p, 24 fps, 16:9, ~5s, motion starts and ends without overshoot.",
     "sourceName": "Higgsfield — MiniMax Hailuo 2.3 creative guide",
     "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide"
   },
@@ -1028,7 +1073,7 @@
       "es": "Contenido estilo UGC para redes",
       "en": "UGC-style content for social"
     },
-    "prompt": "Generate a UGC-style clip: [PERSON] talking directly to camera about [PRODUCT], handheld phone-camera look, natural indoor lighting, casual authentic tone, from the UGC category preset.",
+    "prompt": "Generate a UGC-style clip from the UGC category preset: [PERSON] talking to camera about [PRODUCT]. Handheld phone-camera look (slight sway), natural indoor lighting, casual authentic tone. 1080p, 30 fps, 9:16 vertical, ~8s, natural lip movement and stable identity.",
     "sourceName": "Higgsfield — MiniMax Hailuo 2.3 creative guide",
     "sourceUrl": "https://higgsfield.ai/blog/Minimax-Hailuo-2.3-A-Creative-Guide"
   },
@@ -1067,9 +1112,12 @@
       "es": "Descripción detallada de acción y atmósfera",
       "en": "Detailed action + atmosphere description"
     },
-    "prompt": "A skateboarder kickflips off a curb in a sunlit skate park, camera at low angle tracking the trick, warm afternoon light, slight motion blur on the wheels only.",
+    "prompt": "A skateboarder kickflips off a curb in a sunlit skate park, low-angle camera tracking the trick on a wide lens, warm afternoon light, motion blur on the wheels only (body stays sharp). 1080p, 24 fps, 16:9, ~5s. Physically accurate board rotation and landing — no warping at the fastest motion.",
     "sourceName": "docs.imagine.art — MiniMax Hailuo 02 model docs",
-    "sourceUrl": "https://docs.imagine.art/ai-models/video/minimax-hailuo-02"
+    "sourceUrl": "https://docs.imagine.art/ai-models/video/minimax-hailuo-02",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Descripción detallada de acción + atmósfera con adherencia estricta: fortaleza documentada de MiniMax Hailuo; parámetros técnicos coherentes."
   },
   {
     "id": "p-lib-hailuo-2",
@@ -1080,9 +1128,12 @@
       "es": "Movimiento humano natural a bajo coste",
       "en": "Natural human motion, budget-friendly"
     },
-    "prompt": "[PERSON] stretches and yawns while waking up in bed, soft morning light through curtains, static camera, natural unhurried pacing, realistic micro-movements in the face.",
+    "prompt": "[PERSON] stretches and yawns while waking up in bed, soft morning light through curtains, static camera, 50mm lens. Natural unhurried pacing with realistic facial micro-movements. 1080p, 24 fps, 16:9, ~5s. Keep identity and bedding geometry stable throughout.",
     "sourceName": "AI Magicx — AI video generation showdown 2026",
-    "sourceUrl": "https://www.aimagicx.com/blog/ai-video-generation-showdown-2026"
+    "sourceUrl": "https://www.aimagicx.com/blog/ai-video-generation-showdown-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Movimiento humano natural y económico con micro-expresiones: caso de uso documentado de Hailuo; prompt fiel y con specs técnicas."
   },
   {
     "id": "p-lib-hailuo-3",
@@ -1095,7 +1146,10 @@
     },
     "prompt": "Exactly follow this shot list: (1) close-up of hands typing on a keyboard, (2) cut to a wide shot of the same person in an office at night, (3) cut to city lights through the window behind them. Keep the transitions clean cuts, no dissolves.",
     "sourceName": "Pinggy — Best video generation AI models 2026",
-    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/"
+    "sourceUrl": "https://pinggy.io/blog/best_video_generation_ai_models/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Shot list con cortes limpios y adherencia estricta al plan: fortaleza documentada de Hailuo en prompt adherence."
   },
   {
     "id": "p-lib-hailuo-4",
@@ -1108,7 +1162,10 @@
     },
     "prompt": "Generate 4 quick variations of this scene: [SCENE DESCRIPTION], varying only the camera angle (low, eye-level, high, overhead) so I can pick the strongest composition before committing to a final high-quality render.",
     "sourceName": "AI Magicx — AI video generation showdown 2026",
-    "sourceUrl": "https://www.aimagicx.com/blog/ai-video-generation-showdown-2026"
+    "sourceUrl": "https://www.aimagicx.com/blog/ai-video-generation-showdown-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Iteración rápida de variantes variando solo el ángulo de cámara: flujo económico documentado de Hailuo."
   },
   {
     "id": "p-lib-elevenlabs-1",
@@ -1121,7 +1178,10 @@
     },
     "prompt": "Voice direction: clear, professional tutorial narrator. Stability 70%, similarity/clarity 80%, style 0%, speed 1.0. Read at a measured pace with a brief pause after each step number.",
     "sourceName": "NeuraPulse — Best ElevenLabs settings 2026",
-    "sourceUrl": "https://neuraplus-ai.github.io/blog/best-settings-for-elevenlabs-ai-voice-quality-improvement-2026.html"
+    "sourceUrl": "https://neuraplus-ai.github.io/blog/best-settings-for-elevenlabs-ai-voice-quality-improvement-2026.html",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Stability/similarity/style/speed son ajustes reales del panel de ElevenLabs; valores coherentes con guías 2026 para narración técnica clara."
   },
   {
     "id": "p-lib-elevenlabs-2",
@@ -1134,7 +1194,10 @@
     },
     "prompt": "Voice direction: warm storyteller reading a bittersweet scene. Stability 45%, similarity 78%, style 0%, speed 0.95. Let the pacing breathe with natural pauses at emotional beats — don't rush the sad lines.",
     "sourceName": "ZyncAI — ElevenLabs voice control guide",
-    "sourceUrl": "https://zyncai.com/elevenlabs-voice-control-guide/"
+    "sourceUrl": "https://zyncai.com/elevenlabs-voice-control-guide/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Ajustes reales de ElevenLabs; stability baja + speed <1 para narración emotiva de audiolibro: recomendación documentada."
   },
   {
     "id": "p-lib-elevenlabs-3",
@@ -1147,7 +1210,10 @@
     },
     "prompt": "Voice direction: upbeat marketing promo voice for [PRODUCT]. Speed 1.15, stability 55%, similarity 80%, style 50%, speaker boost on. Punch the key benefit words, keep pace brisk but every word intelligible.",
     "sourceName": "NeuraPulse — Best ElevenLabs settings 2026",
-    "sourceUrl": "https://neuraplus-ai.github.io/blog/best-settings-for-elevenlabs-ai-voice-quality-improvement-2026.html"
+    "sourceUrl": "https://neuraplus-ai.github.io/blog/best-settings-for-elevenlabs-ai-voice-quality-improvement-2026.html",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Speaker boost y style alto para voz de marketing enérgica: parámetros reales del panel, coherentes con guías."
   },
   {
     "id": "p-lib-elevenlabs-4",
@@ -1160,7 +1226,10 @@
     },
     "prompt": "Design a conversational agent voice for [USE CASE, e.g. customer support]. Stability 65%, similarity 75%, style 0%. Direction: calm and patient, short natural filler pauses before answering a hard question, never sound rushed even when the user interrupts.",
     "sourceName": "ElevenLabs — Conversational voice design best practices",
-    "sourceUrl": "https://elevenlabs.io/docs/agents-platform/customization/voice/best-practices/conversational-voice-design"
+    "sourceUrl": "https://elevenlabs.io/docs/agents-platform/customization/voice/best-practices/conversational-voice-design",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Ajustes de agente conversacional (stability media, pausas naturales): parámetros reales de ElevenLabs Agents."
   },
   {
     "id": "p-lib-suno-1",
@@ -1173,7 +1242,10 @@
     },
     "prompt": "[Style] indie pop, 2010s, jangly electric guitar, catchy female vocals, nostalgic bittersweet mood, mid-tempo\n[Intro]\n[Verse] about [TOPIC]\n[Chorus] a hook about [FEELING]\n[Outro]",
     "sourceName": "GitHub — best-suno-ai-prompts (170+ genres)",
-    "sourceUrl": "https://github.com/AlijeeWrites/best-suno-ai-prompts"
+    "sourceUrl": "https://github.com/AlijeeWrites/best-suno-ai-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Campo Style con 4-7 descriptores + meta-tags [Verse]/[Chorus] en Lyrics: sintaxis real de Suno confirmada (guías 2026)."
   },
   {
     "id": "p-lib-suno-2",
@@ -1186,7 +1258,10 @@
     },
     "prompt": "[Style] synth pop, 1980s, analog synths, drum machine, retro vibe, male vocals\n[Intro] atmospheric synth pad\n[Verse] about [TOPIC]\n[Chorus] anthemic, big reverb\n[Outro] fade on synth arpeggio",
     "sourceName": "Musci.io — Suno prompts guide 2026",
-    "sourceUrl": "https://musci.io/blog/suno-prompts"
+    "sourceUrl": "https://musci.io/blog/suno-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Tag de era (1980s) y descriptores de instrumentación son sintaxis real de Suno; estructura por secciones documentada."
   },
   {
     "id": "p-lib-suno-3",
@@ -1199,7 +1274,10 @@
     },
     "prompt": "[Style] mainstream pop, catchy hooks, polished production, radio-ready mix, upbeat tempo\n[Intro]\n[Verse 1] about [SCENE 1]\n[Pre-Chorus] building tension\n[Chorus] the main hook about [THEME]\n[Verse 2] about [SCENE 2]\n[Chorus]\n[Bridge] key change, more emotional\n[Chorus] final, bigger production\n[Outro] fade",
     "sourceName": "Suno Meta Tag Creator — Suno meta tags guide 2026",
-    "sourceUrl": "https://sunometatagcreator.com/metatags-guide"
+    "sourceUrl": "https://sunometatagcreator.com/metatags-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Estructura completa con [Pre-Chorus]/[Bridge] etc.: meta-tags reales de Suno, uno por línea antes de su sección."
   },
   {
     "id": "p-lib-suno-4",
@@ -1212,7 +1290,10 @@
     },
     "prompt": "[Style] electropop jingle, 15 seconds, digital bass, glossy synths, upbeat energy, modern production, gender-neutral vocals\n[Intro] short synth stab\n[Hook] singing the brand name \"[BRAND NAME]\" over a catchy 4-note melody\n[Outro] quick synth tag ending on the tonic",
     "sourceName": "hookgenius.app — Suno AI prompt guide 2026",
-    "sourceUrl": "https://hookgenius.app/learn/suno-prompt-guide-2026/"
+    "sourceUrl": "https://hookgenius.app/learn/suno-prompt-guide-2026/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Jingle corto con [Hook] cantando la marca: uso válido de meta-tags de Suno; descriptores dentro del rango 4-8."
   },
   {
     "id": "p-lib-udio-1",
@@ -1225,7 +1306,10 @@
     },
     "prompt": "Genre: soul-pop ballad. Mood: heartfelt, warm. Vocals: rich, emotive female lead with subtle vibrato. Instruments: Rhodes piano, soft strings, brushed drums. Topic: [THEME].",
     "sourceName": "Musci.io — Suno prompts guide (applies to Udio-style prompting)",
-    "sourceUrl": "https://musci.io/blog/suno-prompts"
+    "sourceUrl": "https://musci.io/blog/suno-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Descripción por Genre/Mood/Vocals/Instruments: formato de prompt real de Udio; foco en calidad vocal documentado."
   },
   {
     "id": "p-lib-udio-2",
@@ -1238,7 +1322,10 @@
     },
     "prompt": "Keep the verse and chorus of this track unchanged, but regenerate only the bridge section: modulate up a key, add a stripped-down arrangement (just piano and vocal), building back into the final chorus.",
     "sourceName": "Musci.io — Suno tags guide (section-level editing applies to Udio)",
-    "sourceUrl": "https://musci.io/blog/suno-tags"
+    "sourceUrl": "https://musci.io/blog/suno-tags",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Regenerar solo una sección (bridge) manteniendo el resto: edición por secciones documentada de Udio."
   },
   {
     "id": "p-lib-udio-3",
@@ -1251,7 +1338,10 @@
     },
     "prompt": "Genre: 90s boom-bap hip hop. Mood: confident, laid-back. Instruments: dusty sampled drums, upright bass, vinyl crackle. Vocals: none, instrumental beat only, 80 BPM.",
     "sourceName": "GitHub — best-suno-ai-prompts (genre/style reference)",
-    "sourceUrl": "https://github.com/AlijeeWrites/best-suno-ai-prompts"
+    "sourceUrl": "https://github.com/AlijeeWrites/best-suno-ai-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Demo instrumental con Genre/Mood/Instruments y 'none' en vocals + BPM: formato válido de Udio."
   },
   {
     "id": "p-lib-udio-4",
@@ -1264,7 +1354,10 @@
     },
     "prompt": "Build a track that starts as a slow acoustic folk intro (Genre: folk, Instruments: acoustic guitar, soft vocals) and transitions at the 1-minute mark into an uptempo electronic outro (Genre: synthwave, Instruments: analog synth arps, driving beat) — keep the same melodic motif recognizable across both halves.",
     "sourceName": "Musci.io — Suno prompts guide (structure applies to Udio)",
-    "sourceUrl": "https://musci.io/blog/suno-prompts"
+    "sourceUrl": "https://musci.io/blog/suno-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Composición multisección con cambio de género manteniendo el motivo: estructura soportada por Udio."
   },
   {
     "id": "p-lib-cursor-1",
@@ -1651,7 +1744,7 @@
       "es": "Escaneo 3D de un objeto con el móvil",
       "en": "3D scan of an object from your phone"
     },
-    "prompt": "Capture a 360-degree video of [OBJECT] slowly walking around it at a consistent distance and height, even lighting, no fast motion, so the reconstruction has clean coverage of every angle.",
+    "prompt": "Capture a 360° video of [OBJECT], walking slowly around it at a constant distance and eye-level height, even diffuse lighting, matte surfaces preferred, no fast motion or motion blur — so the Gaussian/NeRF reconstruction gets clean overlapping coverage of every angle. Hold each side ~2s before moving on.",
     "sourceName": "aitools.aiting.com — Luma AI overview",
     "sourceUrl": "https://aitools.aiting.com/ai/luma-ai"
   },
@@ -1677,7 +1770,7 @@
       "es": "Vídeo Dream Machine desde una imagen",
       "en": "Dream Machine video from a still image"
     },
-    "prompt": "Animate this still image into a short video: camera slowly pushes in, subject reacts naturally, keep the geometry of the room consistent with the source photo — do not invent new architecture as the camera moves.",
+    "prompt": "Animate this still into a short clip: camera slowly pushes in with subtle parallax, the subject reacts naturally, and the room geometry stays consistent with the source photo — do not invent new architecture or objects as the camera moves. 1080p, 24 fps, ~5s, slow believable motion only (prefer a smaller move over one that warps).",
     "sourceName": "aitools.aiting.com — Luma AI overview",
     "sourceUrl": "https://aitools.aiting.com/ai/luma-ai"
   },
@@ -2147,7 +2240,10 @@
     },
     "prompt": "A short cinematic sequence with consistent character, lighting, and color grade across all three shots so they cut together as one scene. Keep the same [CHARACTER DESCRIPTION] and wardrobe throughout.\n\nSHOT 1 (wide, ~4s): Establishing shot of [LOCATION] at [time of day]. The character enters frame from the [left/right], small in the frame. Slow, almost static camera. [Weather/atmosphere detail]. Warm/cool [color grade].\nSHOT 2 (medium, ~4s): Cut closer. The character [does the key action]. Camera does a slow dolly-in that settles as they pause. Same light direction as Shot 1. We read their expression: [emotion].\nSHOT 3 (close-up, ~3s): Tight on [face / hands / object]. A small, telling detail: [describe]. The motion resolves and holds for a beat before the sequence ends.\n\nStyle across all shots: [film reference / lens / grain], shallow depth of field, no fast whips or warping during motion. Do not add on-screen text or captions.",
     "sourceName": "LzyPrompt — AI video camera movement cheatsheet 2026",
-    "sourceUrl": "https://lzyprompt.com/blog/ai-video-camera-movement-prompts/"
+    "sourceUrl": "https://lzyprompt.com/blog/ai-video-camera-movement-prompts/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Shot list de 3 planos con continuidad de personaje/luz/grade y sin texto en pantalla: estructura documentada de Sora 2 cruzada con guías 2026."
   },
   {
     "id": "p-mega-veo-1",
@@ -2160,7 +2256,10 @@
     },
     "prompt": "An 8-second premium product commercial for [PRODUCT], designed to feel like a high-end brand film, with native synchronized audio.\n\nVISUAL: Open on a slow crane-up revealing [PRODUCT] on a minimalist pedestal in a [environment]. Soft rim lighting separates it from a [gradient background color] backdrop. At ~3s, a smooth push-in as [a subtle motion happens — e.g. light sweeps across the surface, liquid pours, a hand enters to pick it up]. End on a clean hero frame with the product centered, the camera settling fully with no overshoot.\n\nLIGHTING: Controlled studio lighting, one soft key + rim, gentle reflections, realistic material response on [the product's key material].\n\nAUDIO (native, synced): A soft ambient pad building slightly, one crisp sound-design accent synced to the push-in at 3s (e.g. a subtle chime or whoosh), no voiceover, no music with lyrics. Keep it understated and premium.\n\nCONSTRAINTS: 4K, smooth motion only, no text or logos rendered in-frame (added in post), no warping of the product during camera movement.",
     "sourceName": "Atlas Cloud — Seedance vs Kling vs Sora vs Veo (native audio)",
-    "sourceUrl": "https://www.atlascloud.ai/blog/guides/seedance-vs-kling-vs-sora-vs-veo"
+    "sourceUrl": "https://www.atlascloud.ai/blog/guides/seedance-vs-kling-vs-sora-vs-veo",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Anuncio 8s con audio nativo dirigido (acento sincronizado, sin voz), 4K, sin texto en frame: estructura documentada de Veo 3."
   },
   {
     "id": "p-mega-runway-1",
@@ -2173,7 +2272,10 @@
     },
     "prompt": "Animate the attached reference image into a controlled cinematic clip. Treat the reference as the exact first frame — do not restyle it.\n\nMOTION: [Describe the primary motion: e.g. the subject slowly turns their head toward camera and the wind moves their hair]. Add a subtle secondary motion in the environment: [e.g. leaves drifting, steam rising, fabric shifting]. Keep all motion slow and believable — no rubbery or teleporting movement.\n\nCAMERA: A gentle [dolly-in / parallax push], very slight handheld sway for a lived-in feel. Plot the move so it starts slow, reaches the subject, and settles.\n\nCONTINUITY: Preserve the subject's face, proportions, wardrobe, and the lighting direction from the reference exactly. Do not introduce new objects or change the background architecture.\n\nDURATION & FEEL: [4] seconds, [film reference] color and grain, shallow depth of field maintained from the reference.\n\nIf any requested motion would distort the subject, prefer a smaller, cleaner move over an ambitious one that warps.",
     "sourceName": "AIUnpacking — AI video generation 2026 (image-to-video control)",
-    "sourceUrl": "https://aiunpacking.com/guides/ai-video-generation-sora-runway-kling-veo/"
+    "sourceUrl": "https://aiunpacking.com/guides/ai-video-generation-sora-runway-kling-veo/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Brief image-to-video con primer frame exacto, movimiento primario+secundario y continuidad: estructura documentada de Runway."
   },
   {
     "id": "p-mega-elevenlabs-1",
@@ -2186,7 +2288,10 @@
     },
     "prompt": "Voice project: narration for a [LENGTH] documentary segment about [TOPIC]. Below is the script broken into sections, each with delivery direction. Keep the same narrator identity throughout. Base settings: stability 55%, similarity 80%, style 0%, speed 1.0, speaker boost on — adjust only as noted per section.\n\n[SECTION 1 — COLD OPEN] Direction: quiet, intimate, almost a whisper drawing the listener in. Slightly slower. \"[SCRIPT LINE...]\"\n[SECTION 2 — CONTEXT] Direction: warm, measured, authoritative documentary voice. Natural pauses at commas. \"[SCRIPT LINES...]\"\n[SECTION 3 — TENSION / STAKES] Direction: pick up pace slightly, more weight and gravity on the key phrase \"[PHRASE]\". \"[SCRIPT LINES...]\"\n[SECTION 4 — RESOLUTION] Direction: settle back down, hopeful, a touch of warmth on the final sentence, let the last line breathe. \"[SCRIPT LINES...]\"\n\nGeneral rules: never sound rushed, let punctuation control the pacing, add a beat of silence between sections. Pronounce [ANY TRICKY NAMES] as [PHONETIC SPELLING].",
     "sourceName": "ElevenLabs — Text-to-speech best practices",
-    "sourceUrl": "https://elevenlabs.io/docs/overview/capabilities/text-to-speech/best-practices"
+    "sourceUrl": "https://elevenlabs.io/docs/overview/capabilities/text-to-speech/best-practices",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Guion documental con dirección por sección y ajustes base reales; puntuación/CAPS/… controlan pacing: técnica documentada de ElevenLabs."
   },
   {
     "id": "p-mega-suno-1",
@@ -2199,7 +2304,10 @@
     },
     "prompt": "[Style] indie-folk to anthemic build, 2020s production, acoustic guitar foundation, warm male-female harmony vocals, organic drums entering late, cinematic strings on the final chorus, nostalgic but hopeful, mid-tempo around 92 BPM\n\n[Intro] soft fingerpicked acoustic guitar, room ambience, no drums\n[Verse 1] intimate lead vocal, sparse — just guitar and voice, lyrics about [SCENE / FEELING 1]\n[Pre-Chorus] add soft harmony and a low sustained string pad, building quiet tension\n[Chorus] full harmony, the emotional hook about [CENTRAL THEME], drums enter gently\n[Verse 2] same intimacy as verse 1 but with subtle bass underneath, lyrics about [SCENE / FEELING 2]\n[Pre-Chorus] bigger than the first, more voices\n[Chorus] repeat, slightly fuller\n[Bridge] strip back to almost silence — single voice and one instrument — then a slow build, key lifts, lyrics about [TURNING POINT]\n[Final Chorus] biggest moment: full harmonies, cinematic strings, driving drums, the hook one last time\n[Outro] resolve back to the intro's fingerpicked guitar, fade on a held vocal note\n\nKeep the lyrical imagery concrete and specific, avoid clichés, and let the dynamics go from very quiet to very full across the song.",
     "sourceName": "Suno Meta Tag Creator — Suno meta tags guide 2026",
-    "sourceUrl": "https://sunometatagcreator.com/metatags-guide"
+    "sourceUrl": "https://sunometatagcreator.com/metatags-guide",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Style + estructura larga con dinámicas y BPM, meta-tags por sección: sintaxis real de Suno confirmada (guías 2026)."
   },
   {
     "id": "p-mega-notion-ai-1",
@@ -2358,7 +2466,10 @@
     },
     "prompt": "For [SCRIPT/SCENE], switch to Eleven v3 so you can guide emotion inside the script itself rather than only through voice settings. Name the emotional register up front in the voice design (e.g. 'ominous, grand, awe-inspiring' or 'warm, playful'), then add narrative context right before key lines — e.g. 'she whispered nervously,' 'he said, fighting back a laugh' — so the model carries that emotional cue without the words being spoken aloud. Reserve Multilingual v2 for stable, neutral narration instead.",
     "sourceName": "TechHarry — How to Get More Emotional, Natural, or Consistent Voices Using ElevenLabs",
-    "sourceUrl": "https://www.techharry.com/2026/02/how-to-get-more-emotional-natural-consistent-voices-using-eleven-labs.html"
+    "sourceUrl": "https://www.techharry.com/2026/02/how-to-get-more-emotional-natural-consistent-voices-using-eleven-labs.html",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Eleven v3 permite audio tags y contexto narrativo dentro del guion; v2 para narración estable: distinción documentada (TechHarry 2026)."
   },
   {
     "id": "p-20260724-10",
@@ -2371,6 +2482,9 @@
     },
     "prompt": "For a [TOPIC] narration script, write for a pace of about 130-150 words per minute so the read never feels rushed. Use CAPITALIZATION sparingly to emphasize one key word per sentence, and ellipses ... to insert a natural pause before an important line. Keep sentences short enough that a pause falls naturally at the end of each one.",
     "sourceName": "AI Academy — 30 Best ElevenLabs Prompts 2026",
-    "sourceUrl": "https://academy.techpresso.co/prompts/elevenlabs-prompts"
+    "sourceUrl": "https://academy.techpresso.co/prompts/elevenlabs-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "130-150 wpm y CAPS/elipsis para énfasis y pausas: recomendaciones documentadas de ElevenLabs (AI Academy 2026)."
   }
 ]
