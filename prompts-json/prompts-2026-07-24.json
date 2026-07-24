@@ -13,71 +13,6 @@
     "sourceUrl": "https://www.digitbin.com/chatgpt-image-prompts-viral/"
   },
   {
-    "id": "p-20260723-2",
-    "toolId": "chatgpt",
-    "tier": "free",
-    "level": "simple",
-    "title": {
-      "es": "Póster de película cinematográfico",
-      "en": "Cinematic movie poster"
-    },
-    "prompt": "Design a cinematic movie poster: a lone explorer on a mountain peak above a sea of clouds at golden sunrise, dramatic warm cinematic lighting, ultra-realistic detail, bold title typography at the top reading \"[TITLE]\", credits block at the bottom.",
-    "sourceName": "Pxz.ai — viral ChatGPT image prompts",
-    "sourceUrl": "https://pxz.ai/blog/viral-chatgpt-image-prompts"
-  },
-  {
-    "id": "p-20260723-3",
-    "toolId": "midjourney",
-    "tier": "free",
-    "level": "simple",
-    "title": {
-      "es": "Retrato fotográfico natural en V7",
-      "en": "Natural photographic portrait in V7"
-    },
-    "prompt": "candid portrait of an elderly fisherman mending nets at dawn, weathered hands in focus, soft overcast light, muted teal and amber palette, documentary photography --ar 4:5 --v 7",
-    "sourceName": "SurePrompts — Midjourney V7 guide",
-    "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide"
-  },
-  {
-    "id": "p-20260723-4",
-    "toolId": "midjourney",
-    "tier": "pro",
-    "level": "advanced",
-    "title": {
-      "es": "Producto premium con luz de estudio",
-      "en": "Premium product with studio lighting"
-    },
-    "prompt": "product photography of [PRODUCT] on a wet black slate surface, single dramatic rim light, fine mist in the air, deep navy-to-black gradient background, commercial advertising style, ultra detailed --ar 1:1 --v 7 --style raw",
-    "sourceName": "AI Prompt Library — free templates",
-    "sourceUrl": "https://www.aipromptlibrary.app/blog/midjourney-prompt-library"
-  },
-  {
-    "id": "p-20260723-5",
-    "toolId": "claude",
-    "tier": "free",
-    "level": "advanced",
-    "title": {
-      "es": "Prompt estructurado con etiquetas XML",
-      "en": "Structured prompt with XML tags"
-    },
-    "prompt": "<task>Rewrite the text below for [AUDIENCE]</task>\n<context>[PASTE BACKGROUND]</context>\n<format>3 short paragraphs, plain language, no jargon, end with one clear call to action</format>\n<text>[PASTE TEXT]</text>",
-    "sourceName": "BuildFastWithAI — Claude prompts 2026",
-    "sourceUrl": "https://www.buildfastwithai.com/blogs/best-claude-prompts-2026"
-  },
-  {
-    "id": "p-20260723-6",
-    "toolId": "claude-code",
-    "tier": "pro",
-    "level": "expert",
-    "title": {
-      "es": "Planificación profunda antes de tocar código",
-      "en": "Deep planning before touching code"
-    },
-    "prompt": "Ultrathink before writing any code: analyze the architecture of [FEATURE/PROBLEM], list 3 possible approaches with trade-offs, pick one and justify it, then write a step-by-step implementation plan with the files you will touch. Only start implementing after showing me the plan.",
-    "sourceName": "God of Prompt — Claude Code prompts",
-    "sourceUrl": "https://godofprompt.ai/blog/claude-code-prompts/"
-  },
-  {
     "id": "p-20260723-7",
     "toolId": "claude-code",
     "tier": "pro",
@@ -89,58 +24,6 @@
     "prompt": "After implementing [CHANGE], do a two-pass review of your own diff: pass 1 — correctness only (bugs, edge cases, error handling); pass 2 — quality only (naming, duplication, simplification). Report findings as a list before applying any fix, then apply only the confirmed ones.",
     "sourceName": "AY Automate — Claude Code templates",
     "sourceUrl": "https://www.ayautomate.com/blog/best-claude-code-prompts"
-  },
-  {
-    "id": "p-20260723-8",
-    "toolId": "sora",
-    "tier": "free",
-    "level": "simple",
-    "title": {
-      "es": "Calle neón bajo la lluvia",
-      "en": "Neon street in the rain"
-    },
-    "prompt": "A person walks through a neon-lit city street at night, reflections shimmering on wet pavement, slow tracking shot from behind, shallow depth of field, cinematic 4K, moody synthwave color palette.",
-    "sourceName": "BrandGene — AI video prompts",
-    "sourceUrl": "https://brandgene.io/tutorials/ai-video-prompts"
-  },
-  {
-    "id": "p-20260723-9",
-    "toolId": "veo",
-    "tier": "pro",
-    "level": "advanced",
-    "title": {
-      "es": "Prompt en 5 capas para Veo",
-      "en": "5-layer prompt for Veo"
-    },
-    "prompt": "Subject & action: barista pours latte art in a sunlit café. Camera: slow overhead push-in ending on the cup. Environment & lighting: warm morning light through large windows, dust motes visible. Style & mood: intimate, editorial, film grain. Audio: soft café ambience, milk steaming, no music.",
-    "sourceName": "Powtoon — Veo 3 prompt examples",
-    "sourceUrl": "https://www.powtoon.com/blog/veo-3-video-prompt-examples/"
-  },
-  {
-    "id": "p-20260723-10",
-    "toolId": "perplexity",
-    "tier": "free",
-    "level": "simple",
-    "title": {
-      "es": "Investigación con fuentes contrastadas",
-      "en": "Research with contrasted sources"
-    },
-    "prompt": "Research [TOPIC]. Give me: (1) a 5-bullet summary of the current state, (2) the 3 most cited sources with one-line credibility notes, (3) one point where reputable sources disagree and why. Prioritize sources from the last 12 months.",
-    "sourceName": "Promptaholics — free prompt library",
-    "sourceUrl": "https://promptaholics.com/free-chatgpt-prompts.html"
-  },
-  {
-    "id": "p-20260723-11",
-    "toolId": "cursor",
-    "tier": "pro",
-    "level": "expert",
-    "title": {
-      "es": "Refactor con tests de caracterización",
-      "en": "Refactor with characterization tests"
-    },
-    "prompt": "Before refactoring [MODULE]: write characterization tests that pin current behavior, run them and confirm green, then refactor in small steps keeping tests green after each one. Never change behavior and structure in the same step. Finish with a diff summary and risk notes.",
-    "sourceName": "DEV Community — Claude/agent coding tips",
-    "sourceUrl": "https://dev.to/damogallagher/the-ultimate-claude-code-tips-collection-advent-of-claude-2025-5b73"
   },
   {
     "id": "p-20260723-12",
@@ -2392,32 +2275,6 @@
     "sourceUrl": "https://www.shareuhack.com/en/posts/notebooklm-advanced-guide-2026"
   },
   {
-    "id": "p-20260724-1",
-    "toolId": "midjourney",
-    "tier": "pro",
-    "level": "advanced",
-    "title": {
-      "es": "Serie de estilo coherente con --sref y --cref",
-      "en": "Style-consistent series with --sref and --cref"
-    },
-    "prompt": "A [SUBJECT] in [SETTING], described as a full natural sentence, not a keyword list. Attach a reference image URL with --sref [URL] to lock in a consistent visual style across the whole series, and --cref [URL] if you need the same character or object to recur. Keep only one style reference at a time — stacking multiple artist or style references produces chaotic blending instead of a clean fusion. Add --style raw if you want the result closer to photorealism instead of V7's default painterly interpretation. --ar 16:9 --s 250",
-    "sourceName": "SurePrompts — 50 Best Midjourney V7 Prompts 2026",
-    "sourceUrl": "https://sureprompts.com/blog/best-midjourney-v7-prompts-2026"
-  },
-  {
-    "id": "p-20260724-2",
-    "toolId": "midjourney",
-    "tier": "free",
-    "level": "simple",
-    "title": {
-      "es": "Toma de producto con --style raw (sin mezcla de estilos)",
-      "en": "Product shot with --style raw (no style soup)"
-    },
-    "prompt": "A [PRODUCT] photographed on a seamless [COLOR] backdrop, softbox lighting from the left, subtle reflection on the surface below, shot as if described to a set photographer rather than a list of tags. Add --style raw so V7 stays close to photorealism instead of applying its own painterly interpretation, and pick a single mood word (e.g. 'minimal', 'luxury', 'industrial') instead of combining several styles. --ar 1:1 --q 2",
-    "sourceName": "DigitBin — Best Midjourney V7 Prompts for Realistic Photos",
-    "sourceUrl": "https://www.digitbin.com/midjourney-v7-prompts-realistic-photos/"
-  },
-  {
     "id": "p-20260724-3",
     "toolId": "gpt-image",
     "tier": "free",
@@ -2470,32 +2327,6 @@
     "sourceUrl": "https://support.claude.com/en/articles/14554000-claude-code-power-user-tips"
   },
   {
-    "id": "p-20260724-7",
-    "toolId": "sora",
-    "tier": "pro",
-    "level": "expert",
-    "title": {
-      "es": "Guion técnico de un plano: cámara, acción y sonido",
-      "en": "Shot-list cinematography for one clip"
-    },
-    "prompt": "Describe [SCENE] like a shot list, not a caption: Camera — one clear framing and one camera move only (e.g. slow dolly-in, static wide). Subject/Action — [CHARACTER] doing one decisive action in beats, no more. Lighting — one lighting condition plus 3-5 color anchors (e.g. 'warm amber key light, cool blue shadows, teal practicals'). Audio — ambience, one or two SFX, and a short line of dialogue if needed. Keep everything to one move and one action per clip — Sora rewards plausible physics and tight timing over crowded instructions.",
-    "sourceName": "WaveSpeed AI Blog — Sora 2 Prompting Guide 2026",
-    "sourceUrl": "https://wavespeed.ai/blog/posts/sora-2-prompting-tips-better-videos-2026/"
-  },
-  {
-    "id": "p-20260724-8",
-    "toolId": "veo",
-    "tier": "free",
-    "level": "simple",
-    "title": {
-      "es": "Fórmula esencial: sujeto, acción, escenario y ánimo",
-      "en": "Essentials-only clip formula"
-    },
-    "prompt": "Describe only the essentials for [SCENE]: the subject ([WHO/WHAT]), the action (what they're doing, in a few words), the setting (where and when), and the mood (one or two words, e.g. 'quiet and hopeful'). Don't stack extra instructions on top — Veo fills in secondary details naturally, and an over-specified prompt tends to produce a stiffer, less alive result than a focused one.",
-    "sourceName": "VO3 AI Blog — How to Prompt Sora 2 Pro, Kling & Veo 3 for Cinematic AI Video",
-    "sourceUrl": "https://www.vo3ai.com/blog/how-to-use-sora-2-pro-kling-25-and-veo-3-to-create-cinematic-ai-videos-step-by-s-2026-03-22"
-  },
-  {
     "id": "p-20260724-9",
     "toolId": "elevenlabs",
     "tier": "pro",
@@ -2520,31 +2351,5 @@
     "prompt": "For a [TOPIC] narration script, write for a pace of about 130-150 words per minute so the read never feels rushed. Use CAPITALIZATION sparingly to emphasize one key word per sentence, and ellipses ... to insert a natural pause before an important line. Keep sentences short enough that a pause falls naturally at the end of each one.",
     "sourceName": "AI Academy — 30 Best ElevenLabs Prompts 2026",
     "sourceUrl": "https://academy.techpresso.co/prompts/elevenlabs-prompts"
-  },
-  {
-    "id": "p-20260724-11",
-    "toolId": "perplexity",
-    "tier": "free",
-    "level": "simple",
-    "title": {
-      "es": "Receta de investigación: modo, fuentes y ventana temporal",
-      "en": "Research recipe: mode, sources, and time window"
-    },
-    "prompt": "Research [TOPIC] in Perplexity by first picking the right focus mode (Academic for papers, Reddit for real user opinions, Pro Search for general web) since the mode changes which sources get searched more than the wording does. Specify the kind of source you want (e.g. 'prioritize peer-reviewed papers and government data over blogs'), add a time constraint like 'as of 2026' or 'in the last 6 months' to avoid mixing outdated results, and end with 'cite sources' so it favors sourced claims over inference.",
-    "sourceName": "SurePrompts — 50 Best Perplexity Prompts 2026",
-    "sourceUrl": "https://sureprompts.com/blog/best-perplexity-prompts-2026"
-  },
-  {
-    "id": "p-20260724-12",
-    "toolId": "rendair",
-    "tier": "pro",
-    "level": "advanced",
-    "title": {
-      "es": "Render arquitectónico ordenado: material, luz, lente y motor",
-      "en": "Ordered archviz prompt with a render-engine anchor"
-    },
-    "prompt": "Describe [BUILDING/INTERIOR] in this order so the model commits to the structure before the mood: building type and style, exact materials (e.g. 'board-formed concrete, blackened steel, white oak'), lighting conditions (e.g. 'golden hour, low sun angle'), camera lens and angle (e.g. '24mm, eye-level, three-quarter view'), and environmental context last. Anchor the render quality by naming a specific engine — 'V-Ray render' for photorealism, 'Octane Render' for cinematic light, 'Unreal Engine 5' for dramatic contrast, or 'Corona Renderer' for clean natural lighting.",
-    "sourceName": "ArchiGPT — 75+ Architectural Rendering Prompts: Copy-Paste Templates and Pro Techniques 2026",
-    "sourceUrl": "https://www.archigpt.ai/blogs/architectural-rendering-prompts"
   }
 ]
