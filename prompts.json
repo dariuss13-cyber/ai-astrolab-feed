@@ -153,7 +153,7 @@
       "en": "Clause-by-clause contract analyst"
     },
     "prompt": "Act as a contract analyst reviewing a long document. Go clause by clause. For each clause give: (1) a plain-language explanation, (2) a risk level (low/medium/high) with a one-line justification, (3) a suggested redline if risky. Finish with a summary table of the 5 riskiest clauses ranked by impact. Contract: [PASTE FULL CONTRACT]",
-    "sourceName": "AI Atlas — internal template, inspired by Anthropic prompting guides",
+    "sourceName": "AI Astrolab — internal template, inspired by Anthropic prompting guides",
     "sourceUrl": "https://claude.com/blog/best-practices-for-prompt-engineering",
     "verified": true,
     "verifyMethod": "functional-test",
@@ -441,7 +441,7 @@
       "en": "Multi-step enterprise agent workflow"
     },
     "prompt": "Act as an operations agent handling this workflow end to end: (1) [STEP 1], (2) [STEP 2], (3) [STEP 3]. After each step, output a one-line status update before continuing, and stop immediately to ask if any step's output looks ambiguous or incomplete.",
-    "sourceName": "AI Atlas — original, based on Mistral enterprise agent tooling",
+    "sourceName": "AI Astrolab — original, based on Mistral enterprise agent tooling",
     "sourceUrl": "https://chat-deep.ai/comparison/mistral-ai/",
     "verified": true,
     "verifyMethod": "functional-test",
@@ -1593,7 +1593,7 @@
       "en": "Safe refactor guided by characterization tests"
     },
     "prompt": "Before refactoring [MODULE], write characterization tests covering its current behavior, confirm they pass, then refactor in small steps keeping tests green after each step. End with a diff summary and a note on any behavior that changed unintentionally.",
-    "sourceName": "AI Atlas — original, based on characterization-testing practice",
+    "sourceName": "AI Astrolab — original, based on characterization-testing practice",
     "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts",
     "verified": true,
     "verifyMethod": "documented-evidence",
@@ -1881,7 +1881,7 @@
       "en": "Meeting summary with clear action items"
     },
     "prompt": "Summarize this meeting's notes into: 3 key decisions, 2 open questions, and a list of action items with who owns each one. Keep it under 150 words total.",
-    "sourceName": "AI Atlas — original, based on Notion AI meeting summary capability",
+    "sourceName": "AI Astrolab — original, based on Notion AI meeting summary capability",
     "sourceUrl": "https://www.notion.com/product/ai",
     "verified": true,
     "verifyMethod": "functional-test",
@@ -1897,7 +1897,7 @@
       "en": "Search across team knowledge"
     },
     "prompt": "Search our workspace for anything related to [TOPIC/PROJECT] and give me a short synthesis of what's already been decided, so I don't propose something we already ruled out.",
-    "sourceName": "AI Atlas — original, based on Notion AI workspace search capability",
+    "sourceName": "AI Astrolab — original, based on Notion AI workspace search capability",
     "sourceUrl": "https://www.notion.com/product/ai",
     "verified": true,
     "verifyMethod": "documented-evidence",
@@ -1913,7 +1913,7 @@
       "en": "Drafting with workspace context"
     },
     "prompt": "Using our existing style guide and past [DOCUMENT TYPE] docs in this workspace as reference, draft a new [DOCUMENT TYPE] about [TOPIC] that matches our usual tone and structure.",
-    "sourceName": "AI Atlas — original, based on Notion AI context-aware drafting",
+    "sourceName": "AI Astrolab — original, based on Notion AI context-aware drafting",
     "sourceUrl": "https://www.notion.com/product/ai",
     "verified": true,
     "verifyMethod": "documented-evidence",
@@ -1929,7 +1929,7 @@
       "en": "Database turned into a narrative report"
     },
     "prompt": "Turn this database of [ITEMS, e.g. project statuses] into a narrative status report: group by [FIELD], flag anything overdue in bold, and end with a one-paragraph executive summary of overall health.",
-    "sourceName": "AI Atlas — original, based on Notion AI database/report capability",
+    "sourceName": "AI Astrolab — original, based on Notion AI database/report capability",
     "sourceUrl": "https://www.notion.com/product/ai",
     "verified": true,
     "verifyMethod": "documented-evidence",
@@ -2105,7 +2105,7 @@
       "en": "First screen draft from text"
     },
     "prompt": "Generate a first-draft UI for a [SCREEN TYPE, e.g. onboarding screen] for a [APP TYPE] app, following our existing design system's colors, spacing, and component styles already used elsewhere in this file.",
-    "sourceName": "AI Atlas — original, based on Figma AI product page",
+    "sourceName": "AI Astrolab — original, based on Figma AI product page",
     "sourceUrl": "https://www.figma.com/ai/",
     "verified": true,
     "verifyMethod": "documented-evidence",
@@ -2121,7 +2121,7 @@
       "en": "Variants of an existing component"
     },
     "prompt": "Generate 4 visual variants of this selected component (e.g. different states: default, hover, disabled, error), keeping the same layout and spacing, only changing color and iconography per state.",
-    "sourceName": "AI Atlas — original, based on Figma AI product page",
+    "sourceName": "AI Astrolab — original, based on Figma AI product page",
     "sourceUrl": "https://www.figma.com/ai/",
     "verified": true,
     "verifyMethod": "documented-evidence",
@@ -2137,7 +2137,7 @@
       "en": "Interactive prototype from wireframes"
     },
     "prompt": "Turn these low-fidelity wireframes into a clickable prototype: connect the screens in the order [FLOW ORDER], add realistic placeholder content instead of lorem ipsum, and keep every screen consistent with our existing typography scale.",
-    "sourceName": "AI Atlas — original, based on Figma AI product page",
+    "sourceName": "AI Astrolab — original, based on Figma AI product page",
     "sourceUrl": "https://www.figma.com/ai/",
     "verified": true,
     "verifyMethod": "documented-evidence",
@@ -2697,7 +2697,7 @@
       "en": "Turn meeting notes into an actionable doc"
     },
     "prompt": "Using the meeting notes on this page (and related context from our workspace), produce a structured, decision-ready document with these sections in this order:\n\n1. ONE-LINE OUTCOME: What was actually decided, in a single sentence. If nothing was decided, say that clearly.\n2. DECISIONS: Each decision as a bullet, with the rationale in a sub-bullet.\n3. ACTION ITEMS: A table — Task | Owner | Due date | Status. Only include items with a clear owner; list any action that was mentioned but has no owner in a separate 'Needs an owner' list.\n4. OPEN QUESTIONS: Unresolved points that block progress, each phrased as a specific question.\n5. RISKS / CONCERNS: Anything raised that could go wrong, even if we moved past it.\n6. CONTEXT LINKS: Reference any related docs in our workspace that someone would need to act on this.\n\nRules: Do not invent owners, dates, or decisions that aren't in the notes — if it's ambiguous, flag it rather than guessing. Keep it skimmable: short bullets, no filler. Preserve any specific numbers or names exactly as written.",
-    "sourceName": "AI Atlas — original, based on Notion AI meeting/summary capability",
+    "sourceName": "AI Astrolab — original, based on Notion AI meeting/summary capability",
     "sourceUrl": "https://www.notion.com/product/ai",
     "verified": true,
     "verifyMethod": "functional-test",
@@ -2761,7 +2761,7 @@
       "en": "Generate a coherent screen flow tied to the design system"
     },
     "prompt": "Design a complete [FEATURE, e.g. onboarding] flow for a [APP TYPE] app, using our existing design system (colors, type scale, spacing, and components already in this file). Produce the screens in sequence and keep them consistent.\n\nSCREENS (generate each, in order): 1) [Screen 1 + its purpose], 2) [Screen 2], 3) [Screen 3], 4) success/empty state. For each screen include realistic placeholder content — real-sounding copy, not lorem ipsum — and use our existing components rather than inventing new ones.\n\nCONSISTENCY RULES: identical header/nav pattern across screens, consistent button styles and states (default/hover/disabled), the same spacing rhythm, and our type scale for every text level. Respect our color roles (primary action, secondary, destructive, neutral).\n\nALSO PROVIDE: for each screen, a one-line note on the primary user action and where it leads, so the flow is clear. Flag anywhere our current design system is missing a component this flow needs.",
-    "sourceName": "AI Atlas — original, based on Figma AI product capabilities",
+    "sourceName": "AI Astrolab — original, based on Figma AI product capabilities",
     "sourceUrl": "https://www.figma.com/ai/",
     "verified": true,
     "verifyMethod": "documented-evidence",
