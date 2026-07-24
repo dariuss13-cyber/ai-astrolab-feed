@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Astrolab — La guía diaria de herramientas de IA</title>
+<meta name="description" content="Descubre, compara y sigue todas las herramientas de inteligencia artificial: ChatGPT, Midjourney, Sora, Claude y más de 40 plataformas. Novedades cada día y prompts listos para usar.">
+<meta name="keywords" content="herramientas IA, inteligencia artificial, ChatGPT, Midjourney, Sora, prompts, comparar IA, novedades IA, mejores apps de IA">
+<link rel="canonical" href="https://dariuss13-cyber.github.io/AI-ATLAS-FEED/">
+
+<!-- Open Graph (para que se vea bien al compartir el enlace) -->
+<meta property="og:title" content="AI Astrolab — La guía diaria de herramientas de IA">
+<meta property="og:description" content="Todas las herramientas de IA en un mapa. Novedades cada día y prompts listos para usar.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dariuss13-cyber.github.io/AI-ATLAS-FEED/">
+
+<style>
+  :root {
+    --parchment:#EFE5CE; --card:#F6EEDC; --border:#C9B896; --ink:#3E3226;
+    --inkSoft:#6B5B47; --inkFaint:#94836B; --sea:#1F4E6B; --gold:#B08D3F; --seal:#8C3B2E;
+  }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:Georgia,'Times New Roman',serif; background:var(--parchment);
+         color:var(--ink); line-height:1.6; }
+  a { color:var(--sea); text-decoration:none; }
+  .wrap { max-width:1000px; margin:0 auto; padding:0 20px; }
+
+  header { text-align:center; padding:60px 20px 40px; }
+  h1 { font-size:3rem; letter-spacing:2px; }
+  .tagline { font-style:italic; color:var(--inkSoft); font-size:1.25rem; margin-top:6px; }
+  .cta-row { margin-top:28px; display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+  .btn { background:var(--sea); color:var(--card); padding:14px 26px; border-radius:10px;
+         font-weight:bold; font-size:1.05rem; display:inline-block; }
+  .btn.gold { background:var(--gold); }
+  .btn.ghost { background:transparent; color:var(--sea); border:2px solid var(--sea); }
+
+  section { padding:36px 0; }
+  h2 { font-size:1.8rem; text-align:center; margin-bottom:8px; }
+  .sub { text-align:center; color:var(--inkSoft); margin-bottom:24px; }
+
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px;
+          padding:16px; }
+  .card .date { font-size:.8rem; color:var(--inkFaint); }
+  .card .tool { font-weight:bold; color:var(--sea); font-size:.95rem; }
+  .card h3 { font-size:1.1rem; margin:4px 0 6px; }
+  .card p { color:var(--inkSoft); font-size:.95rem; }
+  .card .src { font-size:.85rem; margin-top:8px; display:inline-block; }
+
+  .features { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:18px; }
+  .feature { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; }
+  .feature .ico { font-size:2rem; }
+  .feature h3 { margin:8px 0 4px; }
+  .feature p { color:var(--inkSoft); font-size:.95rem; }
+
+  footer { text-align:center; padding:40px 20px; border-top:1px solid var(--border);
+           color:var(--inkFaint); font-size:.9rem; margin-top:20px; }
+  footer a { margin:0 8px; }
+  .loading { text-align:center; color:var(--inkFaint); font-style:italic; padding:20px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>AI Astrolab</h1>
+    <p class="tagline">"Explora el mapa de la IA"</p>
+    <div class="cta-row">
+      <a class="btn" href="#" id="ios-btn">📱 Descargar para iPhone</a>
+      <a class="btn gold" href="#" id="android-btn">🤖 Descargar para Android</a>
+    </div>
+    <p style="margin-top:12px;color:var(--inkFaint);font-size:.9rem">Gratis · Sin registro · Bilingüe ES/EN</p>
+  </div>
+</header>
+
+<section style="background:var(--card);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+  <div class="wrap">
+    <h2>Todo lo nuevo de la IA, cada día</h2>
+    <p class="sub">Lanzamientos, funciones y cambios de precio de las principales plataformas.</p>
+    <div class="grid" id="news"><p class="loading">Cargando novedades…</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Por qué AI Astrolab</h2>
+    <p class="sub">La forma más rápida de orientarte entre cientos de herramientas.</p>
+    <div class="features">
+      <div class="feature"><div class="ico">🗺️</div><h3>Catálogo curado</h3><p>Más de 40 plataformas organizadas por sectores y explicadas con claridad.</p></div>
+      <div class="feature"><div class="ico">⚖️</div><h3>Compara cara a cara</h3><p>Enfrenta dos herramientas y decide con criterio: precio, uso ideal y dificultad.</p></div>
+      <div class="feature"><div class="ico">🧭</div><h3>Novedades diarias</h3><p>Sigue el ritmo del mercado sin perderte entre mil fuentes.</p></div>
+      <div class="feature"><div class="ico">📜</div><h3>Prompts listos</h3><p>Recetas probadas por herramienta y nivel para no empezar de cero.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--card);border-top:1px solid var(--border)">
+  <div class="wrap">
+    <h2>Prompts destacados</h2>
+    <p class="sub">Una muestra de la biblioteca. Muchos más dentro de la app.</p>
+    <div class="grid" id="prompts"><p class="loading">Cargando prompts…</p></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>AI Astrolab es una guía independiente y curada a mano con fines informativos.<br>
+       Todos los nombres, logos y marcas pertenecen a sus respectivos propietarios.</p>
+    <p style="margin-top:12px">
+      <a href="privacy.html">Privacidad</a> ·
+      <a href="terms.html">Términos</a> ·
+      <a href="mailto:dariuss13@uic.es">Contacto</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+const FEED = 'https://raw.githubusercontent.com/dariuss13-cyber/ai-atlas-feed/main/feed.json';
+const PROMPTS = 'https://raw.githubusercontent.com/dariuss13-cyber/ai-atlas-feed/main/prompts.json';
+
+// TODO: cuando publiques la app, pega aquí los enlaces reales de las tiendas
+const IOS_URL = '#';
+const ANDROID_URL = '#';
+document.getElementById('ios-btn').href = IOS_URL;
+document.getElementById('android-btn').href = ANDROID_URL;
+
+const esc = (s) => (s||'').replace(/</g,'&lt;');
+const pick = (o) => (o && typeof o==='object') ? (o.es||o.en||'') : (o||'');
+
+fetch(FEED).then(r=>r.json()).then(items=>{
+  const el = document.getElementById('news');
+  el.innerHTML = '';
+  items.slice(0,9).forEach(n=>{
+    const d = document.createElement('div'); d.className='card';
+    d.innerHTML = `<div class="date">${esc(n.date)}</div>
+      <div class="tool">${esc(n.toolId||'')}</div>
+      <h3>${esc(pick(n.title))}</h3>
+      <p>${esc(pick(n.summary))}</p>
+      ${n.sourceUrl?`<a class="src" href="${esc(n.sourceUrl)}" rel="nofollow" target="_blank">Fuente: ${esc(n.sourceName||'ver')} →</a>`:''}`;
+    el.appendChild(d);
+  });
+}).catch(()=>{ document.getElementById('news').innerHTML='<p class="loading">No se pudieron cargar las novedades.</p>'; });
+
+fetch(PROMPTS).then(r=>r.json()).then(items=>{
+  const el = document.getElementById('prompts');
+  el.innerHTML = '';
+  // solo prompts gratis en la web, como anzuelo
+  items.filter(p=>p.tier!=='pro').slice(0,6).forEach(p=>{
+    const d = document.createElement('div'); d.className='card';
+    d.innerHTML = `<div class="tool">${esc(p.toolId||'')} · ${esc(p.level||'')}</div>
+      <h3>${esc(pick(p.title))}</h3>
+      <p>${esc((p.prompt||'').slice(0,140))}${(p.prompt||'').length>140?'…':''}</p>`;
+    el.appendChild(d);
+  });
+}).catch(()=>{ document.getElementById('prompts').innerHTML='<p class="loading">No se pudieron cargar los prompts.</p>'; });
+</script>
+
+</body>
+</html>
