@@ -23,7 +23,10 @@
     },
     "prompt": "After implementing [CHANGE], do a two-pass review of your own diff: pass 1 — correctness only (bugs, edge cases, error handling); pass 2 — quality only (naming, duplication, simplification). Report findings as a list before applying any fix, then apply only the confirmed ones.",
     "sourceName": "AY Automate — Claude Code templates",
-    "sourceUrl": "https://www.ayautomate.com/blog/best-claude-code-prompts"
+    "sourceUrl": "https://www.ayautomate.com/blog/best-claude-code-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Two-pass self-review (correctness y luego calidad) reportando antes de aplicar: práctica documentada de revisión de diffs."
   },
   {
     "id": "p-20260723-12",
@@ -1386,7 +1389,10 @@
     },
     "prompt": "Before writing any code, explain in 3-5 bullets how you plan to implement [FEATURE], which files you'll touch, and any assumption you're making. Wait for my go-ahead before editing.",
     "sourceName": "SSOJet — Best prompts for AI coding agents",
-    "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts"
+    "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Explicar el plan antes de tocar código (Plan Mode) y esperar go-ahead: best practice documentada de Cursor 2026."
   },
   {
     "id": "p-lib-cursor-3",
@@ -1399,7 +1405,10 @@
     },
     "prompt": "Before refactoring [MODULE], write characterization tests covering its current behavior, confirm they pass, then refactor in small steps keeping tests green after each step. End with a diff summary and a note on any behavior that changed unintentionally.",
     "sourceName": "AI Atlas — original, based on characterization-testing practice",
-    "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts"
+    "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Refactor guiado por characterization tests en pasos con tests en verde: práctica segura documentada."
   },
   {
     "id": "p-lib-cursor-4",
@@ -1412,7 +1421,10 @@
     },
     "prompt": "Across the whole repo, find every place that calls [DEPRECATED FUNCTION/API] and migrate them to [NEW FUNCTION/API], preserving existing behavior. Work file by file, run the build after each file, and stop and report if any call site needs a judgment call instead of a mechanical replacement.",
     "sourceName": "Faros AI — Best AI coding agents 2026",
-    "sourceUrl": "https://www.faros.ai/blog/best-ai-coding-agents-2026"
+    "sourceUrl": "https://www.faros.ai/blog/best-ai-coding-agents-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Agent mode repo-wide con build tras cada archivo y parada ante decisión de juicio: flujo documentado de Cursor."
   },
   {
     "id": "p-lib-claude-code-1",
@@ -1441,7 +1453,10 @@
     },
     "prompt": "Create a new branch for this change. Implement [FEATURE], keep commits small and scoped to one logical change each, and leave main untouched. When finished, show me a clean diff and summarize what changed and what you deliberately skipped.",
     "sourceName": "willowvoice — Claude Code best practices, May 2026",
-    "sourceUrl": "https://willowvoice.com/blog/10-essential-claude-code-best-practices"
+    "sourceUrl": "https://willowvoice.com/blog/10-essential-claude-code-best-practices",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Rama nueva + commits pequeños con main intacto y diff final: flujo documentado de Claude Code."
   },
   {
     "id": "p-lib-claude-code-3",
@@ -1454,7 +1469,10 @@
     },
     "prompt": "I've asked you to do [REPEATED TASK] several times this week in slightly different ways. Package it as a reusable Skill: define the trigger conditions, the steps, and the expected output format, so future requests for this task are handled consistently without me re-explaining it.",
     "sourceName": "willowvoice — Claude Code best practices, May 2026",
-    "sourceUrl": "https://willowvoice.com/blog/10-essential-claude-code-best-practices"
+    "sourceUrl": "https://willowvoice.com/blog/10-essential-claude-code-best-practices",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Empaquetar una tarea repetida como Skill reutilizable (trigger/pasos/salida): capacidad documentada de Claude Code."
   },
   {
     "id": "p-lib-claude-code-4",
@@ -1467,7 +1485,10 @@
     },
     "prompt": "You just finished [TASK]. Before I review it, give me: (1) exactly what changed, (2) what you decided NOT to do and why, (3) any assumption you made that I should double-check, (4) how I can verify this works myself in under 2 minutes.",
     "sourceName": "openhands.dev — Claude Code best practices for agentic coding, 2026",
-    "sourceUrl": "https://www.openhands.dev/blog/claude-code-best-practices-agentic-coding"
+    "sourceUrl": "https://www.openhands.dev/blog/claude-code-best-practices-agentic-coding",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Verificación de cierre (qué cambió / qué no / supuestos / cómo comprobar en <2 min): buena práctica documentada de agentes."
   },
   {
     "id": "p-lib-copilot-1",
@@ -1480,7 +1501,10 @@
     },
     "prompt": "// Write a function that takes [INPUT] and returns [OUTPUT], handling [EDGE CASE] explicitly, following the naming conventions already used in this file.\n(place this comment right above where you want Copilot to generate the function)",
     "sourceName": "GitHub Docs — Best practices for using GitHub Copilot",
-    "sourceUrl": "https://docs.github.com/en/copilot/get-started/best-practices"
+    "sourceUrl": "https://docs.github.com/en/copilot/get-started/best-practices",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Comentario descriptivo encima para guiar la sugerencia siguiendo convenciones del archivo: técnica documentada de Copilot."
   },
   {
     "id": "p-lib-copilot-2",
@@ -1493,7 +1517,10 @@
     },
     "prompt": "I need to build [FEATURE]. Break it down into small numbered steps first, then implement step 1 only and stop so I can review before continuing to step 2.",
     "sourceName": "Initfusion — Best GitHub Copilot tips and tricks 2026",
-    "sourceUrl": "https://www.initfusion.com/best-github-copilot-tips-and-tricks/"
+    "sourceUrl": "https://www.initfusion.com/best-github-copilot-tips-and-tricks/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Descomponer en pasos numerados e implementar solo el paso 1: práctica documentada de Copilot."
   },
   {
     "id": "p-lib-copilot-3",
@@ -1506,7 +1533,10 @@
     },
     "prompt": "Review this pull request diff as if you were a careful senior reviewer, not the author: flag anything that looks unsafe, untested, or inconsistent with the rest of the codebase's style, but don't rewrite the code — just list the concerns.",
     "sourceName": "GitHub Docs — Best practices for using GitHub Copilot",
-    "sourceUrl": "https://docs.github.com/en/copilot/get-started/best-practices"
+    "sourceUrl": "https://docs.github.com/en/copilot/get-started/best-practices",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Revisión como revisor senior sin reescribir, solo listar preocupaciones: patrón documentado."
   },
   {
     "id": "p-lib-copilot-4",
@@ -1519,7 +1549,10 @@
     },
     "prompt": "Implement a parser for [DATA FORMAT]. Here's a sample input: [SAMPLE INPUT] and the expected output: [SAMPLE OUTPUT]. Match this exact transformation, and handle malformed input by returning [ERROR BEHAVIOR] instead of throwing.",
     "sourceName": "Initfusion — Best GitHub Copilot tips and tricks 2026",
-    "sourceUrl": "https://www.initfusion.com/best-github-copilot-tips-and-tricks/"
+    "sourceUrl": "https://www.initfusion.com/best-github-copilot-tips-and-tricks/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Prompt guiado por ejemplo input/output y manejo explícito de malformado: técnica few-shot documentada."
   },
   {
     "id": "p-lib-lovable-1",
@@ -1532,7 +1565,10 @@
     },
     "prompt": "Build a [TYPE OF APP] where users can [CORE ACTION 1] and [CORE ACTION 2]. Target user: [WHO]. Keep the first version to just these two actions — no extra features yet.",
     "sourceName": "GitHub — What is vibe coding?",
-    "sourceUrl": "https://github.com/resources/articles/what-is-vibe-coding"
+    "sourceUrl": "https://github.com/resources/articles/what-is-vibe-coding",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Describir la app completa y acotar v1 a 2 acciones antes de generar: práctica documentada de Lovable."
   },
   {
     "id": "p-lib-lovable-2",
@@ -1545,7 +1581,10 @@
     },
     "prompt": "On the [SCREEN NAME] screen, change [SPECIFIC ELEMENT] to [NEW BEHAVIOR/LOOK]. Don't touch any other screen or the data model.",
     "sourceName": "Serenities AI — Complete guide to vibe coding 2026",
-    "sourceUrl": "https://serenitiesai.com/articles/complete-guide-vibe-coding-2026"
+    "sourceUrl": "https://serenitiesai.com/articles/complete-guide-vibe-coding-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Iterar con feedback concreto acotado a una pantalla sin tocar data model: práctica documentada de Lovable."
   },
   {
     "id": "p-lib-lovable-3",
@@ -1558,7 +1597,10 @@
     },
     "prompt": "Before I launch this app publicly, audit it for exposed data: check that database rows are scoped to the logged-in user, that no API keys are visible in client-side code, and that every endpoint that changes data requires authentication. List every issue you find, ranked by severity — don't fix silently, show me first.",
     "sourceName": "cantechit — Vibe coding with GitHub Copilot / Lovable security note",
-    "sourceUrl": "https://serenitiesai.com/articles/complete-guide-vibe-coding-2026"
+    "sourceUrl": "https://serenitiesai.com/articles/complete-guide-vibe-coding-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Auditoría de seguridad (row-scoping, secrets client-side, auth por endpoint) antes de publicar: recomendación documentada de Lovable."
   },
   {
     "id": "p-lib-lovable-4",
@@ -1571,7 +1613,10 @@
     },
     "prompt": "This prototype currently stores [DATA] in local mock state. Migrate it to a real backend table with proper relationships, keeping every existing screen working exactly the same from the user's point of view.",
     "sourceName": "Serenities AI — Complete guide to vibe coding 2026",
-    "sourceUrl": "https://serenitiesai.com/articles/complete-guide-vibe-coding-2026"
+    "sourceUrl": "https://serenitiesai.com/articles/complete-guide-vibe-coding-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Migrar de mock local a backend real manteniendo las pantallas idénticas: flujo documentado de Lovable."
   },
   {
     "id": "p-lib-perplexity-1",
@@ -1783,9 +1828,12 @@
       "es": "Concept art a modelo 3D listo para producción",
       "en": "Concept art to production-ready 3D model"
     },
-    "prompt": "Convert this 2D concept art of [CHARACTER/PROP] into a game-ready 3D model: clean topology, optimized poly count for real-time rendering, and UVs laid out for straightforward texturing.",
+    "prompt": "Convert this 2D concept art of [CHARACTER/PROP] into a game-ready 3D model: clean quad-based topology, optimized poly budget for real-time (target ~[N]k tris), non-overlapping UVs laid out for PBR texturing, watertight mesh. Match the concept's silhouette and proportions faithfully.",
     "sourceName": "Meshy — Best AI tools for 3D game assets 2026",
-    "sourceUrl": "https://www.meshy.ai/blog/best-ai-tools-for-3d-game-assets"
+    "sourceUrl": "https://www.meshy.ai/blog/best-ai-tools-for-3d-game-assets",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Concept 2D → modelo game-ready con topología limpia, polycount y UVs para texturizado: capacidad documentada de Kaedim; specs de malla añadidas."
   },
   {
     "id": "p-lib-kaedim-2",
@@ -1798,7 +1846,10 @@
     },
     "prompt": "Process this batch of 6 concept sketches for [PROP CATEGORY] into 3D models with a consistent topology density and scale across the set, so the team can drop them into the same scene without manual resizing.",
     "sourceName": "TECHSY — Best AI game asset generators 2026",
-    "sourceUrl": "https://techsy.io/en/blog/best-ai-game-asset-generators"
+    "sourceUrl": "https://techsy.io/en/blog/best-ai-game-asset-generators",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Lote de sketches → modelos con densidad de topología y escala consistentes para el mismo escenario: capacidad documentada de Kaedim."
   },
   {
     "id": "p-lib-kaedim-3",
@@ -1809,9 +1860,12 @@
       "es": "Modelo de alto detalle con acabados metálicos",
       "en": "High-detail model with metallic finishes"
     },
-    "prompt": "Turn this reference into a high-poly 3D model of [OBJECT, e.g. a sci-fi helmet]: smooth curves, metal plating with visible panel seams, glowing accent details, then also output an optimized low-poly version for real-time use.",
+    "prompt": "Turn this reference into a high-poly 3D model of [OBJECT, e.g. a sci-fi helmet]: smooth curves, metal plating with clean panel seams, glowing accent details. Then also output a game-ready low-poly (target ~[N]k tris) with a baked normal map from the high-poly. Keep proportions faithful to the reference.",
     "sourceName": "Meshy — Best AI tools for 3D game assets 2026",
-    "sourceUrl": "https://www.meshy.ai/blog/best-ai-tools-for-3d-game-assets"
+    "sourceUrl": "https://www.meshy.ai/blog/best-ai-tools-for-3d-game-assets",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "High-poly + low-poly con normal map horneado: flujo estándar documentado de producción 3D soportado por Kaedim."
   },
   {
     "id": "p-lib-figma-ai-1",
@@ -1824,7 +1878,10 @@
     },
     "prompt": "Generate a first-draft UI for a [SCREEN TYPE, e.g. onboarding screen] for a [APP TYPE] app, following our existing design system's colors, spacing, and component styles already used elsewhere in this file.",
     "sourceName": "AI Atlas — original, based on Figma AI product page",
-    "sourceUrl": "https://www.figma.com/ai/"
+    "sourceUrl": "https://www.figma.com/ai/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Primer draft de UI siguiendo el design system existente (colores/spacing/componentes): capacidad documentada de Figma AI (First Draft)."
   },
   {
     "id": "p-lib-figma-ai-2",
@@ -1837,7 +1894,10 @@
     },
     "prompt": "Generate 4 visual variants of this selected component (e.g. different states: default, hover, disabled, error), keeping the same layout and spacing, only changing color and iconography per state.",
     "sourceName": "AI Atlas — original, based on Figma AI product page",
-    "sourceUrl": "https://www.figma.com/ai/"
+    "sourceUrl": "https://www.figma.com/ai/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Variantes de un componente por estado manteniendo layout y spacing: capacidad documentada de Figma AI."
   },
   {
     "id": "p-lib-figma-ai-3",
@@ -1850,7 +1910,10 @@
     },
     "prompt": "Turn these low-fidelity wireframes into a clickable prototype: connect the screens in the order [FLOW ORDER], add realistic placeholder content instead of lorem ipsum, and keep every screen consistent with our existing typography scale.",
     "sourceName": "AI Atlas — original, based on Figma AI product page",
-    "sourceUrl": "https://www.figma.com/ai/"
+    "sourceUrl": "https://www.figma.com/ai/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Wireframes → prototipo clicable con contenido realista y tipografía consistente: capacidad documentada de Figma AI."
   },
   {
     "id": "p-lib-rendair-1",
@@ -1861,9 +1924,12 @@
       "es": "Render fotorrealista directo desde tu vista 3D",
       "en": "Photoreal render straight from your 3D view"
     },
-    "prompt": "Render this current SketchUp view as a photorealistic exterior: golden hour lighting, realistic landscaping, keep the building geometry exactly as modeled — only change materials and lighting, not the massing.",
+    "prompt": "Render this current SketchUp view as a photorealistic exterior at golden hour: realistic PBR materials, soft warm directional sunlight with long shadows, landscaping and sky, architectural-photography look (24mm lens, eye-level), V-Ray-grade lighting and global illumination. Keep the building geometry and massing EXACTLY as modeled — change only materials and lighting, never the massing. 4K, high detail, realistic material reflectance.",
     "sourceName": "Rendair — 5 Prompts For One 3D Model (blog)",
-    "sourceUrl": "https://rendair.ai/blog/5-prompts-for-one-3d-model"
+    "sourceUrl": "https://rendair.ai/blog/5-prompts-for-one-3d-model",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Render fotoreal desde vista 3D preservando geometría, orden materiales+luz+cámara+motor: estructura de prompt archviz documentada (ArchiGPT/RunDiffusion 2026)."
   },
   {
     "id": "p-lib-rendair-2",
@@ -1876,7 +1942,10 @@
     },
     "prompt": "From this same 3D view, generate 4 quick material variations for the facade: (1) light render, (2) dark brick, (3) wood cladding, (4) mixed stone and glass — same camera angle and lighting for all four so the client can compare side by side.",
     "sourceName": "Rendair — 5 Prompts For One 3D Model (blog)",
-    "sourceUrl": "https://rendair.ai/blog/5-prompts-for-one-3d-model"
+    "sourceUrl": "https://rendair.ai/blog/5-prompts-for-one-3d-model",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "4 variaciones de material con misma cámara y luz para comparar: flujo documentado de AI archviz para revisión de cliente."
   },
   {
     "id": "p-lib-rendair-3",
@@ -1887,9 +1956,12 @@
       "es": "Render nocturno con iluminación interior cálida",
       "en": "Night render with warm interior lighting"
     },
-    "prompt": "Render this residential facade at blue hour: warm interior lighting glowing through the windows, soft uplighting on the landscaping, wet pavement reflections, architectural photography style, keep window and door positions exactly as modeled.",
+    "prompt": "Render this residential facade at blue hour: warm interior lighting glowing through the windows, soft landscape uplighting, wet-pavement reflections, architectural-photography style (35mm, tripod eye-level), Corona/V-Ray-grade global illumination. Keep window and door positions EXACTLY as modeled. 4K, ultra-sharp, physically accurate material reflectance.",
     "sourceName": "Rendair — architectural visualization workspace",
-    "sourceUrl": "https://rendair.ai"
+    "sourceUrl": "https://rendair.ai",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Render nocturno/blue-hour con luz interior cálida y motor de render nombrado, geometría intacta: estructura archviz documentada."
   },
   {
     "id": "p-lib-veras-1",
@@ -1902,7 +1974,10 @@
     },
     "prompt": "Using my current Revit view, render 3 material options for the exterior cladding: [OPTION 1], [OPTION 2], [OPTION 3], preserving the exact model geometry so I can present real options in the design review.",
     "sourceName": "mnml.ai — Veras AI alternative comparison page",
-    "sourceUrl": "https://mnml.ai/ai-tools/veras-ai-alternative"
+    "sourceUrl": "https://mnml.ai/ai-tools/veras-ai-alternative",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Exploración de materiales sobre vista Revit preservando geometría exacta: capacidad documentada de Veras (render sobre BIM)."
   },
   {
     "id": "p-lib-veras-2",
@@ -1913,9 +1988,12 @@
       "es": "Ambiente y mood sin perder la geometría BIM",
       "en": "Mood and atmosphere without losing BIM geometry"
     },
-    "prompt": "Render this BIM view in an overcast, moody atmosphere with muted tones for an editorial-style presentation image, keeping every structural element from the model exactly where it was placed.",
+    "prompt": "Render this Revit/BIM view in an overcast, moody atmosphere with muted editorial tones, soft diffuse global illumination, subtle depth haze, architectural-photography framing. Preserve every structural element from the model exactly where it was placed. 4K, high detail, realistic materials.",
     "sourceName": "mnml.ai — Veras AI alternative comparison page",
-    "sourceUrl": "https://mnml.ai/ai-tools/veras-ai-alternative"
+    "sourceUrl": "https://mnml.ai/ai-tools/veras-ai-alternative",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Mood/atmósfera manteniendo la geometría BIM exacta: capacidad documentada de Veras; specs de render añadidas."
   },
   {
     "id": "p-lib-veras-3",
@@ -1928,7 +2006,10 @@
     },
     "prompt": "Render all 4 elevations of this Revit model with the same material palette, lighting condition (midday, clear sky), and rendering style, so they can sit together in a single presentation board without looking mismatched.",
     "sourceName": "mnml.ai — Veras AI alternative comparison page",
-    "sourceUrl": "https://mnml.ai/ai-tools/veras-ai-alternative"
+    "sourceUrl": "https://mnml.ai/ai-tools/veras-ai-alternative",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Serie de 4 alzados con misma paleta/luz/estilo para un panel: flujo de render consistente documentado de Veras."
   },
   {
     "id": "p-lib-mnml-1",
@@ -1939,9 +2020,12 @@
       "es": "De foto o boceto a render de interiorismo",
       "en": "Photo or sketch to interior design render"
     },
-    "prompt": "Turn this photo of an empty room into a furnished [STYLE, e.g. Scandinavian minimalist] living room render, keep the window and door positions and room proportions exactly as in the photo.",
+    "prompt": "Turn this photo of an empty room into a furnished [STYLE, e.g. Scandinavian minimalist] living room render: realistic materials and soft natural window light, wide interior lens (24mm), accurate perspective, realistic contact shadows. Keep window and door positions and room proportions EXACTLY as in the photo. 4K, photoreal.",
     "sourceName": "mnml.ai — Maket AI alternative comparison page",
-    "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative"
+    "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Foto de habitación vacía → render de interiorismo manteniendo aberturas y proporciones: flujo documentado de mnml."
   },
   {
     "id": "p-lib-mnml-2",
@@ -1954,7 +2038,10 @@
     },
     "prompt": "Generate a moodboard for a [PROJECT TYPE] in [STYLE], showing 4 variations of material and color palette side by side, so I can pick a direction before starting the detailed design.",
     "sourceName": "Krea — Best AI for photorealistic architectural renders",
-    "sourceUrl": "https://www.krea.ai/blog/best-ai-photorealistic-architectural-renders"
+    "sourceUrl": "https://www.krea.ai/blog/best-ai-photorealistic-architectural-renders",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Moodboard rápido con 4 variaciones de paleta para elegir dirección: caso de uso documentado de mnml (se mantiene rápido, sin sobrecargar de specs)."
   },
   {
     "id": "p-lib-mnml-3",
@@ -1965,9 +2052,12 @@
       "es": "Cambiar el estilo de un exterior manteniendo la planta",
       "en": "Restyle an exterior while keeping the layout"
     },
-    "prompt": "Take this exterior render and restyle it from [CURRENT STYLE] to [TARGET STYLE, e.g. modern farmhouse], adjusting materials, roofline detailing, and window trim, but keep the building footprint and window openings unchanged.",
+    "prompt": "Take this exterior render and restyle it from [CURRENT STYLE] to [TARGET STYLE, e.g. modern farmhouse], adjusting materials, roofline detailing, and window trim, but keep the building footprint and window openings unchanged. Same camera angle. 4K, photoreal architectural rendering with realistic daylight.",
     "sourceName": "mnml.ai — architecture and interior visualization tool",
-    "sourceUrl": "https://mnml.ai"
+    "sourceUrl": "https://mnml.ai",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Restyle de exterior manteniendo footprint y aberturas: flujo documentado de mnml."
   },
   {
     "id": "p-lib-promeai-1",
@@ -1978,9 +2068,12 @@
       "es": "Boceto a render con relleno generativo",
       "en": "Sketch to render with generative fill"
     },
-    "prompt": "Render this hand sketch of a building facade as a photorealistic exterior, filling in realistic materials, glazing reflections, and landscaping while keeping the sketch's proportions and window layout unchanged.",
+    "prompt": "Render this hand sketch of a building facade as a photorealistic exterior: generative fill of realistic PBR materials, glazing reflections, and landscaping, architectural-photography lighting (24mm, eye-level). Keep the sketch's proportions and window layout EXACTLY unchanged. 4K, high detail.",
     "sourceName": "Educasium — AI rendering software comparison 2026",
-    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Boceto → render con relleno generativo conservando proporciones/layout: capacidad documentada de PromeAI."
   },
   {
     "id": "p-lib-promeai-2",
@@ -1993,7 +2086,10 @@
     },
     "prompt": "In this render, erase the [OBJECT/AREA] and replace it with [NEW ELEMENT], matching the existing lighting direction and perspective so the edit is seamless.",
     "sourceName": "Educasium — AI rendering software comparison 2026",
-    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Erase-and-replace de un área conservando luz y perspectiva para edición sin costuras: capacidad documentada de PromeAI."
   },
   {
     "id": "p-lib-promeai-3",
@@ -2006,7 +2102,10 @@
     },
     "prompt": "Generate 5 design variations of this product render, changing only the finish and color per variation, keeping camera angle, studio lighting, and background identical so they can be compared in one catalog grid.",
     "sourceName": "Educasium — AI rendering software comparison 2026",
-    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "5 variaciones cambiando solo acabado/color con cámara/luz/fondo idénticos: flujo documentado para grid de catálogo."
   },
   {
     "id": "p-lib-arkoai-1",
@@ -2019,7 +2118,10 @@
     },
     "prompt": "Render my current view in [Revit/Rhino/SketchUp] as a quick concept image: describe the desired materials and mood in one sentence, e.g. \"warm modern lobby, oak paneling, soft daylight\" — keep the geometry exactly as modeled.",
     "sourceName": "Educasium — AI rendering software comparison 2026",
-    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Render rápido desde vista CAD (Revit/Rhino/SketchUp) con mood en una frase y geometría intacta: flujo documentado de ArkoAI."
   },
   {
     "id": "p-lib-arkoai-2",
@@ -2032,7 +2134,10 @@
     },
     "prompt": "From this same clay render, produce 3 material iterations for client review this afternoon: [OPTION 1], [OPTION 2], [OPTION 3], each rendered fast rather than at maximum fidelity — we'll pick a direction before polishing.",
     "sourceName": "Educasium — AI rendering software comparison 2026",
-    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "3 iteraciones de material rápidas desde clay render para revisión: caso de uso documentado (se mantiene rápido a propósito)."
   },
   {
     "id": "p-lib-arkoai-3",
@@ -2045,7 +2150,10 @@
     },
     "prompt": "Render this massing model as a soft grey clay study with simple ambient lighting, no materials or context yet — I want to present pure form and proportion to the client before we commit to any material direction.",
     "sourceName": "Educasium — AI rendering software comparison 2026",
-    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture"
+    "sourceUrl": "https://educasium.com/en/blog/comparatif-logiciels-ia-architecture",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Clay render de estudio de masas con luz ambiental simple, sin materiales: técnica documentada para presentación temprana de forma."
   },
   {
     "id": "p-lib-maket-1",
@@ -2058,7 +2166,10 @@
     },
     "prompt": "Generate residential floor plan options for a [LOT SIZE] lot with these constraints: [BEDROOM/BATHROOM COUNT], [ZONING SETBACKS], [ORIENTATION]. Show me the 5 most efficient layouts ranked by usable square footage.",
     "sourceName": "mnml.ai — Maket AI alternative comparison page",
-    "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative"
+    "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Generación de planos residenciales por restricciones (dormitorios/setbacks/orientación) rankeados por superficie útil: capacidad documentada de Maket."
   },
   {
     "id": "p-lib-maket-2",
@@ -2071,7 +2182,10 @@
     },
     "prompt": "Starting from this existing floor plan, generate 4 alternative layouts that keep the same total square footage and structural footprint but vary the room adjacencies, prioritizing [PRIORITY, e.g. natural light in the main living area].",
     "sourceName": "mnml.ai — Maket AI alternative comparison page",
-    "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative"
+    "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Variantes de layout manteniendo superficie y footprint estructural: capacidad documentada de Maket."
   },
   {
     "id": "p-lib-maket-3",
@@ -2084,7 +2198,10 @@
     },
     "prompt": "Check this generated layout against [ZONING RULE, e.g. minimum setback and lot coverage requirements] and flag any element that would need a variance before this goes to a licensed architect for final review.",
     "sourceName": "mnml.ai — Maket AI alternative comparison page",
-    "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative"
+    "sourceUrl": "https://mnml.ai/ai-tools/maket-ai-alternative",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Chequeo temprano de zoning (setback/ocupación) marcando lo que necesitaría variance: caso de uso documentado de Maket."
   },
   {
     "id": "p-mega-chatgpt-1",
@@ -2175,7 +2292,10 @@
     },
     "prompt": "You are working on a production codebase. We are going to refactor [MODULE / FEATURE]. Follow this protocol exactly and do NOT skip ahead.\n\nSTEP 0 — Understand: Read the relevant files and, before changing anything, write a short summary of how the current code works, what depends on it, and where the risk is. List any part you're unsure about.\nSTEP 1 — Plan: Propose the refactor as a numbered sequence of SMALL, independently-committable steps. Each step should leave the code working and tests green. Wait for my approval of the plan.\nSTEP 2 — Safety net: Before refactoring, ensure there are tests characterizing the CURRENT behavior. If coverage is thin, write those tests first and confirm they pass against the existing code.\nSTEP 3 — Execute one step at a time: Implement step 1 only. Run the tests. Show me the diff and the test output. Stop and wait.\nSTEP 4 — Repeat: Only after I confirm, move to the next step. After each step, restate what changed and what's left.\n\nRULES: Never change behavior and structure in the same commit. If you discover the plan was wrong mid-way, stop and tell me instead of improvising a big change. Preserve public interfaces unless we explicitly agreed to change them. If a test fails, diagnose the root cause — do not delete or weaken the test to make it pass.",
     "sourceName": "SSOJet — Best prompts for AI coding agents (scoped protocol)",
-    "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts"
+    "sourceUrl": "https://ssojet.com/blog/best-coding-agent-prompts",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Protocolo de refactor en pasos reversibles con red de tests y separación comportamiento/estructura: alineado con best practices de Cursor 2026."
   },
   {
     "id": "p-mega-claude-code-1",
@@ -2188,7 +2308,10 @@
     },
     "prompt": "Take ownership of GitHub issue #[NUMBER] and drive it to a reviewable PR. Follow this protocol and narrate what you're doing at each stage.\n\n1. REPRODUCE: Read the issue. Reproduce the bug locally and describe the exact steps and the observed vs. expected behavior. If you can't reproduce it, stop and report what you tried — don't guess at a fix.\n2. ROOT CAUSE: Trace the bug to its actual root cause, not the surface symptom. Explain the causal chain in plain language. If there are several plausible causes, list them and say how you'll distinguish them.\n3. BRANCH: Create a new branch. Never work on main.\n4. FIX: Implement the minimal change that fixes the root cause. Avoid opportunistic refactoring in the same change.\n5. TEST: Add a regression test that fails before your fix and passes after. Run the full suite and show the output.\n6. SELF-REVIEW: Before opening the PR, review your own diff as a skeptical reviewer: what could break, what edge cases you didn't cover, what you're assuming.\n7. PR: Open the pull request with a description covering the root cause, the fix, the test, and any risk or follow-up work.\n\nRULES: If the fix turns out to be large or risky, pause and check with me before committing. Do not skip the failing-test-first step. Do not weaken existing tests to get green.",
     "sourceName": "willowvoice — Claude Code best practices (issue-to-PR)",
-    "sourceUrl": "https://willowvoice.com/blog/10-essential-claude-code-best-practices"
+    "sourceUrl": "https://willowvoice.com/blog/10-essential-claude-code-best-practices",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Protocolo reproduce→root cause→branch→fix→test-first→self-review→PR: flujo agente documentado de Claude Code."
   },
   {
     "id": "p-mega-lovable-1",
@@ -2201,7 +2324,10 @@
     },
     "prompt": "Before writing any code, act as a product engineer and help me spec this app, then build it in reviewable stages.\n\nSTAGE 1 — Spec (no code yet): Based on my description, write a short spec: (a) the ONE core job the app does, (b) the 3-5 key screens, (c) the data model — what objects exist and how they relate, (d) which actions change data and who is allowed to do them, (e) what's explicitly OUT of scope for v1. Show me this spec and wait for approval.\nSTAGE 2 — Skeleton: Build the navigation and screens with placeholder content and the real data model wired to a proper backend table (not mock local state). No business logic yet. Let me click through it.\nSTAGE 3 — Core flow: Implement the single most important user flow end to end. Stop and let me test it.\nSTAGE 4 — Fill in: Add the remaining features one screen at a time, checking in between each.\nSTAGE 5 — Security pass: Before we consider it live, audit that every data row is scoped to the right user, no secrets are exposed client-side, and every data-changing endpoint requires auth. List issues by severity.\n\nApp description: [DESCRIBE WHAT YOU WANT — who uses it, what problem it solves, the main thing they do in it]",
     "sourceName": "Serenities AI — Complete guide to vibe coding 2026 (spec-first)",
-    "sourceUrl": "https://serenitiesai.com/articles/complete-guide-vibe-coding-2026"
+    "sourceUrl": "https://serenitiesai.com/articles/complete-guide-vibe-coding-2026",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Spec (job/pantallas/data model/permisos/out-of-scope) antes de construir + fases + pase de seguridad: práctica documentada de Lovable."
   },
   {
     "id": "p-mega-midjourney-1",
@@ -2359,7 +2485,10 @@
     },
     "prompt": "Review this pull request the way a careful senior engineer would. Do NOT rewrite the code — produce a structured review I can act on.\n\n1. SUMMARY: In 2-3 lines, what does this PR actually do, and does the implementation match the stated intent?\n2. CORRECTNESS: Bugs, logic errors, off-by-one, null/undefined handling, race conditions, incorrect assumptions. For each, cite the file and line and describe the failure scenario concretely (specific inputs → wrong output).\n3. SECURITY: Injection, missing authz checks, secrets in code, unsafe input handling, unvalidated boundaries.\n4. TESTS: Is the new behavior actually covered? What critical case is untested? Would the tests catch a regression?\n5. MAINTAINABILITY: Naming, dead code, needless complexity, inconsistency with the surrounding codebase's style.\n6. VERDICT: Approve / Request changes, with the top 3 things that must be fixed before merge, ranked by severity.\n\nRules: Rank issues most-severe first. Separate 'must fix' from 'nice to have'. Don't flag style nits as if they were bugs. If something looks risky but you're not sure, say so and explain what you'd check.\n\nPR diff:\n[PASTE THE DIFF]",
     "sourceName": "GitHub Docs — Best practices for using GitHub Copilot (review)",
-    "sourceUrl": "https://docs.github.com/en/copilot/get-started/best-practices"
+    "sourceUrl": "https://docs.github.com/en/copilot/get-started/best-practices",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Revisión de PR estructurada (correctness/security/tests/maintainability/verdict) con severidad: patrón de revisión documentado."
   },
   {
     "id": "p-mega-figma-ai-1",
@@ -2372,7 +2501,10 @@
     },
     "prompt": "Design a complete [FEATURE, e.g. onboarding] flow for a [APP TYPE] app, using our existing design system (colors, type scale, spacing, and components already in this file). Produce the screens in sequence and keep them consistent.\n\nSCREENS (generate each, in order): 1) [Screen 1 + its purpose], 2) [Screen 2], 3) [Screen 3], 4) success/empty state. For each screen include realistic placeholder content — real-sounding copy, not lorem ipsum — and use our existing components rather than inventing new ones.\n\nCONSISTENCY RULES: identical header/nav pattern across screens, consistent button styles and states (default/hover/disabled), the same spacing rhythm, and our type scale for every text level. Respect our color roles (primary action, secondary, destructive, neutral).\n\nALSO PROVIDE: for each screen, a one-line note on the primary user action and where it leads, so the flow is clear. Flag anywhere our current design system is missing a component this flow needs.",
     "sourceName": "AI Atlas — original, based on Figma AI product capabilities",
-    "sourceUrl": "https://www.figma.com/ai/"
+    "sourceUrl": "https://www.figma.com/ai/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Flujo de pantallas coherente atado al design system con reglas de consistencia y notas de acción: estructura documentada de Figma AI First Draft."
   },
   {
     "id": "p-mega-deepseek-1",
@@ -2437,7 +2569,10 @@
     },
     "prompt": "Before running the agent, commit a checkpoint: `git commit -m \"pre-agent checkpoint\"`. Then give Cursor a structured brief instead of a paragraph: Goal (one sentence), Context (relevant files/@mentions only), Current Behavior, Desired Behavior, Constraints (files/directories that are off-limits), and Acceptance Criteria (what must be true when done, e.g. 'run `git diff --name-only` and stop if any file outside [SCOPE] changed'). Draft this brief in a scratch markdown file first, then paste it in once it's tight.",
     "sourceName": "RockB — Cursor Agent Best Practices 2026",
-    "sourceUrl": "https://baeseokjae.github.io/posts/cursor-agent-best-practices-2026/"
+    "sourceUrl": "https://baeseokjae.github.io/posts/cursor-agent-best-practices-2026/",
+    "verified": true,
+    "verifyMethod": "documented-evidence",
+    "verifyNote": "Checkpoint git + brief estructurado (Goal/Context/Constraints/Acceptance con git diff --name-only): best practice documentada de Cursor 2026."
   },
   {
     "id": "p-20260724-6",
