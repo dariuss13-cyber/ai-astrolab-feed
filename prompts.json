@@ -8,7 +8,7 @@
       "es": "Figura de acción en blíster coleccionable",
       "en": "Collectible action figure in blister pack"
     },
-    "prompt": "Create an image of [PERSON] as a collectible action figure inside retro blister packaging. Card header with a bold toy-brand logo, accessories relevant to their job displayed beside the figure, price sticker, slight plastic sheen on the bubble, 90s toy aisle aesthetic.",
+    "prompt": "Create an image of a smiling software developer in a grey hoodie as a collectible action figure inside retro blister packaging. Card header with a bold toy-brand logo reading \"DEV HERO\", accessories beside the figure (a tiny laptop, a coffee mug, a rubber duck), a price sticker, a slight plastic sheen on the bubble, 90s toy-aisle aesthetic. High resolution, sharp packaging text.",
     "sourceName": "DigitBin — viral image prompts",
     "sourceUrl": "https://www.digitbin.com/chatgpt-image-prompts-viral/",
     "verified": true,
@@ -488,7 +488,7 @@
       "es": "Referencia de personaje consistente",
       "en": "Consistent character reference"
     },
-    "prompt": "[CHARACTER DESCRIPTION] standing in [NEW SCENE], same face and outfit as reference --cref [IMAGE URL] --cw 100 --ar 3:4 --v 7",
+    "prompt": "A young woman with a silver bob haircut and a red leather jacket, standing on a rain-slicked Tokyo backstreet at night, neon signs glowing behind her, same face and outfit as the reference image --cref https://your-character-image.jpg --cw 100 --ar 3:4 --v 7 --style raw",
     "sourceName": "aiarty — Midjourney prompts cheat sheet",
     "sourceUrl": "https://www.aiarty.com/midjourney-prompts/midjourney-prompts-cheat-sheet.htm",
     "verified": true,
@@ -504,7 +504,7 @@
       "es": "Transferencia de estilo con Omni-Reference",
       "en": "Style transfer with Omni-Reference"
     },
-    "prompt": "[SUBJECT] in the visual style of the reference image --oref [STYLE IMAGE URL] --ow 300 --ar 1:1 --v 7",
+    "prompt": "A lone lighthouse on a rocky cliff at dusk, waves crashing below, rendered in the exact visual style of the reference image --oref https://your-style-image.jpg --ow 300 --ar 1:1 --v 7",
     "sourceName": "SurePrompts — Midjourney V7 prompting guide",
     "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide",
     "verified": true,
@@ -520,7 +520,7 @@
       "es": "Borrador rápido y refinado a máxima resolución",
       "en": "Fast draft then full-resolution refine"
     },
-    "prompt": "Step 1 — generate fast previews: [SCENE DESCRIPTION] --draft --ar 16:9\nStep 2 — once you pick a winner, re-render it without --draft and add --s 300 --no blur, watermark, extra limbs for a clean final pass.",
+    "prompt": "Step 1 — generate fast previews: a cyberpunk street-food market at night, steam rising from stalls, dense neon signage, crowded with people, reflections on wet pavement --draft --ar 16:9 --v 7\nStep 2 — once you pick a winner, re-run that exact prompt without --draft and add --style raw --s 300 --q 2 --no blur, watermark, extra limbs for a clean high-resolution final pass.",
     "sourceName": "pamistanbul — Midjourney V7 guide 2026",
     "sourceUrl": "https://www.pamistanbul.com/en/pamlab/midjourney-v7-pro-guide-2026",
     "verified": true,
@@ -536,7 +536,7 @@
       "es": "Logo con nombre exacto y salida vectorial limpia",
       "en": "Logo with exact name and clean vector output"
     },
-    "prompt": "Design a minimalist emblem-style logo for a brand called \"[BRAND NAME]\" (keep the name to 1-3 words). A clean geometric icon sits centered above the wordmark, generous even spacing, single balanced stroke weight. Requirements: spell the name EXACTLY as written, flat vector look with crisp hard edges, pure white background, high resolution suitable for scaling to large print, no gradients, no photographic texture, no drop shadows, no extra text or taglines. If any letterform renders imperfectly, regenerate until every character is correct.",
+    "prompt": "Design a minimalist emblem-style logo for a specialty coffee brand called \"Nimbus Roasters\". A clean geometric cloud-and-coffee-bean icon sits centered above the wordmark, generous even spacing, single balanced stroke weight. Spell the name EXACTLY as written, flat vector look with crisp hard edges, pure white background, high resolution suitable for scaling to large print, no gradients, no photographic texture, no drop shadows, no extra text or taglines. If any letterform renders imperfectly, regenerate until every character is correct.",
     "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
     "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026",
     "verified": true,
@@ -552,7 +552,7 @@
       "es": "Edición conversacional paso a paso",
       "en": "Step-by-step conversational edit"
     },
-    "prompt": "Here is my image: [UPLOAD IMAGE]. First, remove [OBJECT] from the background. Then adjust the lighting to look like golden hour. Do only one change per message so I can approve each step before the next.",
+    "prompt": "Here is my photo. Make exactly ONE change: remove the parked car from the background and cleanly fill the space to match the street behind it. Do only this, then stop and wait for my approval before the next step (after this I'll ask you to shift the lighting to warm golden hour). One change per message so I can check each step.",
     "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
     "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026",
     "verified": true,
@@ -568,7 +568,7 @@
       "es": "Póster con jerarquía tipográfica compleja",
       "en": "Poster with complex typographic hierarchy"
     },
-    "prompt": "Create a concert poster: bold headline \"[EVENT NAME]\" at the top, a subheading \"[DATE AND CITY]\" below it, a small sponsor-logo row at the bottom, cinematic warm-toned illustration filling the middle. All text correctly spelled and legible, with a clear typographic hierarchy (headline > subhead > sponsors). High resolution, print-ready [ASPECT, e.g. 2:3], crisp sharp edges on the type. If any text renders garbled, regenerate that region rather than leaving it.",
+    "prompt": "Create a concert poster: bold headline \"MIDNIGHT ECHO — LIVE\" at the top, a subheading \"SAT 14 MARCH · BARCELONA\" below it, a small sponsor-logo row along the bottom, and a cinematic warm-toned illustration of a lone singer under a single spotlight filling the middle. All text correctly spelled and legible, with a clear hierarchy (headline > subhead > sponsors). High resolution, print-ready 2:3, crisp sharp edges on the type. If any text renders garbled, regenerate that region rather than leaving it.",
     "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
     "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026",
     "verified": true,
@@ -584,7 +584,7 @@
       "es": "Serie de producto con consistencia entre imágenes",
       "en": "Product series with cross-image consistency"
     },
-    "prompt": "Generate 4 product shots of the same [PRODUCT] from front, 3/4, side, and top-down angles. Keep identical materials, colors, studio lighting setup, lens, and background across all four so they sit together on one catalog page. High resolution, soft realistic shadows, accurate color, and consistent scale between the four shots.",
+    "prompt": "Generate 4 product shots of the same matte-black insulated stainless-steel water bottle from front, 3/4, side, and top-down angles. Keep identical materials, colors, studio lighting setup, lens, and a soft light-grey seamless background across all four so they sit together on one catalog page. High resolution, soft realistic shadows, accurate color, consistent scale between the four shots.",
     "sourceName": "SurePrompts — Best ChatGPT image prompts 2026",
     "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026",
     "verified": true,
@@ -600,7 +600,7 @@
       "es": "Texto exacto entre comillas con Magic Prompt apagado",
       "en": "Exact quoted text, Magic Prompt off"
     },
-    "prompt": "A vintage travel poster with the words \"[SHORT PHRASE]\" in bold retro lettering at the top, illustrated mountain landscape below, muted sunset palette. Turn Magic Prompt off so the wording stays exact.",
+    "prompt": "A vintage travel poster with the words \"VISIT THE DOLOMITES\" in bold retro lettering across the top, an illustrated alpine mountain landscape below with pine forest and a winding road, muted sunset palette of coral and teal. Turn Magic Prompt off so the wording stays exact. High resolution, print-ready 2:3.",
     "sourceName": "gptprompts.ai — Ideogram prompts guide",
     "sourceUrl": "https://gptprompts.ai/ideogram-prompts",
     "verified": true,
@@ -616,7 +616,7 @@
       "es": "Cartel de evento con tipografía correcta",
       "en": "Event poster with correct typography"
     },
-    "prompt": "Create a bold graphic poster for \"[EVENT NAME]\", \"[DATE]\" and \"[CITY]\" as three separate correctly-spelled text elements, high-contrast color blocking, modern sans-serif typography, generate 4 variations and I'll pick the one with the cleanest text.",
+    "prompt": "Create a bold graphic gig poster with three separate, correctly-spelled text elements: \"NEON PULSE FESTIVAL\", \"JULY 26\", and \"MADRID\". High-contrast color blocking in electric magenta and black, modern sans-serif typography, dynamic diagonal layout. Generate 4 variations so I can pick the one with the cleanest text.",
     "sourceName": "yrom.com — AI prompts for logo design",
     "sourceUrl": "https://yrom.com/ai-prompts-for-logo-design/",
     "verified": true,
@@ -632,7 +632,7 @@
       "es": "Logo con lema en dos líneas",
       "en": "Logo with two-line tagline"
     },
-    "prompt": "Design a badge-style logo with \"[BRAND NAME]\" as the main wordmark and \"[TAGLINE]\" as a smaller curved line beneath it, vintage stamp aesthetic, single accent color, correctly spelled, no extra text.",
+    "prompt": "Design a badge-style logo with \"ROADHOUSE 66\" as the main wordmark and \"EST. 1974 · TEXAS BBQ\" as a smaller curved line beneath it, vintage stamp aesthetic, single burnt-orange accent color on cream, correctly spelled, no extra text.",
     "sourceName": "promptspace.in — AI logo generator prompts",
     "sourceUrl": "https://www.promptspace.in/blog/ai-logo-generator-prompts-professional-brand-logos-2026",
     "verified": true,
@@ -648,7 +648,7 @@
       "es": "Sistema de packaging con texto consistente",
       "en": "Packaging system with consistent text"
     },
-    "prompt": "Design 3 packaging box mockups for the same product line \"[BRAND NAME]\" in three flavor variants \"[FLAVOR 1]\", \"[FLAVOR 2]\", \"[FLAVOR 3]\", identical layout and typography across all three, only the accent color and flavor name changing, all text correctly spelled.",
+    "prompt": "Design 3 packaging box mockups for the same snack brand \"CRUNCHWAVE\" in three flavor variants — \"SEA SALT\", \"CHILI LIME\", and \"HONEY BBQ\". Identical layout and typography across all three, only the accent color and flavor name changing, all text correctly spelled and legible.",
     "sourceName": "gptprompts.ai — Ideogram prompts guide",
     "sourceUrl": "https://gptprompts.ai/ideogram-prompts",
     "verified": true,
@@ -664,7 +664,7 @@
       "es": "Prompt estructurado con pesos y negativo",
       "en": "Structured prompt with weights and negative"
     },
-    "prompt": "(cinematic:1.3) portrait of [SUBJECT], (dramatic rim lighting:1.2), 85mm lens, shallow depth of field, film grain\nNegative prompt: extra fingers, distorted hands, watermark, blurry, amateur lighting",
+    "prompt": "(cinematic:1.3) portrait of a weathered fisherman with a grey beard and deep smile lines, (dramatic rim lighting:1.2), 85mm lens, shallow depth of field, film grain, 4K\nNegative prompt: extra fingers, distorted hands, watermark, blurry, amateur lighting, plastic skin",
     "sourceName": "PromptMake — Stable Diffusion prompt guide",
     "sourceUrl": "https://promptmake.net/blog/stable-diffusion-prompt-guide",
     "verified": true,
@@ -680,7 +680,7 @@
       "es": "LoRA + ControlNet para pose exacta",
       "en": "LoRA + ControlNet for exact pose"
     },
-    "prompt": "<lora:[STYLE_LORA_NAME]:0.8> [CHARACTER DESCRIPTION] in a dynamic action pose, matched to the ControlNet OpenPose skeleton reference, consistent identity and outfit across generations\nNegative prompt: warped anatomy, wrong pose, watermark, low detail",
+    "prompt": "<lora:detail-tweaker-xl:0.8> a female cyberpunk mercenary with a neon-blue undercut and a worn tactical jacket, in a dynamic mid-stride action pose, matched to the ControlNet OpenPose skeleton reference, consistent identity and outfit across generations, 4K\nNegative prompt: warped anatomy, wrong pose, watermark, low detail, extra limbs",
     "sourceName": "gptprompts.ai — Advanced Stable Diffusion guide (ControlNet, LoRA)",
     "sourceUrl": "https://gptprompts.ai/stable-diffusion-advanced",
     "verified": true,
@@ -712,7 +712,7 @@
       "es": "Inpainting para reemplazo de objeto",
       "en": "Inpainting for object replacement"
     },
-    "prompt": "Mask the [OBJECT] region and inpaint with: [NEW OBJECT DESCRIPTION], matching the existing lighting direction and color temperature of the scene, denoise strength 0.55 to preserve surrounding detail.\nNegative prompt: seams, mismatched lighting, blurry edges",
+    "prompt": "Mask the old wooden chair in the corner and inpaint with: a modern grey bouclé lounge armchair, matching the existing window-light direction and warm color temperature of the scene, denoise strength 0.55 to preserve surrounding detail.\nNegative prompt: seams, mismatched lighting, blurry edges, floating object",
     "sourceName": "gptprompts.ai — Advanced Stable Diffusion guide",
     "sourceUrl": "https://gptprompts.ai/stable-diffusion-advanced",
     "verified": true,
@@ -744,7 +744,7 @@
       "es": "Integración vía API con estilo de marca",
       "en": "API integration with brand style"
     },
-    "prompt": "Generate a product hero image for [PRODUCT] following this brand style guide: [COLOR PALETTE, MOOD, LIGHTING NOTES]. Output at high resolution suitable for direct API integration into our e-commerce pipeline, transparent background if the product is the sole subject.",
+    "prompt": "Generate a product hero image of a pastel-pink ceramic pour-over coffee dripper on a matte concrete surface, soft warm morning light from the left, lots of negative space, minimalist premium mood. Photorealistic, high resolution for direct API integration into an e-commerce pipeline, transparent background since the product is the sole subject.",
     "sourceName": "gptprompts.ai — Stable Diffusion / Flux guide",
     "sourceUrl": "https://gptprompts.ai/stable-diffusion-guide",
     "verified": true,
@@ -760,7 +760,7 @@
       "es": "Textura de material tileable para PBR",
       "en": "Tileable material texture for PBR"
     },
-    "prompt": "Extreme macro close-up of [MATERIAL, e.g. brushed stainless steel / raw linen weave / cracked terracotta], flat even studio lighting from a large overhead softbox, shot on a 100mm macro lens at f/8 for full depth of field, perfectly seamless and tileable framing with no visible edges or repeating seams, ultra-sharp micro-detail, physically accurate surface reflectance, 4K resolution, suitable as a PBR albedo/diffuse texture map. Keep the surface flat-on and uniform.",
+    "prompt": "Extreme macro close-up of brushed stainless steel, flat even studio lighting from a large overhead softbox, 100mm macro lens at f/8 for full depth of field, perfectly seamless and tileable framing with no visible edges or repeating seams, ultra-sharp micro-detail, physically accurate surface reflectance, 4K, suitable as a PBR albedo/diffuse texture map.",
     "sourceName": "perplexityaimagazine — Stable Diffusion / Flux tutorial 2026",
     "sourceUrl": "https://perplexityaimagazine.com/ai-tools/stable-diffusion-tutorial-2026/",
     "verified": true,
@@ -776,7 +776,7 @@
       "es": "Autoalojamiento con pesos abiertos",
       "en": "Self-hosting with open weights"
     },
-    "prompt": "I'm self-hosting an open-weight Flux checkpoint on [GPU/HARDWARE]. Recommend a quantization level for [SPEED/QUALITY TRADEOFF], and give me a short checklist to validate output quality before pointing production traffic at it.",
+    "prompt": "I'm self-hosting an open-weight Flux checkpoint on a single RTX 4090 (24 GB VRAM) to batch-generate product images. Recommend a quantization level that best balances speed and quality for that GPU, and give me a short checklist to validate output quality before pointing production traffic at it.",
     "sourceName": "gptprompts.ai — Stable Diffusion / Flux guide",
     "sourceUrl": "https://gptprompts.ai/stable-diffusion-guide",
     "verified": true,
@@ -808,7 +808,7 @@
       "es": "Escalado a alta resolución sin artefactos",
       "en": "High-resolution upscale without artifacts"
     },
-    "prompt": "Upscale this render to the highest resolution available while preserving fine material detail (fabric weave, wood grain), do not invent new elements or sharpen halos around edges.",
+    "prompt": "Upscale this render to the maximum available resolution while preserving fine material detail like fabric weave and wood grain. Do not invent new elements, and do not add sharpening halos around the edges — keep it clean and true to the original.",
     "sourceName": "theplanettools.ai — Krea AI review 2026",
     "sourceUrl": "https://theplanettools.ai/tools/krea-ai",
     "verified": true,
@@ -824,7 +824,7 @@
       "es": "De render 3D plano a fotorrealista sin alterar geometría",
       "en": "Flat 3D render to photoreal without altering geometry"
     },
-    "prompt": "Take this flat 3D render of [OBJECT/SCENE] and convert it into a photorealistic visualization while keeping the exact geometry, camera angle, and layout unchanged. Add physically accurate light falloff, soft ambient occlusion in the crevices, subtle real-world imperfections (micro-scratches, dust, faint fingerprints), and realistic material reflectance. Photoreal product-viz quality, 4K, neutral studio HDRI lighting. Do not invent new objects or change any proportions.",
+    "prompt": "Take this flat 3D render of a living-room interior and convert it into a photorealistic visualization while keeping the exact geometry, camera angle, and layout unchanged. Add physically accurate light falloff, soft ambient occlusion in the crevices, subtle real-world imperfections (micro-scratches, faint dust), and realistic material reflectance. Photoreal product-viz quality, 4K, neutral studio HDRI lighting. Do not invent new objects or change any proportions.",
     "sourceName": "academy.techpresso.co — Best Krea AI prompts",
     "sourceUrl": "https://academy.techpresso.co/prompts/krea-prompts",
     "verified": true,
@@ -856,7 +856,7 @@
       "es": "Concept de personaje listo para modelado 3D",
       "en": "Game character concept ready for 3D modeling"
     },
-    "prompt": "Full-body character concept of a [CLASS, e.g. rogue] for a fantasy RPG: worn leather armor, hooded cloak, dual daggers. Neutral A-pose, clean readable silhouette, front orthographic view, flat even lighting with no harsh shadows, plain neutral grey background. Consistent line weight and rendering, high material detail on gear and fabric, 4K, production-ready as a 3D-modeling reference sheet. Keep proportions anatomically consistent and the pose symmetrical.",
+    "prompt": "Full-body character concept of a hooded elven rogue for a fantasy RPG: worn brown leather armor, dual daggers at the belt, a tattered dark-green cloak. Neutral A-pose, clean readable silhouette, front orthographic view, flat even lighting with no harsh shadows, plain neutral grey background. Consistent line weight, high material detail on gear and fabric, 4K, production-ready as a 3D-modeling reference sheet. Keep proportions anatomically consistent and the pose symmetrical.",
     "sourceName": "selfielab — Leonardo AI game-ready character design tips",
     "sourceUrl": "https://selfielabstudio.com/blog/leonardo-ai-game-ready-character-design-tips-20260217",
     "verified": true,
@@ -872,7 +872,7 @@
       "es": "Prop de entorno con estilo de marca consistente",
       "en": "Environment prop with consistent brand style"
     },
-    "prompt": "[PROP, e.g. treasure chest] in the same stylized cel-shaded aesthetic as [REFERENCE STYLE], designed as a reusable game asset icon, transparent background, consistent color saturation with the rest of the set.",
+    "prompt": "A stylized wooden treasure chest game asset with bound iron corners and glowing gold coins peeking out, in a clean cel-shaded look matching a Hearthstone-style card game. Transparent background, consistent color saturation, designed as a reusable game-asset icon.",
     "sourceName": "freeaipromptmaker — Leonardo AI game art assets",
     "sourceUrl": "https://freeaipromptmaker.com/blog/2026-05-10-leonardo-ai-game-art-assets",
     "verified": true,
@@ -888,7 +888,7 @@
       "es": "Set de marca con modelo propio entrenado",
       "en": "Brand set with a fine-tuned custom model"
     },
-    "prompt": "Using our fine-tuned brand model, generate a set of 6 marketing icons for [PRODUCT CATEGORY], identical line weight, corner radius, and two-tone color scheme across all six so they form a cohesive icon set.",
+    "prompt": "Using our fine-tuned brand model, generate a set of 6 marketing icons for a fintech app — wallet, transfer, card, savings, invest, and rewards — with identical line weight, corner radius, and a two-tone navy-and-mint color scheme across all six so they form one cohesive icon set.",
     "sourceName": "aiproductionguy — Leonardo.AI overview",
     "sourceUrl": "https://aiproductionguy.substack.com/p/leonardoai-from-game-asset-generator",
     "verified": true,
@@ -904,7 +904,7 @@
       "es": "Ficha de personaje con vistas múltiples",
       "en": "Character turnaround sheet"
     },
-    "prompt": "Generate a character turnaround sheet for [CHARACTER] with front, side, and back views on one canvas, consistent proportions, outfit, and color palette across all three views, suitable for handing directly to a 3D modeler.",
+    "prompt": "Generate a character turnaround sheet for a cheerful cartoon robot mascot with a rounded matte-white body and cyan accent lights — front, side, and back views lined up on one canvas, consistent proportions, parts, and color palette across all three views, ready to hand directly to a 3D modeler.",
     "sourceName": "selfielab — Leonardo AI game-ready character design tips",
     "sourceUrl": "https://selfielabstudio.com/blog/leonardo-ai-game-ready-character-design-tips-20260217",
     "verified": true,
@@ -2584,7 +2584,7 @@
       "es": "Escena cinematográfica con dirección de fotografía completa",
       "en": "Cinematic scene with full cinematography direction"
     },
-    "prompt": "cinematic film still, [SUBJECT] in [SETTING], [what they are doing], mood of [EMOTION]. Shot on [ARRI Alexa / 35mm film / anamorphic lens], [wide establishing shot / medium close-up], [golden hour backlight / overcast soft light / hard noir side light], color palette of [two or three specific colors], atmospheric depth with [haze / rain / dust particles] catching the light, shallow depth of field, detailed textures on [key material], composed with the subject on a third, negative space to the [left/right], the overall feeling of a frame from a [genre] film directed by a master of visual storytelling --ar 21:9 --v 7 --style raw --s 250 --no text, watermark, distorted anatomy, extra fingers",
+    "prompt": "cinematic film still, a lone astronaut standing at the edge of a red desert canyon on Mars, gazing toward a distant approaching dust storm, mood of awe and isolation. Shot on an anamorphic lens, wide establishing shot, hard low-angle sunlight, color palette of rust orange and deep teal, atmospheric depth with fine dust particles catching the light, shallow depth of field, detailed texture on the worn spacesuit fabric, composed with the astronaut on the left third, negative space to the right, the overall feeling of a frame from a prestige sci-fi film --ar 21:9 --v 7 --style raw --s 250 --no text, watermark, distorted anatomy, extra fingers",
     "sourceName": "SurePrompts — Midjourney V7 prompting guide (cinematic structure)",
     "sourceUrl": "https://sureprompts.com/blog/midjourney-v7-prompting-guide",
     "verified": true,
@@ -2600,7 +2600,7 @@
       "es": "Retrato hiperrealista con pesos y negativo completo",
       "en": "Hyperreal portrait with full weighting and negative"
     },
-    "prompt": "POSITIVE:\n(photorealistic:1.4), (RAW photo:1.2), portrait of [SUBJECT DESCRIPTION], (detailed skin texture with visible pores:1.3), (catchlights in eyes:1.2), natural [age]-appropriate features, [wardrobe], [environment], (cinematic rim lighting:1.2), soft key light from camera left, shot on 85mm f/1.4, shallow depth of field, (sharp focus on eyes:1.3), professional color grading, subtle film grain\n\nNEGATIVE:\n(deformed iris, deformed pupils:1.3), (extra fingers, fused fingers, too many fingers:1.4), (plastic skin, airbrushed, waxy:1.3), (bad anatomy, wrong proportions:1.2), watermark, text, signature, jpeg artifacts, oversaturated, blurry, lowres, cropped head, extra limbs, disfigured\n\nSETTINGS TO TRY: sampler DPM++ 2M Karras, steps 28-35, CFG 4.5-6, then upscale 2x with low denoise (0.25-0.35) to keep detail. If using a realism LoRA, add <lora:[NAME]:0.6-0.8> to the positive and lower CFG slightly.",
+    "prompt": "POSITIVE:\n(photorealistic:1.4), (RAW photo:1.2), portrait of a 60-year-old fisherman with a weathered face and grey stubble, (detailed skin texture with visible pores:1.3), (catchlights in eyes:1.2), natural age-appropriate features, wearing a worn cable-knit wool sweater, on a misty harbor at dawn, (cinematic rim lighting:1.2), soft key light from camera left, shot on 85mm f/1.4, shallow depth of field, (sharp focus on eyes:1.3), professional color grading, subtle film grain\n\nNEGATIVE:\n(deformed iris, deformed pupils:1.3), (extra fingers, fused fingers, too many fingers:1.4), (plastic skin, airbrushed, waxy:1.3), (bad anatomy, wrong proportions:1.2), watermark, text, signature, jpeg artifacts, oversaturated, blurry, lowres, cropped head, extra limbs, disfigured\n\nSETTINGS TO TRY: sampler DPM++ 2M Karras, steps 28-35, CFG 4.5-6, then upscale 2x with low denoise (0.25-0.35) to keep detail. If using a realism LoRA, add <lora:realism-detail:0.7> to the positive and lower CFG slightly.",
     "sourceName": "PromptMake — Stable Diffusion prompt guide (weighting + negatives)",
     "sourceUrl": "https://promptmake.net/blog/stable-diffusion-prompt-guide",
     "verified": true,
@@ -2712,7 +2712,7 @@
       "es": "Infografía compleja con texto y jerarquía",
       "en": "Complex infographic with text and hierarchy"
     },
-    "prompt": "Create a clean, professional infographic (portrait orientation) explaining [TOPIC / PROCESS] for [AUDIENCE]. Structure it top to bottom:\n\n- HEADER: a bold title \"[TITLE]\" and a one-line subtitle \"[SUBTITLE]\", all text correctly spelled.\n- 3-4 NUMBERED STEPS/SECTIONS, each with: a simple line icon, a short heading, and one line of supporting text. Keep consistent spacing and alignment between them.\n- A small CALLOUT box highlighting the single most important takeaway.\n- FOOTER: a thin line with \"[SOURCE OR BRAND]\".\n\nDesign: a restrained palette of [2-3 brand colors] plus neutral grey, generous white space, one clean sans-serif typeface, flat modern illustration style (no photorealism), everything aligned to a clear grid. All text must be legible and correctly spelled. If any text comes out garbled, regenerate that region rather than leaving it. Avoid clutter — this should look like it came from a good design studio, not a busy template.",
+    "prompt": "Create a clean, professional infographic (portrait orientation) explaining \"How home composting works\" for beginner gardeners. Structure it top to bottom:\n\n- HEADER: a bold title \"COMPOSTING 101\" and a one-line subtitle \"Turn kitchen scraps into rich soil in 6 steps\", all text correctly spelled.\n- 4 NUMBERED STEPS, each with a simple line icon, a short heading, and one line of supporting text (1. Collect greens & browns / 2. Layer them / 3. Keep it moist / 4. Turn weekly). Keep consistent spacing and alignment.\n- A small CALLOUT box: \"Ready compost smells earthy, not sour.\"\n- FOOTER: a thin line reading \"GreenLeaf Garden Co.\"\n\nDesign: a restrained palette of forest green and warm brown plus neutral grey, generous white space, one clean sans-serif typeface, flat modern illustration style (no photorealism), everything aligned to a clear grid. All text legible and correctly spelled; if any text comes out garbled, regenerate that region. It should look like it came from a good design studio, not a busy template.",
     "sourceName": "SurePrompts — Best ChatGPT image prompts 2026 (text + layout)",
     "sourceUrl": "https://sureprompts.com/blog/chatgpt-image-prompts-2026",
     "verified": true,
@@ -2808,7 +2808,7 @@
       "es": "Collage de recuerdos estilo álbum de recortes",
       "en": "Scrapbook memory collage"
     },
-    "prompt": "Create an image of a scrapbook page collage summarizing [PERSON/TOPIC]'s [YEAR/THEME]: torn photo edges, washi tape, handwritten captions in the corners, ticket stubs and small doodles scattered around 3-4 overlapping photo-style images, warm paper texture background, slightly desaturated nostalgic color grade.",
+    "prompt": "Create a scrapbook page collage summarizing a summer road trip along the California coast: torn photo edges, strips of washi tape, handwritten captions in the corners (\"Big Sur\", \"best tacos ever\"), ticket stubs and small doodles scattered around 3-4 overlapping photo-style images of cliffs, a diner, and a convertible, warm paper-texture background, slightly desaturated nostalgic color grade.",
     "sourceName": "Medium (CodeToDeploy) — 10 ChatGPT Image Prompts That Went Viral",
     "sourceUrl": "https://medium.com/codetodeploy/10-chatgpt-image-prompts-that-went-viral-36977b5222ce",
     "verified": true,
@@ -2824,7 +2824,7 @@
       "es": "Retrato neo-noir en coche bajo la lluvia",
       "en": "Neo-noir rainy car portrait"
     },
-    "prompt": "Create a neo-noir portrait of [PERSON] sitting in the driver's seat of a car at night, rain streaking down the window, neon signage reflected in wet glass in shades of magenta and cyan, dramatic single-source lighting across the face, cinematic color grade, shallow depth of field.",
+    "prompt": "Create a neo-noir portrait of a man in his 30s with a stubbled jaw sitting in the driver's seat of a car at night, rain streaking down the side window, neon signage reflected in the wet glass in shades of magenta and cyan, dramatic single-source light across one side of his face, cinematic color grade, shallow depth of field.",
     "sourceName": "DigitBin — 50 ChatGPT Image Prompts That Go Viral",
     "sourceUrl": "https://www.digitbin.com/chatgpt-image-prompts-viral/",
     "verified": true,
