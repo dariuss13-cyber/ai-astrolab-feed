@@ -159,12 +159,12 @@
     "id": "p-lib-chatgpt-1",
     "toolId": "chatgpt",
     "tier": "free",
-    "level": "simple",
+    "level": "advanced",
     "title": {
-      "es": "Rol de experto para respuestas más precisas",
-      "en": "Expert role for sharper answers"
+      "es": "Método experto, no solo \"actúa como experto\"",
+      "en": "Expert method, not just \"act as an expert\""
     },
-    "prompt": "Act as a senior [FIELD] analyst with 10+ years of experience. I need you to answer as that expert would, using their vocabulary and priorities, not as a generic assistant. Question: [YOUR QUESTION]. Answer in under 150 words.",
+    "prompt": "Answer as a specialist in [FIELD] would, but instead of just claiming seniority, apply their actual method. Name the 2-3 frameworks, criteria, or trade-offs a real [FIELD] expert uses to judge this, work through each one explicitly, then give your recommendation. Finish by flagging the single place a non-expert would most likely get this wrong. Question: [YOUR QUESTION]",
     "sourceName": "eWeek — ChatGPT prompt engineering tips",
     "sourceUrl": "https://www.eweek.com/news/10-good-vs-bad-chatgpt-prompts-2026/"
   },
@@ -312,19 +312,6 @@
     "sourceUrl": "https://sureprompts.com/blog/gemini-prompting-guide"
   },
   {
-    "id": "p-lib-grok-1",
-    "toolId": "grok",
-    "tier": "free",
-    "level": "simple",
-    "title": {
-      "es": "Pulso de X en tiempo real sobre un tema",
-      "en": "Real-time X pulse on a topic"
-    },
-    "prompt": "Check X for what people are saying about [TOPIC/EVENT] in the last 24 hours. Summarize the 3 main viewpoints, note which one seems to be gaining traction, and flag if there's a notable contrarian take.",
-    "sourceName": "SurePrompts — Grok prompts for real-time intelligence",
-    "sourceUrl": "https://sureprompts.com/blog/grok-prompts-real-time-intelligence-guide"
-  },
-  {
     "id": "p-lib-grok-2",
     "toolId": "grok",
     "tier": "free",
@@ -414,19 +401,6 @@
     "prompt": "I want to self-host an open-weight model for [USE CASE] with these constraints: [HARDWARE, BUDGET, LATENCY NEEDS]. Recommend a model size/quantization, expected throughput, and a step-by-step deployment plan, flagging the single biggest bottleneck I'll likely hit first.",
     "sourceName": "GitHub — Qwen-Alibaba-Cloud guide",
     "sourceUrl": "https://github.com/anarojoecheburua/Qwen-Alibaba-Cloud"
-  },
-  {
-    "id": "p-lib-deepseek-1",
-    "toolId": "deepseek",
-    "tier": "free",
-    "level": "simple",
-    "title": {
-      "es": "Redacción rápida cotidiana",
-      "en": "Fast everyday drafting"
-    },
-    "prompt": "Draft a [EMAIL/MESSAGE TYPE] to [RECIPIENT] about [TOPIC]. Tone: [FORMAL/CASUAL/FIRM]. Max 120 words, no filler greetings beyond one line.",
-    "sourceName": "Chat-Deep.ai — DeepSeek prompt guide",
-    "sourceUrl": "https://chat-deep.ai/guide/deepseek-prompt/"
   },
   {
     "id": "p-lib-deepseek-2",
