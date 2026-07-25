@@ -4,155 +4,935 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Astrolab — La guía diaria de herramientas de IA</title>
-<meta name="description" content="Descubre, compara y sigue todas las herramientas de inteligencia artificial: ChatGPT, Midjourney, Sora, Claude y más de 40 plataformas. Novedades cada día y prompts listos para usar.">
+<meta name="description" content="Descubre, compara y sigue todas las herramientas de inteligencia artificial: ChatGPT, Midjourney, Sora, Claude y más de 40 plataformas. Novedades cada día y prompts probados listos para copiar.">
 <meta name="keywords" content="herramientas IA, inteligencia artificial, ChatGPT, Midjourney, Sora, prompts, comparar IA, novedades IA, mejores apps de IA">
+<meta name="theme-color" content="#04060C">
 <link rel="canonical" href="https://ai-astrolab.github.io/">
 
-<!-- Open Graph (para que se vea bien al compartir el enlace) -->
 <meta property="og:title" content="AI Astrolab — La guía diaria de herramientas de IA">
-<meta property="og:description" content="Todas las herramientas de IA en un mapa. Novedades cada día y prompts listos para usar.">
+<meta property="og:description" content="Todas las herramientas de IA en un mapa. Novedades cada día y prompts probados listos para copiar.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ai-astrolab.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"MobileApplication","name":"AI Astrolab",
+"applicationCategory":"ReferenceApplication","operatingSystem":"iOS, Android",
+"description":"Guía diaria de herramientas de inteligencia artificial: catálogo de más de 40 plataformas, novedades diarias y biblioteca de prompts probados.",
+"url":"https://ai-astrolab.github.io/","inLanguage":["es","en"],
+"offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}
+</script>
 
 <style>
-  :root {
-    --parchment:#EFE5CE; --card:#F6EEDC; --border:#C9B896; --ink:#3E3226;
-    --inkSoft:#6B5B47; --inkFaint:#94836B; --sea:#1F4E6B; --gold:#B08D3F; --seal:#8C3B2E;
+  :root{
+    --void:#04060C; --deep:#080E1C; --navy:#0C1526;
+    --sea:#1F4E6B; --teal:#2E7D8E; --violet:#4A3B7C;
+    --gold:#B08D3F; --brass:#D4AF6A; --parch:#EFE5CE;
+    --text:#E8E3D9; --muted:#9AA3B2; --faint:#6B7382;
+    --line:rgba(212,175,106,.16);
+    --glass:rgba(255,255,255,.035);
+    --serif:Georgia,'Iowan Old Style','Times New Roman',serif;
+    --sans:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif;
+    --maxw:1180px;
   }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { font-family:Georgia,'Times New Roman',serif; background:var(--parchment);
-         color:var(--ink); line-height:1.6; }
-  a { color:var(--sea); text-decoration:none; }
-  .wrap { max-width:1000px; margin:0 auto; padding:0 20px; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--sans); color:var(--text); background:var(--void);
+    line-height:1.65; -webkit-font-smoothing:antialiased; overflow-x:hidden;
+  }
+  /* ---------- Viaje de fondo: espacio profundo -> latón/pergamino ---------- */
+  .sky{position:fixed;inset:0;z-index:-3;
+    background:linear-gradient(180deg,
+      #04060C 0%, #060A16 12%, #081020 26%, #0A1626 40%,
+      #0C1B29 54%, #11202B 68%, #16212A 80%, #1C1E20 90%, #221D18 100%);}
+  .nebula{position:fixed;inset:0;z-index:-2;pointer-events:none;
+    background:
+      radial-gradient(60vw 40vw at 78% 6%, rgba(74,59,124,.42), transparent 70%),
+      radial-gradient(50vw 34vw at 12% 20%, rgba(31,78,107,.40), transparent 70%),
+      radial-gradient(46vw 30vw at 88% 42%, rgba(46,125,142,.24), transparent 72%),
+      radial-gradient(52vw 34vw at 16% 62%, rgba(176,141,63,.16), transparent 72%),
+      radial-gradient(60vw 38vw at 70% 88%, rgba(212,175,106,.20), transparent 74%);}
+  #stars{position:fixed;inset:0;z-index:-1;pointer-events:none}
+  .star{position:absolute;border-radius:50%;background:#fff}
+  @keyframes tw{0%,100%{opacity:.25}50%{opacity:1}}
+  .grain{position:fixed;inset:0;z-index:9998;pointer-events:none;opacity:.05;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 
-  header { text-align:center; padding:60px 20px 40px; }
-  h1 { font-size:3rem; letter-spacing:2px; }
-  .tagline { font-style:italic; color:var(--inkSoft); font-size:1.25rem; margin-top:6px; }
-  .cta-row { margin-top:28px; display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
-  .btn { background:var(--sea); color:var(--card); padding:14px 26px; border-radius:10px;
-         font-weight:bold; font-size:1.05rem; display:inline-block; }
-  .btn.gold { background:var(--gold); }
-  .btn.ghost { background:transparent; color:var(--sea); border:2px solid var(--sea); }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  a{color:var(--brass);text-decoration:none}
 
-  section { padding:36px 0; }
-  h2 { font-size:1.8rem; text-align:center; margin-bottom:8px; }
-  .sub { text-align:center; color:var(--inkSoft); margin-bottom:24px; }
+  /* ---------- Nav ---------- */
+  .nav{position:sticky;top:0;z-index:100;backdrop-filter:blur(14px);
+    background:linear-gradient(180deg,rgba(4,6,12,.88),rgba(4,6,12,.45));
+    border-bottom:1px solid rgba(212,175,106,.10)}
+  .nav-in{max-width:var(--maxw);margin:0 auto;padding:12px 24px;display:flex;align-items:center;gap:20px}
+  .brand{display:flex;align-items:center;gap:11px;font-family:var(--serif);font-size:1.12rem;
+    letter-spacing:1.4px;color:var(--parch)}
+  .brand svg{width:26px;height:26px;flex:none}
+  .nav-links{margin-left:auto;display:flex;align-items:center;gap:6px}
+  .nav-links a{font-size:.83rem;color:var(--muted);padding:7px 11px;border-radius:8px;letter-spacing:.4px}
+  .nav-links a:hover{color:var(--parch);background:rgba(255,255,255,.05)}
+  .lang{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  .lang button{background:none;border:0;color:var(--faint);font:inherit;font-size:.75rem;
+    padding:6px 9px;cursor:pointer;letter-spacing:.6px}
+  .lang button.on{background:rgba(212,175,106,.16);color:var(--brass)}
+  @media(max-width:720px){.nav-links a[data-nav]{display:none}}
 
-  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:16px; }
-  .card { background:var(--card); border:1px solid var(--border); border-radius:12px;
-          padding:16px; }
-  .card .date { font-size:.8rem; color:var(--inkFaint); }
-  .card .tool { font-weight:bold; color:var(--sea); font-size:.95rem; }
-  .card h3 { font-size:1.1rem; margin:4px 0 6px; }
-  .card p { color:var(--inkSoft); font-size:.95rem; }
-  .card .src { font-size:.85rem; margin-top:8px; display:inline-block; }
+  /* ---------- Hero ---------- */
+  .hero{position:relative;text-align:center;padding:74px 0 40px;overflow:hidden}
+  .astro-wrap{position:relative;width:min(76vw,420px);margin:0 auto 10px;aspect-ratio:1}
+  .astro{width:100%;height:100%;overflow:visible;
+    filter:drop-shadow(0 0 26px rgba(212,175,106,.30))}
+  .astro .r1{animation:spin 150s linear infinite}
+  .astro .r2{animation:spin 92s linear infinite reverse}
+  .astro .r3{animation:spin 58s linear infinite}
+  .astro .ali{animation:spin 26s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .halo{position:absolute;inset:-14%;border-radius:50%;pointer-events:none;
+    background:radial-gradient(circle,rgba(212,175,106,.17),transparent 62%)}
+  .eyebrow{font-size:.72rem;letter-spacing:3.6px;text-transform:uppercase;color:var(--brass);opacity:.9}
+  h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.6rem,7.4vw,4.9rem);
+    line-height:1.02;letter-spacing:1px;color:#FBF7EF;margin:14px 0 0;
+    text-shadow:0 0 44px rgba(212,175,106,.18)}
+  .tagline{font-family:var(--serif);font-style:italic;color:var(--muted);
+    font-size:clamp(1.02rem,2.4vw,1.34rem);margin-top:14px}
+  .cta-row{margin-top:30px;display:flex;gap:13px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:9px;padding:13px 26px;border-radius:11px;
+    font-size:.95rem;font-weight:600;letter-spacing:.3px;transition:.25s;border:1px solid transparent}
+  .btn-main{background:linear-gradient(135deg,var(--brass),var(--gold));color:#1A1206;
+    box-shadow:0 8px 30px rgba(212,175,106,.24)}
+  .btn-main:hover{transform:translateY(-2px);box-shadow:0 12px 38px rgba(212,175,106,.36)}
+  .btn-ghost{border-color:var(--line);color:var(--parch);background:var(--glass)}
+  .btn-ghost:hover{border-color:var(--brass);background:rgba(212,175,106,.10)}
+  .fineprint{margin-top:15px;font-size:.83rem;color:var(--faint);letter-spacing:.4px}
 
-  .features { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:18px; }
-  .feature { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; }
-  .feature .ico { font-size:2rem; }
-  .feature h3 { margin:8px 0 4px; }
-  .feature p { color:var(--inkSoft); font-size:.95rem; }
+  /* ---------- Cifras ---------- */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin:52px 0 0;
+    background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  .stat{background:rgba(8,14,28,.62);padding:22px 14px;text-align:center}
+  .stat b{display:block;font-family:var(--serif);font-size:clamp(1.5rem,3.6vw,2.1rem);color:var(--brass)}
+  .stat span{font-size:.73rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--faint)}
+  @media(max-width:620px){.stats{grid-template-columns:repeat(2,1fr)}}
 
-  footer { text-align:center; padding:40px 20px; border-top:1px solid var(--border);
-           color:var(--inkFaint); font-size:.9rem; margin-top:20px; }
-  footer a { margin:0 8px; }
-  .loading { text-align:center; color:var(--inkFaint); font-style:italic; padding:20px; }
+  /* ---------- Secciones ---------- */
+  section{padding:78px 0}
+  .head{text-align:center;max-width:660px;margin:0 auto 34px}
+  .head .eyebrow{display:block;margin-bottom:11px}
+  h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.75rem,4vw,2.5rem);
+    color:#F6F1E6;letter-spacing:.5px;line-height:1.2}
+  .head p{color:var(--muted);margin-top:12px;font-size:1rem}
+  .divider{height:1px;max-width:var(--maxw);margin:0 auto;
+    background:linear-gradient(90deg,transparent,var(--line),transparent)}
+
+  /* ---------- Tarjetas ---------- */
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(auto-fill,minmax(288px,1fr))}
+  .card{background:var(--glass);border:1px solid var(--line);border-radius:15px;padding:19px;
+    backdrop-filter:blur(9px);transition:.28s;position:relative;overflow:hidden}
+  .card:hover{transform:translateY(-4px);border-color:rgba(212,175,106,.42);
+    background:rgba(255,255,255,.055);box-shadow:0 14px 40px rgba(0,0,0,.34)}
+  .card-top{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:9px}
+  .chip{font-size:.68rem;letter-spacing:1.1px;text-transform:uppercase;padding:4px 9px;
+    border-radius:20px;border:1px solid var(--line);color:var(--brass);background:rgba(212,175,106,.09)}
+  .chip.plain{color:var(--faint);background:none}
+  .chip.ok{color:#7FD9A0;border-color:rgba(127,217,160,.34);background:rgba(127,217,160,.10)}
+  .date{font-size:.74rem;color:var(--faint);letter-spacing:.8px;margin-left:auto}
+  .card h3{font-family:var(--serif);font-weight:400;font-size:1.14rem;color:#F4EFE4;
+    line-height:1.34;margin-bottom:7px}
+  .card p{color:var(--muted);font-size:.92rem}
+  .src{display:inline-block;margin-top:11px;font-size:.8rem;color:var(--teal);letter-spacing:.3px}
+  .src:hover{color:var(--brass)}
+  .ptext{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.79rem;line-height:1.6;
+    color:#C9CEDA;background:rgba(0,0,0,.34);border:1px solid rgba(255,255,255,.07);
+    border-radius:10px;padding:12px;margin-top:10px;max-height:118px;overflow:hidden;position:relative;
+    white-space:pre-wrap;word-break:break-word}
+  .ptext.open{max-height:none}
+  .ptext:not(.open):after{content:'';position:absolute;inset:auto 0 0 0;height:44px;
+    background:linear-gradient(transparent,rgba(6,10,20,.96))}
+  .prow{display:flex;gap:8px;margin-top:11px}
+  .mini{flex:none;font:inherit;font-size:.78rem;cursor:pointer;padding:7px 13px;border-radius:9px;
+    border:1px solid var(--line);background:none;color:var(--parch);transition:.2s}
+  .mini:hover{border-color:var(--brass);color:var(--brass);background:rgba(212,175,106,.09)}
+  .mini.done{color:#7FD9A0;border-color:rgba(127,217,160,.4)}
+
+  /* ---------- Filtros ---------- */
+  .filters{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:26px}
+  .fbtn{font:inherit;font-size:.79rem;cursor:pointer;padding:7px 15px;border-radius:20px;
+    border:1px solid var(--line);background:var(--glass);color:var(--muted);transition:.2s}
+  .fbtn:hover{color:var(--parch);border-color:rgba(212,175,106,.4)}
+  .fbtn.on{background:rgba(212,175,106,.17);color:var(--brass);border-color:var(--brass)}
+  .more{display:block;margin:28px auto 0}
+
+  /* ---------- Croquis ---------- */
+  .croquis{display:grid;grid-template-columns:repeat(auto-fill,minmax(196px,1fr));gap:16px}
+  .cro{text-align:center;padding:26px 16px;border:1px solid var(--line);border-radius:15px;
+    background:var(--glass);transition:.28s}
+  .cro:hover{border-color:rgba(212,175,106,.4);transform:translateY(-4px)}
+  .cro svg{width:56px;height:56px;color:var(--brass);margin-bottom:13px;
+    filter:drop-shadow(0 0 12px rgba(212,175,106,.30))}
+  .cro h3{font-family:var(--serif);font-weight:400;font-size:1.08rem;color:#F4EFE4;margin-bottom:6px}
+  .cro p{font-size:.86rem;color:var(--muted)}
+
+  /* ---------- Dial interactivo del astrolabio ---------- */
+  .astro{pointer-events:none}
+  #dial{pointer-events:auto;animation:spin 120s linear infinite;transform-origin:0 0}
+  .astro-wrap:hover #dial,.astro-wrap:focus-within #dial{animation-play-state:paused}
+  .dnode{cursor:pointer}
+  .dnode .ring{fill:none;stroke:#D4AF6A;stroke-width:1;opacity:.5;transition:.25s}
+  .dnode .pt{fill:#FFF3D6;transition:.25s}
+  .dnode .hit{fill:transparent}
+  .dnode:hover .pt,.dnode:focus .pt{fill:#FFD98A;r:6.5}
+  .dnode:hover .ring,.dnode:focus .ring{opacity:1;stroke-width:1.6}
+  .dnode.sel .pt{fill:#FFD98A}
+  .dnode.sel .ring{opacity:1}
+  .d-name{font-family:var(--serif);font-size:19px;fill:#F7EFDD;letter-spacing:.6px}
+  .d-sub{font-size:10.5px;fill:#D4AF6A;letter-spacing:2.2px}
+  .d-hint{font-size:9.5px;fill:#6B7382;letter-spacing:1.6px}
+
+  /* ---------- Croquis de arquitectura ---------- */
+  .blueprint{border:1px solid var(--line);border-radius:18px;overflow-x:auto;
+    background:linear-gradient(160deg,rgba(10,18,32,.82),rgba(8,12,22,.62));
+    padding:6px;backdrop-filter:blur(8px)}
+  .blueprint svg{display:block;width:100%;min-width:820px;height:auto}
+  .bp-t{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;
+    fill:#D4AF6A;letter-spacing:2.4px;stroke:none}
+  .bp-d{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;
+    fill:#8D97A6;letter-spacing:1.6px;stroke:none;text-anchor:middle}
+
+  /* ---------- Galería 4K ---------- */
+  .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:14px}
+  .shot{position:relative;display:block;border:1px solid var(--line);border-radius:14px;
+    overflow:hidden;background:rgba(0,0,0,.3);transition:.3s}
+  .shot:hover{border-color:rgba(212,175,106,.5);transform:translateY(-4px)}
+  .shot img{display:block;width:100%;height:210px;object-fit:cover;transition:.5s}
+  .shot:hover img{transform:scale(1.05)}
+  .shot figcaption{position:absolute;inset:auto 0 0 0;padding:22px 13px 11px;
+    background:linear-gradient(transparent,rgba(4,6,12,.94));font-size:.85rem;color:#F0EAdd;
+    font-family:var(--serif)}
+  .shot .tool{display:block;font-family:var(--sans);font-size:.66rem;letter-spacing:1.4px;
+    text-transform:uppercase;color:var(--brass);margin-bottom:3px}
+
+  /* ---------- Teaser hacia la app ---------- */
+  .teaser{margin-top:30px;text-align:center;border:1px solid var(--line);border-radius:16px;
+    padding:26px 20px;background:linear-gradient(180deg,rgba(212,175,106,.07),transparent)}
+  .teaser p{color:var(--muted);font-size:.97rem;margin-bottom:16px}
+  .teaser b{color:var(--parch);font-weight:600}
+
+  /* ---------- Mapa ---------- */
+  .mapbox{border:1px solid var(--line);border-radius:18px;background:rgba(6,11,22,.5);
+    padding:10px;overflow-x:auto;backdrop-filter:blur(8px)}
+  .mapsvg{display:block;width:100%;min-width:660px;height:auto}
+  .node{cursor:pointer}
+  .node circle.dot{fill:var(--brass);transition:.25s}
+  .node:hover circle.dot{fill:#FFF0CE}
+  .node text.lbl{font-family:var(--serif);font-size:15px;fill:#EFE7D6;letter-spacing:.5px}
+  .node text.cnt{font-size:10.5px;fill:var(--faint);letter-spacing:1.3px}
+  .node:hover text.lbl{fill:var(--brass)}
+  .link{stroke:rgba(212,175,106,.26);stroke-width:1}
+  .halo-dot{fill:rgba(212,175,106,.13)}
+
+  /* ---------- Cierre ---------- */
+  .final{text-align:center;padding:96px 0}
+  .final h2{font-size:clamp(1.9rem,4.6vw,2.9rem);margin-top:11px}
+  footer{border-top:1px solid rgba(212,175,106,.14);padding:44px 0 54px;
+    background:linear-gradient(180deg,transparent,rgba(34,29,24,.72));text-align:center}
+  footer p{color:var(--faint);font-size:.86rem;max-width:620px;margin:0 auto}
+  .flinks{margin-top:16px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+  .flinks a{font-size:.86rem;color:var(--muted);padding:5px 11px;border-radius:7px}
+  .flinks a:hover{color:var(--brass);background:rgba(212,175,106,.09)}
+  .loading{text-align:center;color:var(--faint);font-style:italic;padding:26px;grid-column:1/-1}
+
+  /* ---------- Reveal ---------- */
+  .rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+  .rv.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){
+    .rv{opacity:1;transform:none;transition:none}
+    .astro .r1,.astro .r2,.astro .r3,.astro .ali{animation:none}
+    .star{animation:none!important}
+    html{scroll-behavior:auto}
+  }
 </style>
 </head>
 <body>
 
-<header>
-  <div class="wrap">
-    <h1>AI Astrolab</h1>
-    <p class="tagline">"Explora el mapa de la IA"</p>
-    <div class="cta-row">
-      <a class="btn" href="#" id="ios-btn">📱 Descargar para iPhone</a>
-      <a class="btn gold" href="#" id="android-btn">🤖 Descargar para Android</a>
+<div class="sky"></div><div class="nebula"></div><div id="stars"></div><div class="grain"></div>
+
+<!-- ======= NAV ======= -->
+<nav class="nav"><div class="nav-in">
+  <span class="brand">
+    <svg viewBox="0 0 40 40" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" style="color:#D4AF6A">
+      <circle cx="20" cy="20" r="17"/><circle cx="20" cy="20" r="11.5" opacity=".65"/>
+      <circle cx="20" cy="20" r="5.5" opacity=".45"/><path d="M3 20h34M20 3v34" opacity=".5"/>
+      <circle cx="20" cy="20" r="1.8" fill="currentColor" stroke="none"/>
+    </svg>AI ASTROLAB
+  </span>
+  <span class="nav-links">
+    <a href="#novedades" data-nav data-i18n="navNews">Novedades</a>
+    <a href="#dentro" data-nav data-i18n="navInside">La app</a>
+    <a href="#prompts" data-nav data-i18n="navPrompts">Prompts</a>
+    <a href="#mapa" data-nav data-i18n="navMap">Mapa</a>
+    <span class="lang">
+      <button id="lang-es" class="on" type="button">ES</button>
+      <button id="lang-en" type="button">EN</button>
+    </span>
+  </span>
+</div></nav>
+
+<!-- ======= HERO ======= -->
+<header class="hero"><div class="wrap">
+  <div class="astro-wrap">
+    <div class="halo"></div>
+    <svg class="astro" viewBox="-200 -200 400 400" role="img" aria-label="Astrolabio en rotación">
+      <g fill="none" stroke="#D4AF6A" stroke-linecap="round">
+        <g class="r1">
+          <circle r="184" stroke-width="1" opacity=".55"/>
+          <circle r="176" stroke-width="9" stroke-dasharray="1 9.2" opacity=".5"/>
+          <circle r="166" stroke-width="1" opacity=".3"/>
+        </g>
+        <g class="r2" opacity=".8">
+          <circle r="148" stroke-width="1" opacity=".5"/>
+          <circle r="138" stroke-width="7" stroke-dasharray="1.5 21" opacity=".55"/>
+          <circle r="126" stroke-width="1" opacity=".28"/>
+          <path d="M-126 0A126 126 0 0 1 126 0" stroke-width="1" opacity=".35" stroke-dasharray="3 6"/>
+        </g>
+        <g class="r3" opacity=".92">
+          <circle r="104" stroke-width="1" opacity=".45"/>
+          <path d="M0-104A74 74 0 0 1 0 104A46 46 0 0 0 0-104" stroke-width="1" opacity=".5"/>
+          <path d="M-104 0A74 74 0 0 0 104 0" stroke-width="1" opacity=".3"/>
+          <circle r="62" stroke-width="1" opacity=".3" stroke-dasharray="2 7"/>
+          <g fill="#FFF3D6" stroke="none">
+            <circle cx="0" cy="-88" r="2.4"/><circle cx="62" cy="-52" r="1.9"/>
+            <circle cx="88" cy="16" r="2.2"/><circle cx="34" cy="76" r="1.7"/>
+            <circle cx="-46" cy="70" r="2.1"/><circle cx="-86" cy="-24" r="1.8"/>
+            <circle cx="-30" cy="-42" r="1.5"/><circle cx="44" cy="26" r="1.5"/>
+          </g>
+          <path d="M0-88 62-52 88 16 34 76-46 70-86-24Z" stroke-width=".7" opacity=".26"/>
+        </g>
+        <path d="M-190 0H190M0-190V190" stroke-width=".8" opacity=".22"/>
+        <g class="ali" opacity=".9">
+          <path d="M-170 0H170" stroke-width="1.6" opacity=".7"/>
+          <circle cx="170" cy="0" r="3.4" fill="#D4AF6A" stroke="none"/>
+          <circle cx="-170" cy="0" r="3.4" fill="#D4AF6A" stroke="none"/>
+        </g>
+      </g>
+      <!-- dial interactivo: una marca por categoría -->
+      <g id="dial"></g>
+      <!-- lectura central del dial -->
+      <g id="dial-read" text-anchor="middle" pointer-events="none">
+        <circle r="5" fill="#FFF3D6"/>
+        <text id="dial-name" y="-16" class="d-name"></text>
+        <text id="dial-sub" y="30" class="d-sub"></text>
+        <text id="dial-hint" y="52" class="d-hint"></text>
+      </g>
+    </svg>
+  </div>
+
+  <span class="eyebrow" data-i18n="eyebrow">Instrumento para navegar la IA</span>
+  <h1>AI Astrolab</h1>
+  <p class="tagline" data-i18n="tagline">«Explora el mapa de la inteligencia artificial»</p>
+  <div class="cta-row">
+    <a class="btn btn-main" href="#" id="ios-btn">◆ <span data-i18n="ctaIos">Descargar para iPhone</span></a>
+    <a class="btn btn-ghost" href="#" id="android-btn">◇ <span data-i18n="ctaAndroid">Descargar para Android</span></a>
+  </div>
+  <p class="fineprint" data-i18n="fine">Gratis · Sin registro · Bilingüe ES / EN</p>
+
+  <div class="stats rv">
+    <div class="stat"><b>40+</b><span data-i18n="stTools">Herramientas</span></div>
+    <div class="stat"><b id="st-news">—</b><span data-i18n="stNews">Novedades</span></div>
+    <div class="stat"><b id="st-prompts">—</b><span data-i18n="stPrompts">Prompts probados</span></div>
+    <div class="stat"><b>ES/EN</b><span data-i18n="stLang">Bilingüe</span></div>
+  </div>
+</div></header>
+
+<div class="divider"></div>
+
+<!-- ======= NOVEDADES ======= -->
+<section id="novedades"><div class="wrap">
+  <div class="head rv">
+    <span class="eyebrow" data-i18n="ebNews">Bitácora diaria</span>
+    <h2 data-i18n="hNews">Todo lo nuevo de la IA, cada día</h2>
+    <p data-i18n="pNews">Lanzamientos, funciones y cambios de las principales plataformas. Se actualiza solo, cada mediodía.</p>
+  </div>
+  <div class="filters rv" id="news-filters"></div>
+  <div class="grid g3" id="news"><p class="loading" data-i18n="loadNews">Observando el cielo…</p></div>
+  <div class="teaser rv">
+    <p><span id="news-rest">—</span> <span data-i18n="teaseNews">novedades más te esperan dentro, con el archivo completo y filtros por herramienta.</span></p>
+    <a class="btn btn-ghost" href="#descargar" data-i18n="teaseBtn">Verlas en la app →</a>
+  </div>
+</div></section>
+
+<div class="divider"></div>
+
+<!-- ======= DENTRO DE LA APP ======= -->
+<section id="dentro"><div class="wrap">
+  <div class="head rv">
+    <span class="eyebrow" data-i18n="ebInside">Cinco instrumentos</span>
+    <h2 data-i18n="hInside">Qué encontrarás dentro</h2>
+    <p data-i18n="pInside">Cada sección de la app resuelve una pregunta distinta.</p>
+  </div>
+  <div class="croquis rv">
+    <div class="cro">
+      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M6 16l16-6 20 6 16-6v38l-16 6-20-6-16 6z"/><path d="M22 10v38M42 16v38" opacity=".5"/>
+        <circle cx="32" cy="28" r="4"/><path d="M32 32v8"/>
+      </svg>
+      <h3 data-i18n="cro1t">Atlas</h3><p data-i18n="cro1p">Más de 40 plataformas ordenadas por sector y explicadas claro.</p>
     </div>
-    <p style="margin-top:12px;color:var(--inkFaint);font-size:.9rem">Gratis · Sin registro · Bilingüe ES/EN</p>
-  </div>
-</header>
-
-<section style="background:var(--card);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
-  <div class="wrap">
-    <h2>Todo lo nuevo de la IA, cada día</h2>
-    <p class="sub">Lanzamientos, funciones y cambios de precio de las principales plataformas.</p>
-    <div class="grid" id="news"><p class="loading">Cargando novedades…</p></div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <h2>Por qué AI Astrolab</h2>
-    <p class="sub">La forma más rápida de orientarte entre cientos de herramientas.</p>
-    <div class="features">
-      <div class="feature"><div class="ico">🗺️</div><h3>Catálogo curado</h3><p>Más de 40 plataformas organizadas por sectores y explicadas con claridad.</p></div>
-      <div class="feature"><div class="ico">⚖️</div><h3>Compara cara a cara</h3><p>Enfrenta dos herramientas y decide con criterio: precio, uso ideal y dificultad.</p></div>
-      <div class="feature"><div class="ico">🧭</div><h3>Novedades diarias</h3><p>Sigue el ritmo del mercado sin perderte entre mil fuentes.</p></div>
-      <div class="feature"><div class="ico">📜</div><h3>Prompts listos</h3><p>Recetas probadas por herramienta y nivel para no empezar de cero.</p></div>
+    <div class="cro">
+      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="32" cy="32" r="24"/><path d="M41 23l-6 14-14 6 6-14z"/>
+        <path d="M32 8v5M32 51v5M8 32h5M51 32h5" opacity=".5"/>
+      </svg>
+      <h3 data-i18n="cro2t">Descubrir</h3><p data-i18n="cro2p">Novedades diarias sin perseguir mil fuentes distintas.</p>
+    </div>
+    <div class="cro">
+      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M32 12v40M18 52h28"/><path d="M12 22h40"/><path d="M12 22l-6 14h12z"/><path d="M52 22l-6 14h12z"/>
+        <circle cx="32" cy="12" r="2.5"/>
+      </svg>
+      <h3 data-i18n="cro3t">Comparar</h3><p data-i18n="cro3p">Dos herramientas cara a cara: precio, uso ideal y dificultad.</p>
+    </div>
+    <div class="cro">
+      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="28" cy="28" r="16"/><path d="M40 40l14 14"/>
+        <path d="M22 22l2 4 4 2-4 2-2 4-2-4-4-2 4-2z" opacity=".7"/>
+      </svg>
+      <h3 data-i18n="cro4t">Buscar</h3><p data-i18n="cro4p">Vas al grano: encuentra la herramienta exacta que necesitas.</p>
+    </div>
+    <div class="cro">
+      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M14 12h30a6 6 0 016 6v34a6 6 0 01-6-6V12z"/><path d="M14 12a6 6 0 00-6 6v28a6 6 0 006 6h30"/>
+        <path d="M20 24h18M20 32h18M20 40h11" opacity=".65"/>
+        <path d="M46 20l1.6 3.4L51 25l-3.4 1.6L46 30l-1.6-3.4L41 25l3.4-1.6z"/>
+      </svg>
+      <h3 data-i18n="cro5t">Prompts</h3><p data-i18n="cro5p">Listos para copiar y pegar. Todos comprobados uno a uno.</p>
     </div>
   </div>
-</section>
+</div></section>
 
-<section style="background:var(--card);border-top:1px solid var(--border)">
-  <div class="wrap">
-    <h2>Prompts destacados</h2>
-    <p class="sub">Una muestra de la biblioteca. Muchos más dentro de la app.</p>
-    <div class="grid" id="prompts"><p class="loading">Cargando prompts…</p></div>
-  </div>
-</section>
+<div class="divider"></div>
 
-<footer>
-  <div class="wrap">
-    <p>AI Astrolab es una guía independiente y curada a mano con fines informativos.<br>
-       Todos los nombres, logos y marcas pertenecen a sus respectivos propietarios.</p>
-    <p style="margin-top:12px">
-      <a href="privacy.html">Privacidad</a> ·
-      <a href="terms.html">Términos</a> ·
-      <a href="mailto:dariuss13@uic.es">Contacto</a>
-    </p>
+<!-- ======= PROMPTS ======= -->
+<section id="prompts"><div class="wrap">
+  <div class="head rv">
+    <span class="eyebrow" data-i18n="ebPrompts">Muestra gratuita</span>
+    <h2 data-i18n="hPrompts">Prompts que funcionan de verdad</h2>
+    <p data-i18n="pPrompts">Cópialos y úsalos tal cual. Cada uno pasa por verificación antes de entrar. Muchos más dentro de la app.</p>
   </div>
-</footer>
+  <div class="filters rv" id="prompt-filters"></div>
+  <div class="grid g3" id="prompts-grid"><p class="loading" data-i18n="loadPrompts">Desplegando la carta…</p></div>
+  <div class="teaser rv">
+    <p><span data-i18n="teaseP1">Aquí ves una muestra.</span> <b><span id="prompts-total">—</span> <span data-i18n="teaseP2">prompts verificados</span></b> <span data-i18n="teaseP3">te esperan en la app, organizados por herramienta y nivel.</span></p>
+    <a class="btn btn-ghost" href="#descargar" data-i18n="teaseBtnP">Abrir la biblioteca completa →</a>
+  </div>
+</div></section>
+
+<div class="divider"></div>
+
+<!-- ======= CROQUIS DE ARQUITECTURA ======= -->
+<section id="arquitectura"><div class="wrap">
+  <div class="head rv">
+    <span class="eyebrow" data-i18n="ebArq">Del croquis al render</span>
+    <h2 data-i18n="hArq">También para arquitectura y 3D</h2>
+    <p data-i18n="pArq">Siete plataformas que convierten un boceto o un modelo en imagen final: RendAIr, Veras, MNML, PromeAI, ArkoAI, Maket y Kaedim.</p>
+  </div>
+  <div class="blueprint rv">
+    <svg viewBox="0 0 1200 340" role="img" aria-label="Croquis arquitectónicos: planta, sección y volumetría isométrica">
+      <defs>
+        <pattern id="hatch" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+          <line x1="0" y1="0" x2="0" y2="7" stroke="#D4AF6A" stroke-width=".6" opacity=".5"/>
+        </pattern>
+        <pattern id="bgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M40 0H0V40" fill="none" stroke="#D4AF6A" stroke-width=".4" opacity=".13"/>
+        </pattern>
+      </defs>
+      <rect width="1200" height="340" fill="url(#bgrid)"/>
+      <g fill="none" stroke="#D4AF6A" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round">
+
+        <!-- PLANTA -->
+        <g opacity=".92">
+          <text x="40" y="40" class="bp-t">PLANTA · 1:100</text>
+          <path d="M40 60h300v190H40z" stroke-width="1.6"/>
+          <path d="M40 60h300v190H40z" fill="url(#hatch)" opacity=".22" stroke="none"/>
+          <path d="M170 60v90M170 175v75M40 150h60M140 150h200" stroke-width="1.6"/>
+          <path d="M100 150a40 40 0 0140 40" stroke-dasharray="3 4" opacity=".8"/>
+          <path d="M170 150v25" stroke-dasharray="3 4" opacity=".8"/>
+          <rect x="60" y="80" width="90" height="18" opacity=".75"/>
+          <rect x="200" y="80" width="120" height="50" opacity=".75"/>
+          <circle cx="290" cy="210" r="18" opacity=".7"/>
+          <path d="M40 275h300M40 270v10M340 270v10" stroke-width=".8" opacity=".65"/>
+          <text x="190" y="292" class="bp-d">12.00 m</text>
+        </g>
+
+        <!-- SECCIÓN -->
+        <g opacity=".92" transform="translate(400,0)">
+          <text x="20" y="40" class="bp-t">SECCIÓN A-A'</text>
+          <path d="M20 250h320" stroke-width="1.8"/>
+          <path d="M20 255l14 12M60 255l14 12M100 255l14 12M140 255l14 12M180 255l14 12M220 255l14 12M260 255l14 12M300 255l14 12" stroke-width=".7" opacity=".55"/>
+          <path d="M40 250V120h280v130" stroke-width="1.6"/>
+          <path d="M40 120l140-58 140 58" stroke-width="1.6"/>
+          <path d="M40 190h280M40 155h280" opacity=".55"/>
+          <path d="M75 190v60M145 190v60M215 190v60M285 190v60" opacity=".4" stroke-dasharray="4 5"/>
+          <rect x="60" y="205" width="40" height="45" opacity=".8"/>
+          <rect x="130" y="205" width="40" height="45" opacity=".8"/>
+          <rect x="200" y="205" width="40" height="45" opacity=".8"/>
+          <rect x="90" y="130" width="55" height="18" opacity=".6"/>
+          <path d="M360 62v188M355 62h10M355 250h10" stroke-width=".8" opacity=".65"/>
+          <text x="372" y="160" class="bp-d">7.60</text>
+        </g>
+
+        <!-- VOLUMETRÍA ISOMÉTRICA -->
+        <g opacity=".92" transform="translate(820,0)">
+          <text x="20" y="40" class="bp-t">VOLUMETRÍA</text>
+          <path d="M60 190l100-56 100 56-100 56z" stroke-width="1.4" opacity=".7"/>
+          <path d="M100 168v-70l60-34 60 34v70" stroke-width="1.5"/>
+          <path d="M100 98l60 34 60-34" stroke-width="1.5"/>
+          <path d="M160 132v90" stroke-width="1.2" opacity=".75"/>
+          <path d="M100 130l60 34 60-34" opacity=".45" stroke-dasharray="4 5"/>
+          <path d="M115 112l45 26 45-26" opacity=".35" stroke-dasharray="3 4"/>
+          <path d="M160 64v-22M148 48l12-12 12 12" stroke-width=".9" opacity=".6"/>
+          <circle cx="60" cy="190" r="2.6" fill="#D4AF6A" stroke="none"/>
+          <circle cx="260" cy="190" r="2.6" fill="#D4AF6A" stroke="none"/>
+          <circle cx="160" cy="246" r="2.6" fill="#D4AF6A" stroke="none"/>
+          <text x="160" y="292" class="bp-d">EJE N-S</text>
+        </g>
+      </g>
+    </svg>
+  </div>
+</div></section>
+
+<div class="divider"></div>
+
+<!-- ======= GALERÍA 4K ======= -->
+<section id="galeria" hidden><div class="wrap">
+  <div class="head rv">
+    <span class="eyebrow" data-i18n="ebGal">Resultados reales</span>
+    <h2 data-i18n="hGal">Hecho con estos prompts</h2>
+    <p data-i18n="pGal">Imágenes generadas con los prompts de la biblioteca. Pulsa para verlas a tamaño completo.</p>
+  </div>
+  <div class="gallery rv" id="gallery-grid"></div>
+</div></section>
+
+<div class="divider" id="div-mapa"></div>
+
+<!-- ======= MAPA ======= -->
+<section id="mapa"><div class="wrap">
+  <div class="head rv">
+    <span class="eyebrow" data-i18n="ebMap">Carta celeste</span>
+    <h2 data-i18n="hMap">El territorio, de un vistazo</h2>
+    <p data-i18n="pMap">Toca una constelación para ver sus prompts.</p>
+  </div>
+  <div class="mapbox rv">
+    <svg class="mapsvg" viewBox="0 0 1000 430" role="img" aria-label="Mapa de categorías de herramientas de IA">
+      <g stroke-linecap="round">
+        <line class="link" x1="150" y1="120" x2="340" y2="70"/>
+        <line class="link" x1="340" y1="70"  x2="530" y2="140"/>
+        <line class="link" x1="530" y1="140" x2="730" y2="80"/>
+        <line class="link" x1="150" y1="120" x2="250" y2="300"/>
+        <line class="link" x1="250" y1="300" x2="560" y2="330"/>
+        <line class="link" x1="530" y1="140" x2="560" y2="330"/>
+        <line class="link" x1="730" y1="80"  x2="845" y2="255"/>
+        <line class="link" x1="560" y1="330" x2="845" y2="255"/>
+        <line class="link" x1="340" y1="70"  x2="250" y2="300" opacity=".45"/>
+      </g>
+      <g id="map-nodes"></g>
+    </svg>
+  </div>
+</div></section>
+
+<!-- ======= CIERRE ======= -->
+<section class="final" id="descargar"><div class="wrap rv">
+  <span class="eyebrow" data-i18n="ebFinal">Empieza a explorar</span>
+  <h2 data-i18n="hFinal">Llévate el mapa en el bolsillo</h2>
+  <div class="cta-row">
+    <a class="btn btn-main" href="#" id="ios-btn2">◆ <span data-i18n="ctaIos2">Descargar para iPhone</span></a>
+    <a class="btn btn-ghost" href="#" id="android-btn2">◇ <span data-i18n="ctaAndroid2">Descargar para Android</span></a>
+  </div>
+  <p class="fineprint" data-i18n="fine2">Gratis · Sin registro · Sin anuncios</p>
+</div></section>
+
+<footer><div class="wrap">
+  <p data-i18n="foot">AI Astrolab es una guía independiente, curada a mano y con fines informativos. Todos los nombres, logos y marcas pertenecen a sus respectivos propietarios.</p>
+  <div class="flinks">
+    <a href="privacy.html" data-i18n="fPriv">Privacidad</a>
+    <a href="terms.html" data-i18n="fTerms">Términos</a>
+    <a href="mailto:dariuss13@uic.es" data-i18n="fMail">Contacto</a>
+  </div>
+</div></footer>
+
+<noscript><p class="loading">Activa JavaScript para ver las novedades y los prompts del día.</p></noscript>
 
 <script>
-const FEED = 'https://raw.githubusercontent.com/AI-Astrolab/ai-astrolab.github.io/main/feed.json';
-const PROMPTS = 'https://raw.githubusercontent.com/AI-Astrolab/ai-astrolab.github.io/main/prompts.json';
+/* ================= Datos ================= */
+var FEED    = 'https://raw.githubusercontent.com/AI-Astrolab/ai-astrolab.github.io/main/feed.json';
+var PROMPTS = 'https://raw.githubusercontent.com/AI-Astrolab/ai-astrolab.github.io/main/prompts.json';
 
-// TODO: cuando publiques la app, pega aquí los enlaces reales de las tiendas
-const IOS_URL = '#';
-const ANDROID_URL = '#';
-document.getElementById('ios-btn').href = IOS_URL;
-document.getElementById('android-btn').href = ANDROID_URL;
+/* TODO: al publicar la app, pega aquí los enlaces reales de las tiendas */
+var IOS_URL = '#', ANDROID_URL = '#';
+['ios-btn','ios-btn2'].forEach(function(i){var e=document.getElementById(i); if(e) e.href=IOS_URL;});
+['android-btn','android-btn2'].forEach(function(i){var e=document.getElementById(i); if(e) e.href=ANDROID_URL;});
 
-const esc = (s) => (s||'').replace(/</g,'&lt;');
-const pick = (o) => (o && typeof o==='object') ? (o.es||o.en||'') : (o||'');
+/* ================= Utilidades ================= */
+var ENT={'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'};
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return ENT[c];});}
+function safeUrl(u){return /^https?:\/\//i.test(String(u||''))?String(u):'';}
+var LANG=(localStorage.getItem('lang')==='en')?'en':'es';
+function pick(o){return (o&&typeof o==='object')?(o[LANG]||o.es||o.en||''):(o||'');}
 
-fetch(FEED).then(r=>r.json()).then(items=>{
-  const el = document.getElementById('news');
-  el.innerHTML = '';
-  items.slice(0,9).forEach(n=>{
-    const d = document.createElement('div'); d.className='card';
-    d.innerHTML = `<div class="date">${esc(n.date)}</div>
-      <div class="tool">${esc(n.toolId||'')}</div>
-      <h3>${esc(pick(n.title))}</h3>
-      <p>${esc(pick(n.summary))}</p>
-      ${n.sourceUrl?`<a class="src" href="${esc(n.sourceUrl)}" rel="nofollow" target="_blank">Fuente: ${esc(n.sourceName||'ver')} →</a>`:''}`;
-    el.appendChild(d);
+var NAMES={chatgpt:'ChatGPT',claude:'Claude',gemini:'Gemini',grok:'Grok',qwen:'Qwen',
+ midjourney:'Midjourney','gpt-image':'GPT Image','stable-diffusion':'Stable Diffusion',krea:'Krea',
+ sora:'Sora',veo:'Veo',kling:'Kling',runway:'Runway',pika:'Pika',elevenlabs:'ElevenLabs',
+ suno:'Suno',udio:'Udio',cursor:'Cursor','claude-code':'Claude Code',copilot:'Copilot',
+ lovable:'Lovable',perplexity:'Perplexity','notion-ai':'Notion AI',notebooklm:'NotebookLM',
+ luma:'Luma',kaedim:'Kaedim',rendair:'RendAIr',veras:'Veras',mnml:'MNML',promeai:'PromeAI',
+ arkoai:'ArkoAI',maket:'Maket',higgsfield:'Higgsfield',hailuo:'Hailuo',leonardo:'Leonardo',
+ ideogram:'Ideogram',flux:'FLUX',deepseek:'DeepSeek',lechat:'Le Chat','figma-ai':'Figma AI'};
+function toolName(id){return NAMES[id]||String(id||'').replace(/-/g,' ');}
+
+var CATS=[
+ {id:'texto',   x:150,y:120, es:'Texto',  en:'Text',  tools:['chatgpt','claude','gemini','grok','qwen','deepseek','lechat']},
+ {id:'imagen',  x:340,y:70,  es:'Imagen', en:'Image', tools:['midjourney','gpt-image','stable-diffusion','krea','leonardo','ideogram','flux']},
+ {id:'video',   x:530,y:140, es:'Vídeo',  en:'Video', tools:['sora','veo','kling','runway','pika','higgsfield','hailuo','luma']},
+ {id:'audio',   x:730,y:80,  es:'Audio',  en:'Audio', tools:['elevenlabs','suno','udio']},
+ {id:'codigo',  x:250,y:300, es:'Código', en:'Code',  tools:['cursor','claude-code','copilot','lovable','figma-ai']},
+ {id:'arq',     x:560,y:330, es:'3D y Arquitectura', en:'3D & Architecture', tools:['kaedim','rendair','veras','mnml','promeai','arkoai','maket']},
+ {id:'research',x:845,y:255, es:'Investigación', en:'Research', tools:['perplexity','notion-ai','notebooklm']}
+];
+function catOf(tool){
+  for(var i=0;i<CATS.length;i++){ if(CATS[i].tools.indexOf(tool)>=0) return CATS[i].id; }
+  return '';
+}
+
+/* ================= Idioma ================= */
+var T={
+ navNews:['Novedades','News'],navInside:['La app','The app'],navPrompts:['Prompts','Prompts'],navMap:['Mapa','Map'],
+ eyebrow:['Instrumento para navegar la IA','An instrument to navigate AI'],
+ tagline:['«Explora el mapa de la inteligencia artificial»','“Chart the map of artificial intelligence”'],
+ ctaIos:['Descargar para iPhone','Download for iPhone'],ctaAndroid:['Descargar para Android','Download for Android'],
+ ctaIos2:['Descargar para iPhone','Download for iPhone'],ctaAndroid2:['Descargar para Android','Download for Android'],
+ fine:['Gratis · Sin registro · Bilingüe ES / EN','Free · No sign-up · Bilingual ES / EN'],
+ fine2:['Gratis · Sin registro · Sin anuncios','Free · No sign-up · No ads'],
+ stTools:['Herramientas','Tools'],stNews:['Novedades','Updates'],stPrompts:['Prompts probados','Tested prompts'],stLang:['Bilingüe','Bilingual'],
+ ebNews:['Bitácora diaria','Daily log'],hNews:['Todo lo nuevo de la IA, cada día','Everything new in AI, every day'],
+ pNews:['Lanzamientos, funciones y cambios de las principales plataformas. Se actualiza solo, cada mediodía.','Launches, features and changes across the major platforms. It updates itself every noon.'],
+ ebInside:['Cinco instrumentos','Five instruments'],hInside:['Qué encontrarás dentro','What is inside'],
+ pInside:['Cada sección de la app resuelve una pregunta distinta.','Each section answers a different question.'],
+ cro1t:['Atlas','Atlas'],cro1p:['Más de 40 plataformas ordenadas por sector y explicadas claro.','40+ platforms sorted by sector and explained clearly.'],
+ cro2t:['Descubrir','Discover'],cro2p:['Novedades diarias sin perseguir mil fuentes distintas.','Daily updates without chasing a thousand sources.'],
+ cro3t:['Comparar','Compare'],cro3p:['Dos herramientas cara a cara: precio, uso ideal y dificultad.','Two tools head to head: price, best use and difficulty.'],
+ cro4t:['Buscar','Search'],cro4p:['Vas al grano: encuentra la herramienta exacta que necesitas.','Straight to the point: find the exact tool you need.'],
+ cro5t:['Prompts','Prompts'],cro5p:['Listos para copiar y pegar. Todos comprobados uno a uno.','Ready to copy and paste. Every one verified.'],
+ ebPrompts:['Muestra gratuita','Free sample'],hPrompts:['Prompts que funcionan de verdad','Prompts that actually work'],
+ pPrompts:['Cópialos y úsalos tal cual. Cada uno pasa por verificación antes de entrar. Muchos más dentro de la app.','Copy and use them as they are. Each one is verified before it ships. Many more inside the app.'],
+ ebMap:['Carta celeste','Star chart'],hMap:['El territorio, de un vistazo','The territory at a glance'],
+ pMap:['Toca una constelación para ver sus prompts.','Tap a constellation to see its prompts.'],
+ ebFinal:['Empieza a explorar','Start exploring'],hFinal:['Llévate el mapa en el bolsillo','Take the map in your pocket'],
+ foot:['AI Astrolab es una guía independiente, curada a mano y con fines informativos. Todos los nombres, logos y marcas pertenecen a sus respectivos propietarios.','AI Astrolab is an independent, hand-curated guide for informational purposes. All names, logos and trademarks belong to their respective owners.'],
+ fPriv:['Privacidad','Privacy'],fTerms:['Términos','Terms'],fMail:['Contacto','Contact'],
+ loadNews:['Observando el cielo…','Scanning the sky…'],loadPrompts:['Desplegando la carta…','Unrolling the chart…'],
+ showMore:['Ver más novedades','Show more updates'],showMoreP:['Ver más prompts','Show more prompts'],
+ all:['Todas','All'],copy:['Copiar','Copy'],copied:['¡Copiado!','Copied!'],
+ expand:['Ver completo','Show full'],collapse:['Contraer','Collapse'],
+ verified:['Verificado','Verified'],source:['Fuente','Source'],
+ errNews:['No se pudieron cargar las novedades.','Could not load the updates.'],
+ errPrompts:['No se pudieron cargar los prompts.','Could not load the prompts.'],
+ simple:['Sencillo','Simple'],advanced:['Avanzado','Advanced'],expert:['Experto','Expert'],
+ toolsWord:['HERRAMIENTAS','TOOLS'],
+ teaseNews:['novedades más te esperan dentro, con el archivo completo y filtros por herramienta.','more updates are waiting inside, with the full archive and per-tool filters.'],
+ teaseBtn:['Verlas en la app →','See them in the app →'],
+ teaseP1:['Aquí ves una muestra.','This is just a taste.'],
+ teaseP2:['prompts verificados','verified prompts'],
+ teaseP3:['te esperan en la app, organizados por herramienta y nivel.','are waiting in the app, sorted by tool and level.'],
+ teaseBtnP:['Abrir la biblioteca completa →','Open the full library →'],
+ ebArq:['Del croquis al render','From sketch to render'],
+ hArq:['También para arquitectura y 3D','For architecture and 3D too'],
+ pArq:['Siete plataformas que convierten un boceto o un modelo en imagen final: RendAIr, Veras, MNML, PromeAI, ArkoAI, Maket y Kaedim.','Seven platforms that turn a sketch or a model into a final image: RendAIr, Veras, MNML, PromeAI, ArkoAI, Maket and Kaedim.'],
+ ebGal:['Resultados reales','Real results'],
+ hGal:['Hecho con estos prompts','Made with these prompts'],
+ pGal:['Imágenes generadas con los prompts de la biblioteca. Pulsa para verlas a tamaño completo.','Images generated with prompts from the library. Tap to view full size.'],
+ dialHint:['PULSA PARA EXPLORAR','TAP TO EXPLORE'],
+ dialIdle:['Elige un rumbo','Pick a heading'],
+ dialSub:['7 CONSTELACIONES','7 CONSTELLATIONS']
+};
+function t(k){var v=T[k];return v?v[LANG==='en'?1:0]:k;}
+
+function setLang(l){
+  LANG=(l==='en')?'en':'es';
+  try{localStorage.setItem('lang',LANG);}catch(e){}
+  document.documentElement.lang=LANG;
+  var es=document.getElementById('lang-es'), en=document.getElementById('lang-en');
+  if(es) es.classList.toggle('on',LANG==='es');
+  if(en) en.classList.toggle('on',LANG==='en');
+  var nodes=document.querySelectorAll('[data-i18n]');
+  for(var i=0;i<nodes.length;i++){
+    var k=nodes[i].getAttribute('data-i18n');
+    if(T[k]) nodes[i].textContent=t(k);
+  }
+  renderNews(); renderPrompts(); renderMap(); renderGallery(); buildDial();
+}
+(function(){
+  var es=document.getElementById('lang-es'), en=document.getElementById('lang-en');
+  if(es) es.addEventListener('click',function(){setLang('es');});
+  if(en) en.addEventListener('click',function(){setLang('en');});
+})();
+
+/* ================= Estrellas ================= */
+(function(){
+  var box=document.getElementById('stars'); if(!box) return;
+  var frag=document.createDocumentFragment();
+  for(var i=0;i<150;i++){
+    var s=document.createElement('span'); s.className='star';
+    var r=Math.random(), size=r<.82?1:(r<.96?1.8:2.6);
+    s.style.cssText='width:'+size+'px;height:'+size+'px;left:'+(Math.random()*100).toFixed(2)+'%;'+
+      'top:'+(Math.random()*100).toFixed(2)+'%;opacity:'+(.18+Math.random()*.62).toFixed(2)+';'+
+      'animation:tw '+(3+Math.random()*7).toFixed(1)+'s ease-in-out '+(Math.random()*6).toFixed(1)+'s infinite';
+    frag.appendChild(s);
+  }
+  box.appendChild(frag);
+})();
+
+/* ================= Reveal ================= */
+var io=('IntersectionObserver' in window)?new IntersectionObserver(function(es){
+  es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+},{threshold:.12}):null;
+(function(){
+  var els=document.querySelectorAll('.rv');
+  for(var i=0;i<els.length;i++){ if(io) io.observe(els[i]); else els[i].classList.add('in'); }
+})();
+
+/* ================= Estado ================= */
+var NEWS=[], PROM=[], ALL_PROM=[], newsTool='', newsShown=6, promCat='', promShown=3;
+
+/* ================= Novedades ================= */
+function renderNews(){
+  var el=document.getElementById('news'); if(!el) return;
+  if(!NEWS.length){ el.innerHTML='<p class="loading">'+esc(t('loadNews'))+'</p>'; return; }
+  var list=newsTool?NEWS.filter(function(n){return n.toolId===newsTool;}):NEWS;
+  var slice=list.slice(0,newsShown);
+  el.innerHTML=slice.map(function(n){
+    var u=safeUrl(n.sourceUrl);
+    return '<article class="card">'+
+      '<div class="card-top"><span class="chip">'+esc(toolName(n.toolId))+'</span>'+
+      '<span class="date">'+esc(n.date)+'</span></div>'+
+      '<h3>'+esc(pick(n.title))+'</h3><p>'+esc(pick(n.summary))+'</p>'+
+      (u?'<a class="src" href="'+esc(u)+'" rel="nofollow noopener" target="_blank">'+esc(t('source'))+': '+esc(n.sourceName||'')+' →</a>':'')+
+      '</article>';
+  }).join('');
+  var rest=document.getElementById('news-rest');
+  if(rest) rest.textContent=Math.max(0,NEWS.length-slice.length);
+
+  var fbox=document.getElementById('news-filters');
+  if(fbox && !fbox.getAttribute('data-done')){
+    var counts={};
+    NEWS.forEach(function(n){ counts[n.toolId]=(counts[n.toolId]||0)+1; });
+    var top=Object.keys(counts).sort(function(a,b){return counts[b]-counts[a];}).slice(0,8);
+    fbox.innerHTML='<button class="fbtn on" type="button" data-tool="">'+esc(t('all'))+'</button>'+
+      top.map(function(id){return '<button class="fbtn" type="button" data-tool="'+esc(id)+'">'+esc(toolName(id))+'</button>';}).join('');
+    fbox.setAttribute('data-done','1');
+    fbox.addEventListener('click',function(e){
+      var b=e.target.closest('.fbtn'); if(!b) return;
+      newsTool=b.getAttribute('data-tool'); newsShown=6;
+      var all=fbox.querySelectorAll('.fbtn');
+      for(var i=0;i<all.length;i++) all[i].classList.toggle('on',all[i]===b);
+      renderNews();
+    });
+  }
+}
+
+/* ================= Prompts ================= */
+function renderPrompts(){
+  var el=document.getElementById('prompts-grid'); if(!el) return;
+  if(!PROM.length){ el.innerHTML='<p class="loading">'+esc(t('loadPrompts'))+'</p>'; return; }
+  var list=promCat?PROM.filter(function(p){return catOf(p.toolId)===promCat;}):PROM;
+  var slice=list.slice(0,promShown);
+  el.innerHTML=slice.length?slice.map(function(p,i){
+    var idx=PROM.indexOf(p);
+    var lvl=T[p.level]?t(p.level):(p.level||'');
+    return '<article class="card">'+
+      '<div class="card-top"><span class="chip">'+esc(toolName(p.toolId))+'</span>'+
+      '<span class="chip plain">'+esc(lvl)+'</span>'+
+      (p.verified?'<span class="chip ok">✓ '+esc(t('verified'))+'</span>':'')+'</div>'+
+      '<h3>'+esc(pick(p.title))+'</h3>'+
+      '<div class="ptext" id="pt'+i+'">'+esc(p.prompt)+'</div>'+
+      '<div class="prow">'+
+        '<button class="mini" type="button" data-copy="'+idx+'">⧉ '+esc(t('copy'))+'</button>'+
+        '<button class="mini" type="button" data-toggle="pt'+i+'">'+esc(t('expand'))+'</button>'+
+      '</div></article>';
+  }).join(''):'<p class="loading">—</p>';
+
+  var fbox=document.getElementById('prompt-filters');
+  if(fbox){
+    var has=CATS.filter(function(c){ return PROM.some(function(p){return catOf(p.toolId)===c.id;}); });
+    fbox.innerHTML='<button class="fbtn'+(promCat?'':' on')+'" type="button" data-cat="">'+esc(t('all'))+'</button>'+
+      has.map(function(c){
+        return '<button class="fbtn'+(promCat===c.id?' on':'')+'" type="button" data-cat="'+esc(c.id)+'">'+esc(c[LANG]||c.es)+'</button>';
+      }).join('');
+    if(!fbox.getAttribute('data-done')){
+      fbox.setAttribute('data-done','1');
+      fbox.addEventListener('click',function(e){
+        var b=e.target.closest('.fbtn'); if(!b) return;
+        promCat=b.getAttribute('data-cat'); promShown=3; renderPrompts(); syncDial();
+      });
+    }
+  }
+}
+document.addEventListener('click',function(e){
+  var c=e.target.closest?e.target.closest('[data-copy]'):null;
+  if(c){
+    var p=PROM[parseInt(c.getAttribute('data-copy'),10)]; if(!p) return;
+    var done=function(){
+      c.textContent='✓ '+t('copied'); c.classList.add('done');
+      setTimeout(function(){ c.textContent='⧉ '+t('copy'); c.classList.remove('done'); },1800);
+    };
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(p.prompt).then(done,function(){});
+    }else{
+      var ta=document.createElement('textarea'); ta.value=p.prompt;
+      document.body.appendChild(ta); ta.select();
+      try{ document.execCommand('copy'); done(); }catch(err){}
+      ta.parentNode.removeChild(ta);
+    }
+    return;
+  }
+  var tg=e.target.closest?e.target.closest('[data-toggle]'):null;
+  if(tg){
+    var box=document.getElementById(tg.getAttribute('data-toggle')); if(!box) return;
+    var open=box.classList.toggle('open');
+    tg.textContent=open?t('collapse'):t('expand');
+  }
+});
+/* ================= Dial interactivo del astrolabio ================= */
+function buildDial(){
+  var g=document.getElementById('dial'); if(!g) return;
+  var NS='http://www.w3.org/2000/svg', R=150;
+  g.innerHTML='';
+  CATS.forEach(function(c,i){
+    var a=(i/CATS.length)*Math.PI*2 - Math.PI/2;
+    var x=+(Math.cos(a)*R).toFixed(1), y=+(Math.sin(a)*R).toFixed(1);
+    var node=document.createElementNS(NS,'g');
+    node.setAttribute('class','dnode');
+    node.setAttribute('data-cat',c.id);
+    node.setAttribute('tabindex','0');
+    node.setAttribute('role','button');
+    node.setAttribute('aria-label',(c[LANG]||c.es));
+    node.innerHTML='<title>'+esc(c[LANG]||c.es)+'</title>'+
+      '<circle class="hit" cx="'+x+'" cy="'+y+'" r="22"/>'+
+      '<circle class="ring" cx="'+x+'" cy="'+y+'" r="13"/>'+
+      '<circle class="pt" cx="'+x+'" cy="'+y+'" r="5"/>';
+    var show=function(){ readDial(c); };
+    var go=function(){
+      promCat=c.id; promShown=3; renderPrompts(); syncDial();
+      var s=document.getElementById('prompts'); if(s) s.scrollIntoView({behavior:'smooth'});
+    };
+    node.addEventListener('mouseenter',show);
+    node.addEventListener('focus',show);
+    node.addEventListener('mouseleave',function(){ readDial(null); });
+    node.addEventListener('blur',function(){ readDial(null); });
+    node.addEventListener('click',go);
+    node.addEventListener('keydown',function(e){
+      if(e.key==='Enter'||e.key===' '){ e.preventDefault(); go(); }
+    });
+    g.appendChild(node);
   });
-}).catch(()=>{ document.getElementById('news').innerHTML='<p class="loading">No se pudieron cargar las novedades.</p>'; });
+  readDial(null); syncDial();
+}
+function readDial(c){
+  var n=document.getElementById('dial-name'),
+      s=document.getElementById('dial-sub'),
+      h=document.getElementById('dial-hint');
+  if(!n||!s||!h) return;
+  if(c){
+    var tools=c.tools.map(toolName).slice(0,3).join(' · ');
+    var extra=c.tools.length>3?(' +'+(c.tools.length-3)):'';
+    n.textContent=c[LANG]||c.es;
+    s.textContent=tools+extra;
+    h.textContent=t('dialHint');
+  }else{
+    n.textContent=t('dialIdle');
+    s.textContent=t('dialSub');
+    h.textContent='';
+  }
+}
+function syncDial(){
+  var nodes=document.querySelectorAll('.dnode');
+  for(var i=0;i<nodes.length;i++){
+    nodes[i].classList.toggle('sel', nodes[i].getAttribute('data-cat')===promCat && !!promCat);
+  }
+}
 
-fetch(PROMPTS).then(r=>r.json()).then(items=>{
-  const el = document.getElementById('prompts');
-  el.innerHTML = '';
-  // solo prompts gratis en la web, como anzuelo
-  items.filter(p=>p.tier!=='pro').slice(0,6).forEach(p=>{
-    const d = document.createElement('div'); d.className='card';
-    d.innerHTML = `<div class="tool">${esc(p.toolId||'')} · ${esc(p.level||'')}</div>
-      <h3>${esc(pick(p.title))}</h3>
-      <p>${esc((p.prompt||'').slice(0,140))}${(p.prompt||'').length>140?'…':''}</p>`;
-    el.appendChild(d);
+/* ================= Galería de resultados ================= */
+function renderGallery(){
+  var sec=document.getElementById('galeria'), g=document.getElementById('gallery-grid');
+  if(!sec||!g) return;
+  var withImg=ALL_PROM.filter(function(p){ return safeUrl(p.image); }).slice(0,8);
+  if(!withImg.length){ sec.hidden=true; return; }
+  sec.hidden=false;
+  g.innerHTML=withImg.map(function(p){
+    return '<a class="shot" href="'+esc(safeUrl(p.image))+'" target="_blank" rel="noopener">'+
+      '<img src="'+esc(safeUrl(p.image))+'" alt="'+esc(pick(p.title))+'" loading="lazy" decoding="async">'+
+      '<figcaption><span class="tool">'+esc(toolName(p.toolId))+'</span>'+esc(pick(p.title))+'</figcaption></a>';
+  }).join('');
+}
+
+/* ================= Mapa constelación ================= */
+function renderMap(){
+  var g=document.getElementById('map-nodes'); if(!g) return;
+  var NS='http://www.w3.org/2000/svg';
+  g.innerHTML='';
+  CATS.forEach(function(c){
+    var n=PROM.filter(function(p){return catOf(p.toolId)===c.id;}).length;
+    var node=document.createElementNS(NS,'g');
+    node.setAttribute('class','node');
+    node.innerHTML=
+      '<circle class="halo-dot" cx="'+c.x+'" cy="'+c.y+'" r="17"/>'+
+      '<circle class="dot" cx="'+c.x+'" cy="'+c.y+'" r="6"/>'+
+      '<text class="lbl" x="'+c.x+'" y="'+(c.y+34)+'" text-anchor="middle">'+esc(c[LANG]||c.es)+'</text>'+
+      '<text class="cnt" x="'+c.x+'" y="'+(c.y+51)+'" text-anchor="middle">'+n+' PROMPTS · '+c.tools.length+' '+esc(t('toolsWord'))+'</text>';
+    node.addEventListener('click',function(){
+      promCat=c.id; promShown=3; renderPrompts(); syncDial();
+      var s=document.getElementById('prompts');
+      if(s) s.scrollIntoView({behavior:'smooth'});
+    });
+    g.appendChild(node);
   });
-}).catch(()=>{ document.getElementById('prompts').innerHTML='<p class="loading">No se pudieron cargar los prompts.</p>'; });
+}
+
+/* ================= Contadores ================= */
+function countTo(el,n){
+  if(!el) return;
+  var dur=900, t0=(window.performance&&performance.now)?performance.now():Date.now();
+  function step(now){
+    var k=Math.min(1,((now||Date.now())-t0)/dur);
+    el.textContent=Math.round(n*(1-Math.pow(1-k,3)));
+    if(k<1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+/* ================= Carga ================= */
+fetch(FEED).then(function(r){return r.json();}).then(function(d){
+  NEWS=Array.isArray(d)?d:[];
+  renderNews(); countTo(document.getElementById('st-news'),NEWS.length);
+}).catch(function(){
+  var el=document.getElementById('news');
+  if(el) el.innerHTML='<p class="loading">'+esc(t('errNews'))+'</p>';
+});
+
+fetch(PROMPTS).then(function(r){return r.json();}).then(function(d){
+  ALL_PROM=Array.isArray(d)?d:[];
+  PROM=ALL_PROM.filter(function(p){return p.tier!=='pro';});  /* en la web, solo los gratis como muestra */
+  renderPrompts(); renderMap(); renderGallery(); buildDial();
+  var tot=document.getElementById('prompts-total');
+  if(tot) tot.textContent=ALL_PROM.length;
+  countTo(document.getElementById('st-prompts'),ALL_PROM.length);
+}).catch(function(){
+  var el=document.getElementById('prompts-grid');
+  if(el) el.innerHTML='<p class="loading">'+esc(t('errPrompts'))+'</p>';
+});
+
+buildDial();
+if(LANG==='en') setLang('en'); else renderMap();
 </script>
 
 </body>
